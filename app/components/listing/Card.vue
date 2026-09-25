@@ -1,37 +1,60 @@
 <script setup lang="ts">
 import type { Listing } from '~/types/content'
 
-const props = withDefaults(defineProps<{ listing: Listing, eager?: boolean, headingLevel?: 2 | 3 }>(), { eager: false, headingLevel: 3 })
+// Card "Sockel": price in a notch cut out of the photo (colour from --surface), location as headline,
+// status via the price label instead of badges. Sections on bg-secondary set [--surface:var(--secondary)].
+const props = withDefaults(defineProps<{ listing: Listing, eager?: boolean, headingLevel?: 2 | 3 | 4 }>(), { eager: false, headingLevel: 3 })
 const l = computed(() => props.listing)
 const archived = computed(() => l.value.availability !== 'available')
 const to = computed(() => `${archived.value ? '/referenzen/' : '/angebote/'}${l.value.slug}`)
 const cover = computed(() => useFile(l.value.cover_image))
-const area = computed(() => mainArea(l.value))
-const meta = computed(() => [
-  l.value.rooms ? formatRooms(l.value.rooms) : null,
-  area.value?.value ?? null,
-].filter(Boolean).join(' · '))
-const badge = computed(() => (l.value.availability === 'sold' ? 'Verkauft' : l.value.availability === 'rented' ? 'Vermietet' : MARKETING_LABEL[l.value.marketing_type]))
+const price = computed(() => priceParts(l.value))
+const label = computed(() => (archived.value ? 'Referenz' : priceLabel(l.value)))
+const facts = computed(() => cardFacts(l.value))
+const place = computed(() => (l.value.project === 'grand-tower' ? 'Grand Tower' : l.value.district ?? l.value.city ?? ''))
+const sub = computed(() => {
+  const type = l.value.property_type ? PROPERTY_TYPE_LABEL[l.value.property_type] : null
+  const where = l.value.country !== 'DE' ? locationText(l.value) : place.value === l.value.city ? null : l.value.city
+  return [type, where].filter(Boolean).join(' · ')
+})
 </script>
 
 <template>
-  <article class="group relative flex flex-col">
-    <div class="relative aspect-[4/3] overflow-hidden rounded-xl bg-muted">
-      <ResponsiveImage :file="cover" :eager="eager" sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw" alt="" />
-      <div class="absolute left-3 top-3 flex gap-1.5">
-        <Badge class="rounded-full border-0 bg-card px-2.5 py-1 text-xs font-semibold text-card-foreground">{{ badge }}</Badge>
-        <Badge v-if="l.commission_free && !archived" class="rounded-full border-0 bg-card px-2.5 py-1 text-xs font-semibold text-card-foreground">Provisionsfrei</Badge>
+  <article class="group relative flex flex-col rounded-[18px] outline-offset-8 focus-within:outline-2 focus-within:outline-ring">
+    <div class="relative aspect-[4/3] overflow-hidden rounded-[14px] bg-muted">
+      <ResponsiveImage
+        :file="cover"
+        :eager="eager"
+        sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw"
+        alt=""
+        :class="archived ? 'saturate-[.45]' : 'dark:brightness-[.94]'"
+      />
+      <div v-if="price" class="plinth">
+        <span class="block text-sm text-muted-foreground">
+          {{ label }}<template v-if="l.commission_free && !archived"> · <span class="font-semibold text-primary">provisionsfrei</span></template>
+        </span>
+        <span
+          class="block whitespace-nowrap font-semibold tabular transition-colors duration-150 group-hover:text-primary motion-reduce:transition-none"
+          :class="price.compact ? 'text-xl leading-relaxed' : 'text-f-3xl tracking-[-0.015em]'"
+        >
+          {{ price.value }}<span v-if="price.unit" class="ml-1 text-[0.62em] font-normal tracking-normal text-muted-foreground">{{ price.unit }}</span>
+        </span>
       </div>
     </div>
-    <p class="mt-4 text-sm text-muted-foreground">
-      {{ [l.property_type ? PROPERTY_TYPE_LABEL[l.property_type] : null, locationText(l)].filter(Boolean).join(' · ') }}
-    </p>
-    <component :is="`h${headingLevel}`" class="mt-1 line-clamp-2 text-base font-semibold leading-snug tracking-tight">
-      <NuxtLink :to="to" class="after:absolute after:inset-0 after:content-[''] group-hover:underline group-hover:underline-offset-4 focus-visible:outline-none focus-visible:after:rounded-xl focus-visible:after:ring-[3px] focus-visible:after:ring-ring/50">
-        {{ l.title }}
-      </NuxtLink>
-    </component>
-    <p v-if="meta" class="mt-1.5 text-sm text-muted-foreground tabular">{{ meta }}</p>
-    <p v-if="!archived && priceText(l)" class="mt-2 text-f-2xl font-semibold tabular">{{ priceText(l) }}</p>
+    <div class="pt-4">
+      <div class="flex items-baseline justify-between gap-4">
+        <p class="text-lg font-semibold leading-tight tracking-tight">{{ place }}</p>
+        <p v-if="facts" class="shrink-0 whitespace-nowrap text-sm tabular">{{ facts }}</p>
+      </div>
+      <p v-if="sub" class="mt-1 text-sm text-muted-foreground">{{ sub }}</p>
+      <component :is="`h${headingLevel}`" class="mt-2 line-clamp-2 text-sm font-normal leading-snug tracking-normal text-muted-foreground">
+        <NuxtLink
+          :to="to"
+          class="underline decoration-transparent underline-offset-4 transition-colors duration-150 after:absolute after:inset-0 after:content-[''] group-hover:text-foreground group-hover:decoration-current focus-visible:outline-none motion-reduce:transition-none"
+        >
+          {{ l.title }}
+        </NuxtLink>
+      </component>
+    </div>
   </article>
 </template>

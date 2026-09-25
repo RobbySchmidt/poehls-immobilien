@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Objektkarten – Entwurfsrichtungen</title>
+<style>
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-ext-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* ---------- Tokens: 1:1 aus app/assets/css/tailwind.css ---------- */
+:root {
+  --radius: 0.75rem;
+  --background: oklch(0.995 0.002 250);
+  --foreground: oklch(0.235 0.025 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.235 0.025 250);
+  --primary: oklch(0.4 0.08 250);
+  --primary-foreground: oklch(0.99 0.003 250);
+  --secondary: oklch(0.955 0.008 250);
+  --muted: oklch(0.955 0.008 250);
+  --muted-foreground: oklch(0.46 0.025 250);
+  --accent: oklch(0.935 0.012 250);
+  --border: oklch(0.905 0.01 250);
+  --input: oklch(0.6 0.02 250);
+  --ring: oklch(0.24 0.05 250);
+  --img-edge: oklch(0.235 0.025 250 / 0.07);
+  --surface: var(--background);
+  color-scheme: light;
+}
+.dark {
+  --background: oklch(0.175 0.018 250);
+  --foreground: oklch(0.96 0.004 250);
+  --card: oklch(0.225 0.022 250);
+  --card-foreground: oklch(0.96 0.004 250);
+  --primary: oklch(0.76 0.12 78);
+  --primary-foreground: oklch(0.2 0.03 78);
+  --secondary: oklch(0.225 0.022 250);
+  --muted: oklch(0.225 0.022 250);
+  --muted-foreground: oklch(0.76 0.018 250);
+  --accent: oklch(0.265 0.024 250);
+  --border: oklch(0.29 0.02 250);
+  --input: oklch(0.56 0.02 250);
+  --ring: oklch(0.96 0.004 250);
+  --img-edge: oklch(1 0 0 / 0.05);
+  color-scheme: dark;
+}
+
+/* ---------- Page chrome ---------- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  background: var(--background); color: var(--foreground);
+  font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased;
+  transition: background-color 300ms ease-out, color 300ms ease-out;
+}
+a { color: inherit; text-decoration: none; }
+.num { font-variant-numeric: lining-nums proportional-nums; }
+.page { max-width: 80rem; margin-inline: auto; padding-inline: 2rem; }
+@media (max-width: 47.99rem) { .page { padding-inline: 1rem; } }
+
+.top { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; padding-block: 3.5rem 3rem; border-bottom: 1px solid var(--border); }
+.top h1 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); line-height: 1.05; letter-spacing: -0.03em; font-weight: 600; }
+.top p { margin-top: 1rem; max-width: 60ch; color: var(--muted-foreground); text-wrap: pretty; }
+.toggle {
+  flex: none; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;
+  height: 44px; padding-inline: 1.25rem; border-radius: calc(var(--radius) - 2px);
+  background: var(--primary); color: var(--primary-foreground); border: 0;
+}
+.toggle:hover { background: color-mix(in oklch, var(--primary) 90%, var(--background)); }
+.toggle:focus-visible { outline: 3px solid color-mix(in oklch, var(--ring) 50%, transparent); outline-offset: 2px; }
+
+.dir { padding-block: 4.5rem; border-bottom: 1px solid var(--border); }
+.dir-head { display: grid; grid-template-columns: 5fr 7fr; gap: 4rem; align-items: start; margin-bottom: 3rem; }
+.dir-key { font-size: 15px; font-weight: 600; color: var(--muted-foreground); }
+.dir-head h2 { font-size: clamp(1.75rem, 1.5rem + 1.25vw, 2.25rem); line-height: 1.1; letter-spacing: -0.02em; font-weight: 600; margin-top: .25rem; }
+.dir-head .why { color: var(--muted-foreground); text-wrap: pretty; max-width: 62ch; }
+.dir-head .why strong { color: var(--foreground); font-weight: 600; }
+@media (max-width: 60rem) { .dir-head { grid-template-columns: 1fr; gap: 1rem; } }
+
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3rem 2rem; }
+@media (max-width: 63.99rem) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 47.99rem) { .grid { grid-template-columns: 1fr; } }
+
+.states { margin-top: 3.5rem; padding-top: 2rem; border-top: 1px dashed var(--border); }
+.states-title { font-size: 14px; font-weight: 600; color: var(--muted-foreground); margin-bottom: 1.25rem; }
+.state-label { display: block; font-size: 13px; color: var(--muted-foreground); margin-bottom: .75rem; }
+
+.note { padding-block: 3rem 5rem; color: var(--muted-foreground); font-size: 15px; }
+.note ul { margin-top: .75rem; padding-left: 1.1rem; max-width: 80ch; }
+.note li { margin-block: .35rem; }
+.note strong { color: var(--foreground); font-weight: 600; }
+
+/* ---------- Shared card atoms ---------- */
+.media { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--muted); }
+.media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.dark .media img { filter: brightness(.94); }
+.is-sold .media img { filter: saturate(.45) contrast(.96); }
+.dark .is-sold .media img { filter: saturate(.45) brightness(.88); }
+.stretch::after { content: ''; position: absolute; inset: 0; z-index: 2; }
+.stretch:focus-visible { outline: none; }
+.clamp2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.flag { color: var(--primary); font-weight: 600; }
+.unit { font-size: .62em; font-weight: 400; color: var(--muted-foreground); letter-spacing: 0; }
+
+/* ---------- Heute (Referenz) ---------- */
+.now { position: relative; display: flex; flex-direction: column; }
+.now .media { border-radius: 1rem; }
+.now .pills { position: absolute; left: 12px; top: 12px; display: flex; gap: 6px; z-index: 1; }
+.now .pill { background: var(--card); color: var(--card-foreground); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 99px; }
+.now .meta { margin-top: 1rem; font-size: 14px; color: var(--muted-foreground); }
+.now h3 { margin-top: .25rem; font-size: 16px; font-weight: 600; line-height: 1.375; letter-spacing: -.01em; }
+.now .facts { margin-top: .375rem; font-size: 14px; color: var(--muted-foreground); }
+.now .price { margin-top: .5rem; font-size: 24px; font-weight: 600; line-height: 1.25; }
+
+/* ---------- A · Lage zuerst ---------- */
+.a { position: relative; display: flex; flex-direction: column; }
+.a .media { border-radius: 12px; }
+.a .media::after { content: ''; position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 0 1px var(--img-edge); }
+.a-body { display: flex; flex-direction: column; flex: 1; padding-top: 1.25rem; }
+.a-loc { font-size: 19px; font-weight: 600; line-height: 1.2; letter-spacing: -.012em; }
+.a-sub { margin-top: .3rem; font-size: 14px; line-height: 1.4; color: var(--muted-foreground); }
+.a h3 { margin-bottom: 1.25rem; margin-top: .75rem; font-size: 15px; font-weight: 400; line-height: 1.45; min-height: calc(2 * 1.45em); }
+.a h3 a { text-decoration-line: underline; text-decoration-color: transparent; text-decoration-thickness: 1px; text-underline-offset: 4px; transition: text-decoration-color 150ms ease-out; }
+.a-spec { margin-top: auto; padding-top: .9rem; display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; position: relative; }
+.a-spec::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--border); transition: background-color 150ms ease-out; }
+.a-label { display: block; font-size: 13px; line-height: 1.3; color: var(--muted-foreground); margin-bottom: .2rem; }
+.a-price { font-size: 24px; font-weight: 600; line-height: 1.15; letter-spacing: -.01em; white-space: nowrap; }
+.a-price.small { font-size: 18px; line-height: 1.35; }
+.a-facts { font-size: 15px; line-height: 1.3; padding-bottom: .15rem; white-space: nowrap; text-align: right; }
+.a-facts .sep { color: var(--border); padding-inline: .35em; }
+.a:hover .a-spec::before, .a.is-hover .a-spec::before { background: var(--primary); }
+.a:hover h3 a, .a.is-hover h3 a { text-decoration-color: currentColor; }
+.a:focus-within, .a.is-focus { outline: 2px solid var(--ring); outline-offset: 10px; border-radius: 14px; }
+
+/* ---------- B · Sockel ---------- */
+.b { position: relative; display: flex; flex-direction: column; }
+.b .media { border-radius: 14px; }
+.b-panel {
+  position: absolute; left: 0; bottom: 0; z-index: 1;
+  min-width: 56%; padding: .8rem 1.5rem 0 0;
+  background: var(--surface); border-top-right-radius: 14px;
+  transition: background-color 300ms ease-out;
+}
+/* Außenrundungen, damit das Foto an den Stufen dieselbe Ecke hat wie oben */
+.b-panel::before, .b-panel::after {
+  content: ''; position: absolute; width: 14px; height: 14px;
+  background: radial-gradient(circle at 100% 0, transparent 13.5px, var(--surface) 14px);
+}
+.b-panel::before { left: 0; top: -14px; }
+.b-panel::after { left: 100%; bottom: 0; }
+.b-label { display: block; font-size: 13px; line-height: 1.3; color: var(--muted-foreground); }
+.b-price { display: block; font-size: 27px; font-weight: 600; line-height: 1.2; letter-spacing: -.015em; white-space: nowrap; transition: color 150ms ease-out; }
+.b-price.small { font-size: 20px; line-height: 1.6; }
+.b-body { padding-top: .9rem; }
+.b-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.b-loc { font-size: 16px; font-weight: 600; line-height: 1.35; }
+.b-loc span { font-weight: 400; color: var(--muted-foreground); }
+.b-facts { font-size: 15px; white-space: nowrap; }
+.b h3 { margin-top: .35rem; font-size: 15px; font-weight: 400; line-height: 1.45; color: var(--muted-foreground); }
+.b h3 a { text-decoration-line: underline; text-decoration-color: transparent; text-decoration-thickness: 1px; text-underline-offset: 4px; transition: text-decoration-color 150ms ease-out, color 150ms ease-out; }
+.b:hover .b-price, .b.is-hover .b-price { color: var(--primary); }
+.b:hover h3 a, .b.is-hover h3 a { color: var(--foreground); text-decoration-color: currentColor; }
+.b:focus-within, .b.is-focus { outline: 2px solid var(--ring); outline-offset: 10px; border-radius: 18px; }
+
+/* ---------- C · Schriftfeld ---------- */
+.c { position: relative; display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--border); border-radius: 14px; transition: border-color 150ms ease-out; }
+.c .media { margin: 6px 6px 0; border-radius: 8px; }
+.c-head { flex: 1; padding: 1rem 1.25rem 1.1rem; }
+.c-kicker { display: flex; justify-content: space-between; gap: 1rem; font-size: 12px; line-height: 1.4; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted-foreground); }
+.c-kicker .flag { letter-spacing: .07em; }
+.c-kicker .done { color: var(--foreground); }
+.c-loc { margin-top: .6rem; font-size: 19px; font-weight: 600; line-height: 1.2; letter-spacing: -.012em; }
+.c h3 { margin-top: .3rem; font-size: 14.5px; font-weight: 400; line-height: 1.45; color: var(--muted-foreground); }
+.c h3 a { text-decoration-line: underline; text-decoration-color: transparent; text-decoration-thickness: 1px; text-underline-offset: 4px; transition: text-decoration-color 150ms ease-out, color 150ms ease-out; }
+.c-grid { display: grid; grid-template-columns: 1.55fr 1.1fr .8fr; border-top: 1px solid var(--border); }
+.c-cell { padding: .7rem 1.25rem .85rem; border-left: 1px solid var(--border); min-width: 0; }
+.c-cell:first-child { border-left: 0; }
+.c-cell + .c-cell { padding-left: .9rem; }
+.c-cell dt { font-size: 12.5px; line-height: 1.3; color: var(--muted-foreground); }
+.c-cell dd { margin-top: .15rem; font-size: 16px; font-weight: 600; line-height: 1.35; white-space: nowrap; }
+.c-cell.price dd { font-size: 20px; line-height: 1.1; letter-spacing: -.01em; }
+.c-cell.price dd.small { font-size: 16px; line-height: 1.35; }
+.c:hover, .c.is-hover { border-color: var(--primary); }
+.c:hover h3 a, .c.is-hover h3 a { color: var(--foreground); text-decoration-color: currentColor; }
+.c:focus-within, .c.is-focus { outline: 2px solid var(--ring); outline-offset: 4px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <div>
+      <h1>Objektkarten</h1>
+      <p>Drei Entwurfsrichtungen für die Angebotskarte, jeweils mit denselben sechs echten Objekten aus dem Bestand – Kauf, Miete, Grand Tower, Gewerbe auf Anfrage, provisionsfrei und eine verkaufte Referenz. Farben, Schrift und Radien stammen aus dem bestehenden Designsystem.</p>
+    </div>
+    <button class="toggle" id="toggle" type="button" aria-pressed="false">Nachtmodus</button>
+  </header>
+
+  <section class="dir">
+    <div class="dir-head">
+      <div><p class="dir-key">Ausgangslage</p><h2>Heutige Karte</h2></div>
+      <p class="why">Weiße Pillen auf dem Foto, Meta-Zeile, fetter Titel, Preis. Funktional, aber austauschbar: Die Hierarchie folgt dem Marketing-Titel statt der Lage, und „Kauf" als Badge wiederholt, was der Preis ohnehin sagt.</p>
+    </div>
+    <div class="grid" id="now"></div>
+  </section>
+
+  <section class="dir">
+    <div class="dir-head">
+      <div><p class="dir-key">Richtung A</p><h2>Lage zuerst</h2></div>
+      <p class="why">In Frankfurt entscheidet die Adresse – deshalb führt der <strong>Stadtteil</strong>, nicht der Werbetitel. Darunter eine einzige Haarlinie wie die Traufkante eines Gebäudes, auf der Preis und Eckdaten stehen. Das Foto bleibt frei von Badges; Status und „provisionsfrei" stehen als Text in der Preisbeschriftung, nur die Aktionsfarbe markiert. Hover: die Linie nimmt die Lichtfarbe an, der Titel wird unterstrichen.</p>
+    </div>
+    <div class="grid" id="a"></div>
+    <div class="states"><p class="states-title">Zustände</p><div class="grid" id="a-states"></div></div>
+  </section>
+
+  <section class="dir">
+    <div class="dir-head">
+      <div><p class="dir-key">Richtung B</p><h2>Sockel</h2></div>
+      <p class="why">Das Foto trägt die Karte, der Preis sitzt in einem ausgesparten <strong>Sockel</strong> unten links – wie der Rücksprung am Fuß eines Hochhauses. Die Aussparung hat die Farbe der Fläche, auf der die Karte steht; das Foto bekommt eine gestufte Kontur, ohne Schrift auf dem Bild. Preis zuerst, dann Lage und Eckdaten in einer Zeile, der Titel leise darunter. Hover: der Preis leuchtet in der Aktionsfarbe.</p>
+    </div>
+    <div class="grid" id="b"></div>
+    <div class="states"><p class="states-title">Zustände</p><div class="grid" id="b-states"></div></div>
+  </section>
+
+  <section class="dir">
+    <div class="dir-head">
+      <div><p class="dir-key">Richtung C</p><h2>Schriftfeld</h2></div>
+      <p class="why">Angelehnt an das <strong>Schriftfeld eines Bauplans</strong>: Foto im Passepartout, darunter ein ruhiges Datenraster mit beschrifteten Feldern – Preis, Fläche, Zimmer stehen immer an derselben Stelle und lassen sich über das ganze Raster hinweg vergleichen. Die Karte definiert sich nur über eine Kante, kein Schatten. Hover: die Kante nimmt die Aktionsfarbe an.</p>
+    </div>
+    <div class="grid" id="c"></div>
+    <div class="states"><p class="states-title">Zustände</p><div class="grid" id="c-states"></div></div>
+  </section>
+
+  <footer class="note">
+    <p><strong>Gemeinsames Statussystem aller Richtungen</strong></p>
+    <ul>
+      <li>Kein „Kauf"/„Miete"-Badge: die Preisbeschriftung (Kaufpreis, Kaltmiete, Miete) trägt die Vermarktungsart.</li>
+      <li>„provisionsfrei" als Text in der Aktionsfarbe – die einzige farbige Auszeichnung auf der Karte.</li>
+      <li>Verkauft/vermietet: statt Preis „Verkauft", Foto leicht entsättigt; die Karte bleibt vollwertig lesbar.</li>
+      <li>Kein Bild-Zoom, keine Schatten beim Hover – nur Farbwechsel (150 ms, ease-out); Fokus als klarer Ring um die ganze Karte.</li>
+    </ul>
+  </footer>
+</div>
+
+<script>
+const NB = ' '
+const eur = n => n.toLocaleString('de-DE') + NB + '€'
+const m2 = n => n.toLocaleString('de-DE', { maximumFractionDigits: 1 }) + NB + 'm²'
+const zi = n => n.toLocaleString('de-DE') + NB + 'Zi.'
+const img = (id, w = 960) => `../../public/media/${id}-${w}.webp`
+
+const L = [
+  { id: 'praedium', img: 'm-2539', type: 'Wohnung', mt: 'kauf', city: 'Frankfurt am Main', district: 'Europaviertel',
+    title: 'Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel', rooms: 3, area: 110, areaLabel: 'Wohnfläche', price: 755000, pt: 'kaufpreis', cf: true },
+  { id: 'museumsufer', img: 'm-1555', type: 'Wohnung', mt: 'miete', city: 'Frankfurt am Main', district: 'Museumsufer',
+    title: 'Wohnen über den Dächern Frankfurts am Museumsufer', rooms: 4, area: 120, areaLabel: 'Wohnfläche', price: 2100, pt: 'kaltmiete' },
+  { id: 'grandtower', img: 'm-2509', pos: '50% 30%', type: 'Wohnung', mt: 'kauf', city: 'Frankfurt am Main', district: 'Europaviertel', project: 'Grand Tower',
+    title: 'Grand Tower – L’Art de Vivre', rooms: 3, area: 89.3, areaLabel: 'Wohnfläche', price: 845000, pt: 'kaufpreis' },
+  { id: 'fechenheim', img: 'm-2608', type: 'Wohnung', mt: 'kauf', city: 'Frankfurt am Main', district: 'Fechenheim',
+    title: 'Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage', rooms: 3, area: 74, areaLabel: 'Wohnfläche', price: 249000, pt: 'kaufpreis' },
+  { id: 'meiningen', img: 'm-2427', type: 'Gewerbe', mt: 'miete', city: 'Meiningen OT Walldorf', district: null,
+    title: 'Gewerbepark Meiningen – 1200' + NB + 'm² Kaltlagerhalle', rooms: null, area: 1200, areaLabel: 'Nutzfläche', price: null, pt: 'miete_monat', por: true },
+  { id: 'riederwald', img: 'm-1670', type: 'Gewerbe', mt: 'kauf', city: 'Frankfurt am Main', district: 'Riederwald',
+    title: 'Gewerbeliegenschaft – Solide Kapitalanlage mit guter Rendite', rooms: null, area: 930, areaLabel: 'Nutzfläche', price: 2390000, pt: 'kaufpreis', sold: true },
+]
+
+const PRICE_LABEL = { kaufpreis: 'Kaufpreis', kaltmiete: 'Kaltmiete', miete_monat: 'Miete' }
+const priceLabel = l => l.sold ? 'Referenz' : PRICE_LABEL[l.pt]
+const priceHTML = l => {
+  if (l.sold) return 'Verkauft'
+  if (l.por) return 'Preis auf Anfrage'
+  return l.mt === 'miete' ? `${eur(l.price)}<span class="unit">${NB}/${NB}Monat</span>` : eur(l.price)
+}
+const small = l => (l.sold || l.por) ? ' small' : ''
+const loc = l => l.district ?? l.city
+const sub = l => l.project ? `${l.type} im ${l.project}` : (l.district ? `${l.type} · ${l.city}` : l.type)
+const cf = l => l.cf && !l.sold ? ` · <span class="flag">provisionsfrei</span>` : ''
+const media = l => `<div class="media"><img src="${img(l.img)}" alt="" loading="eager" style="object-position:${l.pos ?? '50% 50%'}"></div>`
+const cls = (l, extra = '') => `${l.sold ? ' is-sold' : ''}${extra ? ' ' + extra : ''}`
+
+const tpl = {
+  now: l => {
+    const badge = l.sold ? 'Verkauft' : (l.mt === 'kauf' ? 'Kauf' : 'Miete')
+    const meta = [l.rooms ? zi(l.rooms) : null, m2(l.area)].filter(Boolean).join(' · ')
+    const price = l.sold ? '' : `<p class="price num">${l.por ? 'Preis auf Anfrage' : (l.mt === 'miete' ? eur(l.price) + NB + '/' + NB + 'Monat' : eur(l.price))}</p>`
+    return `<article class="now">
+      <div style="position:relative">${media(l)}<div class="pills"><span class="pill">${badge}</span>${l.cf ? '<span class="pill">Provisionsfrei</span>' : ''}</div></div>
+      <p class="meta">${l.type} · ${l.district ? l.city + '-' + l.district : l.city}</p>
+      <h3 class="clamp2"><a class="stretch" href="#">${l.title}</a></h3>
+      <p class="facts num">${meta}</p>${price}
+    </article>`
+  },
+  a: (l, extra) => {
+    const facts = l.rooms ? `${zi(l.rooms)}<span class="sep">/</span>${m2(l.area)}` : `${m2(l.area)} ${l.areaLabel}`
+    return `<article class="a${cls(l, extra)}">
+      ${media(l)}
+      <div class="a-body">
+        <p class="a-loc">${loc(l)}</p>
+        <p class="a-sub">${sub(l)}</p>
+        <h3 class="clamp2"><a class="stretch" href="#">${l.title}</a></h3>
+        <div class="a-spec num">
+          <div><span class="a-label">${priceLabel(l)}${cf(l)}</span><span class="a-price${small(l)}">${priceHTML(l)}</span></div>
+          <div class="a-facts">${facts}</div>
+        </div>
+      </div>
+    </article>`
+  },
+  b: (l, extra) => {
+    const facts = [l.rooms ? zi(l.rooms) : null, m2(l.area)].filter(Boolean).join(' · ')
+    const place = l.project ? `${loc(l)} <span>· ${l.project}</span>` : (l.district ? loc(l) : `${loc(l)} <span>· ${l.type}</span>`)
+    return `<article class="b${cls(l, extra)}">
+      <div style="position:relative">${media(l)}
+        <div class="b-panel num"><span class="b-label">${priceLabel(l)}${cf(l)}</span><span class="b-price${small(l)}">${priceHTML(l)}</span></div>
+      </div>
+      <div class="b-body">
+        <div class="b-row num"><p class="b-loc">${place}</p><p class="b-facts">${facts}</p></div>
+        <h3 class="clamp2"><a class="stretch" href="#">${l.title}</a></h3>
+      </div>
+    </article>`
+  },
+  c: (l, extra) => {
+    const kickRight = l.sold ? '<span class="done">Verkauft</span>' : (l.cf ? '<span class="flag">Provisionsfrei</span>' : (l.project ? `<span>${l.project}</span>` : ''))
+    const third = l.rooms ? `<div class="c-cell"><dt>Zimmer</dt><dd>${l.rooms}</dd></div>` : ""
+    const pv = l.sold ? 'Verkauft' : (l.por ? 'Auf Anfrage' : priceHTML(l))
+    return `<article class="c${cls(l, extra)}">
+      ${media(l)}
+      <div class="c-head">
+        <p class="c-kicker"><span>${l.mt === 'kauf' ? 'Kauf' : 'Miete'} · ${l.type}</span>${kickRight}</p>
+        <p class="c-loc">${loc(l)}</p>
+        <h3 class="clamp2"><a class="stretch" href="#">${l.title}</a></h3>
+      </div>
+      <dl class="c-grid num">
+        <div class="c-cell price"><dt>${l.sold ? 'Status' : PRICE_LABEL[l.pt]}</dt><dd class="${(l.sold || l.por) ? 'small' : ''}">${pv}</dd></div>
+        <div class="c-cell"${l.rooms ? "" : " style=\"grid-column: span 2\""}><dt>${l.areaLabel}</dt><dd>${m2(l.area)}</dd></div>
+        ${third}
+      </dl>
+    </article>`
+  },
+}
+
+const put = (id, html) => { document.getElementById(id).innerHTML = html }
+put('now', L.slice(0, 3).map(tpl.now).join(''))
+for (const k of ['a', 'b', 'c']) {
+  put(k, L.map(l => tpl[k](l)).join(''))
+  const s = L[0]
+  put(`${k}-states`, [['Ruhe', ''], ['Hover', 'is-hover'], ['Tastaturfokus', 'is-focus']]
+    .map(([label, c]) => `<div><span class="state-label">${label}</span>${tpl[k](s, c)}</div>`).join(''))
+}
+
+const btn = document.getElementById('toggle')
+const sync = () => { const d = document.documentElement.classList.contains('dark'); btn.textContent = d ? 'Tagmodus' : 'Nachtmodus'; btn.setAttribute('aria-pressed', String(d)) }
+btn.addEventListener('click', () => { document.documentElement.classList.toggle('dark'); sync() })
+if (location.hash === '#dark') document.documentElement.classList.add('dark')
+sync()
+</script>
+</body>
+</html>

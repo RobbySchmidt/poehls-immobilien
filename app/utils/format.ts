@@ -25,6 +25,23 @@ export function priceText(l: Listing): string | null {
   return l.price_type === 'miete_jahr' ? `${v} / Jahr` : `${v} / Monat`
 }
 
+// Card price: value and (smaller) rent period separately; compact = short text instead of a number.
+export function priceParts(l: Listing): { value: string, unit: string | null, compact: boolean } | null {
+  if (l.availability === 'sold') return { value: 'Verkauft', unit: null, compact: true }
+  if (l.availability === 'rented') return { value: 'Vermietet', unit: null, compact: true }
+  if (l.price_on_request) return { value: 'Preis auf Anfrage', unit: null, compact: true }
+  if (l.price == null) return null
+  const unit = l.marketing_type === 'kauf' ? null : l.price_type === 'miete_jahr' ? '/ Jahr' : '/ Monat'
+  return { value: formatEuro(l.price), unit, compact: false }
+}
+
+export function cardFacts(l: Listing): string {
+  if (l.living_area) return [l.rooms ? formatRooms(l.rooms) : null, formatArea(l.living_area)].filter(Boolean).join(' · ')
+  if (l.usable_area) return `${formatArea(l.usable_area)} Nutzfläche`
+  if (l.plot_area) return `${formatArea(l.plot_area)} Grundstück`
+  return l.rooms ? formatRooms(l.rooms) : ''
+}
+
 export function priceLabel(l: Listing): string {
   return l.price_type ? PRICE_TYPE_LABEL[l.price_type] : 'Preis'
 }

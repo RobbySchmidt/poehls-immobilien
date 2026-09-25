@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { formatEuro, formatArea, formatRooms, priceText, priceLabel, mainArea, availableFromText, locationText } from '~/utils/format'
+import { formatEuro, formatArea, formatRooms, priceText, priceLabel, priceParts, cardFacts, mainArea, availableFromText, locationText } from '~/utils/format'
 import type { Listing } from '~/types/content'
 
 const base = (over: Partial<Listing> = {}): Listing => ({
@@ -40,6 +40,29 @@ describe('priceText', () => {
     expect(priceLabel(base({ marketing_type: 'miete', price_type: 'pauschalmiete' }))).toBe('Pauschalmiete')
     expect(priceLabel(base({ marketing_type: 'miete', price_type: 'miete_monat' }))).toBe('Miete')
     expect(priceLabel(base({ price_type: null }))).toBe('Preis')
+  })
+})
+
+describe('priceParts', () => {
+  it('splits the rent period off so it can be set smaller', () => {
+    expect(priceParts(base())).toEqual({ value: `845.000${NB}€`, unit: null, compact: false })
+    expect(priceParts(base({ marketing_type: 'miete', price: 1290, price_type: 'kaltmiete' }))).toEqual({ value: `1.290${NB}€`, unit: '/ Monat', compact: false })
+    expect(priceParts(base({ marketing_type: 'miete', price: 18500, price_type: 'miete_jahr' }))).toEqual({ value: `18.500${NB}€`, unit: '/ Jahr', compact: false })
+  })
+  it('uses compact text for "on request", sold and rented', () => {
+    expect(priceParts(base({ price: null, price_on_request: true }))).toEqual({ value: 'Preis auf Anfrage', unit: null, compact: true })
+    expect(priceParts(base({ availability: 'sold' }))).toEqual({ value: 'Verkauft', unit: null, compact: true })
+    expect(priceParts(base({ availability: 'rented' }))).toEqual({ value: 'Vermietet', unit: null, compact: true })
+    expect(priceParts(base({ price: null, price_type: null }))).toBeNull()
+  })
+})
+
+describe('cardFacts', () => {
+  it('shows rooms and living area, or names the kind of area when it is not living space', () => {
+    expect(cardFacts(base())).toBe(`3${NB}Zi. · 89,3${NB}m²`)
+    expect(cardFacts(base({ rooms: null, living_area: null, usable_area: 1200 }))).toBe(`1.200${NB}m² Nutzfläche`)
+    expect(cardFacts(base({ rooms: null, living_area: null, plot_area: 736 }))).toBe(`736${NB}m² Grundstück`)
+    expect(cardFacts(base({ rooms: null, living_area: null }))).toBe('')
   })
 })
 

@@ -41,16 +41,16 @@ const facts = project.facts.map(({ label, value }) => ({ label, value }))
         <div class="aspect-[4/5] overflow-hidden rounded-2xl lg:col-span-5"><MoodImage :day="useFile(photo.day)" :night="useFile(photo.night)" sizes="(min-width: 1024px) 40vw, 100vw" alt="Grand Tower Frankfurt" /></div>
       </section>
 
-      <section class="bg-secondary py-f-24" aria-labelledby="gt-units">
+      <section class="bg-secondary py-f-24 [--surface:var(--secondary)]" aria-labelledby="gt-units">
         <div class="container-page">
           <SiteSectionHeading id="gt-units" title="Verfügbare Wohnungen" :intro="`${units.length} Wohnungen im Grand Tower – zur Miete und zum Kauf.`" />
           <h3 v-if="rent.length" class="mb-6 text-f-2xl">Zur Miete</h3>
           <div v-if="rent.length" class="grid gap-x-f-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
-            <ListingCard v-for="l in rent" :key="l.id" :listing="l" />
+            <ListingCard v-for="l in rent" :key="l.id" :listing="l" :heading-level="4" />
           </div>
           <h3 v-if="buy.length" class="mb-6 mt-f-16 text-f-2xl">Zum Kauf</h3>
           <div v-if="buy.length" class="grid gap-x-f-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
-            <ListingCard v-for="l in buy" :key="l.id" :listing="l" />
+            <ListingCard v-for="l in buy" :key="l.id" :listing="l" :heading-level="4" />
           </div>
         </div>
       </section>
