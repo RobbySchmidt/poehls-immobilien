@@ -1,0 +1,426 @@
+{
+  "scraped_at": "2026-09-25T06:10:13.322Z",
+  "origin": "https://www.poehlsimmobilien.de",
+  "cms": "Koken (legacy); separate Koken install under /grandtower/",
+  "main": {
+    "title": "Pierre Pöhls Immoblien",
+    "page_title": "Pierre Pöhls Immoblien Frankfurt",
+    "tagline": "Kompetenz in Immobilien",
+    "description": "Immobilien, Makler, Frankfurt",
+    "keywords": "Immobilien, Makler, Frankfurt, Eigentumswohnungen, Vermietung, Häuser, Frankfurt am Main, Immobilienmakler",
+    "copyright": "© Pierre Pöhls 2022",
+    "profile": {
+      "name": "Pierre Pöhls",
+      "first": "Pierre",
+      "last": "Pöhls",
+      "email": "info@poehlsimmobilien.de",
+      "twitter": "",
+      "facebook": null,
+      "google_plus": null
+    },
+    "url": "default"
+  },
+  "grandtower": {
+    "title": "Pierre Pöhls Immoblien",
+    "page_title": "Grand Tower Frankfurt",
+    "tagline": "Grand Tower Rental",
+    "description": "Immobilien, Makler, Frankfurt",
+    "keywords": "Immobilien, Makler, Frankfurt, Eigentumswohnungen, Vermietung, Häuser, Frankfurt am Main, Immobilienmakler",
+    "copyright": "© Pierre Pöhls 2022",
+    "profile": {
+      "name": "Pierre Pöhls",
+      "first": "Pierre",
+      "last": "Pöhls",
+      "email": "info@poehlsimmobilien.de",
+      "twitter": "",
+      "facebook": null,
+      "google_plus": null
+    },
+    "url": "default"
+  },
+  "navigation": {
+    "Informationen": [
+      {
+        "label": "Pöhls Immobilien",
+        "page_slug": "poehls-immobilien",
+        "legacy_path": "/pages/poehls-immobilien/"
+      },
+      {
+        "label": "Unsere Leistungen",
+        "page_slug": "unsere-leistungen",
+        "legacy_path": "/pages/unsere-leistungen/"
+      },
+      {
+        "label": "Formulare",
+        "page_slug": "formulare",
+        "legacy_path": "/pages/formulare/"
+      },
+      {
+        "label": "Disclaimer / Datenschutz",
+        "page_slug": "disclaimer-datenschutz",
+        "legacy_path": "/pages/disclaimer-datenschutz/"
+      },
+      {
+        "label": "AGB / Widerrufsbelehrung",
+        "page_slug": "agb",
+        "legacy_path": "/pages/agb/"
+      },
+      {
+        "label": "Kontakt / Impressum",
+        "page_slug": "kontakt-impressum",
+        "legacy_path": "/pages/kontakt-impressum/"
+      },
+      {
+        "label": "Über uns",
+        "page_slug": "ueber-uns",
+        "legacy_path": "/pages/ueber-uns/"
+      }
+    ],
+    "listings": [
+      {
+        "group": "Kaufimmobilien",
+        "label": "Eigentumswohnungen",
+        "legacy_path": "/eigentumswohnungen/",
+        "filter": "kauf-etw",
+        "listing_slugs": [
+          "gemutliche-maisonettewohnung-mitten-in-fechenheim-1",
+          "moderne-wohnung-am-waldrand-mit-wintergarten-und-terrasse-4",
+          "mainterrassen-urbanes-wohnen-gegenuber-dem-main",
+          "quartier-praedium-europaviertel-downtown-provisionsfrei",
+          "grand-tower-lart-de-vivre-1",
+          "moderne-wohnung-in-bevorzugter-lage-von-niederrad-1",
+          "eden-savoir-vivre-3",
+          "grosszuegige-wohnung-in-gravenbruch-1",
+          "niederrad-waldfried-solide-kapitalanlage",
+          "2-zimmer-wohnung-mit-schoenem-fernblick",
+          "eden-luxurioeses-wohnambiente-mit-skylineblick",
+          "moderne-wohnung-am-waldrand-mit-wintergarten-und-terrasse-1",
+          "penthouse-am-kirchplatz",
+          "moderne-wohnung-in-anspruchsvoller-wohnanlage",
+          "dem-rheingau-gegenueber",
+          "ganzjahresurlaub-in-mediterraner-atmosphaere",
+          "moderne-wohnung-mit-wintergarten-und-terrasse"
+        ],
+        "listing_ids": [
+          170,
+          168,
+          167,
+          165,
+          162,
+          166,
+          155,
+          160,
+          128,
+          156,
+          147,
+          136,
+          134,
+          131,
+          132,
+          90,
+          60
+        ]
+      },
+      {
+        "group": "Kaufimmobilien",
+        "label": "1- und 2-Familien-Häuser",
+        "legacy_path": "/1--und-2-familien-haeuser/",
+        "filter": "kauf-12fh",
+        "listing_slugs": [
+          "grosszuegige-doppelhaushaelfte-am-ortsrand-von-langenselbold",
+          "dreifamilienhaus-in-begehrter-westendlage",
+          "denkmalgeschuetztes-haus-in-topform",
+          "einfamilienhaus-mit-vielen-extras-in-westhofen",
+          "architektenhaus-mit-grossem-grundstueck-und-beachtlicher-wohnflaeche-provisionsfrei"
+        ],
+        "listing_ids": [
+          154,
+          122,
+          101,
+          92,
+          56
+        ]
+      },
+      {
+        "group": "Kaufimmobilien",
+        "label": "Gewerbeobjekte",
+        "legacy_path": "/gewerbeobjekte-1/",
+        "filter": null,
+        "listing_slugs": [],
+        "listing_ids": []
+      },
+      {
+        "group": "Kaufimmobilien",
+        "label": "Grundstücke",
+        "legacy_path": "/grundstuecke/",
+        "filter": "kauf-grundstueck",
+        "listing_slugs": [
+          "baugrundstuck-fur-1-fam-haus-in-herrlicher-lage-von-kelkheim-eppenhain-1"
+        ],
+        "listing_ids": [
+          164
+        ]
+      },
+      {
+        "group": "Kaufimmobilien",
+        "label": "Renditeobjekte",
+        "legacy_path": "/renditeobjekte/",
+        "filter": "kauf-rendite",
+        "listing_slugs": [
+          "dreifamilienhaus-in-begehrter-westendlage",
+          "dreifamilienhaus-in-ruhiger-wohnlage-1"
+        ],
+        "listing_ids": [
+          122,
+          172
+        ]
+      },
+      {
+        "group": "Kaufimmobilien",
+        "label": "Auslandsimmobilien",
+        "legacy_path": "/auslandsimmobilien/",
+        "filter": "kauf-ausland",
+        "listing_slugs": [
+          "ferienhaus-in-der-bretagne-3-minuten-zum-wunderschoenen-strand-von-beg-meil",
+          "k-84322497_yerres"
+        ],
+        "listing_ids": [
+          62,
+          61
+        ]
+      },
+      {
+        "group": "Kaufimmobilien",
+        "label": "Archiv (verkauft)",
+        "legacy_path": "/archiv-verkauft/",
+        "filter": "archiv-verkauft",
+        "listing_slugs": [
+          "moderne-wohnung-gesuchte-wohngegend-solide-kapitalanlage",
+          "gewerbeliegenschaft-solide-kapitalanlage-mit-guter-rendite",
+          "moderne-wohnung-mit-praktikablem-schnitt-und-atrium-terrasse",
+          "moderne-wohnung-mit-wintergarten-und-terrasse-am-waldrand",
+          "moderne-wohnung-mit-gutem-schnitt-in-bevorzugter-waldrandlage",
+          "moderne-wohnung-mit-terrasse-und-garten-verkehrsguenstig-und-direkt-am-waldrand-gelegen",
+          "moderne-wohnung-in-bevorzugter-lage-von-niederrad"
+        ],
+        "listing_ids": [
+          111,
+          106,
+          79,
+          34,
+          67,
+          66,
+          58
+        ]
+      },
+      {
+        "group": "Mietobjekte",
+        "label": "Mietwohnungen",
+        "legacy_path": "/mietwohnungen/",
+        "filter": "miete-wohnung",
+        "listing_slugs": [
+          "wohnen-ueber-den-daechern-frankfurts-am-museumsufer",
+          "eden-savoir-vivre-2",
+          "eden-vollmoeblierter-skylineblick-aus-der-26etage",
+          "eden-savoir-vivre-1",
+          "eden-tower-downtown-im-gruenen-1",
+          "eden-savoir-vivre",
+          "erstbezug-nach-totalsanierung-topmodernes-wohnambiente-2",
+          "eden-tower-gruene-insel-downtown",
+          "eden-tower-downtown-im-gruenen",
+          "m-143148269_frankfurt",
+          "erstbezug-nach-totalsanierung-topmodernes-wohnambiente-1",
+          "grosszugige-dachetage-topmodernes-wohnambiente",
+          "grand-tower-lart-de-vivre",
+          "maisonette-niederrad-waldfried-hier-machen-sie-das-ganze-jahr-urlaub-1",
+          "grosszuegige-moderne-wohnung-naehe-messegelaende-1",
+          "wohnen-am-museumsufer",
+          "moderne-wohnung-in-schoenem-altbau"
+        ],
+        "listing_ids": [
+          108,
+          153,
+          152,
+          151,
+          149,
+          146,
+          145,
+          144,
+          143,
+          142,
+          141,
+          139,
+          123,
+          119,
+          114,
+          105,
+          97
+        ]
+      },
+      {
+        "group": "Mietobjekte",
+        "label": "1- und 2-Familien-Häuser",
+        "legacy_path": "/1--und-2-familien-haeuser-1/",
+        "filter": "miete-12fh",
+        "listing_slugs": [
+          "ganzjahresurlaub-am-rande-des-taunus",
+          "hier-machen-sie-das-ganze-jahr-urlaub-1"
+        ],
+        "listing_ids": [
+          115,
+          96
+        ]
+      },
+      {
+        "group": "Mietobjekte",
+        "label": "Gewerbeobjekte",
+        "legacy_path": "/gewerbeobjekte-3/",
+        "filter": "miete-gewerbe",
+        "listing_slugs": [
+          "gewerbepark-meiningen-1200-m-kaltlagerhalle",
+          "gewerbepark-meiningen-lager-buero-und-freiflaechen-in-autobahnnaehe",
+          "beste-adresse-1a-citylage",
+          "ladengeschaeft-in-guter-lage-von-niederrad",
+          "bueroflaeche-in-denkmalgeschuetztem-stilaltbau-gegenueber-hauptbahnhof",
+          "maisonette-bueroraeume-mit-schoener-terrasse",
+          "praxisetage-bueroetage-in-kleiner-liegenschaft-citylage-von-oberursel",
+          "helle-bueroetage-praxisetage-in-kleiner-gewerbeliegenschaft-in-schwalbach"
+        ],
+        "listing_ids": [
+          158,
+          157,
+          135,
+          104,
+          103,
+          100,
+          78,
+          22
+        ]
+      },
+      {
+        "group": "Mietobjekte",
+        "label": "Wohnen auf Zeit / möbliert",
+        "legacy_path": "/wohnen-auf-zeit--moebliert/",
+        "filter": "miete-waz",
+        "listing_slugs": [
+          "eden-vollmoeblierter-skylineblick-aus-der-26etage",
+          "eden-lart-de-vivre",
+          "einziehen-und-wohlfuehlen-grosszuegige-wohnung-naehe-messegelaende",
+          "moderne-wohnung-mit-guter-anbindung-zu-flughafen-buerostadt-sportverbaenden-und-city"
+        ],
+        "listing_ids": [
+          152,
+          148,
+          110,
+          77
+        ]
+      },
+      {
+        "group": "Mietobjekte",
+        "label": "Auslandsimmobilien",
+        "legacy_path": "/auslandsimmobilien-1/",
+        "filter": null,
+        "listing_slugs": [],
+        "listing_ids": []
+      },
+      {
+        "group": "Mietobjekte",
+        "label": "Archiv (vermietet)",
+        "legacy_path": "/archiv-vermietet/",
+        "filter": "archiv-vermietet",
+        "listing_slugs": [
+          "moderne-wohnung-am-waldrand-mit-wintergarten-und-terrasse-3",
+          "niederrad-waldfried-wohnen-am-stadtwald-1",
+          "moderne-wohnung-mit-terrasse-und-eigenem-garten",
+          "moderne-wohnung-am-waldrand-mit-wintergarten-und-terrasse",
+          "grosszuegige-und-gemuetliche-dachgeschosswohnung-in-bester-wohngegend-auf-dem-sachsenhaeuser-berg",
+          "ne-wohnung-mit-praktikablem-schnitt-in-bevorzugter-lage-in-niederrad"
+        ],
+        "listing_ids": [
+          138,
+          130,
+          29,
+          74,
+          32,
+          31
+        ]
+      },
+      {
+        "group": "Mietobjekte",
+        "label": "Grand Tower Rental",
+        "legacy_path": "/grandtower/",
+        "filter": null,
+        "listing_slugs": [],
+        "listing_ids": []
+      }
+    ],
+    "grandtower": [
+      {
+        "group": "Grand Tower",
+        "label": "Möblierte Wohnungen",
+        "legacy_path": "/moeblierte-wohnungen-3/",
+        "filter": null,
+        "listing_slugs": [],
+        "listing_ids": []
+      },
+      {
+        "group": "Grand Tower",
+        "label": "Unmöblierte Wohnungen",
+        "legacy_path": "/unmoeblierte-wohnungen-3/",
+        "filter": null,
+        "listing_slugs": [
+          "grand-tower-lart-de-vivre-2",
+          "wohnen-sie-hoch-hinaus",
+          "grand-tower-lart-de-vivre-1",
+          "grand-tower-lart-de-vivre"
+        ],
+        "listing_ids": [
+          121,
+          119,
+          118,
+          117
+        ]
+      },
+      {
+        "group": "Grand Tower",
+        "label": "Furnished Apartments",
+        "legacy_path": "/furnished-apartments/",
+        "filter": null,
+        "listing_slugs": [],
+        "listing_ids": []
+      },
+      {
+        "group": "Grand Tower",
+        "label": "Unfurnished Flats",
+        "legacy_path": "/unfurnished-flats/",
+        "filter": null,
+        "listing_slugs": [],
+        "listing_ids": []
+      }
+    ]
+  },
+  "counts": {
+    "main": {
+      "pages": 9,
+      "listings": 74,
+      "by_status": {
+        "active": 56,
+        "unlisted": 4,
+        "rented": 6,
+        "sold": 7,
+        "placeholder": 1
+      }
+    },
+    "grandtower": {
+      "pages": 10,
+      "listings": 11,
+      "by_status": {
+        "active": 4,
+        "unlisted": 5,
+        "placeholder": 2
+      }
+    },
+    "images": 1310,
+    "documents": 77
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 18,
+    "slug": "deutsch-moebliert",
+    "title": "deutsch möbliert",
+    "counts": {
+      "content": 0,
+      "albums": 0,
+      "essays": 2,
+      "total": 2
+    }
+  },
+  {
+    "id": 19,
+    "slug": "deutsch-unmoebliert",
+    "title": "deutsch unmöbliert",
+    "counts": {
+      "content": 13,
+      "albums": 0,
+      "essays": 6,
+      "total": 19
+    }
+  },
+  {
+    "id": 16,
+    "slug": "english-furnished",
+    "title": "english furnished",
+    "counts": {
+      "content": 0,
+      "albums": 0,
+      "essays": 2,
+      "total": 2
+    }
+  },
+  {
+    "id": 17,
+    "slug": "english-unfurnished",
+    "title": "english unfurnished",
+    "counts": {
+      "content": 0,
+      "albums": 0,
+      "essays": 2,
+      "total": 2
+    }
+  }
+]

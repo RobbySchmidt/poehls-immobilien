@@ -1,0 +1,5584 @@
+{
+  "urls": {
+    "content": "/content/:slug/",
+    "tag_content": "/status/:tag_slug/content/:slug/",
+    "category_content": "/kategorie/:category_slug/content/:slug/",
+    "favorite": "/favorites/:slug/",
+    "feature": "/features/:slug/",
+    "album": "/albums/:slug/",
+    "tag_album": "/status/:tag_slug/albums/:slug/",
+    "category_album": "/kategorie/:category_slug/albums/:slug/",
+    "archive_albums": "/albums/:year(?:/:month(?:/:day)?)?/",
+    "tag_albums": "/status/:slug/albums/",
+    "category_albums": "/kategorie/:slug/albums/",
+    "albums": "/albums/",
+    "set": "/sets/:slug/",
+    "sets": "/sets/",
+    "essay": "/objekte/:year/:month/:slug/",
+    "tag_essay": "/status/:tag_slug/objekte/:slug/",
+    "category_essay": "/kategorie/:category_slug/objekte/:slug/",
+    "archive_essays": "/objekte/:year(?:/:month(?:/:day)?)?/",
+    "tag_essays": "/status/:slug/objekte/",
+    "category_essays": "/kategorie/:slug/objekte/",
+    "essays": "/objekte/",
+    "page": "/pages/:slug/",
+    "tag": "/status/:slug/",
+    "category": "/kategorie/:slug/",
+    "timeline": "/timeline/",
+    "archive_timeline": "/timeline/:year(?:/:month)?/",
+    "event_timeline": "/timeline/:year/:month/:day/",
+    "tag_contents": "/status/:slug/",
+    "category_contents": "/kategorie/:slug/",
+    "archive_contents": "/timeline/:year/:month/:day/"
+  },
+  "url_data": {
+    "content": {
+      "singular": "Content",
+      "plural": "Content",
+      "url": "slug",
+      "order": "published_on DESC"
+    },
+    "favorite": {
+      "singular": "Favorite",
+      "plural": "Favorites",
+      "url": "",
+      "order": "manual ASC"
+    },
+    "feature": {
+      "singular": "Feature",
+      "plural": "Features",
+      "url": "",
+      "order": "manual ASC"
+    },
+    "album": {
+      "singular": "Album",
+      "plural": "Albums",
+      "url": "slug",
+      "order": "manual ASC"
+    },
+    "set": {
+      "singular": "Set",
+      "plural": "Sets",
+      "order": "title ASC"
+    },
+    "essay": {
+      "singular": "Objekte",
+      "plural": "Objekte",
+      "url": "date+slug",
+      "order": "published_on DESC"
+    },
+    "page": {
+      "singular": "Page",
+      "plural": "Pages",
+      "url": "sssslug"
+    },
+    "tag": {
+      "singular": "Status",
+      "plural": "Status",
+      "order": "count DESC"
+    },
+    "category": {
+      "singular": "Kategorie",
+      "plural": "Kategorie",
+      "order": "title ASC"
+    },
+    "timeline": {
+      "singular": "Timeline",
+      "plural": "Timeline"
+    },
+    "home": "Home"
+  },
+  "timezone": "Europe/Berlin",
+  "title": "Pierre Pöhls Immoblien",
+  "page_title": "Pierre Pöhls Immoblien Frankfurt",
+  "tagline": "Kompetenz in Immobilien",
+  "copyright": "© Pierre Pöhls 2022",
+  "description": "Immobilien, Makler, Frankfurt",
+  "keywords": "Immobilien, Makler, Frankfurt, Eigentumswohnungen, Vermietung, Häuser, Frankfurt am Main, Immobilienmakler",
+  "date_format": "F j, Y",
+  "time_format": "g:i a",
+  "privacy": "public",
+  "hidpi": false,
+  "url": "default",
+  "retain_image_metadata": "false",
+  "image_use_defaults": "true",
+  "image_tiny_quality": "80",
+  "image_small_quality": "80",
+  "image_medium_quality": "85",
+  "image_medium_large_quality": "85",
+  "image_large_quality": "85",
+  "image_xlarge_quality": "90",
+  "image_huge_quality": "90",
+  "image_tiny_sharpening": "0.7",
+  "image_small_sharpening": "0.6",
+  "image_medium_sharpening": "0.6",
+  "image_medium_large_sharpening": "0.6",
+  "image_large_sharpening": "0.6",
+  "image_xlarge_sharpening": "0.3",
+  "image_huge_sharpening": "0",
+  "image_processing_library": "convert",
+  "draft_id": 2,
+  "theme": {
+    "path": "repertoire-fa8a5d39-01a5-dfd6-92ff-65a22af5d5ac",
+    "name": "Repertoire",
+    "version": "1.7.2",
+    "description": "Repertoire is an understated yet polished theme tailored for photographers and designers who want both a blog and portfolio site showcasing their work.",
+    "demo": "http://demo.koken.me/#repertoire"
+  },
+  "documentation": "https://store.koken.me/themes/repertoire",
+  "author": {
+    "name": "Koken",
+    "link": "https://store.koken.me/authors/koken"
+  },
+  "koken_version_required": "0.22.12-beta.8",
+  "styles": [
+    {
+      "key": "white",
+      "label": "White",
+      "variables": {
+        "color_bg": "#fff",
+        "color_text": "#666",
+        "color_headers": "#222",
+        "color_nav_link": "#666",
+        "color_nav_link_hover": "#000",
+        "color_meta": "#999",
+        "color_pag_link": "#222"
+      }
+    },
+    {
+      "key": "black",
+      "label": "Black",
+      "variables": {
+        "color_bg": "#000",
+        "color_text": "#999",
+        "color_headers": "#dedede",
+        "color_nav_link": "#999",
+        "color_nav_link_hover": "#fff",
+        "color_meta": "#666",
+        "color_pag_link": "#dedede"
+      }
+    },
+    {
+      "key": "gray",
+      "label": "Gray",
+      "variables": {
+        "color_bg": "#2b2b2b",
+        "color_text": "#999",
+        "color_headers": "#ccc",
+        "color_nav_link": "#999",
+        "color_nav_link_hover": "#ededed",
+        "color_meta": "#666",
+        "color_pag_link": "#ccc"
+      }
+    }
+  ],
+  "settings": [
+    {
+      "group": "Typography",
+      "settings": [
+        {
+          "key": "font",
+          "label": "Typeface",
+          "type": "select",
+          "options": [
+            {
+              "label": "Default",
+              "value": "default"
+            },
+            {
+              "label": "Classic",
+              "value": "helvetica"
+            },
+            {
+              "label": "Fashion",
+              "value": "fashion"
+            },
+            {
+              "label": "Sweet",
+              "value": "sweet"
+            },
+            {
+              "label": "Tabloid",
+              "value": "tabloid"
+            }
+          ],
+          "value": "helvetica",
+          "reload_preview": true,
+          "default": "default"
+        },
+        {
+          "group": "Body",
+          "settings": [
+            {
+              "key": "body_font_size",
+              "label": "Size",
+              "type": "slider",
+              "min": 11,
+              "max": 56,
+              "step": 1,
+              "value": 14,
+              "suffix": "px",
+              "default": 14
+            },
+            {
+              "key": "body_font_lh",
+              "label": "Line height",
+              "type": "slider",
+              "min": 1,
+              "max": 4,
+              "step": 0.1,
+              "value": 1.5,
+              "default": 1.5
+            }
+          ]
+        },
+        {
+          "group": "Header One",
+          "settings": [
+            {
+              "key": "h1_size",
+              "label": "Size",
+              "type": "slider",
+              "min": 11,
+              "max": 56,
+              "step": 1,
+              "value": 18,
+              "suffix": "px",
+              "default": 18
+            },
+            {
+              "key": "h1_lh",
+              "label": "Line height",
+              "type": "slider",
+              "min": 1,
+              "max": 4,
+              "step": 0.1,
+              "value": 1.5,
+              "default": 1.5
+            }
+          ]
+        },
+        {
+          "group": "Header Two",
+          "settings": [
+            {
+              "key": "h2_size",
+              "label": "Size",
+              "type": "slider",
+              "min": 11,
+              "max": 56,
+              "step": 1,
+              "value": 16,
+              "suffix": "px",
+              "default": 16
+            },
+            {
+              "key": "h2_lh",
+              "label": "Line height",
+              "type": "slider",
+              "min": 1,
+              "max": 4,
+              "step": 0.1,
+              "value": 1.5,
+              "default": 1.5
+            }
+          ]
+        },
+        {
+          "group": "Header Three",
+          "settings": [
+            {
+              "key": "h3_size",
+              "label": "Size",
+              "type": "slider",
+              "min": 11,
+              "max": 56,
+              "step": 1,
+              "value": 14,
+              "suffix": "px",
+              "default": 14
+            },
+            {
+              "key": "h3_lh",
+              "label": "Line height",
+              "type": "slider",
+              "min": 1,
+              "max": 4,
+              "step": 0.1,
+              "value": 1.5,
+              "default": 1.5
+            }
+          ]
+        },
+        {
+          "group": "Header Four",
+          "settings": [
+            {
+              "key": "h4_size",
+              "label": "Size",
+              "type": "slider",
+              "min": 11,
+              "max": 56,
+              "step": 1,
+              "value": 11,
+              "suffix": "px",
+              "default": 11
+            },
+            {
+              "key": "h4_lh",
+              "label": "Line height",
+              "type": "slider",
+              "min": 1,
+              "max": 4,
+              "step": 0.1,
+              "value": 1.5,
+              "default": 1.5
+            }
+          ]
+        }
+      ],
+      "icon": "type"
+    },
+    {
+      "group": "Site title",
+      "settings": [
+        {
+          "key": "site_title_type",
+          "label": "Type",
+          "type": "select",
+          "options": [
+            {
+              "label": "Text",
+              "value": "text"
+            },
+            {
+              "label": "Image",
+              "value": "image"
+            }
+          ],
+          "value": "text",
+          "default": "text"
+        },
+        {
+          "key": "site_title_size",
+          "label": "Size",
+          "type": "slider",
+          "min": 11,
+          "max": 56,
+          "step": 1,
+          "value": "19",
+          "suffix": "px",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "site_title_type",
+                "equals": "text"
+              }
+            ]
+          },
+          "default": 14
+        },
+        {
+          "key": "site_title_lh",
+          "label": "Line height",
+          "type": "slider",
+          "min": 11,
+          "max": 56,
+          "step": 1,
+          "value": 21,
+          "suffix": "px",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "site_title_type",
+                "equals": "text"
+              }
+            ]
+          },
+          "default": 21
+        },
+        {
+          "key": "site_title_weight",
+          "label": "Weight",
+          "type": "select",
+          "options": [
+            {
+              "label": "300",
+              "value": "300"
+            },
+            {
+              "label": "400",
+              "value": "400"
+            },
+            {
+              "label": "700",
+              "value": "700"
+            }
+          ],
+          "value": "700",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "site_title_type",
+                "equals": "text"
+              }
+            ]
+          },
+          "default": "400"
+        },
+        {
+          "key": "show_tagline",
+          "label": "Show tagline",
+          "type": "boolean",
+          "value": true,
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "site_title_type",
+                "equals": "text"
+              }
+            ]
+          },
+          "default": false
+        },
+        {
+          "key": "site_title_img_url",
+          "label": "Image URL",
+          "type": "string",
+          "value": "https://www.poehlsimmobilien.de/sitelogo.png",
+          "validation": {
+            "type": "url",
+            "allow_empty": true
+          },
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "site_title_type",
+                "equals": "image"
+              }
+            ]
+          },
+          "default": ""
+        },
+        {
+          "key": "site_title_img_scale_mobile",
+          "label": "Mobile scale",
+          "type": "slider",
+          "min": 0.1,
+          "max": 1,
+          "step": 0.1,
+          "value": 0.8,
+          "note": "Scale applied to mobile portrait and landscape view",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "site_title_type",
+                "equals": "image"
+              }
+            ]
+          },
+          "default": 0.8
+        }
+      ],
+      "icon": "type"
+    },
+    {
+      "group": "Navigation",
+      "settings": [
+        {
+          "key": "nav_show_secondary",
+          "label": "Show secondary column",
+          "type": "boolean",
+          "value": true,
+          "control_first": "true",
+          "default": true
+        },
+        {
+          "key": "nav_show_tertiary",
+          "label": "Show tertiary column",
+          "type": "boolean",
+          "value": true,
+          "control_first": "true",
+          "default": true
+        },
+        {
+          "key": "nav_show_headers",
+          "label": "Show headers",
+          "type": "boolean",
+          "value": true,
+          "control_first": "true",
+          "default": true
+        },
+        {
+          "key": "primary_title",
+          "label": "One",
+          "type": "string",
+          "value": "Informationen",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "nav_show_headers",
+                "equals": true
+              }
+            ]
+          },
+          "default": "Primary"
+        },
+        {
+          "key": "secondary_title",
+          "label": "Two",
+          "type": "string",
+          "value": "Kaufimmobilien",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "nav_show_headers",
+                "equals": true
+              }
+            ]
+          },
+          "default": "Secondary"
+        },
+        {
+          "key": "tertiary_title",
+          "label": "Three",
+          "type": "string",
+          "value": "Mietobjekte",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "nav_show_headers",
+                "equals": true
+              }
+            ]
+          },
+          "default": "Tertiary"
+        },
+        {
+          "key": "nav_header_size",
+          "label": "Header size",
+          "type": "slider",
+          "min": 12,
+          "max": 28,
+          "step": 1,
+          "value": 14,
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "nav_show_headers",
+                "equals": true
+              }
+            ]
+          },
+          "default": 14
+        },
+        {
+          "key": "nav_header_mbot",
+          "label": "Header margin bot",
+          "type": "slider",
+          "min": 0,
+          "max": 28,
+          "step": 1,
+          "value": 8,
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "nav_show_headers",
+                "equals": true
+              }
+            ]
+          },
+          "default": 8
+        },
+        {
+          "key": "nav_header_item_mbot",
+          "label": "Nav margin bot",
+          "type": "slider",
+          "min": 0,
+          "max": 28,
+          "step": 1,
+          "value": 4,
+          "default": 4
+        },
+        {
+          "key": "nav_header_weight",
+          "label": "Weight",
+          "type": "select",
+          "options": [
+            {
+              "label": "300",
+              "value": "300"
+            },
+            {
+              "label": "400",
+              "value": "400"
+            },
+            {
+              "label": "700",
+              "value": "700"
+            }
+          ],
+          "value": "700",
+          "default": "400"
+        }
+      ],
+      "icon": "nav"
+    },
+    {
+      "group": "Footer",
+      "settings": [
+        {
+          "key": "built_with",
+          "label": "Show Built with Koken",
+          "type": "boolean",
+          "control_first": true,
+          "value": false,
+          "default": true
+        }
+      ],
+      "icon": "layout"
+    },
+    {
+      "group": "Layout",
+      "settings": [
+        {
+          "key": "index_layout",
+          "label": "Columns",
+          "type": "select",
+          "options": [
+            {
+              "label": "One",
+              "value": "one"
+            },
+            {
+              "label": "Two",
+              "value": "two"
+            }
+          ],
+          "value": "one",
+          "scope": [
+            "index"
+          ],
+          "default": "two"
+        },
+        {
+          "key": "essays_index_limit",
+          "label": "Essays per page",
+          "type": "slider",
+          "min": 1,
+          "max": 80,
+          "step": 1,
+          "value": "80",
+          "scope": [
+            "essays",
+            "archive.essays"
+          ],
+          "default": 20
+        }
+      ],
+      "icon": "layout"
+    },
+    {
+      "group": "Album",
+      "settings": [
+        {
+          "key": "albumd_show_year",
+          "label": "Show year",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "scope": [
+            "album"
+          ],
+          "default": true
+        },
+        {
+          "key": "albumd_show_categories",
+          "label": "Show categories and tags",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "scope": [
+            "album",
+            "albums",
+            "archive.albums"
+          ],
+          "default": true
+        },
+        {
+          "key": "albumd_show_dl",
+          "label": "Show download link",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "scope": [
+            "album"
+          ],
+          "default": true
+        }
+      ],
+      "icon": "type"
+    },
+    {
+      "group": "Titles",
+      "settings": [
+        {
+          "key": "albumd_show_title",
+          "label": "Show title",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "scope": [
+            "album"
+          ],
+          "default": true
+        },
+        {
+          "key": "albumd_show_caption",
+          "label": "Show caption",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "scope": [
+            "album"
+          ],
+          "default": true
+        },
+        {
+          "key": "content_title_file",
+          "label": "Use formatted filename",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "scope": [
+            "album",
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ],
+          "default": false
+        },
+        {
+          "key": "albumd_show_rating",
+          "label": "Show rating",
+          "note": "Requires the Rating plugin",
+          "note_align": "left",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "scope": [
+            "album"
+          ],
+          "default": true
+        }
+      ],
+      "icon": "type"
+    },
+    {
+      "group": "Images",
+      "settings": [
+        {
+          "key": "show_img_spinner",
+          "label": "Show loading spinner",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "scope": [
+            "album"
+          ],
+          "default": true
+        }
+      ],
+      "icon": "img"
+    },
+    {
+      "group": "Essays",
+      "settings": [
+        {
+          "key": "index_show_feat",
+          "label": "Display",
+          "type": "select",
+          "options": [
+            {
+              "label": "Most recent",
+              "value": "essays"
+            },
+            {
+              "label": "Featured",
+              "value": "featured_essays"
+            }
+          ],
+          "value": "essays",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "index_layout",
+                "equals": "two"
+              }
+            ]
+          },
+          "scope": [
+            "index"
+          ],
+          "default": "essays"
+        },
+        {
+          "key": "index_show_essays_feat",
+          "label": "Show featured images",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "index_layout",
+                "equals": "two"
+              }
+            ]
+          },
+          "scope": [
+            "index"
+          ],
+          "default": true
+        },
+        {
+          "key": "index_show_essays_date",
+          "label": "Show published date",
+          "type": "boolean",
+          "value": true,
+          "control_first": true,
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "index_layout",
+                "equals": "two"
+              }
+            ]
+          },
+          "scope": [
+            "index"
+          ],
+          "default": true
+        },
+        {
+          "key": "index_essays_num",
+          "label": "Display number",
+          "type": "slider",
+          "value": 3,
+          "min": 3,
+          "max": 10,
+          "step": 1,
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "index_layout",
+                "equals": "two"
+              }
+            ]
+          },
+          "scope": [
+            "index"
+          ],
+          "default": 3
+        },
+        {
+          "key": "essays_show_year",
+          "label": "Show published date",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "scope": [
+            "essays",
+            "essay",
+            "archive.essays"
+          ],
+          "default": true
+        },
+        {
+          "key": "essays_show_categories",
+          "label": "Show categories and tags",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "scope": [
+            "essays",
+            "essay",
+            "archive.essays"
+          ],
+          "default": true
+        },
+        {
+          "key": "essays_show_count",
+          "label": "Show comment count",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "scope": [
+            "essays",
+            "essay",
+            "archive.essays"
+          ],
+          "default": true
+        }
+      ],
+      "icon": "type"
+    },
+    {
+      "group": "Albums",
+      "settings": [
+        {
+          "key": "index_show_album_summary",
+          "label": "Show album summaries",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "scope": [
+            "index"
+          ],
+          "default": true
+        },
+        {
+          "key": "index_show_album_title",
+          "label": "Show album titles",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "scope": [
+            "index"
+          ],
+          "default": true
+        },
+        {
+          "key": "album_time_type",
+          "label": "New album covers",
+          "type": "select",
+          "separate_lines": true,
+          "options": [
+            {
+              "label": "Primary cover",
+              "value": "cover"
+            },
+            {
+              "label": "Mosaic",
+              "value": "mosaic"
+            },
+            {
+              "label": "Slideshow",
+              "value": "slideshow"
+            }
+          ],
+          "value": "mosaic",
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ],
+          "default": "mosaic"
+        },
+        {
+          "key": "album_update_time_type",
+          "label": "Updated album images",
+          "type": "select",
+          "separate_lines": true,
+          "options": [
+            {
+              "label": "Images",
+              "value": "images"
+            },
+            {
+              "label": "Mosaic",
+              "value": "mosaic"
+            },
+            {
+              "label": "Slideshow",
+              "value": "slideshow"
+            }
+          ],
+          "value": "mosaic",
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ],
+          "default": "mosaic"
+        },
+        {
+          "key": "mosaic_cols",
+          "label": "Columns",
+          "type": "slider",
+          "value": 4,
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "dependencies": {
+            "evaluate": "any",
+            "conditions": [
+              {
+                "option": "album_time_type",
+                "equals": "mosaic"
+              },
+              {
+                "option": "album_update_time_type",
+                "equals": "mosaic"
+              }
+            ]
+          },
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ],
+          "default": 4
+        },
+        {
+          "key": "mosaic_rows",
+          "label": "Rows",
+          "type": "slider",
+          "value": 2,
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "dependencies": {
+            "evaluate": "any",
+            "conditions": [
+              {
+                "option": "album_time_type",
+                "equals": "mosaic"
+              },
+              {
+                "option": "album_update_time_type",
+                "equals": "mosaic"
+              }
+            ]
+          },
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ],
+          "default": 2
+        },
+        {
+          "key": "mosaic_gutter",
+          "label": "Gutter",
+          "type": "slider",
+          "value": 8,
+          "max": 10,
+          "min": 0,
+          "step": 1,
+          "suffix": "px",
+          "dependencies": {
+            "evaluate": "any",
+            "conditions": [
+              {
+                "option": "album_time_type",
+                "equals": "mosaic"
+              },
+              {
+                "option": "album_update_time_type",
+                "equals": "mosaic"
+              }
+            ]
+          },
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ],
+          "default": 8
+        },
+        {
+          "key": "album_cover_limit",
+          "label": "Fill all columns and rows",
+          "type": "boolean",
+          "value": false,
+          "separate_lines": true,
+          "control_first": true,
+          "note": "Supplement covers with additional images",
+          "note_align": "left",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "album_time_type",
+                "equals": "mosaic"
+              }
+            ]
+          },
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ],
+          "default": false
+        }
+      ],
+      "icon": "layout"
+    },
+    {
+      "group": "Events",
+      "settings": [
+        {
+          "key": "show_event_date_relative",
+          "label": "Show relative dates",
+          "type": "boolean",
+          "value": true,
+          "control_first": "true",
+          "default": true,
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ]
+        },
+        {
+          "key": "show_comment_counts",
+          "label": "Show comment counts",
+          "type": "boolean",
+          "value": true,
+          "control_first": "true",
+          "default": true,
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ]
+        },
+        {
+          "key": "event_show_tags",
+          "label": "Show tags",
+          "type": "boolean",
+          "value": false,
+          "control_first": "true",
+          "default": false,
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ]
+        },
+        {
+          "key": "event_show_cats",
+          "label": "Show categories",
+          "type": "boolean",
+          "value": false,
+          "control_first": "true",
+          "default": false,
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ]
+        },
+        {
+          "key": "event_show_share",
+          "label": "Show share links",
+          "type": "boolean",
+          "value": false,
+          "control_first": "true",
+          "default": false,
+          "scope": [
+            "timeline",
+            "date",
+            "tag",
+            "category"
+          ]
+        }
+      ],
+      "icon": "layout"
+    },
+    {
+      "group": "Color",
+      "settings": [
+        {
+          "key": "color_bg",
+          "label": "Background",
+          "type": "color",
+          "value": "rgb(109, 109, 109)",
+          "control_first": true,
+          "default": "#ffffff"
+        },
+        {
+          "key": "color_text",
+          "label": "Text",
+          "type": "color",
+          "value": "rgb(255, 255, 255)",
+          "control_first": true,
+          "default": "#666666"
+        },
+        {
+          "key": "color_headers",
+          "label": "Headers",
+          "type": "color",
+          "value": "rgb(0, 0, 0)",
+          "control_first": true,
+          "default": "#222222"
+        },
+        {
+          "key": "color_links",
+          "label": "General links",
+          "type": "color",
+          "value": "rgb(14, 186, 239)",
+          "control_first": true,
+          "default": "#fa3c24"
+        },
+        {
+          "key": "color_links_hover",
+          "label": "General links hover",
+          "type": "color",
+          "value": "rgb(100, 155, 232)",
+          "control_first": true,
+          "default": "#fa3c24"
+        },
+        {
+          "key": "color_nav_link",
+          "label": "Navigation links",
+          "type": "color",
+          "value": "rgb(253, 247, 247)",
+          "control_first": true,
+          "default": "#666666"
+        },
+        {
+          "key": "color_nav_link_hover",
+          "label": "Navigation links hover",
+          "type": "color",
+          "value": "#ededed",
+          "control_first": true,
+          "default": "#000000"
+        },
+        {
+          "key": "color_nav_current",
+          "label": "Navigation current",
+          "type": "color",
+          "value": "rgb(168, 165, 165)",
+          "control_first": true,
+          "default": "#fa3c24"
+        },
+        {
+          "key": "color_meta",
+          "label": "Meta",
+          "type": "color",
+          "value": "rgb(0, 0, 0)",
+          "control_first": true,
+          "default": "#999999"
+        },
+        {
+          "key": "color_pag_link",
+          "label": "Pagination links",
+          "type": "color",
+          "value": "#cccccc",
+          "control_first": true,
+          "default": "#222222"
+        },
+        {
+          "key": "color_pag_link_hover",
+          "label": "Pagination links hover",
+          "type": "color",
+          "value": "rgb(77, 13, 227)",
+          "control_first": true,
+          "default": "#fa3c24"
+        },
+        {
+          "key": "color_pag_link_current",
+          "label": "Pagination links current",
+          "type": "color",
+          "value": "rgb(100, 36, 250)",
+          "control_first": true,
+          "default": "#fa3c24"
+        }
+      ],
+      "icon": "color"
+    },
+    {
+      "group": "Discussions",
+      "settings": [
+        {
+          "key": "show_disc_essay",
+          "label": "Show essay discussions",
+          "note": "Requires the Disqus plugin",
+          "note_align": "left",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "scope": [
+            "essay"
+          ],
+          "default": true
+        }
+      ],
+      "icon": "discuss"
+    },
+    {
+      "group": "Social",
+      "settings": [
+        {
+          "key": "social_bttns_show_one",
+          "label": "Show share buttons",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "default": true
+        },
+        {
+          "key": "show_rating",
+          "label": "Show rating",
+          "note": "Requires the Rating plugin",
+          "note_align": "left",
+          "type": "boolean",
+          "value": false,
+          "control_first": true,
+          "default": true
+        }
+      ],
+      "icon": "social"
+    }
+  ],
+  "published": true,
+  "language": {
+    "en": {
+      "added": "added",
+      "albums": "Albums",
+      "all_content": "All content",
+      "back_to_top": "Back to top",
+      "categories": "Categories",
+      "close_lightbox": "Close lightbox",
+      "content": "Content",
+      "content_from_title": "Content from %s",
+      "download": "Download",
+      "download_image": "Download image",
+      "elsewhere": "Elsewhere",
+      "enter_password": "Enter password",
+      "error": "Error",
+      "essays": "Essays",
+      "essays_from_title": "Essays from %s",
+      "exit_fullscreen": "Exit fullscreen",
+      "favorites": "Favorites",
+      "featured_essays": "Featured essays",
+      "features": "Features",
+      "from_the_album": "From the album",
+      "go": "Go",
+      "hide_caption": "Hide caption",
+      "home": "Home",
+      "item": "item",
+      "items": "items",
+      "latest": "Latest",
+      "loading_more": "Loading more...",
+      "more": "More",
+      "new": "new",
+      "newer": "Newer",
+      "next": "Next",
+      "no_items_were_found": "No items were found.",
+      "older": "Older",
+      "of": "of",
+      "on": "on",
+      "open_mobile_menu": "Open mobile menu",
+      "pause": "Pause",
+      "permalink": "Permalink",
+      "play": "Play",
+      "purchase": "Purchase",
+      "posted_in": "Posted in",
+      "previous": "Previous",
+      "read_more": "Read more",
+      "read_more_in": "Read more in",
+      "read_more_in_title": "Read more in %s",
+      "read_title": "Read %s",
+      "recent_activity_from_title": "Recent activity from %s",
+      "recent_essays": "Recent essays",
+      "recent_uploads_from_the_title_album": "Recent uploads from the %s album",
+      "search_tags": "Search tags",
+      "see_more": "See more",
+      "see_more_in": "See more in",
+      "select_month": "Select month",
+      "sets": "Sets",
+      "share": "Share",
+      "share_on_": "Share on",
+      "share_this": "Share this",
+      "show_caption": "Show caption",
+      "start_slideshow": "Start slideshow",
+      "stop_slideshow": "Stop slideshow",
+      "tags": "Tags",
+      "this_field_is_required": "This field is required",
+      "timeline": "Timeline",
+      "topic": "Topic",
+      "view": "View",
+      "view_album": "View album",
+      "view_all": "View all",
+      "view_all_albums": "View all albums",
+      "view_all_albums_in": "View all albums in",
+      "view_all_albums_in_title": "View all albums in %s",
+      "view_all_content": "View all content",
+      "view_all_content_in_title": "View all content in %s",
+      "view_all_essays": "View all essays",
+      "view_all_essays_in_title": "View all essays in %s",
+      "view_all_of_title": "View all of %s",
+      "view_all_pages_in_title": "View all pages in %s",
+      "view_at_title": "View at %s",
+      "view_entire_album": "View entire album",
+      "view_everything_in": "View everything in",
+      "view_everything_in_title": "View everything in %s",
+      "view_everything_published_this_day": "View everything published this day",
+      "view_fullscreen": "View fullscreen",
+      "view_more_in": "View more in",
+      "view_next": "View next",
+      "view_on_a_map": "View on a map",
+      "view_on_title": "View on %s",
+      "view_previous": "View previous",
+      "view_title": "View %s",
+      "viewing_all_albums_in": "Viewing all albums in",
+      "viewing_all_content_in": "Viewing all content in",
+      "viewing_all_essays_in": "Viewing all essays in",
+      "viewing_everything_in": "Viewing everything in",
+      "viewing_everything_in_title": "Viewing everything in %s"
+    },
+    "da": {
+      "added": "tilføjet",
+      "albums": "Albums",
+      "all_content": "Alt indhold",
+      "back_to_top": "Til top",
+      "categories": "Kategorier",
+      "close_lightbox": "Luk lightbox",
+      "content": "Indhold",
+      "content_from_title": "Indhold fra %s",
+      "download": "Hent",
+      "download_image": "Hent billede",
+      "elsewhere": "Andet sted",
+      "enter_password": "Angiv adgangskode",
+      "error": "Fejl",
+      "essays": "Essays",
+      "essays_from_title": "Essays fra %s",
+      "exit_fullscreen": "Luk fuldskærm",
+      "favorites": "Favoritter",
+      "featured_essays": "Fremhævet essays",
+      "features": "Indslag",
+      "from_the_album": "Fra albummet",
+      "go": "Gå",
+      "hide_caption": "Skjul billedtekst",
+      "home": "Hjem",
+      "item": "emne",
+      "items": "emner",
+      "latest": "Senest",
+      "loading_more": "Henter flere...",
+      "more": "Mere",
+      "new": "ny",
+      "newer": "Nyere",
+      "next": "Næste",
+      "no_items_were_found": "Der blev ikke fundet nogen elementer.",
+      "older": "Ældre",
+      "of": "af",
+      "on": "den",
+      "open_mobile_menu": "Åben mobilmenu",
+      "pause": "Pause",
+      "permalink": "Permalink",
+      "play": "Start",
+      "purchase": "Køb",
+      "posted_in": "Skrevet i",
+      "previous": "Forrige",
+      "read_more": "Læs mere",
+      "read_more_in": "Læs mere i",
+      "read_more_in_title": "Læs mere i %s",
+      "read_title": "Læs %s",
+      "recent_activity_from_title": "Senest aktivitet fra %s",
+      "recent_essays": "Seneste essays",
+      "recent_uploads_from_the_title_album": "Seneste overførsel fra %s album",
+      "search_tags": "Søg tags",
+      "see_more": "Se mere",
+      "see_more_in": "Se mere i",
+      "select_month": "Vælg måned",
+      "sets": "Sæt",
+      "share": "Del",
+      "share_on_": "Del på",
+      "share_this": "Del dette",
+      "show_caption": "Vis billedtekst",
+      "start_slideshow": "Start slideshow",
+      "stop_slideshow": "Stop slideshow",
+      "tags": "Tags",
+      "this_field_is_required": "Dette felt er påkrævet",
+      "timeline": "Tidslinie",
+      "topic": "Emne",
+      "view": "Vis",
+      "view_album": "Vis album",
+      "view_all": "Vis alle",
+      "view_all_albums": "Vis alle albums",
+      "view_all_albums_in": "Vis alle albums i",
+      "view_all_albums_in_title": "Vis alle albums i %s",
+      "view_all_content": "Vis alt indhold",
+      "view_all_content_in_title": "Vis alt indhold i %s",
+      "view_all_essays": "Vis alle essays",
+      "view_all_essays_in_title": "Vis alle essays i %s",
+      "view_all_of_title": "Vis alt af %s",
+      "view_all_pages_in_title": "Vis alle sider i %s",
+      "view_at_title": "Vis %s",
+      "view_entire_album": "Vis hele albummet",
+      "view_everything_in": "Vis alt i",
+      "view_everything_in_title": "Vis alt i %s",
+      "view_everything_published_this_day": "Vis alt udgivet i dag",
+      "view_fullscreen": "Vis fuldskærm",
+      "view_more_in": "Vis mere i",
+      "view_next": "Vis næste",
+      "view_on_a_map": "Vis på kort",
+      "view_on_title": "Vis på %s",
+      "view_previous": "Vis forrige",
+      "view_title": "Vis %s",
+      "viewing_all_albums_in": "Viser alle albums i",
+      "viewing_all_content_in": "Viser alt indhold i",
+      "viewing_all_essays_in": "Viser alle essays i",
+      "viewing_everything_in": "Viser alt i",
+      "viewing_everything_in_title": "Viser alt i %s"
+    },
+    "de": {
+      "added": "hinzugefügt",
+      "albums": "Alben",
+      "all_content": "Alle Inhalte",
+      "back_to_top": "Zurück nach oben",
+      "categories": "Kategorien",
+      "close_lightbox": "Lightbox schließen",
+      "content": "Inhalt",
+      "content_from_title": "Inhalt aus %s",
+      "download": "Download",
+      "download_image": "Bild herunterladen",
+      "elsewhere": "An anderer Stelle",
+      "enter_password": "Passwort eingeben",
+      "error": "Fehler",
+      "essays": "Essays",
+      "essays_from_title": "Essays mit %s",
+      "exit_fullscreen": "Vollbild verlassen",
+      "favorites": "Favoriten",
+      "featured_essays": "Ausgewählte Essays",
+      "features": "Ausgewählte",
+      "from_the_album": "Aus dem Album",
+      "go": "Los",
+      "hide_caption": "Beschriftung ausblenden",
+      "home": "Zuhause",
+      "item": "element",
+      "items": "elemente",
+      "latest": "Neueste",
+      "loading_more": "Lädt weitere...",
+      "more": "Mehr",
+      "new": "neues",
+      "newer": "Neuer",
+      "next": "Nächster",
+      "no_items_were_found": "Es wurden keine Elemente gefunden.",
+      "older": "Älter",
+      "of": "von",
+      "on": "auf",
+      "open_mobile_menu": "Mobile-Menü öffnen",
+      "pause": "pause",
+      "permalink": "Permalink",
+      "play": "Abspielen",
+      "purchase": "Kaufen",
+      "posted_in": "Veröffentlicht in",
+      "previous": "Zurück",
+      "read_more": "Mehr lesen",
+      "read_more_in": "Lesen Sie mehr in",
+      "read_more_in_title": "Lesen Sie mehr in %s",
+      "read_title": "Lesen Sie %s",
+      "recent_activity_from_title": "Neueste Aktivitäten von %s",
+      "recent_essays": "Den letzten Essays",
+      "recent_uploads_from_the_title_album": "Neueste Uploads in %s-Album",
+      "search_tags": "Suche tags",
+      "see_more": "Mehr sehen",
+      "see_more_in": "Siehe mehr in",
+      "select_month": "Monat auswählen",
+      "sets": "Sets",
+      "share": "Teilen",
+      "share_on_": "Teilen Sie auf",
+      "share_this": "Teilen Sie das",
+      "show_caption": "Bildunterschrift anzeigen",
+      "start_slideshow": "Bildergalerie starten",
+      "stop_slideshow": "Bildergalerie anhalten",
+      "tags": "Schlagwörter",
+      "this_field_is_required": "Dies ist ein Pflichtfeld",
+      "timeline": "Zeitleiste",
+      "topic": "Thema",
+      "view": "Ansicht",
+      "view_album": "Album anzeigen",
+      "view_all": "Alle anzeigen",
+      "view_all_albums": "Alle Alben anzeigen",
+      "view_all_albums_in": "Alle Alben anzeigen in",
+      "view_all_albums_in_title": "Alle Alben in %s ansehen",
+      "view_all_content": "Alle Inhalte ansehen",
+      "view_all_content_in_title": "Alle Inhalte in %s ansehen",
+      "view_all_essays": "Alle Essays ansehen",
+      "view_all_essays_in_title": "Alle Essays in %s ansehen",
+      "view_all_of_title": "Alle %s anzeigen",
+      "view_all_pages_in_title": "Alle Seiten in %s anzeigen",
+      "view_at_title": "Bei %s ansehen",
+      "view_entire_album": "Ganzes Album ansehen",
+      "view_everything_in": "Alles ansehen in",
+      "view_everything_in_title": "Alles ansehen in %s",
+      "view_everything_published_this_day": "Alles was heute veröffentlicht wurde ansehen",
+      "view_fullscreen": "Vollbild Ansicht",
+      "view_more_in": "Weitere ansehen in",
+      "view_next": "Nächstes ansehen",
+      "view_on_a_map": "Auf einer Landkarte ansehen",
+      "view_on_title": "%s ansehen",
+      "view_previous": "Vorheriges ansehen",
+      "view_title": "Ansicht %s",
+      "viewing_all_albums_in": "Anzeigen aller Alben in",
+      "viewing_all_content_in": "Sehen Sie alle Inhalte in",
+      "viewing_all_essays_in": "Ansehen aller Essays",
+      "viewing_everything_in": "Ansehen von allem in",
+      "viewing_everything_in_title": "Ansehen alles in %s"
+    },
+    "el": {
+      "added": "προστέθηκε",
+      "albums": "Άλμπουμ",
+      "all_content": "Όλο το περιεχόμενο",
+      "back_to_top": "Επιστροφή στην κορυφή",
+      "categories": "Κατηγορίες",
+      "close_lightbox": "Κλείσιμο lightbox",
+      "content": "Περιεχόμενο",
+      "content_from_title": "Περιεχόμενο από %s",
+      "download": "Κατέβασμα",
+      "download_image": "Κατέβασμα εικόνας",
+      "elsewhere": "αλλού",
+      "enter_password": "Εισαγωγή συνθηματικού",
+      "error": "Σφάλμα",
+      "essays": "Δοκίμια",
+      "essays_from_title": "Δοκίμια από %s",
+      "exit_fullscreen": "Έξοδος από πλήρη οθόνη",
+      "favorites": "Αγαπημένα",
+      "featured_essays": "Αγαπημένα δοκίμια",
+      "features": "Χαραστηριστικά",
+      "from_the_album": "Από το άλμπουμ",
+      "go": "Πήγαινε",
+      "hide_caption": "Απόκρυψη λεζάντας",
+      "home": "Αρχική σελίδα",
+      "item": "αντικείμενο",
+      "items": "αντικείμενα",
+      "latest": "Τελευταία",
+      "loading_more": "Φόρτωση περισσοτέρων...",
+      "more": "Περισσότερα",
+      "new": "νέο",
+      "newer": "Νέα",
+      "next": "Επόμενο",
+      "no_items_were_found": "Δεν βρέθηκαν στοιχεία.",
+      "older": "Προηγούμενο",
+      "of": "από",
+      "on": "στο",
+      "open_mobile_menu": "Άνοιγμα μενού κινητού",
+      "pause": "Παύση",
+      "permalink": "Μόνιμη σύνδεση",
+      "play": "Έναρξη",
+      "purchase": "Αγορά",
+      "posted_in": "Δημοσιεύτηκε σε",
+      "previous": "Προηγούμενο",
+      "read_more": "Ανάγνωση περισσοτέρων",
+      "read_more_in": "Ανάγνωση περισσοτέρων σε",
+      "read_more_in_title": "Ανάγνωση περισσοτέρων σε %s",
+      "read_title": "Ανάγνωση %s",
+      "recent_activity_from_title": "Τελευταία δραστηριότητα από %s",
+      "recent_essays": "Πρόσφατες δοκίμια",
+      "recent_uploads_from_the_title_album": "Τελευταίες μεταφορτώσεις στο άλμπουμ %s",
+      "search_tags": "Αναζήτηση ετικετών",
+      "see_more": "Δες περισσότερα",
+      "see_more_in": "Δες περισσότερα σε",
+      "select_month": "Επιλογή μήνα",
+      "sets": "Συλλογές",
+      "share": "Μοιράσου",
+      "share_on_": "Μοιράσου σε",
+      "share_this": "Μοίρασέ το",
+      "show_caption": "Εμφάνιση λεζάντας",
+      "start_slideshow": "Αναπαραγωγή slideshow",
+      "stop_slideshow": "Σταμάτημα slideshow",
+      "tags": "Ετικέτες",
+      "this_field_is_required": "Το πεδίο είναι υποχρεωτικό",
+      "timeline": "Χρονοσειρά",
+      "topic": "Θέμα",
+      "view": "Εμφάνιση λεζάντας",
+      "view_album": "Εμφάνιση άλμπουμ",
+      "view_all": "Εμφάνιση όλων",
+      "view_all_albums": "Εμφάνιση όλων των άλμπουμ",
+      "view_all_albums_in": "Εμφάνιση όλων των άλμπουμ σε",
+      "view_all_albums_in_title": "Εμφάνιση όλων των άλμπουμ σε %s",
+      "view_all_content": "Εμφάνιση όλου του περιεχομένου",
+      "view_all_content_in_title": "Εμφάνιση όλου του περιεχομένου σε %s",
+      "view_all_essays": "Εμφάνιση όλων των δοκιμίων",
+      "view_all_essays_in_title": "Εμφάνιση όλων των δοκιμίων σε %s",
+      "view_all_of_title": "Εμφάνιση όλων σε %s",
+      "view_all_pages_in_title": "Εμφάνιση όλων των σελίδων σε %s",
+      "view_at_title": "Εμφάνιση σε %s",
+      "view_entire_album": "Εμφάνιση ολόκληρου του άλμπουμ",
+      "view_everything_in": "Εμφάνιση όλων σε",
+      "view_everything_in_title": "Εμφάνιση όλων σε %s",
+      "view_everything_published_this_day": "Εμφάνιση όσων δημοσιεύτηκαν σήμερα",
+      "view_fullscreen": "Εμφάνιση σε πλήρη οθόνη",
+      "view_more_in": "Εμφάνιση περισσότερων σε",
+      "view_next": "Επόμενο",
+      "view_on_a_map": "Εμφάνιση στο χάρτη",
+      "view_on_title": "Εμφάνιση στο %s",
+      "view_previous": "Προηγούμενο",
+      "view_title": "Εμφάνιση %S",
+      "viewing_all_albums_in": "Εμφανίζονται όλα τα άλμπουμ σε",
+      "viewing_all_content_in": "Εμφανίζονται όλο το περιεχόμενο σε",
+      "viewing_all_essays_in": "Εμφανίζονται όλα τα δοκίμια σε",
+      "viewing_everything_in": "Εμφανίζονται όλα σε",
+      "viewing_everything_in_title": "Εμφανίζονται όλα σε %s"
+    },
+    "es": {
+      "added": "Añadido",
+      "albums": "Álbumes",
+      "all_content": "Todo el contenido",
+      "back_to_top": "Volver arriba",
+      "categories": "Categorías",
+      "close_lightbox": "Cerrar casilla activa",
+      "content": "Contenido",
+      "content_from_title": "Contenido de %s",
+      "download": "Descargar",
+      "download_image": "Descargar imagen",
+      "elsewhere": "En otra parte",
+      "enter_password": "Introducir la contraseña",
+      "error": "Error",
+      "essays": "Ensayos",
+      "essays_from_title": "Ensayos de %s",
+      "exit_fullscreen": "Salir de pantalla completa",
+      "favorites": "Favoritos",
+      "featured_essays": "Ensayos destacados",
+      "features": "Características",
+      "from_the_album": "Del álbum",
+      "go": "Ir",
+      "hide_caption": "Ocultar leyenda",
+      "home": "Inicio",
+      "item": "Artículo",
+      "items": "Artículos",
+      "latest": "Último",
+      "loading_more": "Cargando más...",
+      "more": "Más",
+      "new": "Nuevo",
+      "newer": "Más reciente",
+      "next": "Siguiente",
+      "no_items_were_found": "No se encontraron elementos.",
+      "older": "Más antiguo",
+      "of": "de",
+      "on": "en",
+      "open_mobile_menu": "Abrir el menú del móvil",
+      "pause": "Pausa",
+      "permalink": "Vínculo permanente",
+      "play": "Reproducir",
+      "purchase": "Adquisición",
+      "posted_in": "Publicado en",
+      "previous": "Anterior",
+      "read_more": "Leer más",
+      "read_more_in": "Leer más en",
+      "read_more_in_title": "Leer más en %s",
+      "read_title": "Leer %s",
+      "recent_activity_from_title": "Actividad reciente de %s",
+      "recent_essays": "Ensayos recientes",
+      "recent_uploads_from_the_title_album": "Subidas recientes desde el álbum %s",
+      "search_tags": "Etiquetas de búsqueda",
+      "see_more": "Ver más",
+      "see_more_in": "Ver más en ",
+      "select_month": "Seleccionar mes",
+      "sets": "Series",
+      "share": "Compartir",
+      "share_on_": "Compartir en",
+      "share_this": "Compartir este",
+      "show_caption": "Mostrar leyenda",
+      "start_slideshow": "Iniciar la presentación",
+      "stop_slideshow": "Detener presentación",
+      "tags": "Etiquetas",
+      "this_field_is_required": "Se requiere este campo",
+      "timeline": "Cronología",
+      "topic": "Tema",
+      "view": "Ver",
+      "view_album": "Ver album",
+      "view_all": "Ver todo",
+      "view_all_albums": "Ver todos los álbumes",
+      "view_all_albums_in": "Ver todos los álbumes en",
+      "view_all_albums_in_title": "Ver todos los álbumes en %s",
+      "view_all_content": "Ver todos los contenidos",
+      "view_all_content_in_title": "Ver todo el contenido en %s",
+      "view_all_essays": "Ver todos los ensayos",
+      "view_all_essays_in_title": "Ver todos los ensayos en %s",
+      "view_all_of_title": "Ver todos los %s",
+      "view_all_pages_in_title": "Ver todas las páginas en %s",
+      "view_at_title": "Ver en %s",
+      "view_entire_album": "Ver el álbum entero",
+      "view_everything_in": "Ver todo en",
+      "view_everything_in_title": "Ver todo en %s",
+      "view_everything_published_this_day": "Ver todo lo publicado hoy",
+      "view_fullscreen": "Ver pantalla completa",
+      "view_more_in": "Ver más en",
+      "view_next": "Ver el siguiente",
+      "view_on_a_map": "Ver en un mapa",
+      "view_on_title": "Ver en %s",
+      "view_previous": "Ver anterior",
+      "view_title": "Ver %s",
+      "viewing_all_albums_in": "Ver todos los álbumes",
+      "viewing_all_content_in": "Ver todo el contenido en",
+      "viewing_all_essays_in": "Ver todos los ensayos en",
+      "viewing_everything_in": "Ver todo en",
+      "viewing_everything_in_title": "Ver todo en %s"
+    },
+    "fr": {
+      "added": "ajouté",
+      "albums": "Albums",
+      "all_content": "Tout le contenu",
+      "back_to_top": "Revenir en haut de la page",
+      "categories": "Catégories",
+      "close_lightbox": "Fermer la visionneuse",
+      "content": "Contenu",
+      "content_from_title": "Contenu de %s",
+      "download": "Télécharger",
+      "download_image": "Télécharger l'image",
+      "elsewhere": "Ailleurs",
+      "enter_password": "Entrer le mot de passe",
+      "error": "Erreur",
+      "essays": "Essais",
+      "essays_from_title": "Écrits de %s",
+      "exit_fullscreen": "Quitter le mode plein écran",
+      "favorites": "Favoris",
+      "featured_essays": "Essais à la une",
+      "features": "Recommandés",
+      "from_the_album": "Tirée de l'album",
+      "go": "Aller",
+      "hide_caption": "Masquer la légende",
+      "home": "Accueil",
+      "item": "élément",
+      "items": "éléments",
+      "latest": "Dernières",
+      "loading_more": "En cours de chargement...",
+      "more": "Plus",
+      "new": "nouveau",
+      "newer": "Plus récent",
+      "next": "Suivant",
+      "no_items_were_found": "Aucun élément trouvé.",
+      "older": "Plus vieux",
+      "of": "de",
+      "on": "sur",
+      "open_mobile_menu": "Ouvrir le menu mobile",
+      "pause": "pause",
+      "permalink": "Lien permanent",
+      "play": "Lecture",
+      "purchase": "Achat",
+      "posted_in": "Publié dans",
+      "previous": "Précédent",
+      "read_more": "En savoir plus",
+      "read_more_in": "En savoir plus sur",
+      "read_more_in_title": "En savoir plus sur %s",
+      "read_title": "Lire %s",
+      "recent_activity_from_title": "Activité récente de %s",
+      "recent_essays": "Récents essais",
+      "recent_uploads_from_the_title_album": "Ajouts récents de l'album dans %s",
+      "search_tags": "Tags de recherche",
+      "see_more": "Voir plus",
+      "see_more_in": "Voir plus dans",
+      "select_month": "Sélectionner le mois",
+      "sets": "Ensembles",
+      "share": "Partager",
+      "share_on_": "Partager sur",
+      "share_this": "Partagez ceci",
+      "show_caption": "Afficher la légende",
+      "start_slideshow": "Démarrer le diaporama",
+      "stop_slideshow": "Arrêter le diaporama",
+      "tags": "Mots clés",
+      "this_field_is_required": "Le champ est obligatoire",
+      "timeline": "Chronologie",
+      "topic": "Sujet",
+      "view": "Voir",
+      "view_album": "Voir l'album",
+      "view_all": "Voir tout",
+      "view_all_albums": "Voir tous les albums",
+      "view_all_albums_in": "Voir tous les albums",
+      "view_all_albums_in_title": "Voir tous les albums dans %s",
+      "view_all_content": "Voir tout le contenu",
+      "view_all_content_in_title": "Voir tout le contenu %s",
+      "view_all_essays": "Voir tous les essais",
+      "view_all_essays_in_title": "Voir tous les essais dans %s",
+      "view_all_of_title": "Voir tout le contenu dans %s",
+      "view_all_pages_in_title": "Voir toutes les pages %s",
+      "view_at_title": "Voir sur %s",
+      "view_entire_album": "Voir tout l'album",
+      "view_everything_in": "Voir tout le contenu dans",
+      "view_everything_in_title": "Voir tout le contenu dans %s",
+      "view_everything_published_this_day": "Voir tout le contenu publié aujourd'hui",
+      "view_fullscreen": "Voir en plein écran",
+      "view_more_in": "Voir plus dans",
+      "view_next": "Voir l'élément suivant",
+      "view_on_a_map": "Voir sur une carte",
+      "view_on_title": "Voir sur %s",
+      "view_previous": "Voir l'élément précédent",
+      "view_title": "Voir %s",
+      "viewing_all_albums_in": "Voir tous les albums dans",
+      "viewing_all_content_in": "Voir tout le contenu dans",
+      "viewing_all_essays_in": "Voir tous les écrits dans",
+      "viewing_everything_in": "Voir tous les éléments dans",
+      "viewing_everything_in_title": "Voir tous les éléments dans %s"
+    },
+    "hu": {
+      "added": "hozzáadva",
+      "albums": "Albumok",
+      "all_content": "Összes tartalom",
+      "back_to_top": "Az oldal tetejére",
+      "categories": "Kategóriák",
+      "close_lightbox": "Bezár",
+      "content": "Tartalom",
+      "content_from_title": "Tartalom innen %s",
+      "download": "Letöltés",
+      "download_image": "Kép letöltése",
+      "elsewhere": "Máshol",
+      "enter_password": "Jelszó megadása",
+      "error": "Hiba",
+      "essays": "Bejegyzések",
+      "essays_from_title": "Bejegyzések innen %s",
+      "exit_fullscreen": "Kilépés a teljes képernyős módból",
+      "favorites": "Kedvencek",
+      "featured_essays": "Kiemelt bejegyzések",
+      "features": "Jellemzők",
+      "from_the_album": "Ebből az albumból",
+      "go": "Ugrás",
+      "hide_caption": "Képaláírás elrejtése",
+      "home": "Főoldal",
+      "item": "tétel",
+      "items": "tételek",
+      "latest": "Legutóbbi",
+      "loading_more": "Továbbiak betöltése...",
+      "more": "Továbbiak",
+      "new": "új",
+      "newer": "Újabb",
+      "next": "Következő",
+      "no_items_were_found": "Nincs találat.",
+      "older": "Régebbi",
+      "of": "bekapcsolva",
+      "on": "kikapcsolva",
+      "open_mobile_menu": "Mobil menü megnyitása",
+      "pause": "Szünet",
+      "permalink": "Idehivatkozás",
+      "play": "Lejátszás",
+      "purchase": "Vásárlás",
+      "posted_in": "Közzétéve itt",
+      "previous": "Előző",
+      "read_more": "Olvass tovább",
+      "read_more_in": "Olvass tovább itt",
+      "read_more_in_title": "Olvass tovább itt %s",
+      "read_title": "%s olvasása",
+      "recent_activity_from_title": "Legutóbbi aktivitás innen %s",
+      "recent_essays": "A legújabb bejegyzések",
+      "recent_uploads_from_the_title_album": "Legutóbbi feltöltések a %s albumban",
+      "search_tags": "Címkék keresése",
+      "see_more": "Továbbiak megtekintése",
+      "see_more_in": "Továbbiak megtekintése itt",
+      "select_month": "Hónap kiválasztása",
+      "sets": "Válogatások",
+      "share": "Megosztás",
+      "share_on_": "Megosztás itt",
+      "share_this": "Megosztás",
+      "show_caption": "Képaláírás mutatása",
+      "start_slideshow": "Vetítés indítása",
+      "stop_slideshow": "Vetítés megállítása",
+      "tags": "Címkék",
+      "this_field_is_required": "A mező kitöltése kötelező",
+      "timeline": "Idővonal",
+      "topic": "Téma",
+      "view": "Megtekintés",
+      "view_album": "Album megtekintése",
+      "view_all": "Az összes megtekintése",
+      "view_all_albums": "Az összes album megtekintése",
+      "view_all_albums_in": "Az összes album megtekintése innen",
+      "view_all_albums_in_title": "Az összes album megtekintése innen %s",
+      "view_all_content": "Az összes tartalom megtekintése",
+      "view_all_content_in_title": "Az összes tartalom megtekintése innen %s",
+      "view_all_essays": "Az összes bejegyzés megtekintése",
+      "view_all_essays_in_title": "Az összes bejegyzés megtekintése innen %s",
+      "view_all_of_title": "Az összes %s megtekintése",
+      "view_all_pages_in_title": "Az összes oldal megtekintése innen %s",
+      "view_at_title": "Megtekintés itt %s",
+      "view_entire_album": "A teljes album megtekintése",
+      "view_everything_in": "Az összes megtekintése innen",
+      "view_everything_in_title": "Az összes megtekintése innen %s",
+      "view_everything_published_this_day": "Nézz meg mindent ami ezen a napon lett közzétéve",
+      "view_fullscreen": "Megtekintés teljes képernyős módban",
+      "view_more_in": "Továbbiak megtekintése itt",
+      "view_next": "Következő megtekintése",
+      "view_on_a_map": "Megtekintés a térképen",
+      "view_on_title": "Megtekintés itt %s",
+      "view_previous": "Előző megtekintése",
+      "view_title": "Megtekintés %s",
+      "viewing_all_albums_in": "Az összes album megtekintése itt",
+      "viewing_all_content_in": "Az összes tartalom megtekintése itt",
+      "viewing_all_essays_in": "Az összes bejegyzés megtekintése itt",
+      "viewing_everything_in": "Az összes tartalom megtekintése innen",
+      "viewing_everything_in_title": "Az összes tartalom megtekintése innen %s"
+    },
+    "is": {
+      "added": "Bætt við",
+      "albums": "Albúm",
+      "all_content": "Allar myndir",
+      "back_to_top": "Upp",
+      "categories": "Flokkar",
+      "close_lightbox": "Loka skyggnusýningu",
+      "content": "Myndir",
+      "content_from_title": "Myndir frá %s",
+      "download": "Hala niður",
+      "download_image": "Hala niður mynd",
+      "elsewhere": "Annarsstaðar",
+      "enter_password": "Sláðu inn lykilorð",
+      "error": "Villa",
+      "essays": "Færslur",
+      "essays_from_title": "Færslur frá %s",
+      "exit_fullscreen": "Loka myndham",
+      "favorites": "Uppáhalds",
+      "featured_essays": "Valdar færslur",
+      "features": "Valið",
+      "from_the_album": "Úr albúminu",
+      "go": "Fara",
+      "hide_caption": "Fela skýringatexta",
+      "home": "heim",
+      "item": "Mynd",
+      "items": "Myndir",
+      "latest": "Nýjast",
+      "loading_more": "Hleð inn meira...",
+      "more": "Meira",
+      "new": "Nýtt",
+      "newer": "Nýrra",
+      "next": "Næsta",
+      "no_items_were_found": "Engin atriði fundust.",
+      "older": "Eldra",
+      "of": "af",
+      "on": "á",
+      "open_mobile_menu": "Opna valmynd",
+      "pause": "Hlé",
+      "permalink": "Föst vefslóð",
+      "play": "Skyggnusýning",
+      "purchase": "Kaupa",
+      "posted_in": "Birt í",
+      "previous": "Fyrri",
+      "read_more": "Lesa meira",
+      "read_more_in": "Lesa meira í",
+      "read_more_in_title": "Lesa meira í %s",
+      "read_title": "Lesa %s",
+      "recent_activity_from_title": "Nýleg færsla úr %s",
+      "recent_essays": "Nýlegar færslur",
+      "recent_uploads_from_the_title_album": "Nýlegar innsendingar frá %s myndasafninu",
+      "search_tags": "Leita eftir efnisorði",
+      "see_more": "Sjá meira",
+      "see_more_in": "Sjá meira í",
+      "select_month": "Veldu mánuð",
+      "sets": "Safn",
+      "share": "Deila",
+      "share_on_": "Deila á",
+      "share_this": "Deila þessu",
+      "show_caption": "Sýna yfirskrift",
+      "start_slideshow": "Hefja skyggnusýningu",
+      "stop_slideshow": "Stoppa skyggnusýningu",
+      "tags": "efnisorð",
+      "this_field_is_required": "Þessi reitur er nauðsynlegur",
+      "timeline": "tímalína",
+      "topic": "viðfangsefni",
+      "view": "Skoða",
+      "view_album": "Skoða albúm",
+      "view_all": "Skoða allt",
+      "view_all_albums": "Skoða öll albúm",
+      "view_all_albums_in": "Skoða öll albúm í",
+      "view_all_albums_in_title": "Skoða öll albúm í %s",
+      "view_all_content": "Skoða allar myndir",
+      "view_all_content_in_title": "Skoða allar myndir í %s",
+      "view_all_essays": "Skoða allar færslur",
+      "view_all_essays_in_title": "Skoða allar færslur í %s",
+      "view_all_of_title": "Skoða allar %s",
+      "view_all_pages_in_title": "Skoða allar síður í %s",
+      "view_at_title": "Skoða %s",
+      "view_entire_album": "Skoða öll albúm",
+      "view_everything_in": "Skoða allt í",
+      "view_everything_in_title": "Skoða allt í %s",
+      "view_everything_published_this_day": "Skoða allt sett inn þennan dag",
+      "view_fullscreen": "Skjá hamur",
+      "view_more_in": "Skoða meira í",
+      "view_next": "Næsta",
+      "view_on_a_map": "Sýna á korti",
+      "view_on_title": "Skoða á %s",
+      "view_previous": "Fyrri",
+      "view_title": "Skoða %s",
+      "viewing_all_albums_in": "Skoða öll albúm í",
+      "viewing_all_content_in": "Skoða allar myndir í",
+      "viewing_all_essays_in": "Skoða allar færslur í",
+      "viewing_everything_in": "Skoða allt í",
+      "viewing_everything_in_title": "Skoða allt í %s"
+    },
+    "it": {
+      "added": "aggiunto",
+      "albums": "Album",
+      "all_content": "Tutto il contenuto",
+      "back_to_top": "Torna in cima",
+      "categories": "Categorie",
+      "close_lightbox": "Chiudi lightbox",
+      "content": "Contenuto",
+      "content_from_title": "Contenuto da %s",
+      "download": "Scarica",
+      "download_image": "Scarica immagine",
+      "elsewhere": "Altrove",
+      "enter_password": "Inserisci la password",
+      "error": "Errore",
+      "essays": "Saggi",
+      "essays_from_title": "Saggi da %s",
+      "exit_fullscreen": "Esci dallo schermo intero",
+      "favorites": "Preferiti",
+      "featured_essays": "Saggi presentati",
+      "features": "Caratteristiche",
+      "from_the_album": "Dall'album",
+      "go": "Vai",
+      "hide_caption": "Nascondi didascalia",
+      "home": "Home",
+      "item": "articolo",
+      "items": "articoli",
+      "latest": "Più recente",
+      "loading_more": "Ulteriore caricamento...",
+      "more": "Più",
+      "new": "nuovo",
+      "newer": "Più recente",
+      "next": "Prossimo",
+      "no_items_were_found": "Nessun elemento trovato.",
+      "older": "Meno recente",
+      "of": "di",
+      "on": "su",
+      "open_mobile_menu": "Apri il menu mobile",
+      "pause": "Pausa",
+      "permalink": "Collegamento permanente",
+      "play": "Gioca",
+      "purchase": "Acquisto",
+      "posted_in": "Pubblicato su",
+      "previous": "Precedente",
+      "read_more": "Maggiori informazioni",
+      "read_more_in": "Maggiori informazioni su",
+      "read_more_in_title": "Maggiori informazioni su %s",
+      "read_title": "Leggi %s",
+      "recent_activity_from_title": "Recente attività da %s",
+      "recent_essays": "Saggi recenti",
+      "recent_uploads_from_the_title_album": "Caricamenti recenti dall'album %s",
+      "search_tags": "Tag di ricerca",
+      "see_more": "Mostra di più",
+      "see_more_in": "Mostra di più su",
+      "select_month": "Seleziona il mese",
+      "sets": "Set",
+      "share": "Condividi",
+      "share_on_": "Condividi su",
+      "share_this": "Condividi questo",
+      "show_caption": "Mostra didascalia",
+      "start_slideshow": "Inizia presentazione",
+      "stop_slideshow": "Ferma presentazione",
+      "tags": "Tag",
+      "this_field_is_required": "Questo campo è obbligatorio",
+      "timeline": "Cronologia",
+      "topic": "Argomento",
+      "view": "Vista",
+      "view_album": "Visualizza album",
+      "view_all": "Visualizza tutto",
+      "view_all_albums": "Visualizza tutti gli album",
+      "view_all_albums_in": "Visualizza tutti gli album su",
+      "view_all_albums_in_title": "Visualizza tutti gli album su %s",
+      "view_all_content": "Visualizza tutti i contenuti",
+      "view_all_content_in_title": "Visualizza tutti i contenuti su %s",
+      "view_all_essays": "Visualizza tutti i saggi",
+      "view_all_essays_in_title": "Visualizza tutti i saggi su %s",
+      "view_all_of_title": "Visualizza tutto di %s",
+      "view_all_pages_in_title": "Visualizza tutte le pagine su %s",
+      "view_at_title": "Visualizza su %s",
+      "view_entire_album": "Visualizza tutto l'album",
+      "view_everything_in": "Vedi tutto su",
+      "view_everything_in_title": "Visualizza tutto su %s",
+      "view_everything_published_this_day": "Visualizza tutto ciò che è stato pubblicato oggi",
+      "view_fullscreen": "Visualizza a schermo intero",
+      "view_more_in": "Visualizza di più su",
+      "view_next": "Visualizza successivo",
+      "view_on_a_map": "Visualizza su una mappa",
+      "view_on_title": "Visualizza su %s",
+      "view_previous": "Visualizza precedente",
+      "view_title": "Visualizza %s",
+      "viewing_all_albums_in": "Visualizzazione di tutti gli album su",
+      "viewing_all_content_in": "Visualizzazione di tutti i contenuti su",
+      "viewing_all_essays_in": "Visualizzazione di tutti saggi su",
+      "viewing_everything_in": "Visualizza tutto su",
+      "viewing_everything_in_title": "Visualizzazione tutto su %s"
+    },
+    "nl": {
+      "added": "toegevoegd",
+      "albums": "Albums",
+      "all_content": "Alle content",
+      "back_to_top": "Terug naar top",
+      "categories": "Categorien",
+      "close_lightbox": "Sluit lightbox",
+      "content": "Content",
+      "content_from_title": "Content uit %s",
+      "download": "Download",
+      "download_image": "Download foto",
+      "elsewhere": "Elders",
+      "enter_password": "paswoord",
+      "error": "Fout",
+      "essays": "Essays",
+      "essays_from_title": "Essays uit %s",
+      "exit_fullscreen": "Exit volledig scherm",
+      "favorites": "Favorieten",
+      "featured_essays": "Etalage Essays",
+      "features": "Etalages",
+      "from_the_album": "Uit het album",
+      "go": "Ga",
+      "hide_caption": "Verberg ondertitel",
+      "home": "Home",
+      "item": "onderdeel",
+      "items": "onderdelen",
+      "latest": "Laatste",
+      "loading_more": "Meer laden...",
+      "more": "Meer",
+      "new": "nieuw",
+      "newer": "Nieuwer",
+      "next": "Volgende",
+      "no_items_were_found": "Geen items gevonden.",
+      "older": "Ouder",
+      "of": "van",
+      "on": "aan",
+      "open_mobile_menu": "Open mobiel menu",
+      "pause": "Pauze",
+      "permalink": "Permalink",
+      "play": "Speel",
+      "purchase": "Inkoop",
+      "posted_in": "Posted in",
+      "previous": "Vorige",
+      "read_more": "Lees meer",
+      "read_more_in": "Lees meer in",
+      "read_more_in_title": "Lees meer in %s",
+      "read_title": "Lees %s",
+      "recent_activity_from_title": "Recente activiteit van %s",
+      "recent_essays": "Recente essays",
+      "recent_uploads_from_the_title_album": "Recente toevoegingen uit het %s album",
+      "search_tags": "Zoeken",
+      "see_more": "Bekijk meer",
+      "see_more_in": "Bekijk meer in",
+      "select_month": "Maand selecteren",
+      "sets": "Sets",
+      "share": "Delen",
+      "share_on_": "Deel op",
+      "share_this": "Deel dit",
+      "show_caption": "Toon ondertitel",
+      "start_slideshow": "Start diashow",
+      "stop_slideshow": "Stop diashow",
+      "tags": "Labels",
+      "this_field_is_required": "Dit vels is verplicht",
+      "timeline": "Tijdlijn",
+      "topic": "Onderwerp",
+      "view": "Bekijk",
+      "view_album": "Bekijk album",
+      "view_all": "Bekijk alles",
+      "view_all_albums": "Bekijk alle albums",
+      "view_all_albums_in": "Bekijk alle albums in",
+      "view_all_albums_in_title": "Bekijk alle albums in %s",
+      "view_all_content": "Bekijk alle content",
+      "view_all_content_in_title": "Bekijk alle content in %s",
+      "view_all_essays": "Lees alle essays",
+      "view_all_essays_in_title": "Lees alle essays in %s",
+      "view_all_of_title": "Bekijk alles van %s",
+      "view_all_pages_in_title": "Bekijk alle pages in %s",
+      "view_at_title": "Bekijk %s",
+      "view_entire_album": "Bekijk gehele album",
+      "view_everything_in": "Bekijk alles in",
+      "view_everything_in_title": "Bekijk alles in %s",
+      "view_everything_published_this_day": "Bekijk alles van deze dag",
+      "view_fullscreen": "Volledig scherm",
+      "view_more_in": "Bekijk meer in",
+      "view_next": "Bekijk volgende",
+      "view_on_a_map": "Bekijk op een kaart",
+      "view_on_title": "Bekijk %s",
+      "view_previous": "Bekijk vorige",
+      "view_title": "Bekijk %s",
+      "viewing_all_albums_in": "Bekijk alle albums in",
+      "viewing_all_content_in": "Bekijk alle content in",
+      "viewing_all_essays_in": "Lees alle essays in",
+      "viewing_everything_in": "Bekijk alles in",
+      "viewing_everything_in_title": "Bekijk alles in %s"
+    },
+    "no": {
+      "added": "lagt til",
+      "albums": "Albums",
+      "all_content": "Alt innhold",
+      "back_to_top": "Tilbake til toppen",
+      "categories": "Kategorier",
+      "close_lightbox": "Lukk lightbox",
+      "content": "Innhold",
+      "content_from_title": "Innhold fra %s",
+      "download": "Last ned",
+      "download_image": "Last ned bilde",
+      "elsewhere": "Annetsteds",
+      "enter_password": "Passord",
+      "error": "Feil",
+      "essays": "Artikler",
+      "essays_from_title": "Artikler fra %s",
+      "exit_fullscreen": "Avslutt fullskjerm",
+      "favorites": "Favoritter",
+      "featured_essays": "Utvalgte artikler",
+      "features": "Egenskaper",
+      "from_the_album": "Fra albumet",
+      "go": "Go",
+      "hide_caption": "Skjul bildetekst",
+      "home": "Hjem",
+      "item": "objekt",
+      "items": "poster",
+      "latest": "Siste",
+      "loading_more": "Laster mer...",
+      "more": "Mer",
+      "new": "nytt",
+      "newer": "Nyere",
+      "next": "Neste",
+      "no_items_were_found": "Ingenting ble funnet.",
+      "older": "Eldre",
+      "of": "av",
+      "on": "på",
+      "open_mobile_menu": "Åpne mobile menyen",
+      "pause": "Pause",
+      "permalink": "Permalink",
+      "play": "Play",
+      "purchase": "Kjøp",
+      "posted_in": "Publisert i",
+      "previous": "Forrige",
+      "read_more": "Les mer",
+      "read_more_in": "Les mer i",
+      "read_more_in_title": "Les mer i %s",
+      "read_title": "Les %s",
+      "recent_activity_from_title": "Nylig aktivitet fra %s",
+      "recent_essays": "Siste artikler",
+      "recent_uploads_from_the_title_album": "Siste opplastinger fra %s album",
+      "search_tags": "Søk tagger",
+      "see_more": "Se mer",
+      "see_more_in": "Se mer i",
+      "select_month": "Velg en måned",
+      "sets": "Samlinger",
+      "share": "Del",
+      "share_on_": "Del på",
+      "share_this": "Dele dette",
+      "show_caption": "Vis bildetekst",
+      "start_slideshow": "Start slideshow",
+      "stop_slideshow": "Stop slideshow",
+      "tags": "Tagger",
+      "this_field_is_required": "Dette feltet er påkrevd",
+      "timeline": "Tidslinje",
+      "topic": "Emne",
+      "view": "Vis",
+      "view_album": "Vis album",
+      "view_all": "Se alt",
+      "view_all_albums": "Vis alle albumene",
+      "view_all_albums_in": "Vis alle albumene i",
+      "view_all_albums_in_title": "Vis alle albumene i %s",
+      "view_all_content": "Vis alt innhold",
+      "view_all_content_in_title": "Vis alt innhold i %s",
+      "view_all_essays": "Vis alle artikler",
+      "view_all_essays_in_title": "Vis alle artikler i %s",
+      "view_all_of_title": "Se alle %s",
+      "view_all_pages_in_title": "Vis alle sider i %s",
+      "view_at_title": "Se i %s",
+      "view_entire_album": "Vis hele albumet",
+      "view_everything_in": "Se alt i",
+      "view_everything_in_title": "Se alt i %s",
+      "view_everything_published_this_day": "Se alt publisert denne dagen",
+      "view_fullscreen": "Vis fullskjerm",
+      "view_more_in": "Se mer i",
+      "view_next": "Vis neste",
+      "view_on_a_map": "Vis på et kart",
+      "view_on_title": "Vis på %s",
+      "view_previous": "Vis Forrige",
+      "view_title": "Vis %s",
+      "viewing_all_albums_in": "Viser alle album i",
+      "viewing_all_content_in": "Viser alt innhold i",
+      "viewing_all_essays_in": "Viser alle artikler i",
+      "viewing_everything_in": "Viser alt i",
+      "viewing_everything_in_title": "Viser alt i %s"
+    },
+    "pl": {
+      "added": "dodane",
+      "albums": "Albumy",
+      "all_content": "Wszystkie treści",
+      "back_to_top": "Powrót do góry",
+      "categories": "Kategorie",
+      "close_lightbox": "Zamknij",
+      "content": "Zawartość",
+      "content_from_title": "Zawartość z %s",
+      "download": "Pobierz",
+      "download_image": "Pobierz obrazek",
+      "elsewhere": "Gdzie indziej",
+      "enter_password": "Wprowadź hasło",
+      "error": "Błąd",
+      "essays": "Eseje",
+      "essays_from_title": "Eseje z %s",
+      "exit_fullscreen": "Zamknij tryb pełnoekranowy",
+      "favorites": "Ulubione",
+      "featured_essays": "Wybrane eseje",
+      "features": "Cechy",
+      "from_the_album": "Z albumu",
+      "go": "Przejdź",
+      "hide_caption": "Ukryj nagłówek",
+      "home": "Home",
+      "item": "pozycja",
+      "items": "przedmiotów",
+      "latest": "Najnowszy",
+      "loading_more": "Ładowanie więcej...",
+      "more": "Więcej",
+      "new": "Nowy",
+      "newer": "Nowsze",
+      "next": "Następne",
+      "no_items_were_found": "Nie odnaleziono żadnych elementów.",
+      "older": "Starsze",
+      "of": "z",
+      "on": "na",
+      "open_mobile_menu": "Otwórz menu mobilne",
+      "pause": "Pauza",
+      "permalink": "Łącze trwałe",
+      "play": "Odtwórz",
+      "purchase": "Zakupić",
+      "posted_in": "Opublikowany w",
+      "previous": "Poprzedni",
+      "read_more": "Czytaj więcej",
+      "read_more_in": "Czytaj więcej w",
+      "read_more_in_title": "Czytaj więcej w %s",
+      "read_title": "Przeczytaj %s",
+      "recent_activity_from_title": "Ostatnia aktywność od %s",
+      "recent_essays": "Ostatnich eseje",
+      "recent_uploads_from_the_title_album": "Ostatnio dodane z albumu %s",
+      "search_tags": "Szukaj tagów",
+      "see_more": "Zobacz więcej",
+      "see_more_in": "Zobacz więcej w",
+      "select_month": "Wybierz miesiąc",
+      "sets": "Zestawy",
+      "share": "Udostępnij",
+      "share_on_": "Udostępnij na",
+      "share_this": "Udostępnij to",
+      "show_caption": "Pokaż napisy",
+      "start_slideshow": "Rozpocznij pokaz slajdów",
+      "stop_slideshow": "Zatrzymaj pokaz slajdów",
+      "tags": "Tagi",
+      "this_field_is_required": "To pole jest wymagane",
+      "timeline": "Oś czasu",
+      "topic": "Temat",
+      "view": "Widok",
+      "view_album": "Zobacz album",
+      "view_all": "Zobacz wszystkie",
+      "view_all_albums": "Wyświetl wszystkie albumy",
+      "view_all_albums_in": "Wyświetl wszystkie albumy w",
+      "view_all_albums_in_title": "Wyświetl wszystkie albumy w %s",
+      "view_all_content": "Zobacz wszystkie treści",
+      "view_all_content_in_title": "Zobacz całą zawartość w %s",
+      "view_all_essays": "Wyświetl wszystkie eseje",
+      "view_all_essays_in_title": "Wyświetl wszystkie eseje w %s",
+      "view_all_of_title": "Zobacz wszystkie z %s",
+      "view_all_pages_in_title": "Zobacz wszystkie strony w %s",
+      "view_at_title": "Zobacz na %s",
+      "view_entire_album": "Zobacz cały album",
+      "view_everything_in": "Zobacz wszystko",
+      "view_everything_in_title": "Zobacz wszystko w %s",
+      "view_everything_published_this_day": "Zobacz wszystko opublikowane w tym dniu",
+      "view_fullscreen": "Zobacz na pełnym ekranie",
+      "view_more_in": "Zobacz więcej w",
+      "view_next": "Zobacz następny",
+      "view_on_a_map": "Zobacz na mapie",
+      "view_on_title": "Zobacz na %s",
+      "view_previous": "Zobacz poprzedni",
+      "view_title": "Zobacz %s",
+      "viewing_all_albums_in": "Oglądane wszystkie albumy",
+      "viewing_all_content_in": "Oglądana całą zawartość w",
+      "viewing_all_essays_in": "Oglądane wszystkie eseje w",
+      "viewing_everything_in": "Oglądasz wszystko w",
+      "viewing_everything_in_title": "Oglądasz wszystko w %s"
+    },
+    "ru": {
+      "added": "добавлено",
+      "albums": "Альбомы",
+      "all_content": "Всё содержимое",
+      "back_to_top": "Вернуться наверх",
+      "categories": "Категории",
+      "close_lightbox": "Закрыть лайтбокс",
+      "content": "Содержимое",
+      "content_from_title": "Содержимое из %s",
+      "download": "Скачать",
+      "download_image": "Скачать изображение",
+      "elsewhere": "Где-нибудь ещё",
+      "enter_password": "Введите пароль",
+      "error": "Ошибка",
+      "essays": "Очерки",
+      "essays_from_title": "Очерки из %s",
+      "exit_fullscreen": "Выход из полноэкранного режима",
+      "favorites": "Избранное",
+      "featured_essays": "Популярные очерки",
+      "features": "Особенности",
+      "from_the_album": "Из альбома",
+      "go": "Перейти",
+      "hide_caption": "Скрыть подпись",
+      "home": "Главная",
+      "item": "объект",
+      "items": "объекты",
+      "latest": "Новейшее",
+      "loading_more": "Загружается ещё...",
+      "more": "Больше",
+      "new": "новый",
+      "newer": "Более новое",
+      "next": "Следующее",
+      "no_items_were_found": "Элементы не найдены.",
+      "older": "Более старое",
+      "of": "от",
+      "on": "на",
+      "open_mobile_menu": "Открыть мобильное меню",
+      "pause": "Пауза",
+      "permalink": "Постоянная ссылка",
+      "play": "Играть",
+      "purchase": "Приобрести",
+      "posted_in": "Опубликовано в",
+      "previous": "Предыдущее",
+      "read_more": "Прочитать подробнее",
+      "read_more_in": "Прочитать подробнее в",
+      "read_more_in_title": "Узнать подробнее в %s",
+      "read_title": "Прочитать %s",
+      "recent_activity_from_title": "Последние действия в %s",
+      "recent_essays": "Последние очерки",
+      "recent_uploads_from_the_title_album": "Последние загрузки из альбома %s",
+      "search_tags": "Поисковые теги",
+      "see_more": "Узнать больше",
+      "see_more_in": "Узнать больше в",
+      "select_month": "Выберите месяц",
+      "sets": "Наборы",
+      "share": "Поделиться",
+      "share_on_": "Поделиться в",
+      "share_this": "Поделиться этим",
+      "show_caption": "Показать подпись",
+      "start_slideshow": "Начать слайд-шоу",
+      "stop_slideshow": "Остановить слайд-шоу",
+      "tags": "Теги",
+      "this_field_is_required": "Это поле обязательно к заполнению",
+      "timeline": "Хронологическая шкала",
+      "topic": "Тема",
+      "view": "Посмотреть",
+      "view_album": "Посмотреть альбом",
+      "view_all": "Посмотреть все",
+      "view_all_albums": "Посмотреть все альбомы",
+      "view_all_albums_in": "Посмотреть все альбомы в",
+      "view_all_albums_in_title": "Посмотреть все альбомы в %s",
+      "view_all_content": "Посмотреть всё содержимое",
+      "view_all_content_in_title": "Посмотреть всё содержимое в %s",
+      "view_all_essays": "Посмотреть все очерки",
+      "view_all_essays_in_title": "Посмотреть все очерки в %s",
+      "view_all_of_title": "Просмотреть всё в %s",
+      "view_all_pages_in_title": "Посмотреть все страницы в %s",
+      "view_at_title": "Посмотреть на %s",
+      "view_entire_album": "Посмотреть весь альбом",
+      "view_everything_in": "Посмотреть всё в",
+      "view_everything_in_title": "Посмотреть всё в %s",
+      "view_everything_published_this_day": "Посмотреть всё опубликованное в этот день",
+      "view_fullscreen": "Посмотреть на полном экране",
+      "view_more_in": "Посмотреть больше в",
+      "view_next": "Посмотреть следующее",
+      "view_on_a_map": "Посмотреть на карте",
+      "view_on_title": "Посмотреть на %s",
+      "view_previous": "Посмотреть предыдущее",
+      "view_title": "Посмотреть %s",
+      "viewing_all_albums_in": "Просмотр всех альбомов в",
+      "viewing_all_content_in": "Просмотр всего содержимого в",
+      "viewing_all_essays_in": "Просмотр всех очерков в",
+      "viewing_everything_in": "Просмотр всего в",
+      "viewing_everything_in_title": "Просмотр всего в %s"
+    },
+    "sv": {
+      "added": "lades till",
+      "albums": "Album",
+      "all_content": "Allt innehåll",
+      "back_to_top": "Upp",
+      "categories": "Kategorier",
+      "close_lightbox": "Stäng",
+      "content": "Innehåll",
+      "content_from_title": "Innehåll från %s",
+      "download": "Ladda ner",
+      "download_image": "Ladda ner bild",
+      "elsewhere": "Någon annanstans",
+      "enter_password": "Lösenord",
+      "error": "Fel",
+      "essays": "Artiklar",
+      "essays_from_title": "Artiklar från %s",
+      "exit_fullscreen": "Återgå",
+      "favorites": "Favoriter",
+      "featured_essays": "Utvalda artiklar",
+      "features": "Utvalt",
+      "from_the_album": "Från albumet",
+      "go": "Go",
+      "hide_caption": "Dölj bildtext",
+      "home": "Hem",
+      "item": "bild",
+      "items": "bilder",
+      "latest": "Senast",
+      "loading_more": "Läser in mer...",
+      "more": "Mer",
+      "new": "ny",
+      "newer": "Nyare",
+      "next": "Nästa",
+      "no_items_were_found": "Inga objekt hittades.",
+      "older": "Äldre",
+      "of": "av",
+      "on": "på",
+      "open_mobile_menu": "Öppna mobilmenyn",
+      "pause": "Pause",
+      "permalink": "Unik webbadress",
+      "play": "Play",
+      "purchase": "Beställ",
+      "posted_in": "Publicerad i",
+      "previous": "Föregående",
+      "read_more": "Läs mer",
+      "read_more_in": "Läs mer i",
+      "read_more_in_title": "Läs mer i %s",
+      "read_title": "Läs %s",
+      "recent_activity_from_title": "Senaste aktiviteten från %s",
+      "recent_essays": "Senaste artiklarna",
+      "recent_uploads_from_the_title_album": "Senaste uppladdningarna i %s album",
+      "search_tags": "Sök i Etiketter",
+      "see_more": "Se mer",
+      "see_more_in": "Se mer i",
+      "select_month": "Välj månad",
+      "sets": "Samlingar",
+      "share": "Dela",
+      "share_on_": "Dela på",
+      "share_this": "Dela detta",
+      "show_caption": "Visa bildtext",
+      "start_slideshow": "Starta bildspel",
+      "stop_slideshow": "Avsluta bildspel",
+      "tags": "Etiketter",
+      "this_field_is_required": "Detta fält får inte vara tomt",
+      "timeline": "Tidslinje",
+      "topic": "Ämne",
+      "view": "Visa",
+      "view_album": "Visa album",
+      "view_all": "Visa allt",
+      "view_all_albums": "Visa alla album",
+      "view_all_albums_in": "Visa alla album i",
+      "view_all_albums_in_title": "Visa alla album i %s",
+      "view_all_content": "Visa allt innehåll",
+      "view_all_content_in_title": "Visa allt innehåll i %s",
+      "view_all_essays": "Visa alla artiklar",
+      "view_all_essays_in_title": "Visa alla artiklar i %s",
+      "view_all_of_title": "Visa allt i %s",
+      "view_all_pages_in_title": "Visa alla sidorna i %s",
+      "view_at_title": "Visa vid %s",
+      "view_entire_album": "Visa hela albumet",
+      "view_everything_in": "Visa allt i",
+      "view_everything_in_title": "Visa allt i %s",
+      "view_everything_published_this_day": "Visa allt som publicerats idag",
+      "view_fullscreen": "Visa i helskärm",
+      "view_more_in": "Visa mer i",
+      "view_next": "Visa nästa",
+      "view_on_a_map": "Visa på kartan",
+      "view_on_title": "Visa på %s",
+      "view_previous": "Visa föregående",
+      "view_title": "Visa %s",
+      "viewing_all_albums_in": "Visar alla album i",
+      "viewing_all_content_in": "Visar allt innehåll i",
+      "viewing_all_essays_in": "Visar alla artiklar i",
+      "viewing_everything_in": "Visar allt i",
+      "viewing_everything_in_title": "Visar allt i %s"
+    }
+  },
+  "style": {
+    "key": "gray",
+    "label": "Gray",
+    "variables": {
+      "color_bg": "#2b2b2b",
+      "color_text": "#999999",
+      "color_headers": "#cccccc",
+      "color_nav_link": "#999999",
+      "color_nav_link_hover": "#ededed",
+      "color_meta": "#666666",
+      "color_pag_link": "#cccccc"
+    }
+  },
+  "pulse": [
+    {
+      "group": "Dimensions",
+      "settings": [
+        {
+          "key": "size",
+          "label": "Size",
+          "type": "select",
+          "options": [
+            {
+              "label": "4:3",
+              "value": "4:3"
+            },
+            {
+              "label": "3:4",
+              "value": "3:4"
+            },
+            {
+              "label": "3:2",
+              "value": "3:2"
+            },
+            {
+              "label": "2:3",
+              "value": "2:3"
+            },
+            {
+              "label": "2:1",
+              "value": "2:1"
+            },
+            {
+              "label": "1:1",
+              "value": "1:1"
+            },
+            {
+              "label": "16:9",
+              "value": "16:9"
+            },
+            {
+              "label": "Auto",
+              "value": "auto"
+            },
+            {
+              "label": "Expand",
+              "value": "expand"
+            }
+          ],
+          "value": "3:2",
+          "default": "3:2"
+        }
+      ],
+      "icon": "dimensions"
+    },
+    {
+      "group": "Playback",
+      "settings": [
+        {
+          "key": "autostart",
+          "label": "Auto",
+          "type": "boolean",
+          "value": true,
+          "default": true
+        },
+        {
+          "key": "loop",
+          "label": "Loop",
+          "type": "boolean",
+          "value": true,
+          "default": true
+        },
+        {
+          "key": "random",
+          "label": "Random",
+          "type": "boolean",
+          "value": false,
+          "default": false
+        },
+        {
+          "key": "speed",
+          "label": "Speed",
+          "type": "slider",
+          "min": 0,
+          "max": 20,
+          "step": 1,
+          "value": 3,
+          "suffix": "sec",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "autostart",
+                "equals": true
+              }
+            ]
+          },
+          "default": 3
+        }
+      ],
+      "icon": "playback"
+    },
+    {
+      "group": "Images",
+      "settings": [
+        {
+          "key": "link_to",
+          "label": "Click action",
+          "type": "select",
+          "options": [
+            {
+              "label": "Do nothing",
+              "value": "false"
+            },
+            {
+              "label": "Advance slideshow",
+              "value": "advance"
+            },
+            {
+              "label": "Load content page",
+              "value": "content"
+            },
+            {
+              "label": "Open lightbox",
+              "value": "lightbox"
+            },
+            {
+              "label": "Toggle playback",
+              "value": "playback"
+            }
+          ],
+          "value": "false",
+          "default": "false"
+        },
+        {
+          "key": "crop",
+          "label": "Crop",
+          "type": "select",
+          "options": [
+            {
+              "label": "None",
+              "value": "none"
+            },
+            {
+              "label": "Fill",
+              "value": "fill"
+            },
+            {
+              "label": "Adaptive",
+              "value": "adaptive"
+            },
+            {
+              "label": "Landscape",
+              "value": "landscape"
+            },
+            {
+              "label": "Portrait",
+              "value": "portrait"
+            }
+          ],
+          "value": "none",
+          "default": "none"
+        }
+      ],
+      "icon": "img"
+    },
+    {
+      "group": "Transition",
+      "settings": [
+        {
+          "key": "transition_type",
+          "label": "Style",
+          "type": "select",
+          "options": [
+            {
+              "label": "None",
+              "value": "none"
+            },
+            {
+              "label": "Dissolve",
+              "value": "dissolve"
+            },
+            {
+              "label": "Fade",
+              "value": "fade"
+            }
+          ],
+          "value": "dissolve",
+          "default": "dissolve"
+        },
+        {
+          "key": "transition_duration",
+          "label": "Duration",
+          "type": "slider",
+          "min": 0,
+          "max": 5,
+          "step": "0.25",
+          "value": 1,
+          "suffix": "sec",
+          "dependencies": {
+            "evaluate": "all",
+            "conditions": [
+              {
+                "option": "transition_type",
+                "not": "none"
+              }
+            ]
+          },
+          "default": 1
+        },
+        {
+          "key": "transition_easing",
+          "label": "Easing",
+          "type": "select",
+          "options": [
+            {
+              "label": "None",
+              "value": "linear"
+            },
+            {
+              "label": "Ease in",
+              "value": "ease-in"
+            },
+            {
+              "label": "Ease out",
+              "value": "ease-out"
+            },
+            {
+              "label": "Ease in and out",
+              "value": "ease-in-out"
+            }
+          ],
+          "value": "ease-in-out",
+          "default": "ease-in-out"
+        },
+        {
+          "key": "swipe",
+          "label": "Allow swiping",
+          "type": "boolean",
+          "value": true,
+          "default": true
+        }
+      ],
+      "icon": "transition"
+    }
+  ],
+  "pulse_flat": {
+    "size": {
+      "label": "Size",
+      "type": "select",
+      "options": [
+        {
+          "label": "4:3",
+          "value": "4:3"
+        },
+        {
+          "label": "3:4",
+          "value": "3:4"
+        },
+        {
+          "label": "3:2",
+          "value": "3:2"
+        },
+        {
+          "label": "2:3",
+          "value": "2:3"
+        },
+        {
+          "label": "2:1",
+          "value": "2:1"
+        },
+        {
+          "label": "1:1",
+          "value": "1:1"
+        },
+        {
+          "label": "16:9",
+          "value": "16:9"
+        },
+        {
+          "label": "Auto",
+          "value": "auto"
+        },
+        {
+          "label": "Expand",
+          "value": "expand"
+        }
+      ],
+      "value": "3:2",
+      "default": "3:2"
+    },
+    "autostart": {
+      "label": "Auto",
+      "type": "boolean",
+      "value": true,
+      "default": true
+    },
+    "loop": {
+      "label": "Loop",
+      "type": "boolean",
+      "value": true,
+      "default": true
+    },
+    "random": {
+      "label": "Random",
+      "type": "boolean",
+      "value": false,
+      "default": false
+    },
+    "speed": {
+      "label": "Speed",
+      "type": "slider",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "value": 3,
+      "suffix": "sec",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "autostart",
+            "equals": true
+          }
+        ]
+      },
+      "default": 3
+    },
+    "link_to": {
+      "label": "Click action",
+      "type": "select",
+      "options": [
+        {
+          "label": "Do nothing",
+          "value": "false"
+        },
+        {
+          "label": "Advance slideshow",
+          "value": "advance"
+        },
+        {
+          "label": "Load content page",
+          "value": "content"
+        },
+        {
+          "label": "Open lightbox",
+          "value": "lightbox"
+        },
+        {
+          "label": "Toggle playback",
+          "value": "playback"
+        }
+      ],
+      "value": "false",
+      "default": "false"
+    },
+    "crop": {
+      "label": "Crop",
+      "type": "select",
+      "options": [
+        {
+          "label": "None",
+          "value": "none"
+        },
+        {
+          "label": "Fill",
+          "value": "fill"
+        },
+        {
+          "label": "Adaptive",
+          "value": "adaptive"
+        },
+        {
+          "label": "Landscape",
+          "value": "landscape"
+        },
+        {
+          "label": "Portrait",
+          "value": "portrait"
+        }
+      ],
+      "value": "none",
+      "default": "none"
+    },
+    "transition_type": {
+      "label": "Style",
+      "type": "select",
+      "options": [
+        {
+          "label": "None",
+          "value": "none"
+        },
+        {
+          "label": "Dissolve",
+          "value": "dissolve"
+        },
+        {
+          "label": "Fade",
+          "value": "fade"
+        }
+      ],
+      "value": "dissolve",
+      "default": "dissolve"
+    },
+    "transition_duration": {
+      "label": "Duration",
+      "type": "slider",
+      "min": 0,
+      "max": 5,
+      "step": "0.25",
+      "value": 1,
+      "suffix": "sec",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "transition_type",
+            "not": "none"
+          }
+        ]
+      },
+      "default": 1
+    },
+    "transition_easing": {
+      "label": "Easing",
+      "type": "select",
+      "options": [
+        {
+          "label": "None",
+          "value": "linear"
+        },
+        {
+          "label": "Ease in",
+          "value": "ease-in"
+        },
+        {
+          "label": "Ease out",
+          "value": "ease-out"
+        },
+        {
+          "label": "Ease in and out",
+          "value": "ease-in-out"
+        }
+      ],
+      "value": "ease-in-out",
+      "default": "ease-in-out"
+    },
+    "swipe": {
+      "label": "Allow swiping",
+      "type": "boolean",
+      "value": true,
+      "default": true
+    }
+  },
+  "pulse_groups": {
+    "essays": {
+      "transition_duration": "2.5",
+      "speed": "2",
+      "size": "2:1",
+      "crop": "none",
+      "link_to": "false",
+      "transition_type": "dissolve",
+      "random": false,
+      "autostart": true
+    }
+  },
+  "navigation": {
+    "items": [
+      {
+        "auto": "page",
+        "id": 51,
+        "front": true,
+        "path": "/pages/poehls-immobilien/",
+        "label": "Pöhls Immobilien"
+      },
+      {
+        "auto": "page",
+        "id": 2,
+        "path": "/pages/ueber-uns/",
+        "label": "Über uns"
+      },
+      {
+        "auto": "page",
+        "id": 36,
+        "path": "/pages/unsere-leistungen/",
+        "label": "Unsere Leistungen"
+      },
+      {
+        "auto": "page",
+        "id": 4,
+        "path": "/pages/kontakt-impressum/",
+        "label": "Kontakt / Impressum"
+      },
+      {
+        "auto": "page",
+        "id": 5,
+        "path": "/pages/agb/",
+        "label": "AGB / Widerrufsbelehrung"
+      },
+      {
+        "auto": "page",
+        "id": 14,
+        "path": "/pages/disclaimer-datenschutz/",
+        "label": "Disclaimer / Datenschutz"
+      },
+      {
+        "auto": "page",
+        "id": 15,
+        "path": "/pages/formulare/",
+        "label": "Formulare"
+      }
+    ],
+    "groups": [
+      {
+        "key": "secondary",
+        "label": "Secondary",
+        "items": [
+          {
+            "label": "Eigentumswohnungen",
+            "path": "/eigentumswohnungen/",
+            "front": false
+          },
+          {
+            "label": "1- und 2-Familien-Häuser",
+            "path": "/1--und-2-familien-haeuser/",
+            "front": false
+          },
+          {
+            "label": "Gewerbeobjekte",
+            "path": "/gewerbeobjekte-1/",
+            "front": false
+          },
+          {
+            "label": "Grundstücke",
+            "path": "/grundstuecke/",
+            "front": false
+          },
+          {
+            "label": "Renditeobjekte",
+            "path": "/renditeobjekte/",
+            "front": false
+          },
+          {
+            "label": "Auslandsimmobilien",
+            "path": "/auslandsimmobilien/",
+            "front": false
+          },
+          {
+            "label": "Archiv (verkauft)",
+            "path": "/archiv-verkauft/",
+            "front": false
+          }
+        ],
+        "items_nested": [
+          {
+            "label": "Eigentumswohnungen",
+            "path": "/eigentumswohnungen/",
+            "front": false
+          },
+          {
+            "label": "1- und 2-Familien-Häuser",
+            "path": "/1--und-2-familien-haeuser/",
+            "front": false
+          },
+          {
+            "label": "Gewerbeobjekte",
+            "path": "/gewerbeobjekte-1/",
+            "front": false
+          },
+          {
+            "label": "Grundstücke",
+            "path": "/grundstuecke/",
+            "front": false
+          },
+          {
+            "label": "Renditeobjekte",
+            "path": "/renditeobjekte/",
+            "front": false
+          },
+          {
+            "label": "Auslandsimmobilien",
+            "path": "/auslandsimmobilien/",
+            "front": false
+          },
+          {
+            "label": "Archiv (verkauft)",
+            "path": "/archiv-verkauft/",
+            "front": false
+          }
+        ]
+      },
+      {
+        "key": "tertiary",
+        "label": "Tertiary",
+        "items": [
+          {
+            "label": "Mietwohnungen",
+            "path": "/mietwohnungen/",
+            "front": false
+          },
+          {
+            "label": "1- und 2-Familien-Häuser",
+            "path": "/1--und-2-familien-haeuser-1/",
+            "front": false
+          },
+          {
+            "label": "Gewerbeobjekte",
+            "path": "/gewerbeobjekte-3/",
+            "front": false
+          },
+          {
+            "label": "Wohnen auf Zeit / möbliert",
+            "path": "/wohnen-auf-zeit--moebliert/",
+            "front": false
+          },
+          {
+            "label": "Auslandsimmobilien",
+            "path": "/auslandsimmobilien-1/",
+            "front": false
+          },
+          {
+            "label": "Archiv (vermietet)",
+            "path": "/archiv-vermietet/",
+            "front": false
+          },
+          {
+            "label": "|||| Grand Tower Rental ||||",
+            "path": "/grandtower/",
+            "front": false
+          }
+        ],
+        "items_nested": [
+          {
+            "label": "Mietwohnungen",
+            "path": "/mietwohnungen/",
+            "front": false
+          },
+          {
+            "label": "1- und 2-Familien-Häuser",
+            "path": "/1--und-2-familien-haeuser-1/",
+            "front": false
+          },
+          {
+            "label": "Gewerbeobjekte",
+            "path": "/gewerbeobjekte-3/",
+            "front": false
+          },
+          {
+            "label": "Wohnen auf Zeit / möbliert",
+            "path": "/wohnen-auf-zeit--moebliert/",
+            "front": false
+          },
+          {
+            "label": "Auslandsimmobilien",
+            "path": "/auslandsimmobilien-1/",
+            "front": false
+          },
+          {
+            "label": "Archiv (vermietet)",
+            "path": "/archiv-vermietet/",
+            "front": false
+          },
+          {
+            "label": "|||| Grand Tower Rental ||||",
+            "path": "/grandtower/",
+            "front": false
+          }
+        ]
+      }
+    ],
+    "items_nested": [
+      {
+        "auto": "page",
+        "id": 51,
+        "front": true,
+        "path": "/pages/poehls-immobilien/",
+        "label": "Pöhls Immobilien"
+      },
+      {
+        "auto": "page",
+        "id": 2,
+        "path": "/pages/ueber-uns/",
+        "label": "Über uns"
+      },
+      {
+        "auto": "page",
+        "id": 36,
+        "path": "/pages/unsere-leistungen/",
+        "label": "Unsere Leistungen"
+      },
+      {
+        "auto": "page",
+        "id": 4,
+        "path": "/pages/kontakt-impressum/",
+        "label": "Kontakt / Impressum"
+      },
+      {
+        "auto": "page",
+        "id": 5,
+        "path": "/pages/agb/",
+        "label": "AGB / Widerrufsbelehrung"
+      },
+      {
+        "auto": "page",
+        "id": 14,
+        "path": "/pages/disclaimer-datenschutz/",
+        "label": "Disclaimer / Datenschutz"
+      },
+      {
+        "auto": "page",
+        "id": 15,
+        "path": "/pages/formulare/",
+        "label": "Formulare"
+      }
+    ]
+  },
+  "settings_flat": {
+    "font": {
+      "label": "Typeface",
+      "type": "select",
+      "options": [
+        {
+          "label": "Default",
+          "value": "default"
+        },
+        {
+          "label": "Classic",
+          "value": "helvetica"
+        },
+        {
+          "label": "Fashion",
+          "value": "fashion"
+        },
+        {
+          "label": "Sweet",
+          "value": "sweet"
+        },
+        {
+          "label": "Tabloid",
+          "value": "tabloid"
+        }
+      ],
+      "value": "helvetica",
+      "reload_preview": true,
+      "default": "default"
+    },
+    "body_font_size": {
+      "label": "Size",
+      "type": "slider",
+      "min": 11,
+      "max": 56,
+      "step": 1,
+      "value": 14,
+      "suffix": "px",
+      "default": 14
+    },
+    "body_font_lh": {
+      "label": "Line height",
+      "type": "slider",
+      "min": 1,
+      "max": 4,
+      "step": 0.1,
+      "value": 1.5,
+      "default": 1.5
+    },
+    "h1_size": {
+      "label": "Size",
+      "type": "slider",
+      "min": 11,
+      "max": 56,
+      "step": 1,
+      "value": 18,
+      "suffix": "px",
+      "default": 18
+    },
+    "h1_lh": {
+      "label": "Line height",
+      "type": "slider",
+      "min": 1,
+      "max": 4,
+      "step": 0.1,
+      "value": 1.5,
+      "default": 1.5
+    },
+    "h2_size": {
+      "label": "Size",
+      "type": "slider",
+      "min": 11,
+      "max": 56,
+      "step": 1,
+      "value": 16,
+      "suffix": "px",
+      "default": 16
+    },
+    "h2_lh": {
+      "label": "Line height",
+      "type": "slider",
+      "min": 1,
+      "max": 4,
+      "step": 0.1,
+      "value": 1.5,
+      "default": 1.5
+    },
+    "h3_size": {
+      "label": "Size",
+      "type": "slider",
+      "min": 11,
+      "max": 56,
+      "step": 1,
+      "value": 14,
+      "suffix": "px",
+      "default": 14
+    },
+    "h3_lh": {
+      "label": "Line height",
+      "type": "slider",
+      "min": 1,
+      "max": 4,
+      "step": 0.1,
+      "value": 1.5,
+      "default": 1.5
+    },
+    "h4_size": {
+      "label": "Size",
+      "type": "slider",
+      "min": 11,
+      "max": 56,
+      "step": 1,
+      "value": 11,
+      "suffix": "px",
+      "default": 11
+    },
+    "h4_lh": {
+      "label": "Line height",
+      "type": "slider",
+      "min": 1,
+      "max": 4,
+      "step": 0.1,
+      "value": 1.5,
+      "default": 1.5
+    },
+    "site_title_type": {
+      "label": "Type",
+      "type": "select",
+      "options": [
+        {
+          "label": "Text",
+          "value": "text"
+        },
+        {
+          "label": "Image",
+          "value": "image"
+        }
+      ],
+      "value": "text",
+      "default": "text"
+    },
+    "site_title_size": {
+      "label": "Size",
+      "type": "slider",
+      "min": 11,
+      "max": 56,
+      "step": 1,
+      "value": "19",
+      "suffix": "px",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "site_title_type",
+            "equals": "text"
+          }
+        ]
+      },
+      "default": 14
+    },
+    "site_title_lh": {
+      "label": "Line height",
+      "type": "slider",
+      "min": 11,
+      "max": 56,
+      "step": 1,
+      "value": 21,
+      "suffix": "px",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "site_title_type",
+            "equals": "text"
+          }
+        ]
+      },
+      "default": 21
+    },
+    "site_title_weight": {
+      "label": "Weight",
+      "type": "select",
+      "options": [
+        {
+          "label": "300",
+          "value": "300"
+        },
+        {
+          "label": "400",
+          "value": "400"
+        },
+        {
+          "label": "700",
+          "value": "700"
+        }
+      ],
+      "value": "700",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "site_title_type",
+            "equals": "text"
+          }
+        ]
+      },
+      "default": "400"
+    },
+    "show_tagline": {
+      "label": "Show tagline",
+      "type": "boolean",
+      "value": true,
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "site_title_type",
+            "equals": "text"
+          }
+        ]
+      },
+      "default": false
+    },
+    "site_title_img_url": {
+      "label": "Image URL",
+      "type": "string",
+      "value": "https://www.poehlsimmobilien.de/sitelogo.png",
+      "validation": {
+        "type": "url",
+        "allow_empty": true
+      },
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "site_title_type",
+            "equals": "image"
+          }
+        ]
+      },
+      "default": ""
+    },
+    "site_title_img_scale_mobile": {
+      "label": "Mobile scale",
+      "type": "slider",
+      "min": 0.1,
+      "max": 1,
+      "step": 0.1,
+      "value": 0.8,
+      "note": "Scale applied to mobile portrait and landscape view",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "site_title_type",
+            "equals": "image"
+          }
+        ]
+      },
+      "default": 0.8
+    },
+    "nav_show_secondary": {
+      "label": "Show secondary column",
+      "type": "boolean",
+      "value": true,
+      "control_first": "true",
+      "default": true
+    },
+    "nav_show_tertiary": {
+      "label": "Show tertiary column",
+      "type": "boolean",
+      "value": true,
+      "control_first": "true",
+      "default": true
+    },
+    "nav_show_headers": {
+      "label": "Show headers",
+      "type": "boolean",
+      "value": true,
+      "control_first": "true",
+      "default": true
+    },
+    "primary_title": {
+      "label": "One",
+      "type": "string",
+      "value": "Informationen",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "nav_show_headers",
+            "equals": true
+          }
+        ]
+      },
+      "default": "Primary"
+    },
+    "secondary_title": {
+      "label": "Two",
+      "type": "string",
+      "value": "Kaufimmobilien",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "nav_show_headers",
+            "equals": true
+          }
+        ]
+      },
+      "default": "Secondary"
+    },
+    "tertiary_title": {
+      "label": "Three",
+      "type": "string",
+      "value": "Mietobjekte",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "nav_show_headers",
+            "equals": true
+          }
+        ]
+      },
+      "default": "Tertiary"
+    },
+    "nav_header_size": {
+      "label": "Header size",
+      "type": "slider",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "value": 14,
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "nav_show_headers",
+            "equals": true
+          }
+        ]
+      },
+      "default": 14
+    },
+    "nav_header_mbot": {
+      "label": "Header margin bot",
+      "type": "slider",
+      "min": 0,
+      "max": 28,
+      "step": 1,
+      "value": 8,
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "nav_show_headers",
+            "equals": true
+          }
+        ]
+      },
+      "default": 8
+    },
+    "nav_header_item_mbot": {
+      "label": "Nav margin bot",
+      "type": "slider",
+      "min": 0,
+      "max": 28,
+      "step": 1,
+      "value": 4,
+      "default": 4
+    },
+    "nav_header_weight": {
+      "label": "Weight",
+      "type": "select",
+      "options": [
+        {
+          "label": "300",
+          "value": "300"
+        },
+        {
+          "label": "400",
+          "value": "400"
+        },
+        {
+          "label": "700",
+          "value": "700"
+        }
+      ],
+      "value": "700",
+      "default": "400"
+    },
+    "built_with": {
+      "label": "Show Built with Koken",
+      "type": "boolean",
+      "control_first": true,
+      "value": false,
+      "default": true
+    },
+    "index_layout": {
+      "label": "Columns",
+      "type": "select",
+      "options": [
+        {
+          "label": "One",
+          "value": "one"
+        },
+        {
+          "label": "Two",
+          "value": "two"
+        }
+      ],
+      "value": "one",
+      "scope": [
+        "index"
+      ],
+      "default": "two"
+    },
+    "essays_index_limit": {
+      "label": "Essays per page",
+      "type": "slider",
+      "min": 1,
+      "max": 80,
+      "step": 1,
+      "value": "80",
+      "scope": [
+        "essays",
+        "archive.essays"
+      ],
+      "default": 20
+    },
+    "albumd_show_year": {
+      "label": "Show year",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "scope": [
+        "album"
+      ],
+      "default": true
+    },
+    "albumd_show_categories": {
+      "label": "Show categories and tags",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "scope": [
+        "album",
+        "albums",
+        "archive.albums"
+      ],
+      "default": true
+    },
+    "albumd_show_dl": {
+      "label": "Show download link",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "scope": [
+        "album"
+      ],
+      "default": true
+    },
+    "albumd_show_title": {
+      "label": "Show title",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "scope": [
+        "album"
+      ],
+      "default": true
+    },
+    "albumd_show_caption": {
+      "label": "Show caption",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "scope": [
+        "album"
+      ],
+      "default": true
+    },
+    "content_title_file": {
+      "label": "Use formatted filename",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "scope": [
+        "album",
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ],
+      "default": false
+    },
+    "albumd_show_rating": {
+      "label": "Show rating",
+      "note": "Requires the Rating plugin",
+      "note_align": "left",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "scope": [
+        "album"
+      ],
+      "default": true
+    },
+    "show_img_spinner": {
+      "label": "Show loading spinner",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "scope": [
+        "album"
+      ],
+      "default": true
+    },
+    "index_show_feat": {
+      "label": "Display",
+      "type": "select",
+      "options": [
+        {
+          "label": "Most recent",
+          "value": "essays"
+        },
+        {
+          "label": "Featured",
+          "value": "featured_essays"
+        }
+      ],
+      "value": "essays",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "index_layout",
+            "equals": "two"
+          }
+        ]
+      },
+      "scope": [
+        "index"
+      ],
+      "default": "essays"
+    },
+    "index_show_essays_feat": {
+      "label": "Show featured images",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "index_layout",
+            "equals": "two"
+          }
+        ]
+      },
+      "scope": [
+        "index"
+      ],
+      "default": true
+    },
+    "index_show_essays_date": {
+      "label": "Show published date",
+      "type": "boolean",
+      "value": true,
+      "control_first": true,
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "index_layout",
+            "equals": "two"
+          }
+        ]
+      },
+      "scope": [
+        "index"
+      ],
+      "default": true
+    },
+    "index_essays_num": {
+      "label": "Display number",
+      "type": "slider",
+      "value": 3,
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "index_layout",
+            "equals": "two"
+          }
+        ]
+      },
+      "scope": [
+        "index"
+      ],
+      "default": 3
+    },
+    "essays_show_year": {
+      "label": "Show published date",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "scope": [
+        "essays",
+        "essay",
+        "archive.essays"
+      ],
+      "default": true
+    },
+    "essays_show_categories": {
+      "label": "Show categories and tags",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "scope": [
+        "essays",
+        "essay",
+        "archive.essays"
+      ],
+      "default": true
+    },
+    "essays_show_count": {
+      "label": "Show comment count",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "scope": [
+        "essays",
+        "essay",
+        "archive.essays"
+      ],
+      "default": true
+    },
+    "index_show_album_summary": {
+      "label": "Show album summaries",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "scope": [
+        "index"
+      ],
+      "default": true
+    },
+    "index_show_album_title": {
+      "label": "Show album titles",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "scope": [
+        "index"
+      ],
+      "default": true
+    },
+    "album_time_type": {
+      "label": "New album covers",
+      "type": "select",
+      "separate_lines": true,
+      "options": [
+        {
+          "label": "Primary cover",
+          "value": "cover"
+        },
+        {
+          "label": "Mosaic",
+          "value": "mosaic"
+        },
+        {
+          "label": "Slideshow",
+          "value": "slideshow"
+        }
+      ],
+      "value": "mosaic",
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ],
+      "default": "mosaic"
+    },
+    "album_update_time_type": {
+      "label": "Updated album images",
+      "type": "select",
+      "separate_lines": true,
+      "options": [
+        {
+          "label": "Images",
+          "value": "images"
+        },
+        {
+          "label": "Mosaic",
+          "value": "mosaic"
+        },
+        {
+          "label": "Slideshow",
+          "value": "slideshow"
+        }
+      ],
+      "value": "mosaic",
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ],
+      "default": "mosaic"
+    },
+    "mosaic_cols": {
+      "label": "Columns",
+      "type": "slider",
+      "value": 4,
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "dependencies": {
+        "evaluate": "any",
+        "conditions": [
+          {
+            "option": "album_time_type",
+            "equals": "mosaic"
+          },
+          {
+            "option": "album_update_time_type",
+            "equals": "mosaic"
+          }
+        ]
+      },
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ],
+      "default": 4
+    },
+    "mosaic_rows": {
+      "label": "Rows",
+      "type": "slider",
+      "value": 2,
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "dependencies": {
+        "evaluate": "any",
+        "conditions": [
+          {
+            "option": "album_time_type",
+            "equals": "mosaic"
+          },
+          {
+            "option": "album_update_time_type",
+            "equals": "mosaic"
+          }
+        ]
+      },
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ],
+      "default": 2
+    },
+    "mosaic_gutter": {
+      "label": "Gutter",
+      "type": "slider",
+      "value": 8,
+      "max": 10,
+      "min": 0,
+      "step": 1,
+      "suffix": "px",
+      "dependencies": {
+        "evaluate": "any",
+        "conditions": [
+          {
+            "option": "album_time_type",
+            "equals": "mosaic"
+          },
+          {
+            "option": "album_update_time_type",
+            "equals": "mosaic"
+          }
+        ]
+      },
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ],
+      "default": 8
+    },
+    "album_cover_limit": {
+      "label": "Fill all columns and rows",
+      "type": "boolean",
+      "value": false,
+      "separate_lines": true,
+      "control_first": true,
+      "note": "Supplement covers with additional images",
+      "note_align": "left",
+      "dependencies": {
+        "evaluate": "all",
+        "conditions": [
+          {
+            "option": "album_time_type",
+            "equals": "mosaic"
+          }
+        ]
+      },
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ],
+      "default": false
+    },
+    "show_event_date_relative": {
+      "label": "Show relative dates",
+      "type": "boolean",
+      "value": true,
+      "control_first": "true",
+      "default": true,
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ]
+    },
+    "show_comment_counts": {
+      "label": "Show comment counts",
+      "type": "boolean",
+      "value": true,
+      "control_first": "true",
+      "default": true,
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ]
+    },
+    "event_show_tags": {
+      "label": "Show tags",
+      "type": "boolean",
+      "value": false,
+      "control_first": "true",
+      "default": false,
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ]
+    },
+    "event_show_cats": {
+      "label": "Show categories",
+      "type": "boolean",
+      "value": false,
+      "control_first": "true",
+      "default": false,
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ]
+    },
+    "event_show_share": {
+      "label": "Show share links",
+      "type": "boolean",
+      "value": false,
+      "control_first": "true",
+      "default": false,
+      "scope": [
+        "timeline",
+        "date",
+        "tag",
+        "category"
+      ]
+    },
+    "color_bg": {
+      "label": "Background",
+      "type": "color",
+      "value": "rgb(109, 109, 109)",
+      "control_first": true,
+      "default": "#ffffff"
+    },
+    "color_text": {
+      "label": "Text",
+      "type": "color",
+      "value": "rgb(255, 255, 255)",
+      "control_first": true,
+      "default": "#666666"
+    },
+    "color_headers": {
+      "label": "Headers",
+      "type": "color",
+      "value": "rgb(0, 0, 0)",
+      "control_first": true,
+      "default": "#222222"
+    },
+    "color_links": {
+      "label": "General links",
+      "type": "color",
+      "value": "rgb(14, 186, 239)",
+      "control_first": true,
+      "default": "#fa3c24"
+    },
+    "color_links_hover": {
+      "label": "General links hover",
+      "type": "color",
+      "value": "rgb(100, 155, 232)",
+      "control_first": true,
+      "default": "#fa3c24"
+    },
+    "color_nav_link": {
+      "label": "Navigation links",
+      "type": "color",
+      "value": "rgb(253, 247, 247)",
+      "control_first": true,
+      "default": "#666666"
+    },
+    "color_nav_link_hover": {
+      "label": "Navigation links hover",
+      "type": "color",
+      "value": "#ededed",
+      "control_first": true,
+      "default": "#000000"
+    },
+    "color_nav_current": {
+      "label": "Navigation current",
+      "type": "color",
+      "value": "rgb(168, 165, 165)",
+      "control_first": true,
+      "default": "#fa3c24"
+    },
+    "color_meta": {
+      "label": "Meta",
+      "type": "color",
+      "value": "rgb(0, 0, 0)",
+      "control_first": true,
+      "default": "#999999"
+    },
+    "color_pag_link": {
+      "label": "Pagination links",
+      "type": "color",
+      "value": "#cccccc",
+      "control_first": true,
+      "default": "#222222"
+    },
+    "color_pag_link_hover": {
+      "label": "Pagination links hover",
+      "type": "color",
+      "value": "rgb(77, 13, 227)",
+      "control_first": true,
+      "default": "#fa3c24"
+    },
+    "color_pag_link_current": {
+      "label": "Pagination links current",
+      "type": "color",
+      "value": "rgb(100, 36, 250)",
+      "control_first": true,
+      "default": "#fa3c24"
+    },
+    "show_disc_essay": {
+      "label": "Show essay discussions",
+      "note": "Requires the Disqus plugin",
+      "note_align": "left",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "scope": [
+        "essay"
+      ],
+      "default": true
+    },
+    "social_bttns_show_one": {
+      "label": "Show share buttons",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "default": true
+    },
+    "show_rating": {
+      "label": "Show rating",
+      "note": "Requires the Rating plugin",
+      "note_align": "left",
+      "type": "boolean",
+      "value": false,
+      "control_first": true,
+      "default": true
+    },
+    "__style": {
+      "value": "gray"
+    }
+  },
+  "routes": [
+    {
+      "path": "/home/",
+      "template": "index"
+    },
+    {
+      "path": "/feed/content/recent.rss",
+      "template": "contents.rss",
+      "filters": [
+        "order_by=published_on",
+        "order_direction=desc"
+      ]
+    },
+    {
+      "path": "/feed/albums/:id/recent.rss",
+      "template": "album.rss",
+      "filters": [
+        "order_by=published_on",
+        "order_direction=desc"
+      ]
+    },
+    {
+      "path": "/feed/essays/recent.rss",
+      "template": "essays.rss",
+      "filters": [
+        "order_by=published_on",
+        "order_direction=desc"
+      ]
+    },
+    {
+      "path": "/feed/timeline/recent.rss",
+      "template": "timeline.rss"
+    },
+    {
+      "path": "/albums/tags/:slug/",
+      "template": "redirect:/tags/:slug/albums/"
+    },
+    {
+      "path": "/albums/categories/:slug/",
+      "template": "redirect:/categories/:slug/albums/"
+    },
+    {
+      "path": "/essays/tags/:slug/",
+      "template": "redirect:/tags/:slug/essays/"
+    },
+    {
+      "path": "/essays/categories/:slug/",
+      "template": "redirect:/categories/:slug/essays/"
+    },
+    {
+      "path": "/content/:id/in_album/:album_id(?P<lightbox>/lightbox)?/",
+      "template": "redirect:content"
+    },
+    {
+      "path": "/archives(?:/:year(?:/:month)?)?/",
+      "template": "redirect:timeline"
+    },
+    {
+      "path": "/sets/",
+      "template": "redirect:soft:albums"
+    },
+    {
+      "path": "/pages/:id/",
+      "template": "redirect:page"
+    },
+    {
+      "path": "/kaufen-wohnungen-haeuser/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=2",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/miete-wohnungen-und-haeuser/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=3",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/mietobjekte/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=3",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/vermietet-bzw-verkauft/",
+      "template": "essays",
+      "filters": [
+        "tags=archiv",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/gewerbeobjekte/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=4",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/albums/kategorien/:slug/",
+      "template": "redirect:/kategorien/:slug/albums/"
+    },
+    {
+      "path": "/objekte/tags/:slug/",
+      "template": "redirect:/tags/:slug/objekte/"
+    },
+    {
+      "path": "/objekte/kategorien/:slug/",
+      "template": "redirect:/kategorien/:slug/objekte/"
+    },
+    {
+      "path": "/categories/:category_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_content"
+    },
+    {
+      "path": "/categories/:category_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_album"
+    },
+    {
+      "path": "/categories/:slug/albums/",
+      "template": "redirect:category_albums"
+    },
+    {
+      "path": "/categories/:category_slug/objekte/:slug/",
+      "template": "redirect:category_essay"
+    },
+    {
+      "path": "/categories/:slug/objekte/",
+      "template": "redirect:category_essays"
+    },
+    {
+      "path": "/categories/:slug/",
+      "template": "redirect:category"
+    },
+    {
+      "path": "/essays/:year/:month/:slug/",
+      "template": "redirect:essay"
+    },
+    {
+      "path": "/tags/:tag_slug/essays/:slug/",
+      "template": "redirect:tag_essay"
+    },
+    {
+      "path": "/categories/:category_slug/essays/:slug/",
+      "template": "redirect:category_essay"
+    },
+    {
+      "path": "/essays/:year(?:/:month(?:/:day)?)?/",
+      "template": "redirect:archive_essays"
+    },
+    {
+      "path": "/tags/:slug/essays/",
+      "template": "redirect:tag_essays"
+    },
+    {
+      "path": "/categories/:slug/essays/",
+      "template": "redirect:category_essays"
+    },
+    {
+      "path": "/essays/",
+      "template": "redirect:essays"
+    },
+    {
+      "path": "/albums/status/:slug/",
+      "template": "redirect:/status/:slug/albums/"
+    },
+    {
+      "path": "/albums/kategorie/:slug/",
+      "template": "redirect:/kategorie/:slug/albums/"
+    },
+    {
+      "path": "/objekte/status/:slug/",
+      "template": "redirect:/status/:slug/objekte/"
+    },
+    {
+      "path": "/objekte/kategorie/:slug/",
+      "template": "redirect:/kategorie/:slug/objekte/"
+    },
+    {
+      "path": "/tags/:tag_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_content"
+    },
+    {
+      "path": "/tags/:tag_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_album"
+    },
+    {
+      "path": "/tags/:slug/albums/",
+      "template": "redirect:tag_albums"
+    },
+    {
+      "path": "/tags/:tag_slug/objekte/:slug/",
+      "template": "redirect:tag_essay"
+    },
+    {
+      "path": "/tags/:slug/objekte/",
+      "template": "redirect:tag_essays"
+    },
+    {
+      "path": "/tags/:slug/",
+      "template": "redirect:tag"
+    },
+    {
+      "path": "/kategorien/:category_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_content"
+    },
+    {
+      "path": "/kategorien/:category_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_album"
+    },
+    {
+      "path": "/kategorien/:slug/albums/",
+      "template": "redirect:category_albums"
+    },
+    {
+      "path": "/kategorien/:category_slug/objekte/:slug/",
+      "template": "redirect:category_essay"
+    },
+    {
+      "path": "/kategorien/:slug/objekte/",
+      "template": "redirect:category_essays"
+    },
+    {
+      "path": "/kategorien/:slug/",
+      "template": "redirect:category"
+    },
+    {
+      "path": "/eigentumswohnungen/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=5",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/1--und-2-familien-haeuser/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=6",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/gewerbeobjekte-1/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=7",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/grundstuecke/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=8",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/renditeobjekte/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=10",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/auslandsimmobilien/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=9",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/archiv---verkauft/",
+      "template": "essays",
+      "filters": [
+        "tags=archiv",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/mietwohnungen/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=11",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/1--und-2-familien-haeuser-1/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=12",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/gewerbeobjekte-2/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=7",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/wohnen-auf-zeit--moebliert/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=13",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/auslandsimmobilien-1/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=15",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/archiv---vermietet/",
+      "template": "essays",
+      "filters": [
+        "order_by=published_on",
+        "order_direction=desc",
+        "tags=archiv"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/gewerbeobjekte-3/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=14",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/wohnen-auf-zeit--moebliert-1/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=13",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/archiv-vermietet/",
+      "template": "essays",
+      "filters": [
+        "tags=archiv-vermietet",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/archiv---verkauft-1/",
+      "template": "essays",
+      "filters": [
+        "tags=archiv-verkauft",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/archiv-verkauft/",
+      "template": "essays",
+      "filters": [
+        "tags=archiv-verkauft",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/gewerbeobjekte-4/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=14",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/rubrik/:slug/",
+      "template": "redirect:page"
+    },
+    {
+      "path": "/mietwohnungen-1/",
+      "template": "essays",
+      "filters": [
+        "featured",
+        "category=11",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "source": "essays"
+    },
+    {
+      "path": "/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "content",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/status/:tag_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "content",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/kategorie/:category_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "content",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/favorites/:slug(?P<lightbox>/lightbox)?/",
+      "template": "content",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/features/:slug(?P<lightbox>/lightbox)?/",
+      "template": "content",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/albums/:album_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "content",
+      "source": "content",
+      "vars": false,
+      "section": true,
+      "filters": []
+    },
+    {
+      "path": "/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "album",
+      "source": false,
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/status/:tag_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "album",
+      "source": false,
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/kategorie/:category_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "album",
+      "source": false,
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/albums/:year(?:/:month(?:/:day)?)?/",
+      "template": "archive.albums",
+      "source": "archive",
+      "filters": [
+        "members=albums",
+        "order_by=manual",
+        "order_direction=asc"
+      ],
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/status/:slug/albums/",
+      "template": "archive.albums",
+      "source": "tag",
+      "filters": [
+        "members=albums",
+        "order_by=manual",
+        "order_direction=asc"
+      ],
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/kategorie/:slug/albums/",
+      "template": "archive.albums",
+      "source": "category",
+      "filters": [
+        "members=albums",
+        "order_by=manual",
+        "order_direction=asc"
+      ],
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/albums/status/:slug/",
+      "template": "redirect:/status/:slug/albums/"
+    },
+    {
+      "path": "/albums/kategorie/:slug/",
+      "template": "redirect:/kategorie/:slug/albums/"
+    },
+    {
+      "path": "/albums/",
+      "template": "albums",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": [
+        "order_by=manual",
+        "order_direction=asc"
+      ]
+    },
+    {
+      "path": "/sets/:slug/",
+      "template": "set",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/sets/",
+      "template": "sets",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": [
+        "order_by=manual",
+        "order_direction=asc"
+      ]
+    },
+    {
+      "path": "/objekte/:year/:month/:slug/",
+      "template": "essay",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/status/:tag_slug/objekte/:slug/",
+      "template": "essay",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/kategorie/:category_slug/objekte/:slug/",
+      "template": "essay",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/objekte/:year(?:/:month(?:/:day)?)?/",
+      "template": "archive.essays",
+      "source": "archive",
+      "filters": [
+        "members=essays",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/status/:slug/objekte/",
+      "template": "archive.essays",
+      "source": "tag",
+      "filters": [
+        "members=essays",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/kategorie/:slug/objekte/",
+      "template": "archive.essays",
+      "source": "category",
+      "filters": [
+        "members=essays",
+        "order_by=published_on",
+        "order_direction=desc"
+      ],
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/objekte/status/:slug/",
+      "template": "redirect:/status/:slug/objekte/"
+    },
+    {
+      "path": "/objekte/kategorie/:slug/",
+      "template": "redirect:/kategorie/:slug/objekte/"
+    },
+    {
+      "path": "/objekte/",
+      "template": "essays",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": [
+        "order_by=published_on",
+        "order_direction=desc"
+      ]
+    },
+    {
+      "path": "/pages/:slug/",
+      "template": "page",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/status/:slug/",
+      "template": "tag",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/kategorie/:slug/",
+      "template": "category",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/timeline/:year(?:/:month)?/",
+      "template": "date",
+      "source": "timeline",
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/timeline/:year/:month/:day/",
+      "template": "date",
+      "source": "event",
+      "vars": false,
+      "section": true
+    },
+    {
+      "path": "/timeline/",
+      "template": "timeline",
+      "source": false,
+      "vars": false,
+      "section": true,
+      "filters": false
+    },
+    {
+      "path": "/rubrik/:slug/",
+      "template": "redirect:page"
+    },
+    {
+      "path": "/tags/:tag_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_content"
+    },
+    {
+      "path": "/tags/:tag_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_album"
+    },
+    {
+      "path": "/tags/:slug/albums/",
+      "template": "redirect:tag_albums"
+    },
+    {
+      "path": "/tags/:tag_slug/objekte/:slug/",
+      "template": "redirect:tag_essay"
+    },
+    {
+      "path": "/tags/:slug/objekte/",
+      "template": "redirect:tag_essays"
+    },
+    {
+      "path": "/tags/:slug/",
+      "template": "redirect:tag"
+    },
+    {
+      "path": "/tags/:tag_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_content"
+    },
+    {
+      "path": "/kategorien/:category_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_content"
+    },
+    {
+      "path": "/tags/:tag_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_album"
+    },
+    {
+      "path": "/kategorien/:category_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_album"
+    },
+    {
+      "path": "/tags/:slug/albums/",
+      "template": "redirect:tag_albums"
+    },
+    {
+      "path": "/kategorien/:slug/albums/",
+      "template": "redirect:category_albums"
+    },
+    {
+      "path": "/tags/:tag_slug/objekte/:slug/",
+      "template": "redirect:tag_essay"
+    },
+    {
+      "path": "/kategorien/:category_slug/objekte/:slug/",
+      "template": "redirect:category_essay"
+    },
+    {
+      "path": "/tags/:slug/objekte/",
+      "template": "redirect:tag_essays"
+    },
+    {
+      "path": "/kategorien/:slug/objekte/",
+      "template": "redirect:category_essays"
+    },
+    {
+      "path": "/tags/:slug/",
+      "template": "redirect:tag"
+    },
+    {
+      "path": "/kategorien/:slug/",
+      "template": "redirect:category"
+    },
+    {
+      "path": "/tags/:tag_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_content"
+    },
+    {
+      "path": "/categories/:category_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_content"
+    },
+    {
+      "path": "/tags/:tag_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_album"
+    },
+    {
+      "path": "/categories/:category_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_album"
+    },
+    {
+      "path": "/tags/:slug/albums/",
+      "template": "redirect:tag_albums"
+    },
+    {
+      "path": "/categories/:slug/albums/",
+      "template": "redirect:category_albums"
+    },
+    {
+      "path": "/tags/:tag_slug/objekte/:slug/",
+      "template": "redirect:tag_essay"
+    },
+    {
+      "path": "/categories/:category_slug/objekte/:slug/",
+      "template": "redirect:category_essay"
+    },
+    {
+      "path": "/tags/:slug/objekte/",
+      "template": "redirect:tag_essays"
+    },
+    {
+      "path": "/categories/:slug/objekte/",
+      "template": "redirect:category_essays"
+    },
+    {
+      "path": "/tags/:slug/",
+      "template": "redirect:tag"
+    },
+    {
+      "path": "/categories/:slug/",
+      "template": "redirect:category"
+    },
+    {
+      "path": "/tags/:tag_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_content"
+    },
+    {
+      "path": "/categories/:category_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_content"
+    },
+    {
+      "path": "/tags/:tag_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_album"
+    },
+    {
+      "path": "/categories/:category_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_album"
+    },
+    {
+      "path": "/tags/:slug/albums/",
+      "template": "redirect:tag_albums"
+    },
+    {
+      "path": "/categories/:slug/albums/",
+      "template": "redirect:category_albums"
+    },
+    {
+      "path": "/essays/:year/:month/:slug/",
+      "template": "redirect:essay"
+    },
+    {
+      "path": "/tags/:tag_slug/essays/:slug/",
+      "template": "redirect:tag_essay"
+    },
+    {
+      "path": "/categories/:category_slug/essays/:slug/",
+      "template": "redirect:category_essay"
+    },
+    {
+      "path": "/essays/:year(?:/:month(?:/:day)?)?/",
+      "template": "redirect:archive_essays"
+    },
+    {
+      "path": "/tags/:slug/essays/",
+      "template": "redirect:tag_essays"
+    },
+    {
+      "path": "/categories/:slug/essays/",
+      "template": "redirect:category_essays"
+    },
+    {
+      "path": "/essays/",
+      "template": "redirect:essays"
+    },
+    {
+      "path": "/tags/:slug/",
+      "template": "redirect:tag"
+    },
+    {
+      "path": "/categories/:slug/",
+      "template": "redirect:category"
+    },
+    {
+      "path": "/tags/:tag_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_content"
+    },
+    {
+      "path": "/categories/:category_slug/content/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_content"
+    },
+    {
+      "path": "/tags/:tag_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:tag_album"
+    },
+    {
+      "path": "/categories/:category_slug/albums/:slug(?P<lightbox>/lightbox)?/",
+      "template": "redirect:category_album"
+    },
+    {
+      "path": "/tags/:slug/albums/",
+      "template": "redirect:tag_albums"
+    },
+    {
+      "path": "/categories/:slug/albums/",
+      "template": "redirect:category_albums"
+    },
+    {
+      "path": "/essays/:year/:month/:slug/",
+      "template": "redirect:essay"
+    },
+    {
+      "path": "/tags/:tag_slug/essays/:slug/",
+      "template": "redirect:tag_essay"
+    },
+    {
+      "path": "/categories/:category_slug/essays/:slug/",
+      "template": "redirect:category_essay"
+    },
+    {
+      "path": "/essays/:year(?:/:month(?:/:day)?)?/",
+      "template": "redirect:archive_essays"
+    },
+    {
+      "path": "/tags/:slug/essays/",
+      "template": "redirect:tag_essays"
+    },
+    {
+      "path": "/categories/:slug/essays/",
+      "template": "redirect:category_essays"
+    },
+    {
+      "path": "/essays/",
+      "template": "redirect:essays"
+    },
+    {
+      "path": "/tags/:slug/",
+      "template": "redirect:tag"
+    },
+    {
+      "path": "/categories/:slug/",
+      "template": "redirect:category"
+    },
+    {
+      "path": "/content/:id/in_album/:album_id(?P<lightbox>/lightbox)?/",
+      "template": "redirect:content"
+    },
+    {
+      "path": "/archives(?:/:year(?:/:month)?)?/",
+      "template": "redirect:timeline"
+    },
+    {
+      "path": "/sets/",
+      "template": "redirect:soft:albums"
+    },
+    {
+      "path": "/pages/:id/",
+      "template": "redirect:page"
+    }
+  ],
+  "templates": [
+    {
+      "path": "album",
+      "info": {
+        "name": "Album",
+        "description": "Displays a single album and its content",
+        "source": "album"
+      }
+    },
+    {
+      "path": "albums",
+      "info": {
+        "name": "Albums",
+        "description": "Displays all top public albums and sets",
+        "source": "albums"
+      }
+    },
+    {
+      "path": "archive.albums",
+      "info": {
+        "name": "Albums archive",
+        "description": "Displays all public albums sorted by tag, category or date"
+      }
+    },
+    {
+      "path": "album.rss",
+      "info": {
+        "name": "Albums RSS",
+        "description": "Public albums RSS feed",
+        "source": "album"
+      }
+    },
+    {
+      "path": "category",
+      "info": {
+        "name": "Category detail",
+        "description": "Single Category and its associated content",
+        "source": "category"
+      }
+    },
+    {
+      "path": "content",
+      "info": {
+        "name": "Content",
+        "description": "Displays a single photo or video",
+        "source": "content"
+      }
+    },
+    {
+      "path": "contents.rss",
+      "info": {
+        "name": "Content RSS",
+        "description": "Content RSS feed",
+        "source": "contents"
+      }
+    },
+    {
+      "path": "essay",
+      "info": {
+        "name": "Essay",
+        "description": "Displays a single essay",
+        "source": "essay"
+      }
+    },
+    {
+      "path": "essays",
+      "info": {
+        "name": "Essays",
+        "description": "Displays all published essays",
+        "source": "essays"
+      }
+    },
+    {
+      "path": "archive.essays",
+      "info": {
+        "name": "Essays archive",
+        "description": "Displays all published essays sorted by tag, category or date"
+      }
+    },
+    {
+      "path": "essays.rss",
+      "info": {
+        "name": "Essays RSS",
+        "description": "Essays RSS feed",
+        "source": "essays"
+      }
+    },
+    {
+      "path": "index",
+      "info": {
+        "name": "Home",
+        "description": "Displays all featured images and videos",
+        "source": "featured_content"
+      }
+    },
+    {
+      "path": "page",
+      "info": {
+        "name": "Page",
+        "description": "Displays a custom page",
+        "source": "page"
+      }
+    },
+    {
+      "path": "set",
+      "info": {
+        "name": "Set",
+        "description": "Displays a single set and its content",
+        "source": "set"
+      }
+    },
+    {
+      "path": "sets",
+      "info": {
+        "name": "Sets",
+        "description": "Displays all top public sets",
+        "source": "sets"
+      }
+    },
+    {
+      "path": "tag",
+      "info": {
+        "name": "Tag detail",
+        "description": "Single tag and its associated content",
+        "source": "tag"
+      }
+    },
+    {
+      "path": "timeline",
+      "info": {
+        "name": "Timeline",
+        "description": "Stream of all essays, albums and content added to your site.",
+        "source": "timeline"
+      }
+    },
+    {
+      "path": "date",
+      "info": {
+        "name": "Timeline archive",
+        "description": "All public activity for a particular year, month or day."
+      }
+    },
+    {
+      "path": "timeline.rss",
+      "info": {
+        "name": "Timeline RSS",
+        "description": "Stream of all essays, albums and content added to your site in RSS form.",
+        "source": "timeline"
+      }
+    }
+  ],
+  "profile": {
+    "name": "Pierre Pöhls",
+    "first": "Pierre",
+    "last": "Pöhls",
+    "email": "info@poehlsimmobilien.de",
+    "twitter": "",
+    "facebook": null,
+    "google_plus": null
+  },
+  "custom_css": "body { background:#6D6D6D url(https://www.poehlsimmobilien.de/bg-lightgrey.jpg) 0 0 no-repeat;\r\nbackground-size: 100%;\r\n/* Proportionate scaling */\r\nwidth: auto;\r\nheight: 100%;\r\n/* Positioning */\r\ntop: 0;\r\nleft: 0;\r\n}"
+}

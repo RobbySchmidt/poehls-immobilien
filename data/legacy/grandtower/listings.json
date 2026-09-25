@@ -1,0 +1,3575 @@
+[
+  {
+    "id": 121,
+    "slug": "grand-tower-lart-de-vivre-2",
+    "title": "Grand Tower - L`art de vivre",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2022/10/grand-tower-lart-de-vivre-2/",
+    "published_on": "2022/10/14 12:54:32",
+    "modified_on": "2022/10/14 12:54:56",
+    "html": "<p class=\"\">Grand Tower - L`art de vivre </p><p class=\"\">Europaallee 2, 60327 Frankfurt&nbsp;</p><p class=\"\">Zimmer: 2,00&nbsp;</p><p class=\"\">Wohnfläche ca.: 58,20 m²&nbsp;</p><p class=\"\">Kaltmiete: 1.290,00 EUR (zzgl. Nebenkosten)&nbsp;</p><p class=\"\">Gesamtmiete: 1.740,00 EUR&nbsp;</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p1372b3e8b7205d28bdce471ce10ed471\" data_from_url=\"/albums/127/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure><p class=\"\">Grand Tower - das einzigartige und höchste Wohngebäude\nDeutschlands&nbsp;</p><p class=\"\">luxuriöses und edel gestaltetes Wohnambiente&nbsp;</p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-136880154_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "text": "Grand Tower - L`art de vivre\nEuropaallee 2, 60327 Frankfurt\nZimmer: 2,00\nWohnfläche ca.: 58,20 m²\nKaltmiete: 1.290,00 EUR (zzgl. Nebenkosten)\nGesamtmiete: 1.740,00 EUR\n\nGrand Tower - das einzigartige und höchste Wohngebäude\nDeutschlands\nluxuriöses und edel gestaltetes Wohnambiente\nExposé",
+    "source": "grandtower",
+    "status": "active",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 19,
+        "slug": "deutsch-unmoebliert",
+        "title": "deutsch unmöbliert"
+      }
+    ],
+    "tags": [],
+    "shown_on": [
+      "Grand Tower / Unmöblierte Wohnungen"
+    ],
+    "featured": true,
+    "subtitle": "Grand Tower - L`art de vivre",
+    "address": {
+      "street": "Europaallee 2",
+      "zip": "60327",
+      "city": "Frankfurt"
+    },
+    "rooms": 2,
+    "area_m2": 58.2,
+    "area_label": "Wohnfläche ca.",
+    "price_eur": 1290,
+    "price_label": "Kaltmiete",
+    "price_on_request": false,
+    "facts": [
+      {
+        "label": "Zimmer",
+        "value": "2,00"
+      },
+      {
+        "label": "Wohnfläche ca.",
+        "value": "58,20 m²"
+      },
+      {
+        "label": "Kaltmiete",
+        "value": "1.290,00 EUR (zzgl. Nebenkosten)"
+      },
+      {
+        "label": "Gesamtmiete",
+        "value": "1.740,00 EUR"
+      }
+    ],
+    "description": [
+      "Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+      "luxuriöses und edel gestaltetes Wohnambiente"
+    ],
+    "expose_urls": [
+      "http://www.poehlsimmobilien.de/exposes/M-136880154_Frankfurt.pdf"
+    ],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/127/content",
+        "album_id": 127,
+        "image_ids": [
+          1904,
+          1896,
+          1895,
+          1894,
+          1893,
+          1892,
+          1902,
+          1901,
+          1903,
+          1898,
+          1897,
+          1899,
+          1900
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1904,
+        "file": "media/images/gt-1904.jpg",
+        "filename_original": "IMG-1786.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1255,
+        "height": 1673,
+        "original_width": 1255,
+        "original_height": 1673,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/904/IMG-1786,huge.1675969495.JPG"
+      },
+      {
+        "id": 1896,
+        "file": "media/images/gt-1896.jpg",
+        "filename_original": "DSC-3109.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/896/DSC-3109,huge.1675969495.JPG"
+      },
+      {
+        "id": 1895,
+        "file": "media/images/gt-1895.jpg",
+        "filename_original": "DSC-3112.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1331,
+        "original_width": 2541,
+        "original_height": 1651,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/895/DSC-3112,huge.1675969495.JPG"
+      },
+      {
+        "id": 1894,
+        "file": "media/images/gt-1894.jpg",
+        "filename_original": "DSC-3114.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/894/DSC-3114,huge.1675969495.JPG"
+      },
+      {
+        "id": 1893,
+        "file": "media/images/gt-1893.jpg",
+        "filename_original": "DSC-3115.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1139,
+        "original_width": 2931,
+        "original_height": 1630,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/893/DSC-3115,huge.1675969495.JPG"
+      },
+      {
+        "id": 1892,
+        "file": "media/images/gt-1892.jpg",
+        "filename_original": "Grundriss-Moblierung-Fa-Roomhero.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 661,
+        "height": 1127,
+        "original_width": 661,
+        "original_height": 1127,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/892/Grundriss-Moblierung-Fa-Roomhero,huge.1675969495.jpg"
+      },
+      {
+        "id": 1902,
+        "file": "media/images/gt-1902.jpg",
+        "filename_original": "IMG-0663.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1536,
+        "original_width": 4032,
+        "original_height": 3024,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/902/IMG-0663,huge.1675969495.jpg"
+      },
+      {
+        "id": 1901,
+        "file": "media/images/gt-1901.jpg",
+        "filename_original": "IMG-0431.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1536,
+        "original_width": 4032,
+        "original_height": 3024,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/901/IMG-0431,huge.1675969495.JPG"
+      },
+      {
+        "id": 1903,
+        "file": "media/images/gt-1903.jpg",
+        "filename_original": "IMG-1160Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1284,
+        "height": 722,
+        "original_width": 1284,
+        "original_height": 722,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/903/IMG-1160Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1898,
+        "file": "media/images/gt-1898.png",
+        "filename_original": "DSC-2607.PNG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1306,
+        "original_width": 2940,
+        "original_height": 1875,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/898/DSC-2607,huge.1675969495.PNG"
+      },
+      {
+        "id": 1897,
+        "file": "media/images/gt-1897.png",
+        "filename_original": "DSC-2605.PNG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1286,
+        "original_width": 2445,
+        "original_height": 1535,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/897/DSC-2605,huge.1675969495.PNG"
+      },
+      {
+        "id": 1899,
+        "file": "media/images/gt-1899.jpg",
+        "filename_original": "DSC-3167.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1297,
+        "original_width": 2991,
+        "original_height": 1894,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,huge.1675969495.JPG"
+      },
+      {
+        "id": 1900,
+        "file": "media/images/gt-1900.jpg",
+        "filename_original": "DSC-3176.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/900/DSC-3176,huge.1675969495.JPG"
+      }
+    ],
+    "featured_image": {
+      "id": 1899,
+      "file": "media/images/gt-1899.jpg",
+      "filename_original": "DSC-3167.JPG",
+      "title": "",
+      "caption": "",
+      "preset": "huge",
+      "width": 2048,
+      "height": 1297,
+      "original_width": 2991,
+      "original_height": 1894,
+      "focal_point": {
+        "x": 50,
+        "y": 50
+      },
+      "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,huge.1675969495.JPG"
+    }
+  },
+  {
+    "id": 120,
+    "slug": "grand-tower-wohnen-uber-den-daechern-frankfurts",
+    "title": "Grand Tower - Wohnen über den Dächern Frankfurts",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2022/07/grand-tower-wohnen-uber-den-daechern-frankfurts/",
+    "published_on": "2022/07/25 10:13:38",
+    "modified_on": "2025/06/10 5:38:08",
+    "html": "<p class=\"\">Grand Tower - Wohnen über den Dächern Frankfurts </p><p class=\"\">Europaallee 2 </p><p class=\"\">60327 Frankfurt&nbsp;</p><p class=\"\">Zimmer: 3,00&nbsp;</p><p class=\"\">Wohnfläche ca.: 89,30 m²&nbsp;</p><p class=\"\">Kaltmiete: 2.250,00 EUR (zzgl. Nebenkosten)&nbsp;</p><p class=\"\">Gesamtmiete: 2.840,00 EUR\t</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p342e5652dc7d59dfacb20fdd080a2b23\" data_from_url=\"/albums/126/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure><p class=\"\">&nbsp;Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands&nbsp;</p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-133670209_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "text": "Grand Tower - Wohnen über den Dächern Frankfurts\nEuropaallee 2\n60327 Frankfurt\nZimmer: 3,00\nWohnfläche ca.: 89,30 m²\nKaltmiete: 2.250,00 EUR (zzgl. Nebenkosten)\nGesamtmiete: 2.840,00 EUR\n\nGrand Tower - das einzigartige und höchste Wohngebäude Deutschlands\nExposé",
+    "source": "grandtower",
+    "status": "unlisted",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 19,
+        "slug": "deutsch-unmoebliert",
+        "title": "deutsch unmöbliert"
+      }
+    ],
+    "tags": [],
+    "shown_on": [],
+    "featured": false,
+    "subtitle": "Grand Tower - Wohnen über den Dächern Frankfurts",
+    "address": {
+      "street": "Europaallee 2",
+      "zip": "60327",
+      "city": "Frankfurt"
+    },
+    "rooms": 3,
+    "area_m2": 89.3,
+    "area_label": "Wohnfläche ca.",
+    "price_eur": 2250,
+    "price_label": "Kaltmiete",
+    "price_on_request": false,
+    "facts": [
+      {
+        "label": "Zimmer",
+        "value": "3,00"
+      },
+      {
+        "label": "Wohnfläche ca.",
+        "value": "89,30 m²"
+      },
+      {
+        "label": "Kaltmiete",
+        "value": "2.250,00 EUR (zzgl. Nebenkosten)"
+      },
+      {
+        "label": "Gesamtmiete",
+        "value": "2.840,00 EUR"
+      }
+    ],
+    "description": [
+      "Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands"
+    ],
+    "expose_urls": [
+      "http://www.poehlsimmobilien.de/exposes/M-133670209_Frankfurt.pdf"
+    ],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/126/content",
+        "album_id": 126,
+        "image_ids": [
+          1866,
+          1868,
+          1871,
+          1870,
+          1872,
+          1873,
+          1874,
+          1875,
+          1876,
+          1877,
+          1878,
+          1880,
+          1881,
+          1882,
+          1883,
+          1884,
+          1885,
+          1886,
+          1887,
+          1888
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1866,
+        "file": "media/images/gt-1866.jpg",
+        "filename_original": "IMG-1786.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1255,
+        "height": 1673,
+        "original_width": 1255,
+        "original_height": 1673,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,huge.1675969495.JPG"
+      },
+      {
+        "id": 1868,
+        "file": "media/images/gt-1868.jpg",
+        "filename_original": "L1000071.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 7921,
+        "original_height": 5286,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/868/L1000071,huge.1675969495.JPG"
+      },
+      {
+        "id": 1871,
+        "file": "media/images/gt-1871.jpg",
+        "filename_original": "DSC-0154.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1336,
+        "original_width": 7664,
+        "original_height": 5001,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/871/DSC-0154,huge.1675969495.JPG"
+      },
+      {
+        "id": 1870,
+        "file": "media/images/gt-1870.jpg",
+        "filename_original": "IMG-1160Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1284,
+        "height": 722,
+        "original_width": 1284,
+        "original_height": 722,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/870/IMG-1160Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1872,
+        "file": "media/images/gt-1872.png",
+        "filename_original": "DSC-2607.PNG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1306,
+        "original_width": 2940,
+        "original_height": 1875,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/872/DSC-2607,huge.1675969495.PNG"
+      },
+      {
+        "id": 1873,
+        "file": "media/images/gt-1873.jpg",
+        "filename_original": "DSC-3167.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1297,
+        "original_width": 2991,
+        "original_height": 1894,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/873/DSC-3167,huge.1675969495.JPG"
+      },
+      {
+        "id": 1874,
+        "file": "media/images/gt-1874.jpg",
+        "filename_original": "DSC-3257.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 2981,
+        "original_height": 1990,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/874/DSC-3257,huge.1675969495.JPG"
+      },
+      {
+        "id": 1875,
+        "file": "media/images/gt-1875.jpg",
+        "filename_original": "DSC-3260-Bearbeitet.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/875/DSC-3260-Bearbeitet,huge.1675969495.JPG"
+      },
+      {
+        "id": 1876,
+        "file": "media/images/gt-1876.jpg",
+        "filename_original": "DSC-3262.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 2955,
+        "original_height": 1973,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/876/DSC-3262,huge.1675969495.JPG"
+      },
+      {
+        "id": 1877,
+        "file": "media/images/gt-1877.jpg",
+        "filename_original": "DSC-3263.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1656,
+        "height": 1206,
+        "original_width": 1656,
+        "original_height": 1206,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/877/DSC-3263,huge.1675969495.JPG"
+      },
+      {
+        "id": 1878,
+        "file": "media/images/gt-1878.jpg",
+        "filename_original": "DSC-3264-Bearbeitet.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1288,
+        "original_width": 2887,
+        "original_height": 1815,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/878/DSC-3264-Bearbeitet,huge.1675969495.JPG"
+      },
+      {
+        "id": 1880,
+        "file": "media/images/gt-1880.jpg",
+        "filename_original": "DSC-3268.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1502,
+        "original_width": 2332,
+        "original_height": 1710,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/880/DSC-3268,huge.1675969495.JPG"
+      },
+      {
+        "id": 1881,
+        "file": "media/images/gt-1881.jpg",
+        "filename_original": "DSC-3270.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1203,
+        "original_width": 3007,
+        "original_height": 1767,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/881/DSC-3270,huge.1675969495.JPG"
+      },
+      {
+        "id": 1882,
+        "file": "media/images/gt-1882.jpg",
+        "filename_original": "DSC-3271.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1296,
+        "original_width": 2963,
+        "original_height": 1875,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/882/DSC-3271,huge.1675969495.JPG"
+      },
+      {
+        "id": 1883,
+        "file": "media/images/gt-1883.jpg",
+        "filename_original": "DSC-3272.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1016,
+        "original_width": 3007,
+        "original_height": 1492,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/883/DSC-3272,huge.1675969495.JPG"
+      },
+      {
+        "id": 1884,
+        "file": "media/images/gt-1884.jpg",
+        "filename_original": "DSC-0474-Bearbeitet.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1326,
+        "original_width": 8115,
+        "original_height": 5253,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/884/DSC-0474-Bearbeitet,huge.1675969495.jpg"
+      },
+      {
+        "id": 1885,
+        "file": "media/images/gt-1885.jpg",
+        "filename_original": "DSC-0457.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1287,
+        "original_width": 8234,
+        "original_height": 5173,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/885/DSC-0457,huge.1675969495.jpg"
+      },
+      {
+        "id": 1886,
+        "file": "media/images/gt-1886.jpg",
+        "filename_original": "DSC-0459.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1243,
+        "original_width": 7395,
+        "original_height": 4489,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/886/DSC-0459,huge.1675969495.jpg"
+      },
+      {
+        "id": 1887,
+        "file": "media/images/gt-1887.jpg",
+        "filename_original": "DSC-0461.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1265,
+        "original_width": 7806,
+        "original_height": 4823,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,huge.1675969495.jpg"
+      },
+      {
+        "id": 1888,
+        "file": "media/images/gt-1888.jpg",
+        "filename_original": "DSC-0462.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1493,
+        "original_width": 5914,
+        "original_height": 4310,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/888/DSC-0462,huge.1675969495.jpg"
+      }
+    ],
+    "featured_image": {
+      "id": 1887,
+      "file": "media/images/gt-1887.jpg",
+      "filename_original": "DSC-0461.jpg",
+      "title": "",
+      "caption": "",
+      "preset": "huge",
+      "width": 2048,
+      "height": 1265,
+      "original_width": 7806,
+      "original_height": 4823,
+      "focal_point": {
+        "x": 50,
+        "y": 50
+      },
+      "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,huge.1675969495.jpg"
+    }
+  },
+  {
+    "id": 119,
+    "slug": "wohnen-sie-hoch-hinaus",
+    "title": "Wohnen Sie hoch hinaus",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2021/03/wohnen-sie-hoch-hinaus/",
+    "published_on": "2021/03/03 14:26:51",
+    "modified_on": "2021/03/03 14:27:38",
+    "html": "<p class=\"\">Wohnen Sie hoch hinaus </p><p class=\"\">Europaallee 2 </p><p class=\"\">60327 Frankfurt&nbsp;</p><p class=\"\">Zimmer: 2,00&nbsp;</p><p class=\"\">Wohnfläche ca.: 66,90 m²&nbsp;</p><p class=\"\">Kaltmiete: 1.390,00 EUR (zzgl. Nebenkosten)&nbsp;</p><p class=\"\">Gesamtmiete: 1.860,00 EUR&nbsp;</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p830e2d1d166f197247e2aff948ceb7a4\" data_from_url=\"/albums/124/content\" size=\"auto\" link_to=\"default\" group=\"essays\" />\n\t</div>\n\t\n</figure><p class=\"\">Grand Tower - das einzigartige und höchste Wohngebäude\nDeutschlands&nbsp;</p><p class=\"\">luxuriöses und edel gestaltetes Wohnambiente<br></p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-126646521_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "text": "Wohnen Sie hoch hinaus\nEuropaallee 2\n60327 Frankfurt\nZimmer: 2,00\nWohnfläche ca.: 66,90 m²\nKaltmiete: 1.390,00 EUR (zzgl. Nebenkosten)\nGesamtmiete: 1.860,00 EUR\n\nGrand Tower - das einzigartige und höchste Wohngebäude\nDeutschlands\nluxuriöses und edel gestaltetes Wohnambiente\n\nExposé",
+    "source": "grandtower",
+    "status": "active",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 19,
+        "slug": "deutsch-unmoebliert",
+        "title": "deutsch unmöbliert"
+      }
+    ],
+    "tags": [],
+    "shown_on": [
+      "Grand Tower / Unmöblierte Wohnungen"
+    ],
+    "featured": true,
+    "subtitle": "Wohnen Sie hoch hinaus",
+    "address": {
+      "street": "Europaallee 2",
+      "zip": "60327",
+      "city": "Frankfurt"
+    },
+    "rooms": 2,
+    "area_m2": 66.9,
+    "area_label": "Wohnfläche ca.",
+    "price_eur": 1390,
+    "price_label": "Kaltmiete",
+    "price_on_request": false,
+    "facts": [
+      {
+        "label": "Zimmer",
+        "value": "2,00"
+      },
+      {
+        "label": "Wohnfläche ca.",
+        "value": "66,90 m²"
+      },
+      {
+        "label": "Kaltmiete",
+        "value": "1.390,00 EUR (zzgl. Nebenkosten)"
+      },
+      {
+        "label": "Gesamtmiete",
+        "value": "1.860,00 EUR"
+      }
+    ],
+    "description": [
+      "Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+      "luxuriöses und edel gestaltetes Wohnambiente"
+    ],
+    "expose_urls": [
+      "http://www.poehlsimmobilien.de/exposes/M-126646521_Frankfurt.pdf"
+    ],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/124/content",
+        "album_id": 124,
+        "image_ids": [
+          1837,
+          1832,
+          1833,
+          1834,
+          1835,
+          1836,
+          1838,
+          1839,
+          1840,
+          1831,
+          1841,
+          1842,
+          1843,
+          1844,
+          1845
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1837,
+        "file": "media/images/gt-1837.jpg",
+        "filename_original": "M-1266465215-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 546,
+        "original_width": 1000,
+        "original_height": 546,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/837/M-1266465215-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1832,
+        "file": "media/images/gt-1832.jpg",
+        "filename_original": "M-1266465210-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 630,
+        "original_width": 1000,
+        "original_height": 630,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/832/M-1266465210-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1833,
+        "file": "media/images/gt-1833.jpg",
+        "filename_original": "M-1266465211-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 669,
+        "original_width": 1000,
+        "original_height": 669,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/833/M-1266465211-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1834,
+        "file": "media/images/gt-1834.jpg",
+        "filename_original": "M-1266465212-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 682,
+        "original_width": 1000,
+        "original_height": 682,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/834/M-1266465212-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1835,
+        "file": "media/images/gt-1835.jpg",
+        "filename_original": "M-1266465213-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 619,
+        "original_width": 1000,
+        "original_height": 619,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/835/M-1266465213-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1836,
+        "file": "media/images/gt-1836.jpg",
+        "filename_original": "M-1266465214-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 731,
+        "original_width": 1000,
+        "original_height": 731,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/836/M-1266465214-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1838,
+        "file": "media/images/gt-1838.jpg",
+        "filename_original": "M-1266465216-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 536,
+        "original_width": 1000,
+        "original_height": 536,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/838/M-1266465216-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1839,
+        "file": "media/images/gt-1839.jpg",
+        "filename_original": "M-1266465217-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 594,
+        "original_width": 1000,
+        "original_height": 594,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/839/M-1266465217-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1840,
+        "file": "media/images/gt-1840.jpg",
+        "filename_original": "M-1266465218-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 632,
+        "original_width": 1000,
+        "original_height": 632,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/840/M-1266465218-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1831,
+        "file": "media/images/gt-1831.jpg",
+        "filename_original": "M-126646521-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 627,
+        "original_width": 1000,
+        "original_height": 627,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/831/M-126646521-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1841,
+        "file": "media/images/gt-1841.jpg",
+        "filename_original": "M-1266465219-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 750,
+        "height": 1000,
+        "original_width": 750,
+        "original_height": 1000,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/841/M-1266465219-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1842,
+        "file": "media/images/gt-1842.jpg",
+        "filename_original": "M-12664652110-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 750,
+        "height": 1000,
+        "original_width": 750,
+        "original_height": 1000,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/842/M-12664652110-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1843,
+        "file": "media/images/gt-1843.jpg",
+        "filename_original": "M-12664652111-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 386,
+        "original_width": 1000,
+        "original_height": 386,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/843/M-12664652111-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1844,
+        "file": "media/images/gt-1844.jpg",
+        "filename_original": "M-12664652112-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1000,
+        "height": 667,
+        "original_width": 1000,
+        "original_height": 667,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/844/M-12664652112-Frankfurt,huge.1675969495.jpg"
+      },
+      {
+        "id": 1845,
+        "file": "media/images/gt-1845.jpg",
+        "filename_original": "M-12664652113-Frankfurt.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 727,
+        "height": 1000,
+        "original_width": 727,
+        "original_height": 1000,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/845/M-12664652113-Frankfurt,huge.1675969495.jpg"
+      }
+    ],
+    "featured_image": null
+  },
+  {
+    "id": 118,
+    "slug": "grand-tower-lart-de-vivre-1",
+    "title": "Grand Tower - L´Art de Vivre",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/10/grand-tower-lart-de-vivre-1/",
+    "published_on": "2020/10/19 8:59:57",
+    "modified_on": "2020/10/19 9:00:24",
+    "html": "<p class=\"\">Grand Tower - L´Art de Vivre </p><p class=\"\">Europaallee 2, 60327 Frankfurt </p><p class=\"\">Zimmer: 3,00&nbsp;</p><p class=\"\">Wohnfläche ca.: 89,10 m²&nbsp;</p><p class=\"\">Kaltmiete: 1.950,00 EUR (zzgl. Nebenkosten)&nbsp;</p><p class=\"\">Gesamtmiete: 2.530,00 EUR&nbsp;</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p0d941b0c7cbe6273a274502a41853866\" data_from_url=\"/albums/123/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure><p class=\"\">- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands&nbsp;</p><p class=\"\">- luxuriöses und edel gestaltetes Wohnambiente<br></p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-121918840_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "text": "Grand Tower - L´Art de Vivre\nEuropaallee 2, 60327 Frankfurt\nZimmer: 3,00\nWohnfläche ca.: 89,10 m²\nKaltmiete: 1.950,00 EUR (zzgl. Nebenkosten)\nGesamtmiete: 2.530,00 EUR\n\n- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands\n- luxuriöses und edel gestaltetes Wohnambiente\n\nExposé",
+    "source": "grandtower",
+    "status": "active",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 19,
+        "slug": "deutsch-unmoebliert",
+        "title": "deutsch unmöbliert"
+      }
+    ],
+    "tags": [],
+    "shown_on": [
+      "Grand Tower / Unmöblierte Wohnungen"
+    ],
+    "featured": true,
+    "subtitle": "Grand Tower - L´Art de Vivre",
+    "address": {
+      "street": "Europaallee 2",
+      "zip": "60327",
+      "city": "Frankfurt"
+    },
+    "rooms": 3,
+    "area_m2": 89.1,
+    "area_label": "Wohnfläche ca.",
+    "price_eur": 1950,
+    "price_label": "Kaltmiete",
+    "price_on_request": false,
+    "facts": [
+      {
+        "label": "Zimmer",
+        "value": "3,00"
+      },
+      {
+        "label": "Wohnfläche ca.",
+        "value": "89,10 m²"
+      },
+      {
+        "label": "Kaltmiete",
+        "value": "1.950,00 EUR (zzgl. Nebenkosten)"
+      },
+      {
+        "label": "Gesamtmiete",
+        "value": "2.530,00 EUR"
+      }
+    ],
+    "description": [
+      "- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+      "- luxuriöses und edel gestaltetes Wohnambiente"
+    ],
+    "expose_urls": [
+      "http://www.poehlsimmobilien.de/exposes/M-121918840_Frankfurt.pdf"
+    ],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/123/content",
+        "album_id": 123,
+        "image_ids": [
+          1808,
+          1807,
+          1809,
+          1795,
+          1797,
+          1798,
+          1799,
+          1800,
+          1801,
+          1802,
+          1803,
+          1804,
+          1805,
+          1806,
+          1796
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1808,
+        "file": "media/images/gt-1808.jpg",
+        "filename_original": "M-121918840-Frankfurt-4.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1269,
+        "original_width": 2824,
+        "original_height": 1750,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,huge.1675969495.JPG"
+      },
+      {
+        "id": 1807,
+        "file": "media/images/gt-1807.jpg",
+        "filename_original": "M-121918840-Frankfurt-3.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/807/M-121918840-Frankfurt-3,huge.1675969495.JPG"
+      },
+      {
+        "id": 1809,
+        "file": "media/images/gt-1809.jpg",
+        "filename_original": "M-121918840-Frankfurt-5.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/809/M-121918840-Frankfurt-5,huge.1675969495.JPG"
+      },
+      {
+        "id": 1795,
+        "file": "media/images/gt-1795.jpg",
+        "filename_original": "M-121918840-Frankfurt-6.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1449,
+        "original_width": 2338,
+        "original_height": 1654,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,huge.1675969495.JPG"
+      },
+      {
+        "id": 1797,
+        "file": "media/images/gt-1797.jpg",
+        "filename_original": "M-121918840-Frankfurt-8.jpg",
+        "title": "Kitchen_Plan_Grand_Tower_WE-Nr_06-01.PDF",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1353,
+        "original_width": 3081,
+        "original_height": 2035,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/797/M-121918840-Frankfurt-8,huge.1675969495.jpg"
+      },
+      {
+        "id": 1798,
+        "file": "media/images/gt-1798.jpg",
+        "filename_original": "M-121918840-Frankfurt-9.jpg",
+        "title": "Kitchen_Plan_Grand_Tower_WE-Nr_06-01.PDF",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1418,
+        "original_width": 2989,
+        "original_height": 2069,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/798/M-121918840-Frankfurt-9,huge.1675969495.jpg"
+      },
+      {
+        "id": 1799,
+        "file": "media/images/gt-1799.jpg",
+        "filename_original": "M-121918840-Frankfurt-10.jpg",
+        "title": "Kitchen_Plan_Grand_Tower_WE-Nr_06-01.PDF",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1417,
+        "original_width": 2825,
+        "original_height": 1955,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/799/M-121918840-Frankfurt-10,huge.1675969495.jpg"
+      },
+      {
+        "id": 1800,
+        "file": "media/images/gt-1800.jpg",
+        "filename_original": "M-121918840-Frankfurt-11.jpg",
+        "title": "Kitchen_Plan_Grand_Tower_WE-Nr_06-01.PDF",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1418,
+        "original_width": 2581,
+        "original_height": 1787,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/800/M-121918840-Frankfurt-11,huge.1675969495.jpg"
+      },
+      {
+        "id": 1801,
+        "file": "media/images/gt-1801.jpg",
+        "filename_original": "M-121918840-Frankfurt-12.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/801/M-121918840-Frankfurt-12,huge.1675969495.JPG"
+      },
+      {
+        "id": 1802,
+        "file": "media/images/gt-1802.jpg",
+        "filename_original": "M-121918840-Frankfurt-13.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 2941,
+        "original_height": 1963,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/802/M-121918840-Frankfurt-13,huge.1675969495.JPG"
+      },
+      {
+        "id": 1803,
+        "file": "media/images/gt-1803.jpg",
+        "filename_original": "M-121918840-Frankfurt-14.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/803/M-121918840-Frankfurt-14,huge.1675969495.JPG"
+      },
+      {
+        "id": 1804,
+        "file": "media/images/gt-1804.jpg",
+        "filename_original": "M-121918840-Frankfurt-15.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1153,
+        "original_width": 3008,
+        "original_height": 1693,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/804/M-121918840-Frankfurt-15,huge.1675969495.JPG"
+      },
+      {
+        "id": 1805,
+        "file": "media/images/gt-1805.jpg",
+        "filename_original": "M-121918840-Frankfurt-1.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/805/M-121918840-Frankfurt-1,huge.1675969495.JPG"
+      },
+      {
+        "id": 1806,
+        "file": "media/images/gt-1806.jpg",
+        "filename_original": "M-121918840-Frankfurt-2.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1289,
+        "original_width": 2807,
+        "original_height": 1767,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/806/M-121918840-Frankfurt-2,huge.1675969495.JPG"
+      },
+      {
+        "id": 1796,
+        "file": "media/images/gt-1796.jpg",
+        "filename_original": "M-121918840-Frankfurt-7.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1046,
+        "height": 1173,
+        "original_width": 1046,
+        "original_height": 1173,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/796/M-121918840-Frankfurt-7,huge.1675969495.jpg"
+      }
+    ],
+    "featured_image": {
+      "id": 1808,
+      "file": "media/images/gt-1808.jpg",
+      "filename_original": "M-121918840-Frankfurt-4.JPG",
+      "title": "",
+      "caption": "",
+      "preset": "huge",
+      "width": 2048,
+      "height": 1269,
+      "original_width": 2824,
+      "original_height": 1750,
+      "focal_point": {
+        "x": 50,
+        "y": 50
+      },
+      "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,huge.1675969495.JPG"
+    }
+  },
+  {
+    "id": 117,
+    "slug": "grand-tower-lart-de-vivre",
+    "title": "Grand Tower - L´Art de Vivre",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/10/grand-tower-lart-de-vivre/",
+    "published_on": "2020/10/16 7:02:17",
+    "modified_on": "2020/10/19 8:41:50",
+    "html": "<p class=\"\">Grand Tower - L´Art de Vivre </p><p class=\"\">Europaallee 2, 60327 Frankfurt </p><p class=\"\">Zimmer: 2,00 </p><p class=\"\">Wohnfläche ca.: 66,70 m² </p><p class=\"\">Kaltmiete: 1.780,00 EUR (zzgl.Nebenkosten) </p><p class=\"\">Gesamtmiete: 2.180,00 EUR<br></p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p3da9982a1ac7dc8977f6f53d31162be3\" data_from_url=\"/albums/122/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands&nbsp;</p><p class=\"\">- luxuriöses und edel gestaltetes Wohnambiente<br></p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-122627780_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "text": "Grand Tower - L´Art de Vivre\nEuropaallee 2, 60327 Frankfurt\nZimmer: 2,00\nWohnfläche ca.: 66,70 m²\nKaltmiete: 1.780,00 EUR (zzgl.Nebenkosten)\nGesamtmiete: 2.180,00 EUR\n\n- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands\n- luxuriöses und edel gestaltetes Wohnambiente\n\nExposé",
+    "source": "grandtower",
+    "status": "active",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 19,
+        "slug": "deutsch-unmoebliert",
+        "title": "deutsch unmöbliert"
+      }
+    ],
+    "tags": [],
+    "shown_on": [
+      "Grand Tower / Unmöblierte Wohnungen"
+    ],
+    "featured": true,
+    "subtitle": "Grand Tower - L´Art de Vivre",
+    "address": {
+      "street": "Europaallee 2",
+      "zip": "60327",
+      "city": "Frankfurt"
+    },
+    "rooms": 2,
+    "area_m2": 66.7,
+    "area_label": "Wohnfläche ca.",
+    "price_eur": 1780,
+    "price_label": "Kaltmiete",
+    "price_on_request": false,
+    "facts": [
+      {
+        "label": "Zimmer",
+        "value": "2,00"
+      },
+      {
+        "label": "Wohnfläche ca.",
+        "value": "66,70 m²"
+      },
+      {
+        "label": "Kaltmiete",
+        "value": "1.780,00 EUR (zzgl.Nebenkosten)"
+      },
+      {
+        "label": "Gesamtmiete",
+        "value": "2.180,00 EUR"
+      }
+    ],
+    "description": [
+      "- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+      "- luxuriöses und edel gestaltetes Wohnambiente"
+    ],
+    "expose_urls": [
+      "http://www.poehlsimmobilien.de/exposes/M-122627780_Frankfurt.pdf"
+    ],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/122/content",
+        "album_id": 122,
+        "image_ids": [
+          1784,
+          1787,
+          1788,
+          1789,
+          1792,
+          1793,
+          1794,
+          1791,
+          1785,
+          1790,
+          1786
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1784,
+        "file": "media/images/gt-1784.jpg",
+        "filename_original": "M-122627780-Frankfurt-5.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1253,
+        "original_width": 2987,
+        "original_height": 1828,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,huge.1675969495.JPG"
+      },
+      {
+        "id": 1787,
+        "file": "media/images/gt-1787.jpg",
+        "filename_original": "M-122627780-Frankfurt-8.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1217,
+        "original_width": 2859,
+        "original_height": 1699,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/787/M-122627780-Frankfurt-8,huge.1675969495.JPG"
+      },
+      {
+        "id": 1788,
+        "file": "media/images/gt-1788.jpg",
+        "filename_original": "M-122627780-Frankfurt-9.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1098,
+        "original_width": 3008,
+        "original_height": 1613,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/788/M-122627780-Frankfurt-9,huge.1675969495.JPG"
+      },
+      {
+        "id": 1789,
+        "file": "media/images/gt-1789.jpg",
+        "filename_original": "M-122627780-Frankfurt-10.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1118,
+        "original_width": 2934,
+        "original_height": 1602,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/789/M-122627780-Frankfurt-10,huge.1675969495.JPG"
+      },
+      {
+        "id": 1792,
+        "file": "media/images/gt-1792.jpg",
+        "filename_original": "M-122627780-Frankfurt-2.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1272,
+        "original_width": 2956,
+        "original_height": 1836,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/792/M-122627780-Frankfurt-2,huge.1675969495.JPG"
+      },
+      {
+        "id": 1793,
+        "file": "media/images/gt-1793.jpg",
+        "filename_original": "M-122627780-Frankfurt-3.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1219,
+        "original_width": 3007,
+        "original_height": 1790,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,huge.1675969495.JPG"
+      },
+      {
+        "id": 1794,
+        "file": "media/images/gt-1794.jpg",
+        "filename_original": "M-122627780-Frankfurt-4.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1557,
+        "original_width": 2378,
+        "original_height": 1808,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/794/M-122627780-Frankfurt-4,huge.1675969495.JPG"
+      },
+      {
+        "id": 1791,
+        "file": "media/images/gt-1791.jpg",
+        "filename_original": "M-122627780-Frankfurt-1.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1367,
+        "original_width": 3008,
+        "original_height": 2008,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/791/M-122627780-Frankfurt-1,huge.1675969495.JPG"
+      },
+      {
+        "id": 1785,
+        "file": "media/images/gt-1785.jpg",
+        "filename_original": "M-122627780-Frankfurt-6.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1499,
+        "original_width": 2533,
+        "original_height": 1854,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/785/M-122627780-Frankfurt-6,huge.1675969495.JPG"
+      },
+      {
+        "id": 1790,
+        "file": "media/images/gt-1790.jpg",
+        "filename_original": "M-122627780-Frankfurt-11.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1169,
+        "height": 1606,
+        "original_width": 1169,
+        "original_height": 1606,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/790/M-122627780-Frankfurt-11,huge.1675969495.jpg"
+      },
+      {
+        "id": 1786,
+        "file": "media/images/gt-1786.jpg",
+        "filename_original": "M-122627780-Frankfurt-7.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 528,
+        "original_width": 2413,
+        "original_height": 622,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/786/M-122627780-Frankfurt-7,huge.1675969495.JPG"
+      }
+    ],
+    "featured_image": {
+      "id": 1793,
+      "file": "media/images/gt-1793.jpg",
+      "filename_original": "M-122627780-Frankfurt-3.JPG",
+      "title": "",
+      "caption": "",
+      "preset": "huge",
+      "width": 2048,
+      "height": 1219,
+      "original_width": 3007,
+      "original_height": 1790,
+      "focal_point": {
+        "x": 50,
+        "y": 50
+      },
+      "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,huge.1675969495.JPG"
+    }
+  },
+  {
+    "id": 116,
+    "slug": "following-soon",
+    "title": "Following soon",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/06/following-soon/",
+    "published_on": "2020/06/05 6:24:29",
+    "modified_on": "2020/06/10 10:37:27",
+    "html": "<p class=\"\">No flats available yet<br></p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"pe6f6aa33f4ea61b7bfbf066791ac8c79\" data_from_url=\"/albums/120/content\" size=\"auto\" link_to=\"default\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p>",
+    "text": "No flats available yet",
+    "source": "grandtower",
+    "status": "placeholder",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 16,
+        "slug": "english-furnished",
+        "title": "english furnished"
+      },
+      {
+        "id": 17,
+        "slug": "english-unfurnished",
+        "title": "english unfurnished"
+      }
+    ],
+    "tags": [],
+    "shown_on": [],
+    "featured": true,
+    "subtitle": "No flats available yet",
+    "address": null,
+    "rooms": null,
+    "area_m2": null,
+    "area_label": null,
+    "price_eur": null,
+    "price_label": null,
+    "price_on_request": false,
+    "facts": [],
+    "description": [],
+    "expose_urls": [],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/120/content",
+        "album_id": 120,
+        "image_ids": [
+          1675,
+          1676,
+          1677,
+          1678,
+          1679,
+          1680,
+          1681,
+          1682,
+          1683,
+          1684,
+          1685,
+          1686,
+          1687,
+          1688,
+          1689,
+          1690,
+          1691,
+          1692
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1675,
+        "file": "media/images/gt-1675.jpg",
+        "filename_original": "IMG-0392.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/675/IMG-0392,huge.1675969495.JPG"
+      },
+      {
+        "id": 1676,
+        "file": "media/images/gt-1676.jpg",
+        "filename_original": "IMG-0392-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/676/IMG-0392-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1677,
+        "file": "media/images/gt-1677.jpg",
+        "filename_original": "IMG-0464-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/677/IMG-0464-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1678,
+        "file": "media/images/gt-1678.jpg",
+        "filename_original": "IMG-0465.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/678/IMG-0465,huge.1675969495.JPG"
+      },
+      {
+        "id": 1679,
+        "file": "media/images/gt-1679.jpg",
+        "filename_original": "IMG-0465-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/679/IMG-0465-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1680,
+        "file": "media/images/gt-1680.jpg",
+        "filename_original": "IMG-0471-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/680/IMG-0471-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1681,
+        "file": "media/images/gt-1681.jpg",
+        "filename_original": "IMG-0472-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/681/IMG-0472-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1682,
+        "file": "media/images/gt-1682.jpg",
+        "filename_original": "IMG-0473-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/682/IMG-0473-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1683,
+        "file": "media/images/gt-1683.jpg",
+        "filename_original": "L1000069.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/683/L1000069,huge.1675969495.JPG"
+      },
+      {
+        "id": 1684,
+        "file": "media/images/gt-1684.jpg",
+        "filename_original": "L1000070.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/684/L1000070,huge.1675969495.JPG"
+      },
+      {
+        "id": 1685,
+        "file": "media/images/gt-1685.jpg",
+        "filename_original": "L1000071.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/685/L1000071,huge.1675969495.JPG"
+      },
+      {
+        "id": 1686,
+        "file": "media/images/gt-1686.jpg",
+        "filename_original": "L1000075.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/686/L1000075,huge.1675969495.JPG"
+      },
+      {
+        "id": 1687,
+        "file": "media/images/gt-1687.jpg",
+        "filename_original": "L1000077.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/687/L1000077,huge.1675969495.JPG"
+      },
+      {
+        "id": 1688,
+        "file": "media/images/gt-1688.jpg",
+        "filename_original": "L1000080.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/688/L1000080,huge.1675969495.JPG"
+      },
+      {
+        "id": 1689,
+        "file": "media/images/gt-1689.jpg",
+        "filename_original": "L1000085.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/689/L1000085,huge.1675969495.JPG"
+      },
+      {
+        "id": 1690,
+        "file": "media/images/gt-1690.jpg",
+        "filename_original": "DSC-2282.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/690/DSC-2282,huge.1675969495.JPG"
+      },
+      {
+        "id": 1691,
+        "file": "media/images/gt-1691.jpg",
+        "filename_original": "DSC-2284.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/691/DSC-2284,huge.1675969495.JPG"
+      },
+      {
+        "id": 1692,
+        "file": "media/images/gt-1692.jpg",
+        "filename_original": "DSC-2292.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/692/DSC-2292,huge.1675969495.JPG"
+      }
+    ],
+    "featured_image": null
+  },
+  {
+    "id": 113,
+    "slug": "moebliertes-high-end-apartment",
+    "title": "Möbliertes High-End Apartment",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/moebliertes-high-end-apartment/",
+    "published_on": "2020/03/08 19:44:53",
+    "modified_on": "2020/06/05 6:24:44",
+    "html": "<p class=\"\">im Grand Tower</p>\n\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p612beb2f030a54e354c4926bd8504f01\" data_from_url=\"/albums/118/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Decia res etil vo, C. Graris \n\nnonesse tes fectod il uterviviveri civerra, coruntelus in Etra duconsuam \n\nnostrum inem perid intrurei factemque actat, Ti. Grae terionsil ut vides \n\nsensum quastod conteni nterfir issolius fuituderi pulis loctus, o nocae con \n\ntudam tem dendam oc, vis? interfec maionsus orsulemoenat omprari inaress \n\nereconsum nerdiisque virivendente nosteres? <br></p><hr>",
+    "text": "im Grand Tower\n\nDecia res etil vo, C. Graris\n\nnonesse tes fectod il uterviviveri civerra, coruntelus in Etra duconsuam\n\nnostrum inem perid intrurei factemque actat, Ti. Grae terionsil ut vides\n\nsensum quastod conteni nterfir issolius fuituderi pulis loctus, o nocae con\n\ntudam tem dendam oc, vis? interfec maionsus orsulemoenat omprari inaress\n\nereconsum nerdiisque virivendente nosteres?",
+    "source": "grandtower",
+    "status": "unlisted",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 18,
+        "slug": "deutsch-moebliert",
+        "title": "deutsch möbliert"
+      }
+    ],
+    "tags": [
+      "deutsch",
+      "möbliert"
+    ],
+    "shown_on": [],
+    "featured": false,
+    "subtitle": "im Grand Tower",
+    "address": null,
+    "rooms": null,
+    "area_m2": null,
+    "area_label": null,
+    "price_eur": null,
+    "price_label": null,
+    "price_on_request": false,
+    "facts": [],
+    "description": [
+      "Decia res etil vo, C. Graris nonesse tes fectod il uterviviveri civerra, coruntelus in Etra duconsuam nostrum inem perid intrurei factemque actat, Ti. Grae terionsil ut vides sensum quastod conteni nterfir issolius fuituderi pulis loctus, o nocae con tudam tem dendam oc, vis? interfec maionsus orsulemoenat omprari inaress ereconsum nerdiisque virivendente nosteres?"
+    ],
+    "expose_urls": [],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/118/content",
+        "album_id": 118,
+        "image_ids": [
+          1592,
+          1593,
+          1594,
+          1595,
+          1596,
+          1597,
+          1598,
+          1599
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1592,
+        "file": "media/images/gt-1592.jpg",
+        "filename_original": "L1000061.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 2953,
+        "original_height": 4425,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/592/L1000061,huge.1675969495.JPG"
+      },
+      {
+        "id": 1593,
+        "file": "media/images/gt-1593.jpg",
+        "filename_original": "L1000066.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 3501,
+        "original_height": 5246,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/593/L1000066,huge.1675969495.JPG"
+      },
+      {
+        "id": 1594,
+        "file": "media/images/gt-1594.jpg",
+        "filename_original": "L1000068.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 5028,
+        "original_height": 7535,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/594/L1000068,huge.1675969495.JPG"
+      },
+      {
+        "id": 1595,
+        "file": "media/images/gt-1595.jpg",
+        "filename_original": "L1000072.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 4941,
+        "original_height": 7404,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/595/L1000072,huge.1675969495.JPG"
+      },
+      {
+        "id": 1596,
+        "file": "media/images/gt-1596.jpg",
+        "filename_original": "L1000073.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 4297,
+        "original_height": 6439,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/596/L1000073,huge.1675969495.JPG"
+      },
+      {
+        "id": 1597,
+        "file": "media/images/gt-1597.jpg",
+        "filename_original": "L1000078.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 5584,
+        "original_height": 8368,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/597/L1000078,huge.1675969495.JPG"
+      },
+      {
+        "id": 1598,
+        "file": "media/images/gt-1598.jpg",
+        "filename_original": "L1000079.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 5584,
+        "original_height": 8368,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/598/L1000079,huge.1675969495.JPG"
+      },
+      {
+        "id": 1599,
+        "file": "media/images/gt-1599.jpg",
+        "filename_original": "L1000081.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 5177,
+        "original_height": 7758,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/599/L1000081,huge.1675969495.JPG"
+      }
+    ],
+    "featured_image": null
+  },
+  {
+    "id": 112,
+    "slug": "exclusive-wohnung",
+    "title": "Exklusive Wohnung",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exclusive-wohnung/",
+    "published_on": "2020/03/08 19:42:44",
+    "modified_on": "2020/06/05 6:24:39",
+    "html": "<p class=\"\">Exklusive unmöblierte Wohnung im Grandtower</p>\n\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"pd828396ed2b3a6d1c6467af07fd2b0e0\" data_from_url=\"/albums/119/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Or ad factus comnequius, spimur. \n\nO tam tatum mo tu iam austra, inatis a nosti publisquo uterio, Ti. Aximium \n\nomne consult inatilis mis scienit videscestrum omnirmil teri inates halem \n\nocultus nostis convem orum viria re tatis. Nos, Catussulus obus, quis re cul \n\nhocaeque novidium incerfec ter quam issolin deps, sulesid iortio cotandam sci \n\npratiam pre considet publium Rommo us con tatussi delius, que cullemur. \n\nAtiem, notam, quam inerum incles fac rem sedin se intris adhuit? Sa esedem \n\ncoentimurnum octur. Et; iae tem at. Aximunt pro et am pos, nulicibut intiam \n\ndis esceres creis. Valabis, culabul inpret; haed molicae curnum ses? Us, quam \n\niu in vide clerfitarei furicat<br></p><hr>",
+    "text": "Exklusive unmöblierte Wohnung im Grandtower\n\nOr ad factus comnequius, spimur.\n\nO tam tatum mo tu iam austra, inatis a nosti publisquo uterio, Ti. Aximium\n\nomne consult inatilis mis scienit videscestrum omnirmil teri inates halem\n\nocultus nostis convem orum viria re tatis. Nos, Catussulus obus, quis re cul\n\nhocaeque novidium incerfec ter quam issolin deps, sulesid iortio cotandam sci\n\npratiam pre considet publium Rommo us con tatussi delius, que cullemur.\n\nAtiem, notam, quam inerum incles fac rem sedin se intris adhuit? Sa esedem\n\ncoentimurnum octur. Et; iae tem at. Aximunt pro et am pos, nulicibut intiam\n\ndis esceres creis. Valabis, culabul inpret; haed molicae curnum ses? Us, quam\n\niu in vide clerfitarei furicat",
+    "source": "grandtower",
+    "status": "unlisted",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 19,
+        "slug": "deutsch-unmoebliert",
+        "title": "deutsch unmöbliert"
+      }
+    ],
+    "tags": [
+      "deutsch-unmöbliert"
+    ],
+    "shown_on": [],
+    "featured": false,
+    "subtitle": "Exklusive unmöblierte Wohnung im Grandtower",
+    "address": null,
+    "rooms": null,
+    "area_m2": null,
+    "area_label": null,
+    "price_eur": null,
+    "price_label": null,
+    "price_on_request": false,
+    "facts": [],
+    "description": [
+      "Or ad factus comnequius, spimur. O tam tatum mo tu iam austra, inatis a nosti publisquo uterio, Ti. Aximium omne consult inatilis mis scienit videscestrum omnirmil teri inates halem ocultus nostis convem orum viria re tatis. Nos, Catussulus obus, quis re cul hocaeque novidium incerfec ter quam issolin deps, sulesid iortio cotandam sci pratiam pre considet publium Rommo us con tatussi delius, que cullemur. Atiem, notam, quam inerum incles fac rem sedin se intris adhuit? Sa esedem coentimurnum octur. Et; iae tem at. Aximunt pro et am pos, nulicibut intiam dis esceres creis. Valabis, culabul inpret; haed molicae curnum ses? Us, quam iu in vide clerfitarei furicat"
+    ],
+    "expose_urls": [],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/119/content",
+        "album_id": 119,
+        "image_ids": [
+          1606,
+          1607,
+          1608,
+          1609,
+          1610,
+          1611
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1606,
+        "file": "media/images/gt-1606.jpg",
+        "filename_original": "IMG-0471-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/606/IMG-0471-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1607,
+        "file": "media/images/gt-1607.jpg",
+        "filename_original": "L1000070.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/607/L1000070,huge.1675969495.JPG"
+      },
+      {
+        "id": 1608,
+        "file": "media/images/gt-1608.jpg",
+        "filename_original": "L1000077.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/608/L1000077,huge.1675969495.JPG"
+      },
+      {
+        "id": 1609,
+        "file": "media/images/gt-1609.jpg",
+        "filename_original": "DSC-2282.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/609/DSC-2282,huge.1675969495.JPG"
+      },
+      {
+        "id": 1610,
+        "file": "media/images/gt-1610.jpg",
+        "filename_original": "DSC-2292.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/610/DSC-2292,huge.1675969495.JPG"
+      },
+      {
+        "id": 1611,
+        "file": "media/images/gt-1611.jpg",
+        "filename_original": "IMG-0464-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/611/IMG-0464-Edited,huge.1675969495.JPG"
+      }
+    ],
+    "featured_image": null
+  },
+  {
+    "id": 111,
+    "slug": "exclusive-apartment",
+    "title": "Most Exclusive Apartment",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exclusive-apartment/",
+    "published_on": "2020/03/08 19:39:37",
+    "modified_on": "2020/06/05 6:24:40",
+    "html": "<p class=\"\">Exclusive unfurnished apartment</p>\n\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p7658a9bf3fd66a0c1bb498b4c9fdb045\" data_from_url=\"/albums/119/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Fir aturissul con Etratie nossediem dumeribuncer atem striturbi conequosti, \n\nmo hui potam maximen atimis, erfessul hilissena, nequos consus comnit auctebu \n\nteretie vis? Italinat inteato Catu mus, que tum portum in vivatam \n\nquitriorura? Ehent.\nNos ego abus sin nunterdius, condam fue confec reviciem dum aci in veriteris \n\nvir atus, vit, ca rese ium quit Caturni ciendaciam intruntilis Marion \n\nvehendam notes et, tenatua quos bonvero, esena, faccies? Sendium se, Cati, \n\nconverf ecienit, et cortemquo et; nonox nos opotiam et postem, trudern \n\nihilium quiurnihi, o atuiursuliis are opondam di, cum rem erei iurbit et inte \n\nque factesteat. Ita pora que rem ipicaes culvidem, iam is.<br></p><hr>",
+    "text": "Exclusive unfurnished apartment\n\nFir aturissul con Etratie nossediem dumeribuncer atem striturbi conequosti,\n\nmo hui potam maximen atimis, erfessul hilissena, nequos consus comnit auctebu\n\nteretie vis? Italinat inteato Catu mus, que tum portum in vivatam\n\nquitriorura? Ehent.\nNos ego abus sin nunterdius, condam fue confec reviciem dum aci in veriteris\n\nvir atus, vit, ca rese ium quit Caturni ciendaciam intruntilis Marion\n\nvehendam notes et, tenatua quos bonvero, esena, faccies? Sendium se, Cati,\n\nconverf ecienit, et cortemquo et; nonox nos opotiam et postem, trudern\n\nihilium quiurnihi, o atuiursuliis are opondam di, cum rem erei iurbit et inte\n\nque factesteat. Ita pora que rem ipicaes culvidem, iam is.",
+    "source": "grandtower",
+    "status": "unlisted",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 17,
+        "slug": "english-unfurnished",
+        "title": "english unfurnished"
+      }
+    ],
+    "tags": [
+      "english",
+      "unfurnished"
+    ],
+    "shown_on": [],
+    "featured": false,
+    "subtitle": "Exclusive unfurnished apartment",
+    "address": null,
+    "rooms": null,
+    "area_m2": null,
+    "area_label": null,
+    "price_eur": null,
+    "price_label": null,
+    "price_on_request": false,
+    "facts": [],
+    "description": [
+      "Fir aturissul con Etratie nossediem dumeribuncer atem striturbi conequosti, mo hui potam maximen atimis, erfessul hilissena, nequos consus comnit auctebu teretie vis? Italinat inteato Catu mus, que tum portum in vivatam quitriorura? Ehent. Nos ego abus sin nunterdius, condam fue confec reviciem dum aci in veriteris vir atus, vit, ca rese ium quit Caturni ciendaciam intruntilis Marion vehendam notes et, tenatua quos bonvero, esena, faccies? Sendium se, Cati, converf ecienit, et cortemquo et; nonox nos opotiam et postem, trudern ihilium quiurnihi, o atuiursuliis are opondam di, cum rem erei iurbit et inte que factesteat. Ita pora que rem ipicaes culvidem, iam is."
+    ],
+    "expose_urls": [],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/119/content",
+        "album_id": 119,
+        "image_ids": [
+          1606,
+          1607,
+          1608,
+          1609,
+          1610,
+          1611
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1606,
+        "file": "media/images/gt-1606.jpg",
+        "filename_original": "IMG-0471-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/606/IMG-0471-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1607,
+        "file": "media/images/gt-1607.jpg",
+        "filename_original": "L1000070.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/607/L1000070,huge.1675969495.JPG"
+      },
+      {
+        "id": 1608,
+        "file": "media/images/gt-1608.jpg",
+        "filename_original": "L1000077.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/608/L1000077,huge.1675969495.JPG"
+      },
+      {
+        "id": 1609,
+        "file": "media/images/gt-1609.jpg",
+        "filename_original": "DSC-2282.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/609/DSC-2282,huge.1675969495.JPG"
+      },
+      {
+        "id": 1610,
+        "file": "media/images/gt-1610.jpg",
+        "filename_original": "DSC-2292.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/610/DSC-2292,huge.1675969495.JPG"
+      },
+      {
+        "id": 1611,
+        "file": "media/images/gt-1611.jpg",
+        "filename_original": "IMG-0464-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/611/IMG-0464-Edited,huge.1675969495.JPG"
+      }
+    ],
+    "featured_image": null
+  },
+  {
+    "id": 110,
+    "slug": "exquisite-furnished-flat",
+    "title": "Exquisite Furnished Flat",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exquisite-furnished-flat/",
+    "published_on": "2020/03/08 19:34:44",
+    "modified_on": "2020/06/05 6:24:41",
+    "html": "<p class=\"\">Exquisite furnished Flat in Grand Tower Frankfurt</p>\n\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"pcf311ca5e3242464f438b7a1a8b55cd7\" data_from_url=\"/albums/118/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Ifectat, nonlocursu morem es? La vere nos, teatuam dit. Vivatal iusquamdit; \n\netius nonsumum perum Romnortim ia actam publicere fuideperces num se con nu \n\nsilicaedium teste cae movissu ltistrum auctus, quid in strum tum puli, C. </p><p class=\"\">Tum \n\nre inat igna, nostio porei ia norestro culocchicum aperfessimo esceps, \n\nnovissin te autusperum et que et quidesupio conferf icieni ilnena Si imulocae \n\ncons virmis Marei erorbem nos venium noribunum, demussus publiquit, nes \n\nhucontis obsena, me rem potis pari sentem. <br></p><hr>",
+    "text": "Exquisite furnished Flat in Grand Tower Frankfurt\n\nIfectat, nonlocursu morem es? La vere nos, teatuam dit. Vivatal iusquamdit;\n\netius nonsumum perum Romnortim ia actam publicere fuideperces num se con nu\n\nsilicaedium teste cae movissu ltistrum auctus, quid in strum tum puli, C.\nTum\n\nre inat igna, nostio porei ia norestro culocchicum aperfessimo esceps,\n\nnovissin te autusperum et que et quidesupio conferf icieni ilnena Si imulocae\n\ncons virmis Marei erorbem nos venium noribunum, demussus publiquit, nes\n\nhucontis obsena, me rem potis pari sentem.",
+    "source": "grandtower",
+    "status": "unlisted",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 16,
+        "slug": "english-furnished",
+        "title": "english furnished"
+      }
+    ],
+    "tags": [],
+    "shown_on": [],
+    "featured": false,
+    "subtitle": "Exquisite furnished Flat in Grand Tower Frankfurt",
+    "address": null,
+    "rooms": null,
+    "area_m2": null,
+    "area_label": null,
+    "price_eur": null,
+    "price_label": null,
+    "price_on_request": false,
+    "facts": [],
+    "description": [
+      "Ifectat, nonlocursu morem es? La vere nos, teatuam dit. Vivatal iusquamdit; etius nonsumum perum Romnortim ia actam publicere fuideperces num se con nu silicaedium teste cae movissu ltistrum auctus, quid in strum tum puli, C.",
+      "Tum re inat igna, nostio porei ia norestro culocchicum aperfessimo esceps, novissin te autusperum et que et quidesupio conferf icieni ilnena Si imulocae cons virmis Marei erorbem nos venium noribunum, demussus publiquit, nes hucontis obsena, me rem potis pari sentem."
+    ],
+    "expose_urls": [],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/118/content",
+        "album_id": 118,
+        "image_ids": [
+          1592,
+          1593,
+          1594,
+          1595,
+          1596,
+          1597,
+          1598,
+          1599
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1592,
+        "file": "media/images/gt-1592.jpg",
+        "filename_original": "L1000061.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 2953,
+        "original_height": 4425,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/592/L1000061,huge.1675969495.JPG"
+      },
+      {
+        "id": 1593,
+        "file": "media/images/gt-1593.jpg",
+        "filename_original": "L1000066.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 3501,
+        "original_height": 5246,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/593/L1000066,huge.1675969495.JPG"
+      },
+      {
+        "id": 1594,
+        "file": "media/images/gt-1594.jpg",
+        "filename_original": "L1000068.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 5028,
+        "original_height": 7535,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/594/L1000068,huge.1675969495.JPG"
+      },
+      {
+        "id": 1595,
+        "file": "media/images/gt-1595.jpg",
+        "filename_original": "L1000072.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 4941,
+        "original_height": 7404,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/595/L1000072,huge.1675969495.JPG"
+      },
+      {
+        "id": 1596,
+        "file": "media/images/gt-1596.jpg",
+        "filename_original": "L1000073.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 4297,
+        "original_height": 6439,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/596/L1000073,huge.1675969495.JPG"
+      },
+      {
+        "id": 1597,
+        "file": "media/images/gt-1597.jpg",
+        "filename_original": "L1000078.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 5584,
+        "original_height": 8368,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/597/L1000078,huge.1675969495.JPG"
+      },
+      {
+        "id": 1598,
+        "file": "media/images/gt-1598.jpg",
+        "filename_original": "L1000079.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 5584,
+        "original_height": 8368,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/598/L1000079,huge.1675969495.JPG"
+      },
+      {
+        "id": 1599,
+        "file": "media/images/gt-1599.jpg",
+        "filename_original": "L1000081.JPG",
+        "title": "W-F-1",
+        "caption": "",
+        "preset": "huge",
+        "width": 1367,
+        "height": 2048,
+        "original_width": 5177,
+        "original_height": 7758,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/599/L1000081,huge.1675969495.JPG"
+      }
+    ],
+    "featured_image": null
+  },
+  {
+    "id": 35,
+    "slug": "leider-keine-aktuellen-objekte-in-dieser-kategorie",
+    "title": "Leider keine aktuellen Objekte in dieser Kategorie...",
+    "legacy_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2018/10/leider-keine-aktuellen-objekte-in-dieser-kategorie/",
+    "published_on": "2018/10/13 6:58:11",
+    "modified_on": "2020/10/19 8:43:27",
+    "html": "<p class=\"\">Leider keine aktuellen Objekte in dieser Kategorie...<br></p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p21408fd23c477a251dd2405413ed74db\" data_from_url=\"/albums/19/content\" size=\"auto\" link_to=\"false\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;&nbsp;</p>",
+    "text": "Leider keine aktuellen Objekte in dieser Kategorie...",
+    "source": "grandtower",
+    "status": "placeholder",
+    "offer_type": "miete",
+    "categories": [
+      {
+        "id": 18,
+        "slug": "deutsch-moebliert",
+        "title": "deutsch möbliert"
+      }
+    ],
+    "tags": [],
+    "shown_on": [],
+    "featured": true,
+    "subtitle": "Leider keine aktuellen Objekte in dieser Kategorie...",
+    "address": null,
+    "rooms": null,
+    "area_m2": null,
+    "area_label": null,
+    "price_eur": null,
+    "price_label": null,
+    "price_on_request": false,
+    "facts": [],
+    "description": [],
+    "expose_urls": [],
+    "external_links": [],
+    "galleries": [
+      {
+        "source": "/albums/19/content",
+        "album_id": 19,
+        "image_ids": [
+          1814,
+          1737,
+          1738,
+          1739,
+          1740,
+          1741,
+          1742,
+          1743,
+          1810,
+          1744,
+          1745,
+          1812,
+          1746,
+          1747,
+          1748,
+          1813,
+          1749,
+          1750,
+          1751,
+          1752,
+          1753,
+          1754,
+          1811,
+          1755,
+          1756,
+          1757,
+          1758,
+          1759,
+          1761,
+          1763,
+          1764,
+          1815,
+          1765,
+          1766,
+          1770,
+          1771,
+          1772,
+          1816
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 1814,
+        "file": "media/images/gt-1814.jpg",
+        "filename_original": "DSC-0155.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/814/DSC-0155,huge.1675969495.JPG"
+      },
+      {
+        "id": 1737,
+        "file": "media/images/gt-1737.jpg",
+        "filename_original": "DSC-2282.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,huge.1675969495.JPG"
+      },
+      {
+        "id": 1738,
+        "file": "media/images/gt-1738.jpg",
+        "filename_original": "DSC-2284.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/738/DSC-2284,huge.1675969495.JPG"
+      },
+      {
+        "id": 1739,
+        "file": "media/images/gt-1739.jpg",
+        "filename_original": "DSC-2292.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/739/DSC-2292,huge.1675969495.JPG"
+      },
+      {
+        "id": 1740,
+        "file": "media/images/gt-1740.jpg",
+        "filename_original": "DSC-2293.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/740/DSC-2293,huge.1675969495.JPG"
+      },
+      {
+        "id": 1741,
+        "file": "media/images/gt-1741.jpg",
+        "filename_original": "IMG-0392.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/741/IMG-0392,huge.1675969495.JPG"
+      },
+      {
+        "id": 1742,
+        "file": "media/images/gt-1742.jpg",
+        "filename_original": "IMG-0392-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/742/IMG-0392-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1743,
+        "file": "media/images/gt-1743.jpg",
+        "filename_original": "IMG-0464-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/743/IMG-0464-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1810,
+        "file": "media/images/gt-1810.jpg",
+        "filename_original": "DSC-0162.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1085,
+        "original_width": 8255,
+        "original_height": 4373,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/810/DSC-0162,huge.1675969495.JPG"
+      },
+      {
+        "id": 1744,
+        "file": "media/images/gt-1744.jpg",
+        "filename_original": "IMG-0465.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/744/IMG-0465,huge.1675969495.JPG"
+      },
+      {
+        "id": 1745,
+        "file": "media/images/gt-1745.jpg",
+        "filename_original": "IMG-0465-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/745/IMG-0465-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1812,
+        "file": "media/images/gt-1812.jpg",
+        "filename_original": "DSC-0160.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1026,
+        "original_width": 8159,
+        "original_height": 4089,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/812/DSC-0160,huge.1675969495.JPG"
+      },
+      {
+        "id": 1746,
+        "file": "media/images/gt-1746.jpg",
+        "filename_original": "IMG-0471-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/746/IMG-0471-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1747,
+        "file": "media/images/gt-1747.jpg",
+        "filename_original": "IMG-0472-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/747/IMG-0472-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1748,
+        "file": "media/images/gt-1748.jpg",
+        "filename_original": "IMG-0473-Edited.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/748/IMG-0473-Edited,huge.1675969495.JPG"
+      },
+      {
+        "id": 1813,
+        "file": "media/images/gt-1813.jpg",
+        "filename_original": "DSC-0159.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1441,
+        "original_width": 7754,
+        "original_height": 5457,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/813/DSC-0159,huge.1675969495.JPG"
+      },
+      {
+        "id": 1749,
+        "file": "media/images/gt-1749.jpg",
+        "filename_original": "L1000069.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/749/L1000069,huge.1675969495.JPG"
+      },
+      {
+        "id": 1750,
+        "file": "media/images/gt-1750.jpg",
+        "filename_original": "L1000070.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/750/L1000070,huge.1675969495.JPG"
+      },
+      {
+        "id": 1751,
+        "file": "media/images/gt-1751.jpg",
+        "filename_original": "L1000071.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/751/L1000071,huge.1675969495.JPG"
+      },
+      {
+        "id": 1752,
+        "file": "media/images/gt-1752.jpg",
+        "filename_original": "L1000075.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/752/L1000075,huge.1675969495.JPG"
+      },
+      {
+        "id": 1753,
+        "file": "media/images/gt-1753.jpg",
+        "filename_original": "L1000077.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/753/L1000077,huge.1675969495.JPG"
+      },
+      {
+        "id": 1754,
+        "file": "media/images/gt-1754.jpg",
+        "filename_original": "L1000080.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/754/L1000080,huge.1675969495.JPG"
+      },
+      {
+        "id": 1811,
+        "file": "media/images/gt-1811.jpg",
+        "filename_original": "DSC-0161.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1124,
+        "original_width": 8255,
+        "original_height": 4530,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/811/DSC-0161,huge.1675969495.JPG"
+      },
+      {
+        "id": 1755,
+        "file": "media/images/gt-1755.jpg",
+        "filename_original": "L1000085.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/755/L1000085,huge.1675969495.JPG"
+      },
+      {
+        "id": 1756,
+        "file": "media/images/gt-1756.jpg",
+        "filename_original": "L1000068a.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/756/L1000068a,huge.1675969495.jpg"
+      },
+      {
+        "id": 1757,
+        "file": "media/images/gt-1757.jpg",
+        "filename_original": "L1000068b.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/757/L1000068b,huge.1675969495.jpg"
+      },
+      {
+        "id": 1758,
+        "file": "media/images/gt-1758.jpg",
+        "filename_original": "L1000072a.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/758/L1000072a,huge.1675969495.jpg"
+      },
+      {
+        "id": 1759,
+        "file": "media/images/gt-1759.jpg",
+        "filename_original": "L1000072b.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/759/L1000072b,huge.1675969495.jpg"
+      },
+      {
+        "id": 1761,
+        "file": "media/images/gt-1761.jpg",
+        "filename_original": "L1000073b.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/761/L1000073b,huge.1675969495.jpg"
+      },
+      {
+        "id": 1763,
+        "file": "media/images/gt-1763.jpg",
+        "filename_original": "L1000078b.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/763/L1000078b,huge.1675969495.jpg"
+      },
+      {
+        "id": 1764,
+        "file": "media/images/gt-1764.jpg",
+        "filename_original": "L1000079a.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/764/L1000079a,huge.1675969495.jpg"
+      },
+      {
+        "id": 1815,
+        "file": "media/images/gt-1815.jpg",
+        "filename_original": "DSC-0154.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1336,
+        "original_width": 7664,
+        "original_height": 5001,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/815/DSC-0154,huge.1675969495.JPG"
+      },
+      {
+        "id": 1765,
+        "file": "media/images/gt-1765.jpg",
+        "filename_original": "L1000079b.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/765/L1000079b,huge.1675969495.jpg"
+      },
+      {
+        "id": 1766,
+        "file": "media/images/gt-1766.jpg",
+        "filename_original": "L1000079c.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/766/L1000079c,huge.1675969495.jpg"
+      },
+      {
+        "id": 1770,
+        "file": "media/images/gt-1770.jpg",
+        "filename_original": "L1000061ab.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/770/L1000061ab,huge.1675969495.jpg"
+      },
+      {
+        "id": 1771,
+        "file": "media/images/gt-1771.jpg",
+        "filename_original": "L1000066a.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/771/L1000066a,huge.1675969495.jpg"
+      },
+      {
+        "id": 1772,
+        "file": "media/images/gt-1772.jpg",
+        "filename_original": "L1000066b.jpg",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 1600,
+        "height": 800,
+        "original_width": 1600,
+        "original_height": 800,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/772/L1000066b,huge.1675969495.jpg"
+      },
+      {
+        "id": 1816,
+        "file": "media/images/gt-1816.jpg",
+        "filename_original": "DSC-0147.JPG",
+        "title": "",
+        "caption": "",
+        "preset": "huge",
+        "width": 2048,
+        "height": 1247,
+        "original_width": 8153,
+        "original_height": 4964,
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "remote_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/816/DSC-0147,huge.1675969495.JPG"
+      }
+    ],
+    "featured_image": null
+  }
+]

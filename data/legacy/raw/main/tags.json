@@ -1,0 +1,44 @@
+[
+  {
+    "id": 4,
+    "title": "archiv-vermietet",
+    "__koken__": "tag",
+    "counts": {
+      "content": 0,
+      "albums": 0,
+      "essays": 24,
+      "total": 24
+    },
+    "url": "https://www.poehlsimmobilien.de/status/archiv-vermietet/",
+    "__koken_url": "/status/archiv-vermietet/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/tags/4"
+  },
+  {
+    "id": 5,
+    "title": "archiv-verkauft",
+    "__koken__": "tag",
+    "counts": {
+      "content": 0,
+      "albums": 1,
+      "essays": 10,
+      "total": 11
+    },
+    "url": "https://www.poehlsimmobilien.de/status/archiv-verkauft/",
+    "__koken_url": "/status/archiv-verkauft/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/tags/5"
+  },
+  {
+    "id": 6,
+    "title": "grundriss ffm",
+    "__koken__": "tag",
+    "counts": {
+      "content": 1,
+      "albums": 0,
+      "essays": 0,
+      "total": 1
+    },
+    "url": "https://www.poehlsimmobilien.de/status/grundriss+ffm/",
+    "__koken_url": "/status/grundriss+ffm/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/tags/6"
+  }
+]

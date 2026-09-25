@@ -1,0 +1,182 @@
+[
+  {
+    "id": 16,
+    "title": "Anlage-MFMH",
+    "slug": "anlage-mfmh",
+    "counts": {
+      "content": 26,
+      "albums": 0,
+      "essays": 1,
+      "total": 27
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/anlage-mfmh/",
+    "__koken_url": "/kategorie/anlage-mfmh/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/16"
+  },
+  {
+    "id": 6,
+    "title": "Kauf-12FH",
+    "slug": "kauf-12fh",
+    "counts": {
+      "content": 29,
+      "albums": 1,
+      "essays": 6,
+      "total": 36
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/kauf-12fh/",
+    "__koken_url": "/kategorie/kauf-12fh/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/6"
+  },
+  {
+    "id": 9,
+    "title": "Kauf-Ausland",
+    "slug": "kauf-ausland",
+    "counts": {
+      "content": 9,
+      "albums": 0,
+      "essays": 2,
+      "total": 11
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/kauf-ausland/",
+    "__koken_url": "/kategorie/kauf-ausland/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/9"
+  },
+  {
+    "id": 5,
+    "title": "Kauf-ETW",
+    "slug": "kauf-etw",
+    "counts": {
+      "content": 38,
+      "albums": 2,
+      "essays": 23,
+      "total": 63
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/kauf-etw/",
+    "__koken_url": "/kategorie/kauf-etw/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/5"
+  },
+  {
+    "id": 7,
+    "title": "Kauf-Gewerbe",
+    "slug": "kauf-gewerbe",
+    "counts": {
+      "content": 6,
+      "albums": 0,
+      "essays": 3,
+      "total": 9
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/kauf-gewerbe/",
+    "__koken_url": "/kategorie/kauf-gewerbe/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/7"
+  },
+  {
+    "id": 8,
+    "title": "Kauf-Grundstück",
+    "slug": "kauf-grundstueck",
+    "counts": {
+      "content": 2,
+      "albums": 0,
+      "essays": 1,
+      "total": 3
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/kauf-grundstueck/",
+    "__koken_url": "/kategorie/kauf-grundstueck/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/8"
+  },
+  {
+    "id": 10,
+    "title": "Kauf-Rendite",
+    "slug": "kauf-rendite",
+    "counts": {
+      "content": 0,
+      "albums": 0,
+      "essays": 2,
+      "total": 2
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/kauf-rendite/",
+    "__koken_url": "/kategorie/kauf-rendite/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/10"
+  },
+  {
+    "id": 12,
+    "title": "Miete-12FH",
+    "slug": "miete-12fh",
+    "counts": {
+      "content": 0,
+      "albums": 0,
+      "essays": 2,
+      "total": 2
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/miete-12fh/",
+    "__koken_url": "/kategorie/miete-12fh/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/12"
+  },
+  {
+    "id": 15,
+    "title": "Miete-Ausland",
+    "slug": "miete-ausland",
+    "counts": {
+      "content": 0,
+      "albums": 0,
+      "essays": 1,
+      "total": 1
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/miete-ausland/",
+    "__koken_url": "/kategorie/miete-ausland/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/15"
+  },
+  {
+    "id": 14,
+    "title": "Miete-Gewerbe",
+    "slug": "miete-gewerbe",
+    "counts": {
+      "content": 11,
+      "albums": 0,
+      "essays": 8,
+      "total": 19
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/miete-gewerbe/",
+    "__koken_url": "/kategorie/miete-gewerbe/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/14"
+  },
+  {
+    "id": 13,
+    "title": "Miete-WAZ",
+    "slug": "miete-waz",
+    "counts": {
+      "content": 42,
+      "albums": 0,
+      "essays": 4,
+      "total": 46
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/miete-waz/",
+    "__koken_url": "/kategorie/miete-waz/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/13"
+  },
+  {
+    "id": 11,
+    "title": "Miete-Wohnung",
+    "slug": "miete-wohnung",
+    "counts": {
+      "content": 45,
+      "albums": 0,
+      "essays": 25,
+      "total": 70
+    },
+    "__koken__": "category",
+    "url": "https://www.poehlsimmobilien.de/kategorie/miete-wohnung/",
+    "__koken_url": "/kategorie/miete-wohnung/",
+    "items": "https://www.poehlsimmobilien.de/api.php?/categories/11"
+  }
+]

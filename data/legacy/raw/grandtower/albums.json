@@ -1,0 +1,1559 @@
+[
+  {
+    "id": 33,
+    "title": "Andere",
+    "slug": "andere-1",
+    "summary": "",
+    "description": "",
+    "sort": {
+      "by": "manual",
+      "direction": "ASC"
+    },
+    "visibility": {
+      "raw": "public",
+      "clean": "Public"
+    },
+    "level": 1,
+    "left_id": 3,
+    "right_id": 12,
+    "featured": false,
+    "published_on": {
+      "datetime": "2018/10/11 7:21:01",
+      "timestamp": 1539242461,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/10/11 7:20:56",
+      "timestamp": 1539242456,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2022/10/12 15:02:33",
+      "timestamp": 1665586953,
+      "utc": true
+    },
+    "album_type": "set",
+    "__koken__": "album",
+    "counts": {
+      "total": 4,
+      "videos": 0,
+      "images": 57
+    },
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/33/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/33/topics"
+    },
+    "covers": [
+      {
+        "id": 458,
+        "title": "",
+        "slug": "logo-invers-black-2",
+        "filename": "Logo-invers-black.png",
+        "caption": "",
+        "visibility": {
+          "raw": "public",
+          "clean": "Public"
+        },
+        "max_download": {
+          "raw": "none",
+          "clean": "None"
+        },
+        "license": {
+          "raw": "all",
+          "clean": "© All rights reserved"
+        },
+        "featured": false,
+        "favorite": false,
+        "uploaded_on": {
+          "datetime": "2018/10/16 14:10:23",
+          "timestamp": 1539699023,
+          "utc": true
+        },
+        "captured_on": {
+          "datetime": "2018/10/16 16:10:23",
+          "timestamp": 1539706223,
+          "utc": false
+        },
+        "published_on": {
+          "datetime": "2018/10/16 14:10:45",
+          "timestamp": 1539699045,
+          "utc": true
+        },
+        "modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "file_modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "filesize": 45067,
+        "width": 377,
+        "height": 900,
+        "aspect_ratio": 0.419,
+        "file_type": "image",
+        "lg_preview": null,
+        "source": false,
+        "html": false,
+        "mime_type": "image/png",
+        "__koken__": "content",
+        "cache_path": {
+          "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,",
+          "relative_prefix": "/grandtower/storage/cache/images/000/458/Logo-invers-black,",
+          "extension": "1675969495.png"
+        },
+        "presets": {
+          "tiny": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,tiny.1675969495.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,tiny.2x.1675969495.png",
+            "width": 25,
+            "height": 60,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,tiny.crop.1675969495.png",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,tiny.crop.2x.1675969495.png",
+              "width": 60,
+              "height": 60
+            }
+          },
+          "small": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,small.1675969495.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,small.2x.1675969495.png",
+            "width": 42,
+            "height": 100,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,small.crop.1675969495.png",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,small.crop.2x.1675969495.png",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "medium": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,medium.1675969495.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,medium.2x.1675969495.png",
+            "width": 201,
+            "height": 480,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,medium.crop.1675969495.png",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,medium.crop.2x.1675969495.png",
+              "width": 377,
+              "height": 377
+            }
+          },
+          "medium_large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,medium_large.1675969495.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,medium_large.2x.1675969495.png",
+            "width": 335,
+            "height": 800,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,medium_large.crop.1675969495.png",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,medium_large.crop.2x.1675969495.png",
+              "width": 377,
+              "height": 377
+            }
+          },
+          "large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,large.1675969495.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,large.2x.1675969495.png",
+            "width": 377,
+            "height": 900,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,large.crop.1675969495.png",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,large.crop.2x.1675969495.png",
+              "width": 377,
+              "height": 377
+            }
+          },
+          "xlarge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,xlarge.1675969495.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,xlarge.2x.1675969495.png",
+            "width": 377,
+            "height": 900,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,xlarge.crop.1675969495.png",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,xlarge.crop.2x.1675969495.png",
+              "width": 377,
+              "height": 377
+            }
+          },
+          "huge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,huge.1675969495.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,huge.2x.1675969495.png",
+            "width": 377,
+            "height": 900,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,huge.crop.1675969495.png",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/000/458/Logo-invers-black,huge.crop.2x.1675969495.png",
+              "width": 377,
+              "height": 377
+            }
+          }
+        },
+        "exif_fields": [],
+        "exif": [],
+        "iptc_fields": [],
+        "iptc": [],
+        "geolocation": false,
+        "public": true,
+        "tags": [],
+        "categories": {
+          "count": 0,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/458/categories"
+        },
+        "albums": {
+          "count": 1,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/458/albums"
+        },
+        "date": {
+          "datetime": "2018/10/16 14:10:45",
+          "timestamp": 1539699045,
+          "utc": true
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/albums/pics/content/logo-invers-black-2/",
+        "__koken_url": "/albums/pics/content/logo-invers-black-2/",
+        "canonical_url": "https://www.poehlsimmobilien.de/grandtower/albums/pics/content/logo-invers-black-2/"
+      },
+      {
+        "id": 1737,
+        "title": "",
+        "slug": "dsc-2287",
+        "filename": "DSC-2282.JPG",
+        "caption": "",
+        "visibility": {
+          "raw": "public",
+          "clean": "Public"
+        },
+        "max_download": {
+          "raw": "none",
+          "clean": "None"
+        },
+        "license": {
+          "raw": "all",
+          "clean": "© All rights reserved"
+        },
+        "featured": false,
+        "favorite": false,
+        "uploaded_on": {
+          "datetime": "2020/06/10 13:07:35",
+          "timestamp": 1591794455,
+          "utc": true
+        },
+        "captured_on": {
+          "datetime": "2020/01/21 14:58:56",
+          "timestamp": 1579618736,
+          "utc": false
+        },
+        "published_on": {
+          "datetime": "2020/06/10 13:09:40",
+          "timestamp": 1591794580,
+          "utc": true
+        },
+        "modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "file_modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "filesize": 669612,
+        "width": 1600,
+        "height": 800,
+        "aspect_ratio": 2,
+        "file_type": "image",
+        "lg_preview": null,
+        "source": false,
+        "html": false,
+        "mime_type": "image/jpeg",
+        "__koken__": "content",
+        "cache_path": {
+          "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,",
+          "relative_prefix": "/grandtower/storage/cache/images/001/737/DSC-2282,",
+          "extension": "1675969495.JPG"
+        },
+        "presets": {
+          "tiny": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,tiny.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,tiny.2x.1675969495.JPG",
+            "width": 60,
+            "height": 30,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,tiny.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,tiny.crop.2x.1675969495.JPG",
+              "width": 60,
+              "height": 60
+            }
+          },
+          "small": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,small.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,small.2x.1675969495.JPG",
+            "width": 100,
+            "height": 50,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,small.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,small.crop.2x.1675969495.JPG",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "medium": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,medium.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,medium.2x.1675969495.JPG",
+            "width": 480,
+            "height": 240,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,medium.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,medium.crop.2x.1675969495.JPG",
+              "width": 480,
+              "height": 480
+            }
+          },
+          "medium_large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,medium_large.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,medium_large.2x.1675969495.JPG",
+            "width": 800,
+            "height": 400,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,medium_large.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,medium_large.crop.2x.1675969495.JPG",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,large.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,large.2x.1675969495.JPG",
+            "width": 1024,
+            "height": 512,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,large.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,large.crop.2x.1675969495.JPG",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "xlarge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,xlarge.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,xlarge.2x.1675969495.JPG",
+            "width": 1600,
+            "height": 800,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,xlarge.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,xlarge.crop.2x.1675969495.JPG",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "huge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,huge.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,huge.2x.1675969495.JPG",
+            "width": 1600,
+            "height": 800,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,huge.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/737/DSC-2282,huge.crop.2x.1675969495.JPG",
+              "width": 800,
+              "height": 800
+            }
+          }
+        },
+        "exif_fields": [
+          "aperture",
+          "aperture_max",
+          "date_time_original",
+          "exposure",
+          "exposure_bias",
+          "exposure_mode",
+          "exposure_program",
+          "flash",
+          "focal_length",
+          "iso_speed_ratings",
+          "lens",
+          "light_source",
+          "make",
+          "metering_mode",
+          "model",
+          "scene_capture_type",
+          "white_balance"
+        ],
+        "exif": [
+          {
+            "key": "make",
+            "label": "Camera make",
+            "raw": "NIKON CORPORATION"
+          },
+          {
+            "key": "model",
+            "label": "Camera",
+            "raw": "NIKON D750"
+          },
+          {
+            "key": "aperture",
+            "label": "Aperture",
+            "raw": "10/1",
+            "computed": "10",
+            "clean": "f/10"
+          },
+          {
+            "key": "aperture_max",
+            "label": "Max aperture",
+            "raw": "3/1",
+            "computed": "3",
+            "clean": "f/3"
+          },
+          {
+            "key": "exposure",
+            "label": "Exposure",
+            "raw": "1/13",
+            "computed": "1/13",
+            "clean": "1/13 sec"
+          },
+          {
+            "key": "exposure_bias",
+            "label": "Exposure bias",
+            "raw": "0/1",
+            "computed": "0",
+            "clean": "0 EV"
+          },
+          {
+            "key": "exposure_mode",
+            "label": "Exposure mode",
+            "raw": "1",
+            "computed": "Manual",
+            "clean": "Manual"
+          },
+          {
+            "key": "exposure_program",
+            "label": "Exposure program",
+            "raw": "1",
+            "computed": "Manual",
+            "clean": "Manual"
+          },
+          {
+            "key": "date_time_original",
+            "label": "Date Time Digitized",
+            "raw": "2020:01:21 14:58:56"
+          },
+          {
+            "key": "flash",
+            "label": "Flash",
+            "raw": "16",
+            "computed": "No Flash",
+            "clean": "No Flash",
+            "bool": false
+          },
+          {
+            "key": "focal_length",
+            "label": "Focal length",
+            "raw": "20/1",
+            "computed": "20",
+            "clean": "20mm"
+          },
+          {
+            "key": "iso_speed_ratings",
+            "label": "ISO",
+            "raw": "100",
+            "computed": "100",
+            "clean": "ISO 100"
+          },
+          {
+            "key": "metering_mode",
+            "label": "Metering mode",
+            "raw": "5",
+            "computed": "Multi-Segment",
+            "clean": "Multi-Segment"
+          },
+          {
+            "key": "white_balance",
+            "label": "White balance",
+            "raw": "0",
+            "computed": "Auto",
+            "clean": "Auto"
+          },
+          {
+            "key": "light_source",
+            "label": "Light source",
+            "raw": "0",
+            "computed": "Unknown",
+            "clean": "Unknown"
+          },
+          {
+            "key": "scene_capture_type",
+            "label": "Scene capture type",
+            "raw": "0",
+            "computed": "Standard",
+            "clean": "Standard"
+          },
+          {
+            "label": "Lens",
+            "raw": "14.0-24.0 mm f/2.8",
+            "key": "lens"
+          }
+        ],
+        "iptc_fields": [],
+        "iptc": [],
+        "geolocation": false,
+        "public": true,
+        "tags": [],
+        "categories": {
+          "count": 0,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1737/categories"
+        },
+        "albums": {
+          "count": 1,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1737/albums"
+        },
+        "date": {
+          "datetime": "2020/06/10 13:09:40",
+          "timestamp": 1591794580,
+          "utc": true
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/albums/intro/content/dsc-2287/",
+        "__koken_url": "/albums/intro/content/dsc-2287/",
+        "canonical_url": "https://www.poehlsimmobilien.de/grandtower/albums/intro/content/dsc-2287/"
+      }
+    ],
+    "date": {
+      "datetime": "2018/10/11 7:21:01",
+      "timestamp": 1539242461,
+      "utc": true
+    },
+    "parent": false,
+    "url": "https://www.poehlsimmobilien.de/grandtower/sets/andere-1/",
+    "__koken_url": "/sets/andere-1/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/sets/andere-1/",
+    "public": true
+  },
+  {
+    "id": 39,
+    "title": "Archiv",
+    "slug": "archiv",
+    "summary": "",
+    "description": "",
+    "sort": {
+      "by": "manual",
+      "direction": "ASC"
+    },
+    "visibility": {
+      "raw": "public",
+      "clean": "Public"
+    },
+    "level": 1,
+    "left_id": 13,
+    "right_id": 14,
+    "featured": false,
+    "published_on": {
+      "datetime": "2018/10/12 5:20:17",
+      "timestamp": 1539321617,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/10/12 5:20:02",
+      "timestamp": 1539321602,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2022/10/12 15:02:33",
+      "timestamp": 1665586953,
+      "utc": true
+    },
+    "album_type": "set",
+    "__koken__": "album",
+    "counts": {
+      "total": 0,
+      "videos": 0,
+      "images": 0
+    },
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/39/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/39/topics"
+    },
+    "covers": [],
+    "date": {
+      "datetime": "2018/10/12 5:20:17",
+      "timestamp": 1539321617,
+      "utc": true
+    },
+    "parent": false,
+    "url": "https://www.poehlsimmobilien.de/grandtower/sets/archiv/",
+    "__koken_url": "/sets/archiv/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/sets/archiv/",
+    "public": true
+  },
+  {
+    "id": 118,
+    "title": "F-F-1",
+    "slug": "f-f-1",
+    "summary": "",
+    "description": "",
+    "sort": {
+      "by": "manual",
+      "direction": "ASC"
+    },
+    "visibility": {
+      "raw": "public",
+      "clean": "Public"
+    },
+    "level": 1,
+    "left_id": 28,
+    "right_id": 29,
+    "featured": false,
+    "published_on": {
+      "datetime": "2020/03/08 19:34:51",
+      "timestamp": 1583696091,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/03/08 19:31:20",
+      "timestamp": 1583695880,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2022/09/19 14:33:02",
+      "timestamp": 1663597982,
+      "utc": true
+    },
+    "album_type": "standard",
+    "__koken__": "album",
+    "counts": {
+      "total": 8,
+      "videos": 0,
+      "images": 8
+    },
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/118/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/118/topics"
+    },
+    "covers": [],
+    "date": {
+      "datetime": "2020/03/08 19:34:51",
+      "timestamp": 1583696091,
+      "utc": true
+    },
+    "parent": false,
+    "url": "https://www.poehlsimmobilien.de/grandtower/albums/f-f-1/",
+    "__koken_url": "/albums/f-f-1/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/albums/f-f-1/",
+    "public": true
+  },
+  {
+    "id": 119,
+    "title": "F-U-1",
+    "slug": "f-u-1",
+    "summary": "",
+    "description": "",
+    "sort": {
+      "by": "manual",
+      "direction": "ASC"
+    },
+    "visibility": {
+      "raw": "public",
+      "clean": "Public"
+    },
+    "level": 1,
+    "left_id": 30,
+    "right_id": 31,
+    "featured": false,
+    "published_on": {
+      "datetime": "2020/03/08 19:34:55",
+      "timestamp": 1583696095,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/03/08 19:32:26",
+      "timestamp": 1583695946,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2022/09/19 14:33:02",
+      "timestamp": 1663597982,
+      "utc": true
+    },
+    "album_type": "standard",
+    "__koken__": "album",
+    "counts": {
+      "total": 6,
+      "videos": 0,
+      "images": 6
+    },
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/119/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/119/topics"
+    },
+    "covers": [],
+    "date": {
+      "datetime": "2020/03/08 19:34:55",
+      "timestamp": 1583696095,
+      "utc": true
+    },
+    "parent": false,
+    "url": "https://www.poehlsimmobilien.de/grandtower/albums/f-u-1/",
+    "__koken_url": "/albums/f-u-1/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/albums/f-u-1/",
+    "public": true
+  },
+  {
+    "id": 12,
+    "title": "Wohnungen",
+    "slug": "wohnungen",
+    "summary": "",
+    "description": "",
+    "sort": {
+      "by": "manual",
+      "direction": "ASC"
+    },
+    "visibility": {
+      "raw": "public",
+      "clean": "Public"
+    },
+    "level": 1,
+    "left_id": 32,
+    "right_id": 43,
+    "featured": false,
+    "published_on": {
+      "datetime": "2020/10/16 6:24:53",
+      "timestamp": 1602829493,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/04/26 19:43:22",
+      "timestamp": 1524771802,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2022/10/12 15:02:33",
+      "timestamp": 1665586953,
+      "utc": true
+    },
+    "album_type": "set",
+    "__koken__": "album",
+    "counts": {
+      "total": 5,
+      "videos": 0,
+      "images": 74
+    },
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/12/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/albums/12/topics"
+    },
+    "covers": [
+      {
+        "id": 1784,
+        "title": "",
+        "slug": "m-122627780-frankfurt-12",
+        "filename": "M-122627780-Frankfurt-5.JPG",
+        "caption": "",
+        "visibility": {
+          "raw": "public",
+          "clean": "Public"
+        },
+        "max_download": {
+          "raw": "none",
+          "clean": "None"
+        },
+        "license": {
+          "raw": "all",
+          "clean": "© All rights reserved"
+        },
+        "featured": false,
+        "favorite": false,
+        "uploaded_on": {
+          "datetime": "2020/10/16 4:49:42",
+          "timestamp": 1602823782,
+          "utc": true
+        },
+        "captured_on": {
+          "datetime": "2020/09/09 17:13:16",
+          "timestamp": 1599671596,
+          "utc": false
+        },
+        "published_on": {
+          "datetime": "2020/10/16 5:01:24",
+          "timestamp": 1602824484,
+          "utc": true
+        },
+        "modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "file_modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "filesize": 1013580,
+        "width": 2987,
+        "height": 1828,
+        "aspect_ratio": 1.634,
+        "file_type": "image",
+        "lg_preview": null,
+        "source": false,
+        "html": false,
+        "mime_type": "image/jpeg",
+        "__koken__": "content",
+        "cache_path": {
+          "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,",
+          "relative_prefix": "/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,",
+          "extension": "1675969495.JPG"
+        },
+        "presets": {
+          "tiny": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,tiny.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,tiny.2x.1675969495.JPG",
+            "width": 60,
+            "height": 37,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,tiny.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,tiny.crop.2x.1675969495.JPG",
+              "width": 60,
+              "height": 60
+            }
+          },
+          "small": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,small.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,small.2x.1675969495.JPG",
+            "width": 100,
+            "height": 61,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,small.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,small.crop.2x.1675969495.JPG",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "medium": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,medium.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,medium.2x.1675969495.JPG",
+            "width": 480,
+            "height": 294,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,medium.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,medium.crop.2x.1675969495.JPG",
+              "width": 480,
+              "height": 480
+            }
+          },
+          "medium_large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,medium_large.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,medium_large.2x.1675969495.JPG",
+            "width": 800,
+            "height": 490,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,medium_large.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,medium_large.crop.2x.1675969495.JPG",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,large.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,large.2x.1675969495.JPG",
+            "width": 1024,
+            "height": 627,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,large.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,large.crop.2x.1675969495.JPG",
+              "width": 1024,
+              "height": 1024
+            }
+          },
+          "xlarge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,xlarge.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,xlarge.2x.1675969495.JPG",
+            "width": 1600,
+            "height": 979,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,xlarge.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,xlarge.crop.2x.1675969495.JPG",
+              "width": 1600,
+              "height": 1600
+            }
+          },
+          "huge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,huge.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,huge.2x.1675969495.JPG",
+            "width": 2048,
+            "height": 1253,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,huge.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/784/M-122627780-Frankfurt-5,huge.crop.2x.1675969495.JPG",
+              "width": 1828,
+              "height": 1828
+            }
+          }
+        },
+        "exif_fields": [
+          "aperture",
+          "aperture_max",
+          "date_time_original",
+          "exposure",
+          "exposure_bias",
+          "exposure_mode",
+          "exposure_program",
+          "flash",
+          "focal_length",
+          "iso_speed_ratings",
+          "lens",
+          "light_source",
+          "make",
+          "metering_mode",
+          "model",
+          "scene_capture_type",
+          "white_balance"
+        ],
+        "exif": [
+          {
+            "key": "make",
+            "label": "Camera make",
+            "raw": "NIKON CORPORATION"
+          },
+          {
+            "key": "model",
+            "label": "Camera",
+            "raw": "NIKON D750"
+          },
+          {
+            "key": "aperture",
+            "label": "Aperture",
+            "raw": "9/1",
+            "computed": "9",
+            "clean": "f/9"
+          },
+          {
+            "key": "aperture_max",
+            "label": "Max aperture",
+            "raw": "3/1",
+            "computed": "3",
+            "clean": "f/3"
+          },
+          {
+            "key": "exposure",
+            "label": "Exposure",
+            "raw": "1/160",
+            "computed": "1/160",
+            "clean": "1/160 sec"
+          },
+          {
+            "key": "exposure_bias",
+            "label": "Exposure bias",
+            "raw": "0/1",
+            "computed": "0",
+            "clean": "0 EV"
+          },
+          {
+            "key": "exposure_mode",
+            "label": "Exposure mode",
+            "raw": "1",
+            "computed": "Manual",
+            "clean": "Manual"
+          },
+          {
+            "key": "exposure_program",
+            "label": "Exposure program",
+            "raw": "1",
+            "computed": "Manual",
+            "clean": "Manual"
+          },
+          {
+            "key": "date_time_original",
+            "label": "Date Time Digitized",
+            "raw": "2020:09:09 17:13:16"
+          },
+          {
+            "key": "flash",
+            "label": "Flash",
+            "raw": "13",
+            "computed": "Compulsory Flash, Return light not detected",
+            "clean": "Compulsory Flash, Return light not detected",
+            "bool": true
+          },
+          {
+            "key": "focal_length",
+            "label": "Focal length",
+            "raw": "14/1",
+            "computed": "14",
+            "clean": "14mm"
+          },
+          {
+            "key": "iso_speed_ratings",
+            "label": "ISO",
+            "raw": "400",
+            "computed": "400",
+            "clean": "ISO 400"
+          },
+          {
+            "key": "metering_mode",
+            "label": "Metering mode",
+            "raw": "5",
+            "computed": "Multi-Segment",
+            "clean": "Multi-Segment"
+          },
+          {
+            "key": "white_balance",
+            "label": "White balance",
+            "raw": "0",
+            "computed": "Auto",
+            "clean": "Auto"
+          },
+          {
+            "key": "light_source",
+            "label": "Light source",
+            "raw": "0",
+            "computed": "Unknown",
+            "clean": "Unknown"
+          },
+          {
+            "key": "scene_capture_type",
+            "label": "Scene capture type",
+            "raw": "0",
+            "computed": "Standard",
+            "clean": "Standard"
+          },
+          {
+            "label": "Lens",
+            "raw": "14.0-24.0 mm f/2.8",
+            "key": "lens"
+          }
+        ],
+        "iptc_fields": [],
+        "iptc": [],
+        "geolocation": false,
+        "public": true,
+        "tags": [],
+        "categories": {
+          "count": 0,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1784/categories"
+        },
+        "albums": {
+          "count": 1,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1784/albums"
+        },
+        "date": {
+          "datetime": "2020/10/16 5:01:24",
+          "timestamp": 1602824484,
+          "utc": true
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/albums/m-122627780_frankfurt/content/m-122627780-frankfurt-12/",
+        "__koken_url": "/albums/m-122627780_frankfurt/content/m-122627780-frankfurt-12/",
+        "canonical_url": "https://www.poehlsimmobilien.de/grandtower/albums/m-122627780_frankfurt/content/m-122627780-frankfurt-12/"
+      },
+      {
+        "id": 1795,
+        "title": "",
+        "slug": "m-121918840-frankfurt-6",
+        "filename": "M-121918840-Frankfurt-6.JPG",
+        "caption": "",
+        "visibility": {
+          "raw": "public",
+          "clean": "Public"
+        },
+        "max_download": {
+          "raw": "none",
+          "clean": "None"
+        },
+        "license": {
+          "raw": "all",
+          "clean": "© All rights reserved"
+        },
+        "featured": false,
+        "favorite": false,
+        "uploaded_on": {
+          "datetime": "2020/10/19 8:51:56",
+          "timestamp": 1603097516,
+          "utc": true
+        },
+        "captured_on": {
+          "datetime": "2020/10/19 10:51:56",
+          "timestamp": 1603104716,
+          "utc": false
+        },
+        "published_on": {
+          "datetime": "2020/10/19 8:57:10",
+          "timestamp": 1603097830,
+          "utc": true
+        },
+        "modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "file_modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "filesize": 550747,
+        "width": 2338,
+        "height": 1654,
+        "aspect_ratio": 1.414,
+        "file_type": "image",
+        "lg_preview": null,
+        "source": false,
+        "html": false,
+        "mime_type": "image/jpeg",
+        "__koken__": "content",
+        "cache_path": {
+          "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,",
+          "relative_prefix": "/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,",
+          "extension": "1675969495.JPG"
+        },
+        "presets": {
+          "tiny": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,tiny.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,tiny.2x.1675969495.JPG",
+            "width": 60,
+            "height": 42,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,tiny.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,tiny.crop.2x.1675969495.JPG",
+              "width": 60,
+              "height": 60
+            }
+          },
+          "small": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,small.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,small.2x.1675969495.JPG",
+            "width": 100,
+            "height": 71,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,small.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,small.crop.2x.1675969495.JPG",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "medium": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,medium.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,medium.2x.1675969495.JPG",
+            "width": 480,
+            "height": 340,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,medium.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,medium.crop.2x.1675969495.JPG",
+              "width": 480,
+              "height": 480
+            }
+          },
+          "medium_large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,medium_large.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,medium_large.2x.1675969495.JPG",
+            "width": 800,
+            "height": 566,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,medium_large.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,medium_large.crop.2x.1675969495.JPG",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,large.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,large.2x.1675969495.JPG",
+            "width": 1024,
+            "height": 724,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,large.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,large.crop.2x.1675969495.JPG",
+              "width": 1024,
+              "height": 1024
+            }
+          },
+          "xlarge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,xlarge.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,xlarge.2x.1675969495.JPG",
+            "width": 1600,
+            "height": 1132,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,xlarge.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,xlarge.crop.2x.1675969495.JPG",
+              "width": 1600,
+              "height": 1600
+            }
+          },
+          "huge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,huge.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,huge.2x.1675969495.JPG",
+            "width": 2048,
+            "height": 1449,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,huge.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/795/M-121918840-Frankfurt-6,huge.crop.2x.1675969495.JPG",
+              "width": 1654,
+              "height": 1654
+            }
+          }
+        },
+        "exif_fields": [],
+        "exif": [],
+        "iptc_fields": [],
+        "iptc": [],
+        "geolocation": false,
+        "public": true,
+        "tags": [],
+        "categories": {
+          "count": 0,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1795/categories"
+        },
+        "albums": {
+          "count": 1,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1795/albums"
+        },
+        "date": {
+          "datetime": "2020/10/19 8:57:10",
+          "timestamp": 1603097830,
+          "utc": true
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/albums/m-121918840_frankfurt/content/m-121918840-frankfurt-6/",
+        "__koken_url": "/albums/m-121918840_frankfurt/content/m-121918840-frankfurt-6/",
+        "canonical_url": "https://www.poehlsimmobilien.de/grandtower/albums/m-121918840_frankfurt/content/m-121918840-frankfurt-6/"
+      },
+      {
+        "id": 1866,
+        "title": "",
+        "slug": "img-1787",
+        "filename": "IMG-1786.JPG",
+        "caption": "",
+        "visibility": {
+          "raw": "public",
+          "clean": "Public"
+        },
+        "max_download": {
+          "raw": "none",
+          "clean": "None"
+        },
+        "license": {
+          "raw": "all",
+          "clean": "© All rights reserved"
+        },
+        "featured": false,
+        "favorite": false,
+        "uploaded_on": {
+          "datetime": "2022/07/24 8:45:06",
+          "timestamp": 1658652306,
+          "utc": true
+        },
+        "captured_on": {
+          "datetime": "2020/07/14 15:03:03",
+          "timestamp": 1594738983,
+          "utc": false
+        },
+        "published_on": {
+          "datetime": "2022/07/24 10:28:06",
+          "timestamp": 1658658486,
+          "utc": true
+        },
+        "modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "file_modified_on": {
+          "datetime": "2023/02/09 19:04:55",
+          "timestamp": 1675969495,
+          "utc": true
+        },
+        "focal_point": {
+          "x": 50,
+          "y": 50
+        },
+        "filesize": 1289505,
+        "width": 1255,
+        "height": 1673,
+        "aspect_ratio": 0.75,
+        "file_type": "image",
+        "lg_preview": null,
+        "source": false,
+        "html": false,
+        "mime_type": "image/jpeg",
+        "__koken__": "content",
+        "cache_path": {
+          "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,",
+          "relative_prefix": "/grandtower/storage/cache/images/001/866/IMG-1786,",
+          "extension": "1675969495.JPG"
+        },
+        "presets": {
+          "tiny": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,tiny.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,tiny.2x.1675969495.JPG",
+            "width": 45,
+            "height": 60,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,tiny.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,tiny.crop.2x.1675969495.JPG",
+              "width": 60,
+              "height": 60
+            }
+          },
+          "small": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,small.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,small.2x.1675969495.JPG",
+            "width": 75,
+            "height": 100,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,small.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,small.crop.2x.1675969495.JPG",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "medium": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,medium.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,medium.2x.1675969495.JPG",
+            "width": 360,
+            "height": 480,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,medium.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,medium.crop.2x.1675969495.JPG",
+              "width": 480,
+              "height": 480
+            }
+          },
+          "medium_large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,medium_large.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,medium_large.2x.1675969495.JPG",
+            "width": 600,
+            "height": 800,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,medium_large.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,medium_large.crop.2x.1675969495.JPG",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "large": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,large.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,large.2x.1675969495.JPG",
+            "width": 768,
+            "height": 1024,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,large.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,large.crop.2x.1675969495.JPG",
+              "width": 1024,
+              "height": 1024
+            }
+          },
+          "xlarge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,xlarge.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,xlarge.2x.1675969495.JPG",
+            "width": 1200,
+            "height": 1600,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,xlarge.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,xlarge.crop.2x.1675969495.JPG",
+              "width": 1255,
+              "height": 1255
+            }
+          },
+          "huge": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,huge.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,huge.2x.1675969495.JPG",
+            "width": 1255,
+            "height": 1673,
+            "cropped": {
+              "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,huge.crop.1675969495.JPG",
+              "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/866/IMG-1786,huge.crop.2x.1675969495.JPG",
+              "width": 1255,
+              "height": 1255
+            }
+          }
+        },
+        "exif_fields": [
+          "aperture",
+          "date_time_original",
+          "exposure",
+          "exposure_bias",
+          "exposure_mode",
+          "exposure_program",
+          "flash",
+          "focal_length",
+          "iso_speed_ratings",
+          "lens",
+          "make",
+          "metering_mode",
+          "model",
+          "scene_capture_type",
+          "white_balance"
+        ],
+        "exif": [
+          {
+            "key": "make",
+            "label": "Camera make",
+            "raw": "Apple"
+          },
+          {
+            "key": "model",
+            "label": "Camera",
+            "raw": "iPhone 11 Pro"
+          },
+          {
+            "key": "aperture",
+            "label": "Aperture",
+            "raw": "12/5",
+            "computed": "2.4",
+            "clean": "f/2.4"
+          },
+          {
+            "key": "exposure",
+            "label": "Exposure",
+            "raw": "1/2800",
+            "computed": "1/2800",
+            "clean": "1/2800 sec"
+          },
+          {
+            "key": "exposure_bias",
+            "label": "Exposure bias",
+            "raw": "0/1",
+            "computed": "0",
+            "clean": "0 EV"
+          },
+          {
+            "key": "exposure_mode",
+            "label": "Exposure mode",
+            "raw": "0",
+            "computed": "Auto",
+            "clean": "Auto"
+          },
+          {
+            "key": "exposure_program",
+            "label": "Exposure program",
+            "raw": "2",
+            "computed": "Program AE",
+            "clean": "Program AE"
+          },
+          {
+            "key": "date_time_original",
+            "label": "Date Time Digitized",
+            "raw": "2020:07:14 15:03:03"
+          },
+          {
+            "key": "flash",
+            "label": "Flash",
+            "raw": "16",
+            "computed": "No Flash",
+            "clean": "No Flash",
+            "bool": false
+          },
+          {
+            "key": "focal_length",
+            "label": "Focal length",
+            "raw": "77/50",
+            "computed": "1.54",
+            "clean": "1.54mm"
+          },
+          {
+            "key": "iso_speed_ratings",
+            "label": "ISO",
+            "raw": "20",
+            "computed": "20",
+            "clean": "ISO 20"
+          },
+          {
+            "key": "metering_mode",
+            "label": "Metering mode",
+            "raw": "5",
+            "computed": "Multi-Segment",
+            "clean": "Multi-Segment"
+          },
+          {
+            "key": "white_balance",
+            "label": "White balance",
+            "raw": "0",
+            "computed": "Auto",
+            "clean": "Auto"
+          },
+          {
+            "key": "scene_capture_type",
+            "label": "Scene capture type",
+            "raw": "0",
+            "computed": "Standard",
+            "clean": "Standard"
+          },
+          {
+            "label": "Lens",
+            "raw": "iPhone 11 Pro back triple camera 1.54mm f/2.4",
+            "key": "lens"
+          }
+        ],
+        "iptc_fields": [],
+        "iptc": [],
+        "geolocation": {
+          "latitude": "50.10835",
+          "longitude": "8.654425"
+        },
+        "public": true,
+        "tags": [],
+        "categories": {
+          "count": 0,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1866/categories"
+        },
+        "albums": {
+          "count": 1,
+          "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1866/albums"
+        },
+        "date": {
+          "datetime": "2022/07/24 10:28:06",
+          "timestamp": 1658658486,
+          "utc": true
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/albums/m-133670209_frankfurt/content/img-1787/",
+        "__koken_url": "/albums/m-133670209_frankfurt/content/img-1787/",
+        "canonical_url": "https://www.poehlsimmobilien.de/grandtower/albums/m-133670209_frankfurt/content/img-1787/"
+      }
+    ],
+    "date": {
+      "datetime": "2020/10/16 6:24:53",
+      "timestamp": 1602829493,
+      "utc": true
+    },
+    "parent": false,
+    "url": "https://www.poehlsimmobilien.de/grandtower/sets/wohnungen/",
+    "__koken_url": "/sets/wohnungen/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/sets/wohnungen/",
+    "public": true
+  }
+]

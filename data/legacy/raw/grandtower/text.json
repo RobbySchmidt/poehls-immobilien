@@ -1,0 +1,2574 @@
+[
+  {
+    "id": 121,
+    "title": "Grand Tower - L`art de vivre",
+    "slug": "grand-tower-lart-de-vivre-2",
+    "featured": true,
+    "featured_on": {
+      "datetime": "2022/10/14 12:54:56",
+      "timestamp": 1665752096,
+      "utc": true
+    },
+    "featured_order": 1,
+    "content": "<p class=\"\">Grand Tower - L`art de vivre </p><p class=\"\">Europaallee 2, 60327 Frankfurt&nbsp;</p><p class=\"\">Zimmer: 2,00&nbsp;</p><p class=\"\">Wohnfläche ca.: 58,20 m²&nbsp;</p><p class=\"\">Kaltmiete: 1.290,00 EUR (zzgl. Nebenkosten)&nbsp;</p><p class=\"\">Gesamtmiete: 1.740,00 EUR&nbsp;</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p1372b3e8b7205d28bdce471ce10ed471\" data_from_url=\"/albums/127/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure><p class=\"\">Grand Tower - das einzigartige und höchste Wohngebäude\nDeutschlands&nbsp;</p><p class=\"\">luxuriöses und edel gestaltetes Wohnambiente&nbsp;</p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-136880154_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "excerpt": "…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2022/10/14 12:54:32",
+      "timestamp": 1665752072,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2022/10/14 12:44:48",
+      "timestamp": 1665751488,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2022/10/14 12:54:56",
+      "timestamp": 1665752096,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/121/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/121/topics"
+    },
+    "featured_image": {
+      "id": 1899,
+      "title": "",
+      "slug": "dsc-3169",
+      "filename": "DSC-3167.JPG",
+      "caption": "",
+      "visibility": {
+        "raw": "public",
+        "clean": "Public"
+      },
+      "max_download": {
+        "raw": "none",
+        "clean": "None"
+      },
+      "license": {
+        "raw": "all",
+        "clean": "© All rights reserved"
+      },
+      "featured": false,
+      "favorite": false,
+      "uploaded_on": {
+        "datetime": "2022/10/12 14:57:48",
+        "timestamp": 1665586668,
+        "utc": true
+      },
+      "captured_on": {
+        "datetime": "2020/09/14 9:24:00",
+        "timestamp": 1600075440,
+        "utc": false
+      },
+      "published_on": {
+        "datetime": "2022/10/12 15:02:08",
+        "timestamp": 1665586928,
+        "utc": true
+      },
+      "modified_on": {
+        "datetime": "2023/02/09 19:04:55",
+        "timestamp": 1675969495,
+        "utc": true
+      },
+      "file_modified_on": {
+        "datetime": "2023/02/09 19:04:55",
+        "timestamp": 1675969495,
+        "utc": true
+      },
+      "focal_point": {
+        "x": 50,
+        "y": 50
+      },
+      "filesize": 1809523,
+      "width": 2991,
+      "height": 1894,
+      "aspect_ratio": 1.579,
+      "file_type": "image",
+      "lg_preview": null,
+      "source": false,
+      "html": false,
+      "mime_type": "image/jpeg",
+      "__koken__": "content",
+      "cache_path": {
+        "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,",
+        "relative_prefix": "/grandtower/storage/cache/images/001/899/DSC-3167,",
+        "extension": "1675969495.JPG"
+      },
+      "presets": {
+        "tiny": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,tiny.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,tiny.2x.1675969495.JPG",
+          "width": 60,
+          "height": 38,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,tiny.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,tiny.crop.2x.1675969495.JPG",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "small": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,small.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,small.2x.1675969495.JPG",
+          "width": 100,
+          "height": 63,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,small.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,small.crop.2x.1675969495.JPG",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "medium": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,medium.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,medium.2x.1675969495.JPG",
+          "width": 480,
+          "height": 304,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,medium.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,medium.crop.2x.1675969495.JPG",
+            "width": 480,
+            "height": 480
+          }
+        },
+        "medium_large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,medium_large.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,medium_large.2x.1675969495.JPG",
+          "width": 800,
+          "height": 507,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,medium_large.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,medium_large.crop.2x.1675969495.JPG",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,large.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,large.2x.1675969495.JPG",
+          "width": 1024,
+          "height": 648,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,large.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,large.crop.2x.1675969495.JPG",
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        "xlarge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,xlarge.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,xlarge.2x.1675969495.JPG",
+          "width": 1600,
+          "height": 1013,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,xlarge.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,xlarge.crop.2x.1675969495.JPG",
+            "width": 1600,
+            "height": 1600
+          }
+        },
+        "huge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,huge.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,huge.2x.1675969495.JPG",
+          "width": 2048,
+          "height": 1297,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,huge.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/899/DSC-3167,huge.crop.2x.1675969495.JPG",
+            "width": 1894,
+            "height": 1894
+          }
+        }
+      },
+      "exif_fields": [
+        "aperture",
+        "aperture_max",
+        "date_time_original",
+        "exposure",
+        "exposure_bias",
+        "exposure_mode",
+        "exposure_program",
+        "flash",
+        "focal_length",
+        "iso_speed_ratings",
+        "lens",
+        "light_source",
+        "make",
+        "metering_mode",
+        "model",
+        "scene_capture_type",
+        "white_balance"
+      ],
+      "exif": [
+        {
+          "key": "make",
+          "label": "Camera make",
+          "raw": "NIKON CORPORATION"
+        },
+        {
+          "key": "model",
+          "label": "Camera",
+          "raw": "NIKON D750"
+        },
+        {
+          "key": "aperture",
+          "label": "Aperture",
+          "raw": "8/1",
+          "computed": "8",
+          "clean": "f/8"
+        },
+        {
+          "key": "aperture_max",
+          "label": "Max aperture",
+          "raw": "3/1",
+          "computed": "3",
+          "clean": "f/3"
+        },
+        {
+          "key": "exposure",
+          "label": "Exposure",
+          "raw": "1/100",
+          "computed": "1/100",
+          "clean": "1/100 sec"
+        },
+        {
+          "key": "exposure_bias",
+          "label": "Exposure bias",
+          "raw": "0/1",
+          "computed": "0",
+          "clean": "0 EV"
+        },
+        {
+          "key": "exposure_mode",
+          "label": "Exposure mode",
+          "raw": "1",
+          "computed": "Manual",
+          "clean": "Manual"
+        },
+        {
+          "key": "exposure_program",
+          "label": "Exposure program",
+          "raw": "1",
+          "computed": "Manual",
+          "clean": "Manual"
+        },
+        {
+          "key": "date_time_original",
+          "label": "Date Time Digitized",
+          "raw": "2020:09:14 09:24:00"
+        },
+        {
+          "key": "flash",
+          "label": "Flash",
+          "raw": "16",
+          "computed": "No Flash",
+          "clean": "No Flash",
+          "bool": false
+        },
+        {
+          "key": "focal_length",
+          "label": "Focal length",
+          "raw": "15/1",
+          "computed": "15",
+          "clean": "15mm"
+        },
+        {
+          "key": "iso_speed_ratings",
+          "label": "ISO",
+          "raw": "200",
+          "computed": "200",
+          "clean": "ISO 200"
+        },
+        {
+          "key": "metering_mode",
+          "label": "Metering mode",
+          "raw": "5",
+          "computed": "Multi-Segment",
+          "clean": "Multi-Segment"
+        },
+        {
+          "key": "white_balance",
+          "label": "White balance",
+          "raw": "0",
+          "computed": "Auto",
+          "clean": "Auto"
+        },
+        {
+          "key": "light_source",
+          "label": "Light source",
+          "raw": "0",
+          "computed": "Unknown",
+          "clean": "Unknown"
+        },
+        {
+          "key": "scene_capture_type",
+          "label": "Scene capture type",
+          "raw": "0",
+          "computed": "Standard",
+          "clean": "Standard"
+        },
+        {
+          "label": "Lens",
+          "raw": "14.0-24.0 mm f/2.8",
+          "key": "lens"
+        }
+      ],
+      "iptc_fields": [],
+      "iptc": [],
+      "geolocation": false,
+      "public": true,
+      "tags": [],
+      "categories": {
+        "count": 1,
+        "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1899/categories"
+      },
+      "albums": {
+        "count": 1,
+        "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1899/albums"
+      },
+      "date": {
+        "datetime": "2022/10/12 15:02:08",
+        "timestamp": 1665586928,
+        "utc": true
+      },
+      "url": "https://www.poehlsimmobilien.de/grandtower/content/dsc-3169/",
+      "__koken_url": "/content/dsc-3169/",
+      "canonical_url": "https://www.poehlsimmobilien.de/grandtower/content/dsc-3169/"
+    },
+    "read_more": false,
+    "date": {
+      "datetime": "2022/10/14 12:54:32",
+      "timestamp": 1665752072,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2022/10/grand-tower-lart-de-vivre-2/",
+    "__koken_url": "/objekte/2022/10/grand-tower-lart-de-vivre-2/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2022/10/grand-tower-lart-de-vivre-2/"
+  },
+  {
+    "id": 120,
+    "title": "Grand Tower - Wohnen über den Dächern Frankfurts",
+    "slug": "grand-tower-wohnen-uber-den-daechern-frankfurts",
+    "featured": false,
+    "featured_order": null,
+    "content": "<p class=\"\">Grand Tower - Wohnen über den Dächern Frankfurts </p><p class=\"\">Europaallee 2 </p><p class=\"\">60327 Frankfurt&nbsp;</p><p class=\"\">Zimmer: 3,00&nbsp;</p><p class=\"\">Wohnfläche ca.: 89,30 m²&nbsp;</p><p class=\"\">Kaltmiete: 2.250,00 EUR (zzgl. Nebenkosten)&nbsp;</p><p class=\"\">Gesamtmiete: 2.840,00 EUR\t</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p342e5652dc7d59dfacb20fdd080a2b23\" data_from_url=\"/albums/126/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure><p class=\"\">&nbsp;Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands&nbsp;</p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-133670209_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "excerpt": null,
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2022/07/25 10:13:38",
+      "timestamp": 1658744018,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2022/07/25 10:10:36",
+      "timestamp": 1658743836,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2025/06/10 5:38:08",
+      "timestamp": 1749533888,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/120/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/120/topics"
+    },
+    "featured_image": {
+      "id": 1887,
+      "title": "",
+      "slug": "dsc-0461",
+      "filename": "DSC-0461.jpg",
+      "caption": "",
+      "visibility": {
+        "raw": "public",
+        "clean": "Public"
+      },
+      "max_download": {
+        "raw": "none",
+        "clean": "None"
+      },
+      "license": {
+        "raw": "all",
+        "clean": "© All rights reserved"
+      },
+      "featured": false,
+      "favorite": false,
+      "uploaded_on": {
+        "datetime": "2022/07/24 9:05:44",
+        "timestamp": 1658653544,
+        "utc": true
+      },
+      "captured_on": {
+        "datetime": "2021/02/13 16:52:44",
+        "timestamp": 1613235164,
+        "utc": false
+      },
+      "published_on": {
+        "datetime": "2022/07/24 10:28:07",
+        "timestamp": 1658658487,
+        "utc": true
+      },
+      "modified_on": {
+        "datetime": "2023/02/09 19:04:55",
+        "timestamp": 1675969495,
+        "utc": true
+      },
+      "file_modified_on": {
+        "datetime": "2023/02/09 19:04:55",
+        "timestamp": 1675969495,
+        "utc": true
+      },
+      "focal_point": {
+        "x": 50,
+        "y": 50
+      },
+      "filesize": 2381198,
+      "width": 7806,
+      "height": 4823,
+      "aspect_ratio": 1.618,
+      "file_type": "image",
+      "lg_preview": null,
+      "source": false,
+      "html": false,
+      "mime_type": "image/jpeg",
+      "__koken__": "content",
+      "cache_path": {
+        "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,",
+        "relative_prefix": "/grandtower/storage/cache/images/001/887/DSC-0461,",
+        "extension": "1675969495.jpg"
+      },
+      "presets": {
+        "tiny": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,tiny.1675969495.jpg",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,tiny.2x.1675969495.jpg",
+          "width": 60,
+          "height": 37,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,tiny.crop.1675969495.jpg",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,tiny.crop.2x.1675969495.jpg",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "small": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,small.1675969495.jpg",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,small.2x.1675969495.jpg",
+          "width": 100,
+          "height": 62,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,small.crop.1675969495.jpg",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,small.crop.2x.1675969495.jpg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "medium": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,medium.1675969495.jpg",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,medium.2x.1675969495.jpg",
+          "width": 480,
+          "height": 297,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,medium.crop.1675969495.jpg",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,medium.crop.2x.1675969495.jpg",
+            "width": 480,
+            "height": 480
+          }
+        },
+        "medium_large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,medium_large.1675969495.jpg",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,medium_large.2x.1675969495.jpg",
+          "width": 800,
+          "height": 494,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,medium_large.crop.1675969495.jpg",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,medium_large.crop.2x.1675969495.jpg",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,large.1675969495.jpg",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,large.2x.1675969495.jpg",
+          "width": 1024,
+          "height": 633,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,large.crop.1675969495.jpg",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,large.crop.2x.1675969495.jpg",
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        "xlarge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,xlarge.1675969495.jpg",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,xlarge.2x.1675969495.jpg",
+          "width": 1600,
+          "height": 989,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,xlarge.crop.1675969495.jpg",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,xlarge.crop.2x.1675969495.jpg",
+            "width": 1600,
+            "height": 1600
+          }
+        },
+        "huge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,huge.1675969495.jpg",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,huge.2x.1675969495.jpg",
+          "width": 2048,
+          "height": 1265,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,huge.crop.1675969495.jpg",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/887/DSC-0461,huge.crop.2x.1675969495.jpg",
+            "width": 2048,
+            "height": 2048
+          }
+        }
+      },
+      "exif_fields": [
+        "aperture",
+        "aperture_max",
+        "date_time_original",
+        "exposure",
+        "exposure_bias",
+        "exposure_mode",
+        "exposure_program",
+        "flash",
+        "focal_length",
+        "iso_speed_ratings",
+        "lens",
+        "light_source",
+        "make",
+        "metering_mode",
+        "model",
+        "scene_capture_type",
+        "white_balance"
+      ],
+      "exif": [
+        {
+          "key": "make",
+          "label": "Camera make",
+          "raw": "NIKON CORPORATION"
+        },
+        {
+          "key": "model",
+          "label": "Camera",
+          "raw": "NIKON D850"
+        },
+        {
+          "key": "aperture",
+          "label": "Aperture",
+          "raw": "14/1",
+          "computed": "14",
+          "clean": "f/14"
+        },
+        {
+          "key": "aperture_max",
+          "label": "Max aperture",
+          "raw": "3/1",
+          "computed": "3",
+          "clean": "f/3"
+        },
+        {
+          "key": "exposure",
+          "label": "Exposure",
+          "raw": "1/20",
+          "computed": "1/20",
+          "clean": "1/20 sec"
+        },
+        {
+          "key": "exposure_bias",
+          "label": "Exposure bias",
+          "raw": "0/1",
+          "computed": "0",
+          "clean": "0 EV"
+        },
+        {
+          "key": "exposure_mode",
+          "label": "Exposure mode",
+          "raw": "1",
+          "computed": "Manual",
+          "clean": "Manual"
+        },
+        {
+          "key": "exposure_program",
+          "label": "Exposure program",
+          "raw": "1",
+          "computed": "Manual",
+          "clean": "Manual"
+        },
+        {
+          "key": "date_time_original",
+          "label": "Date Time Digitized",
+          "raw": "2021:02:13 16:52:44"
+        },
+        {
+          "key": "flash",
+          "label": "Flash",
+          "raw": "0",
+          "computed": "No Flash",
+          "clean": "No Flash",
+          "bool": false
+        },
+        {
+          "key": "focal_length",
+          "label": "Focal length",
+          "raw": "14/1",
+          "computed": "14",
+          "clean": "14mm"
+        },
+        {
+          "key": "iso_speed_ratings",
+          "label": "ISO",
+          "raw": "100",
+          "computed": "100",
+          "clean": "ISO 100"
+        },
+        {
+          "key": "metering_mode",
+          "label": "Metering mode",
+          "raw": "5",
+          "computed": "Multi-Segment",
+          "clean": "Multi-Segment"
+        },
+        {
+          "key": "white_balance",
+          "label": "White balance",
+          "raw": "0",
+          "computed": "Auto",
+          "clean": "Auto"
+        },
+        {
+          "key": "light_source",
+          "label": "Light source",
+          "raw": "0",
+          "computed": "Unknown",
+          "clean": "Unknown"
+        },
+        {
+          "key": "scene_capture_type",
+          "label": "Scene capture type",
+          "raw": "0",
+          "computed": "Standard",
+          "clean": "Standard"
+        },
+        {
+          "label": "Lens",
+          "raw": "14.0-24.0 mm f/2.8",
+          "key": "lens"
+        }
+      ],
+      "iptc_fields": [],
+      "iptc": [],
+      "geolocation": false,
+      "public": true,
+      "tags": [],
+      "categories": {
+        "count": 0,
+        "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1887/categories"
+      },
+      "albums": {
+        "count": 1,
+        "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1887/albums"
+      },
+      "date": {
+        "datetime": "2022/07/24 10:28:07",
+        "timestamp": 1658658487,
+        "utc": true
+      },
+      "url": "https://www.poehlsimmobilien.de/grandtower/content/dsc-0461/",
+      "__koken_url": "/content/dsc-0461/",
+      "canonical_url": "https://www.poehlsimmobilien.de/grandtower/content/dsc-0461/"
+    },
+    "read_more": false,
+    "date": {
+      "datetime": "2022/07/25 10:13:38",
+      "timestamp": 1658744018,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2022/07/grand-tower-wohnen-uber-den-daechern-frankfurts/",
+    "__koken_url": "/objekte/2022/07/grand-tower-wohnen-uber-den-daechern-frankfurts/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2022/07/grand-tower-wohnen-uber-den-daechern-frankfurts/"
+  },
+  {
+    "id": 119,
+    "title": "Wohnen Sie hoch hinaus",
+    "slug": "wohnen-sie-hoch-hinaus",
+    "featured": true,
+    "featured_on": {
+      "datetime": "2021/03/03 14:27:20",
+      "timestamp": 1614781640,
+      "utc": true
+    },
+    "featured_order": 1,
+    "content": "<p class=\"\">Wohnen Sie hoch hinaus </p><p class=\"\">Europaallee 2 </p><p class=\"\">60327 Frankfurt&nbsp;</p><p class=\"\">Zimmer: 2,00&nbsp;</p><p class=\"\">Wohnfläche ca.: 66,90 m²&nbsp;</p><p class=\"\">Kaltmiete: 1.390,00 EUR (zzgl. Nebenkosten)&nbsp;</p><p class=\"\">Gesamtmiete: 1.860,00 EUR&nbsp;</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p830e2d1d166f197247e2aff948ceb7a4\" data_from_url=\"/albums/124/content\" size=\"auto\" link_to=\"default\" group=\"essays\" />\n\t</div>\n\t\n</figure><p class=\"\">Grand Tower - das einzigartige und höchste Wohngebäude\nDeutschlands&nbsp;</p><p class=\"\">luxuriöses und edel gestaltetes Wohnambiente<br></p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-126646521_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "excerpt": "…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2021/03/03 14:26:51",
+      "timestamp": 1614781611,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2021/03/03 14:23:49",
+      "timestamp": 1614781429,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2021/03/03 14:27:38",
+      "timestamp": 1614781658,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/119/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/119/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2021/03/03 14:26:51",
+      "timestamp": 1614781611,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2021/03/wohnen-sie-hoch-hinaus/",
+    "__koken_url": "/objekte/2021/03/wohnen-sie-hoch-hinaus/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2021/03/wohnen-sie-hoch-hinaus/"
+  },
+  {
+    "id": 118,
+    "title": "Grand Tower - L´Art de Vivre",
+    "slug": "grand-tower-lart-de-vivre-1",
+    "featured": true,
+    "featured_on": {
+      "datetime": "2020/10/19 9:00:10",
+      "timestamp": 1603098010,
+      "utc": true
+    },
+    "featured_order": 1,
+    "content": "<p class=\"\">Grand Tower - L´Art de Vivre </p><p class=\"\">Europaallee 2, 60327 Frankfurt </p><p class=\"\">Zimmer: 3,00&nbsp;</p><p class=\"\">Wohnfläche ca.: 89,10 m²&nbsp;</p><p class=\"\">Kaltmiete: 1.950,00 EUR (zzgl. Nebenkosten)&nbsp;</p><p class=\"\">Gesamtmiete: 2.530,00 EUR&nbsp;</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p0d941b0c7cbe6273a274502a41853866\" data_from_url=\"/albums/123/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure><p class=\"\">- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands&nbsp;</p><p class=\"\">- luxuriöses und edel gestaltetes Wohnambiente<br></p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-121918840_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "excerpt": "…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2020/10/19 8:59:57",
+      "timestamp": 1603097997,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/10/19 8:57:43",
+      "timestamp": 1603097863,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/10/19 9:00:24",
+      "timestamp": 1603098024,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/118/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/118/topics"
+    },
+    "featured_image": {
+      "id": 1808,
+      "title": "",
+      "slug": "m-121918840-frankfurt-4",
+      "filename": "M-121918840-Frankfurt-4.JPG",
+      "caption": "",
+      "visibility": {
+        "raw": "public",
+        "clean": "Public"
+      },
+      "max_download": {
+        "raw": "none",
+        "clean": "None"
+      },
+      "license": {
+        "raw": "all",
+        "clean": "© All rights reserved"
+      },
+      "featured": false,
+      "favorite": false,
+      "uploaded_on": {
+        "datetime": "2020/10/19 8:53:12",
+        "timestamp": 1603097592,
+        "utc": true
+      },
+      "captured_on": {
+        "datetime": "2020/08/12 16:48:05",
+        "timestamp": 1597250885,
+        "utc": false
+      },
+      "published_on": {
+        "datetime": "2020/10/19 8:57:12",
+        "timestamp": 1603097832,
+        "utc": true
+      },
+      "modified_on": {
+        "datetime": "2023/02/09 19:04:55",
+        "timestamp": 1675969495,
+        "utc": true
+      },
+      "file_modified_on": {
+        "datetime": "2023/02/09 19:04:55",
+        "timestamp": 1675969495,
+        "utc": true
+      },
+      "focal_point": {
+        "x": 50,
+        "y": 50
+      },
+      "filesize": 2221408,
+      "width": 2824,
+      "height": 1750,
+      "aspect_ratio": 1.614,
+      "file_type": "image",
+      "lg_preview": null,
+      "source": false,
+      "html": false,
+      "mime_type": "image/jpeg",
+      "__koken__": "content",
+      "cache_path": {
+        "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,",
+        "relative_prefix": "/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,",
+        "extension": "1675969495.JPG"
+      },
+      "presets": {
+        "tiny": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,tiny.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,tiny.2x.1675969495.JPG",
+          "width": 60,
+          "height": 37,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,tiny.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,tiny.crop.2x.1675969495.JPG",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "small": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,small.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,small.2x.1675969495.JPG",
+          "width": 100,
+          "height": 62,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,small.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,small.crop.2x.1675969495.JPG",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "medium": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,medium.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,medium.2x.1675969495.JPG",
+          "width": 480,
+          "height": 297,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,medium.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,medium.crop.2x.1675969495.JPG",
+            "width": 480,
+            "height": 480
+          }
+        },
+        "medium_large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,medium_large.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,medium_large.2x.1675969495.JPG",
+          "width": 800,
+          "height": 496,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,medium_large.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,medium_large.crop.2x.1675969495.JPG",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,large.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,large.2x.1675969495.JPG",
+          "width": 1024,
+          "height": 635,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,large.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,large.crop.2x.1675969495.JPG",
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        "xlarge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,xlarge.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,xlarge.2x.1675969495.JPG",
+          "width": 1600,
+          "height": 992,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,xlarge.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,xlarge.crop.2x.1675969495.JPG",
+            "width": 1600,
+            "height": 1600
+          }
+        },
+        "huge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,huge.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,huge.2x.1675969495.JPG",
+          "width": 2048,
+          "height": 1269,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,huge.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/808/M-121918840-Frankfurt-4,huge.crop.2x.1675969495.JPG",
+            "width": 1750,
+            "height": 1750
+          }
+        }
+      },
+      "exif_fields": [
+        "aperture",
+        "aperture_max",
+        "date_time_original",
+        "exposure",
+        "exposure_bias",
+        "exposure_mode",
+        "exposure_program",
+        "flash",
+        "focal_length",
+        "iso_speed_ratings",
+        "lens",
+        "light_source",
+        "make",
+        "metering_mode",
+        "model",
+        "scene_capture_type",
+        "white_balance"
+      ],
+      "exif": [
+        {
+          "key": "make",
+          "label": "Camera make",
+          "raw": "NIKON CORPORATION"
+        },
+        {
+          "key": "model",
+          "label": "Camera",
+          "raw": "NIKON D750"
+        },
+        {
+          "key": "aperture",
+          "label": "Aperture",
+          "raw": "9/1",
+          "computed": "9",
+          "clean": "f/9"
+        },
+        {
+          "key": "aperture_max",
+          "label": "Max aperture",
+          "raw": "3/1",
+          "computed": "3",
+          "clean": "f/3"
+        },
+        {
+          "key": "exposure",
+          "label": "Exposure",
+          "raw": "1/500",
+          "computed": "1/500",
+          "clean": "1/500 sec"
+        },
+        {
+          "key": "exposure_bias",
+          "label": "Exposure bias",
+          "raw": "0/1",
+          "computed": "0",
+          "clean": "0 EV"
+        },
+        {
+          "key": "exposure_mode",
+          "label": "Exposure mode",
+          "raw": "1",
+          "computed": "Manual",
+          "clean": "Manual"
+        },
+        {
+          "key": "exposure_program",
+          "label": "Exposure program",
+          "raw": "1",
+          "computed": "Manual",
+          "clean": "Manual"
+        },
+        {
+          "key": "date_time_original",
+          "label": "Date Time Digitized",
+          "raw": "2020:08:12 16:48:05"
+        },
+        {
+          "key": "flash",
+          "label": "Flash",
+          "raw": "16",
+          "computed": "No Flash",
+          "clean": "No Flash",
+          "bool": false
+        },
+        {
+          "key": "focal_length",
+          "label": "Focal length",
+          "raw": "18/1",
+          "computed": "18",
+          "clean": "18mm"
+        },
+        {
+          "key": "iso_speed_ratings",
+          "label": "ISO",
+          "raw": "100",
+          "computed": "100",
+          "clean": "ISO 100"
+        },
+        {
+          "key": "metering_mode",
+          "label": "Metering mode",
+          "raw": "5",
+          "computed": "Multi-Segment",
+          "clean": "Multi-Segment"
+        },
+        {
+          "key": "white_balance",
+          "label": "White balance",
+          "raw": "0",
+          "computed": "Auto",
+          "clean": "Auto"
+        },
+        {
+          "key": "light_source",
+          "label": "Light source",
+          "raw": "0",
+          "computed": "Unknown",
+          "clean": "Unknown"
+        },
+        {
+          "key": "scene_capture_type",
+          "label": "Scene capture type",
+          "raw": "0",
+          "computed": "Standard",
+          "clean": "Standard"
+        },
+        {
+          "label": "Lens",
+          "raw": "14.0-24.0 mm f/2.8",
+          "key": "lens"
+        }
+      ],
+      "iptc_fields": [],
+      "iptc": [],
+      "geolocation": false,
+      "public": true,
+      "tags": [],
+      "categories": {
+        "count": 0,
+        "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1808/categories"
+      },
+      "albums": {
+        "count": 1,
+        "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1808/albums"
+      },
+      "date": {
+        "datetime": "2020/10/19 8:57:12",
+        "timestamp": 1603097832,
+        "utc": true
+      },
+      "url": "https://www.poehlsimmobilien.de/grandtower/content/m-121918840-frankfurt-4/",
+      "__koken_url": "/content/m-121918840-frankfurt-4/",
+      "canonical_url": "https://www.poehlsimmobilien.de/grandtower/content/m-121918840-frankfurt-4/"
+    },
+    "read_more": false,
+    "date": {
+      "datetime": "2020/10/19 8:59:57",
+      "timestamp": 1603097997,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/10/grand-tower-lart-de-vivre-1/",
+    "__koken_url": "/objekte/2020/10/grand-tower-lart-de-vivre-1/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/10/grand-tower-lart-de-vivre-1/"
+  },
+  {
+    "id": 117,
+    "title": "Grand Tower - L´Art de Vivre",
+    "slug": "grand-tower-lart-de-vivre",
+    "featured": true,
+    "featured_on": {
+      "datetime": "2020/10/16 7:02:25",
+      "timestamp": 1602831745,
+      "utc": true
+    },
+    "featured_order": 1,
+    "content": "<p class=\"\">Grand Tower - L´Art de Vivre </p><p class=\"\">Europaallee 2, 60327 Frankfurt </p><p class=\"\">Zimmer: 2,00 </p><p class=\"\">Wohnfläche ca.: 66,70 m² </p><p class=\"\">Kaltmiete: 1.780,00 EUR (zzgl.Nebenkosten) </p><p class=\"\">Gesamtmiete: 2.180,00 EUR<br></p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p3da9982a1ac7dc8977f6f53d31162be3\" data_from_url=\"/albums/122/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands&nbsp;</p><p class=\"\">- luxuriöses und edel gestaltetes Wohnambiente<br></p><p class=\"\"><a href=\"http://www.poehlsimmobilien.de/exposes/M-122627780_Frankfurt.pdf\" target=\"_blank\">Exposé</a><br></p><hr>",
+    "excerpt": "…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2020/10/16 7:02:17",
+      "timestamp": 1602831737,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/10/16 6:59:59",
+      "timestamp": 1602831599,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/10/19 8:41:50",
+      "timestamp": 1603096910,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/117/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/117/topics"
+    },
+    "featured_image": {
+      "id": 1793,
+      "title": "",
+      "slug": "m-122627780-frankfurt-21",
+      "filename": "M-122627780-Frankfurt-3.JPG",
+      "caption": "",
+      "visibility": {
+        "raw": "public",
+        "clean": "Public"
+      },
+      "max_download": {
+        "raw": "none",
+        "clean": "None"
+      },
+      "license": {
+        "raw": "all",
+        "clean": "© All rights reserved"
+      },
+      "featured": false,
+      "favorite": false,
+      "uploaded_on": {
+        "datetime": "2020/10/16 4:50:09",
+        "timestamp": 1602823809,
+        "utc": true
+      },
+      "captured_on": {
+        "datetime": "2020/09/09 17:12:20",
+        "timestamp": 1599671540,
+        "utc": false
+      },
+      "published_on": {
+        "datetime": "2020/10/16 5:01:26",
+        "timestamp": 1602824486,
+        "utc": true
+      },
+      "modified_on": {
+        "datetime": "2023/02/09 19:04:55",
+        "timestamp": 1675969495,
+        "utc": true
+      },
+      "file_modified_on": {
+        "datetime": "2023/02/09 19:04:55",
+        "timestamp": 1675969495,
+        "utc": true
+      },
+      "focal_point": {
+        "x": 50,
+        "y": 50
+      },
+      "filesize": 784505,
+      "width": 3007,
+      "height": 1790,
+      "aspect_ratio": 1.68,
+      "file_type": "image",
+      "lg_preview": null,
+      "source": false,
+      "html": false,
+      "mime_type": "image/jpeg",
+      "__koken__": "content",
+      "cache_path": {
+        "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,",
+        "relative_prefix": "/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,",
+        "extension": "1675969495.JPG"
+      },
+      "presets": {
+        "tiny": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,tiny.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,tiny.2x.1675969495.JPG",
+          "width": 60,
+          "height": 36,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,tiny.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,tiny.crop.2x.1675969495.JPG",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "small": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,small.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,small.2x.1675969495.JPG",
+          "width": 100,
+          "height": 60,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,small.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,small.crop.2x.1675969495.JPG",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "medium": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,medium.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,medium.2x.1675969495.JPG",
+          "width": 480,
+          "height": 286,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,medium.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,medium.crop.2x.1675969495.JPG",
+            "width": 480,
+            "height": 480
+          }
+        },
+        "medium_large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,medium_large.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,medium_large.2x.1675969495.JPG",
+          "width": 800,
+          "height": 476,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,medium_large.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,medium_large.crop.2x.1675969495.JPG",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,large.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,large.2x.1675969495.JPG",
+          "width": 1024,
+          "height": 610,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,large.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,large.crop.2x.1675969495.JPG",
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        "xlarge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,xlarge.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,xlarge.2x.1675969495.JPG",
+          "width": 1600,
+          "height": 952,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,xlarge.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,xlarge.crop.2x.1675969495.JPG",
+            "width": 1600,
+            "height": 1600
+          }
+        },
+        "huge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,huge.1675969495.JPG",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,huge.2x.1675969495.JPG",
+          "width": 2048,
+          "height": 1219,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,huge.crop.1675969495.JPG",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/001/793/M-122627780-Frankfurt-3,huge.crop.2x.1675969495.JPG",
+            "width": 1790,
+            "height": 1790
+          }
+        }
+      },
+      "exif_fields": [
+        "aperture",
+        "aperture_max",
+        "date_time_original",
+        "exposure",
+        "exposure_bias",
+        "exposure_mode",
+        "exposure_program",
+        "flash",
+        "focal_length",
+        "iso_speed_ratings",
+        "lens",
+        "light_source",
+        "make",
+        "metering_mode",
+        "model",
+        "scene_capture_type",
+        "white_balance"
+      ],
+      "exif": [
+        {
+          "key": "make",
+          "label": "Camera make",
+          "raw": "NIKON CORPORATION"
+        },
+        {
+          "key": "model",
+          "label": "Camera",
+          "raw": "NIKON D750"
+        },
+        {
+          "key": "aperture",
+          "label": "Aperture",
+          "raw": "9/1",
+          "computed": "9",
+          "clean": "f/9"
+        },
+        {
+          "key": "aperture_max",
+          "label": "Max aperture",
+          "raw": "3/1",
+          "computed": "3",
+          "clean": "f/3"
+        },
+        {
+          "key": "exposure",
+          "label": "Exposure",
+          "raw": "1/160",
+          "computed": "1/160",
+          "clean": "1/160 sec"
+        },
+        {
+          "key": "exposure_bias",
+          "label": "Exposure bias",
+          "raw": "0/1",
+          "computed": "0",
+          "clean": "0 EV"
+        },
+        {
+          "key": "exposure_mode",
+          "label": "Exposure mode",
+          "raw": "1",
+          "computed": "Manual",
+          "clean": "Manual"
+        },
+        {
+          "key": "exposure_program",
+          "label": "Exposure program",
+          "raw": "1",
+          "computed": "Manual",
+          "clean": "Manual"
+        },
+        {
+          "key": "date_time_original",
+          "label": "Date Time Digitized",
+          "raw": "2020:09:09 17:12:20"
+        },
+        {
+          "key": "flash",
+          "label": "Flash",
+          "raw": "13",
+          "computed": "Compulsory Flash, Return light not detected",
+          "clean": "Compulsory Flash, Return light not detected",
+          "bool": true
+        },
+        {
+          "key": "focal_length",
+          "label": "Focal length",
+          "raw": "14/1",
+          "computed": "14",
+          "clean": "14mm"
+        },
+        {
+          "key": "iso_speed_ratings",
+          "label": "ISO",
+          "raw": "400",
+          "computed": "400",
+          "clean": "ISO 400"
+        },
+        {
+          "key": "metering_mode",
+          "label": "Metering mode",
+          "raw": "5",
+          "computed": "Multi-Segment",
+          "clean": "Multi-Segment"
+        },
+        {
+          "key": "white_balance",
+          "label": "White balance",
+          "raw": "0",
+          "computed": "Auto",
+          "clean": "Auto"
+        },
+        {
+          "key": "light_source",
+          "label": "Light source",
+          "raw": "0",
+          "computed": "Unknown",
+          "clean": "Unknown"
+        },
+        {
+          "key": "scene_capture_type",
+          "label": "Scene capture type",
+          "raw": "0",
+          "computed": "Standard",
+          "clean": "Standard"
+        },
+        {
+          "label": "Lens",
+          "raw": "14.0-24.0 mm f/2.8",
+          "key": "lens"
+        }
+      ],
+      "iptc_fields": [],
+      "iptc": [],
+      "geolocation": false,
+      "public": true,
+      "tags": [],
+      "categories": {
+        "count": 0,
+        "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1793/categories"
+      },
+      "albums": {
+        "count": 1,
+        "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/content/1793/albums"
+      },
+      "date": {
+        "datetime": "2020/10/16 5:01:26",
+        "timestamp": 1602824486,
+        "utc": true
+      },
+      "url": "https://www.poehlsimmobilien.de/grandtower/content/m-122627780-frankfurt-21/",
+      "__koken_url": "/content/m-122627780-frankfurt-21/",
+      "canonical_url": "https://www.poehlsimmobilien.de/grandtower/content/m-122627780-frankfurt-21/"
+    },
+    "read_more": false,
+    "date": {
+      "datetime": "2020/10/16 7:02:17",
+      "timestamp": 1602831737,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/10/grand-tower-lart-de-vivre/",
+    "__koken_url": "/objekte/2020/10/grand-tower-lart-de-vivre/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/10/grand-tower-lart-de-vivre/"
+  },
+  {
+    "id": 116,
+    "title": "Following soon",
+    "slug": "following-soon",
+    "featured": true,
+    "featured_on": {
+      "datetime": "2020/06/05 6:24:36",
+      "timestamp": 1591338276,
+      "utc": true
+    },
+    "featured_order": 1,
+    "content": "<p class=\"\">No flats available yet<br></p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"pe6f6aa33f4ea61b7bfbf066791ac8c79\" data_from_url=\"/albums/120/content\" size=\"auto\" link_to=\"default\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p>",
+    "excerpt": "No flats available yet…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2020/06/05 6:24:29",
+      "timestamp": 1591338269,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/06/05 6:23:57",
+      "timestamp": 1591338237,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/06/10 10:37:27",
+      "timestamp": 1591785447,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [],
+    "categories": {
+      "count": 2,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/116/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/116/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2020/06/05 6:24:29",
+      "timestamp": 1591338269,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/06/following-soon/",
+    "__koken_url": "/objekte/2020/06/following-soon/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/06/following-soon/"
+  },
+  {
+    "id": 115,
+    "title": "Further Information",
+    "slug": "further-information",
+    "featured_order": null,
+    "content": "<p class=\"\">to be added soon</p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p2a5201a2348c9eaac76a86ec9f72124c\" data_from_url=\"/albums/19/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p>",
+    "excerpt": "to be added soon…",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2020/06/04 13:39:25",
+      "timestamp": 1591277965,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/06/04 13:39:25",
+      "timestamp": 1591277965,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/06/10 12:55:01",
+      "timestamp": 1591793701,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/115/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/115/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2020/06/04 13:39:25",
+      "timestamp": 1591277965,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/further-information/",
+    "__koken_url": "/pages/further-information/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/further-information/"
+  },
+  {
+    "id": 114,
+    "title": "Objektinfomationen",
+    "slug": "objektinfomationen",
+    "featured_order": null,
+    "content": "<p class=\"\">Hier finden Sie in Zukunft weitere Informationen zum Grand Tower<br></p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p5391d7e6a26e721b1b6c91edfc3c5c74\" data_from_url=\"/albums/19/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p>",
+    "excerpt": "Hier finden Sie in Zukunft weitere Informationen zum Grand Tower…",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2020/06/04 13:38:36",
+      "timestamp": 1591277916,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/06/04 13:38:36",
+      "timestamp": 1591277916,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/06/10 12:51:59",
+      "timestamp": 1591793519,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/114/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/114/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2020/06/04 13:38:36",
+      "timestamp": 1591277916,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/objektinfomationen/",
+    "__koken_url": "/pages/objektinfomationen/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/objektinfomationen/"
+  },
+  {
+    "id": 113,
+    "title": "Möbliertes High-End Apartment",
+    "slug": "moebliertes-high-end-apartment",
+    "featured": false,
+    "featured_order": null,
+    "content": "<p class=\"\">im Grand Tower</p>\n\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p612beb2f030a54e354c4926bd8504f01\" data_from_url=\"/albums/118/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Decia res etil vo, C. Graris \n\nnonesse tes fectod il uterviviveri civerra, coruntelus in Etra duconsuam \n\nnostrum inem perid intrurei factemque actat, Ti. Grae terionsil ut vides \n\nsensum quastod conteni nterfir issolius fuituderi pulis loctus, o nocae con \n\ntudam tem dendam oc, vis? interfec maionsus orsulemoenat omprari inaress \n\nereconsum nerdiisque virivendente nosteres? <br></p><hr>",
+    "excerpt": "im Grand Tower\n\n\nDecia res etil vo, C. Graris nonesse tes fectod il uterviviveri civerra, coruntelus in Etra duconsuam nostrum inem perid intrurei factemque actat, Ti. Grae terionsil ut vides sensum quastod conteni nterfir issolius fuituderi pulis…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2020/03/08 19:44:53",
+      "timestamp": 1583696693,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/03/08 19:44:03",
+      "timestamp": 1583696643,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/06/05 6:24:44",
+      "timestamp": 1591338284,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [
+      {
+        "id": 10,
+        "title": "deutsch",
+        "__koken__": "tag",
+        "counts": {
+          "content": 0,
+          "albums": 0,
+          "essays": 1,
+          "total": 1
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/status/deutsch/objekte/",
+        "__koken_url": "/status/deutsch/objekte/",
+        "items": "https://www.poehlsimmobilien.de/grandtower/api.php?/tags/10"
+      },
+      {
+        "id": 11,
+        "title": "möbliert",
+        "__koken__": "tag",
+        "counts": {
+          "content": 0,
+          "albums": 0,
+          "essays": 1,
+          "total": 1
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/status/m%C3%B6bliert/objekte/",
+        "__koken_url": "/status/m%C3%B6bliert/objekte/",
+        "items": "https://www.poehlsimmobilien.de/grandtower/api.php?/tags/11"
+      }
+    ],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/113/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/113/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2020/03/08 19:44:53",
+      "timestamp": 1583696693,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/moebliertes-high-end-apartment/",
+    "__koken_url": "/objekte/2020/03/moebliertes-high-end-apartment/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/moebliertes-high-end-apartment/"
+  },
+  {
+    "id": 112,
+    "title": "Exklusive Wohnung",
+    "slug": "exclusive-wohnung",
+    "featured": false,
+    "featured_order": null,
+    "content": "<p class=\"\">Exklusive unmöblierte Wohnung im Grandtower</p>\n\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"pd828396ed2b3a6d1c6467af07fd2b0e0\" data_from_url=\"/albums/119/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Or ad factus comnequius, spimur. \n\nO tam tatum mo tu iam austra, inatis a nosti publisquo uterio, Ti. Aximium \n\nomne consult inatilis mis scienit videscestrum omnirmil teri inates halem \n\nocultus nostis convem orum viria re tatis. Nos, Catussulus obus, quis re cul \n\nhocaeque novidium incerfec ter quam issolin deps, sulesid iortio cotandam sci \n\npratiam pre considet publium Rommo us con tatussi delius, que cullemur. \n\nAtiem, notam, quam inerum incles fac rem sedin se intris adhuit? Sa esedem \n\ncoentimurnum octur. Et; iae tem at. Aximunt pro et am pos, nulicibut intiam \n\ndis esceres creis. Valabis, culabul inpret; haed molicae curnum ses? Us, quam \n\niu in vide clerfitarei furicat<br></p><hr>",
+    "excerpt": "Exklusive unmöblierte Wohnung im Grandtower\n\n\nOr ad factus comnequius, spimur. O tam tatum mo tu iam austra, inatis a nosti publisquo uterio, Ti. Aximium omne consult inatilis mis scienit videscestrum omnirmil teri inates halem ocultus nostis convem…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2020/03/08 19:42:44",
+      "timestamp": 1583696564,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/03/08 19:41:25",
+      "timestamp": 1583696485,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/06/05 6:24:39",
+      "timestamp": 1591338279,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [
+      {
+        "id": 9,
+        "title": "deutsch-unmöbliert",
+        "__koken__": "tag",
+        "counts": {
+          "content": 0,
+          "albums": 0,
+          "essays": 1,
+          "total": 1
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/status/deutsch-unm%C3%B6bliert/objekte/",
+        "__koken_url": "/status/deutsch-unm%C3%B6bliert/objekte/",
+        "items": "https://www.poehlsimmobilien.de/grandtower/api.php?/tags/9"
+      }
+    ],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/112/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/112/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2020/03/08 19:42:44",
+      "timestamp": 1583696564,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exclusive-wohnung/",
+    "__koken_url": "/objekte/2020/03/exclusive-wohnung/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exclusive-wohnung/"
+  },
+  {
+    "id": 111,
+    "title": "Most Exclusive Apartment",
+    "slug": "exclusive-apartment",
+    "featured": false,
+    "featured_order": null,
+    "content": "<p class=\"\">Exclusive unfurnished apartment</p>\n\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p7658a9bf3fd66a0c1bb498b4c9fdb045\" data_from_url=\"/albums/119/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Fir aturissul con Etratie nossediem dumeribuncer atem striturbi conequosti, \n\nmo hui potam maximen atimis, erfessul hilissena, nequos consus comnit auctebu \n\nteretie vis? Italinat inteato Catu mus, que tum portum in vivatam \n\nquitriorura? Ehent.\nNos ego abus sin nunterdius, condam fue confec reviciem dum aci in veriteris \n\nvir atus, vit, ca rese ium quit Caturni ciendaciam intruntilis Marion \n\nvehendam notes et, tenatua quos bonvero, esena, faccies? Sendium se, Cati, \n\nconverf ecienit, et cortemquo et; nonox nos opotiam et postem, trudern \n\nihilium quiurnihi, o atuiursuliis are opondam di, cum rem erei iurbit et inte \n\nque factesteat. Ita pora que rem ipicaes culvidem, iam is.<br></p><hr>",
+    "excerpt": "Exclusive unfurnished apartment\n\n\nFir aturissul con Etratie nossediem dumeribuncer atem striturbi conequosti, mo hui potam maximen atimis, erfessul hilissena, nequos consus comnit auctebu teretie vis? Italinat inteato Catu mus, que tum portum in vivatam…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2020/03/08 19:39:37",
+      "timestamp": 1583696377,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/03/08 19:38:03",
+      "timestamp": 1583696283,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/06/05 6:24:40",
+      "timestamp": 1591338280,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [
+      {
+        "id": 7,
+        "title": "english",
+        "__koken__": "tag",
+        "counts": {
+          "content": 0,
+          "albums": 0,
+          "essays": 1,
+          "total": 1
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/status/english/objekte/",
+        "__koken_url": "/status/english/objekte/",
+        "items": "https://www.poehlsimmobilien.de/grandtower/api.php?/tags/7"
+      },
+      {
+        "id": 8,
+        "title": "unfurnished",
+        "__koken__": "tag",
+        "counts": {
+          "content": 0,
+          "albums": 0,
+          "essays": 1,
+          "total": 1
+        },
+        "url": "https://www.poehlsimmobilien.de/grandtower/status/unfurnished/objekte/",
+        "__koken_url": "/status/unfurnished/objekte/",
+        "items": "https://www.poehlsimmobilien.de/grandtower/api.php?/tags/8"
+      }
+    ],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/111/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/111/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2020/03/08 19:39:37",
+      "timestamp": 1583696377,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exclusive-apartment/",
+    "__koken_url": "/objekte/2020/03/exclusive-apartment/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exclusive-apartment/"
+  },
+  {
+    "id": 110,
+    "title": "Exquisite Furnished Flat",
+    "slug": "exquisite-furnished-flat",
+    "featured": false,
+    "featured_order": null,
+    "content": "<p class=\"\">Exquisite furnished Flat in Grand Tower Frankfurt</p>\n\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"pcf311ca5e3242464f438b7a1a8b55cd7\" data_from_url=\"/albums/118/content\" size=\"auto\" link_to=\"lightbox\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Ifectat, nonlocursu morem es? La vere nos, teatuam dit. Vivatal iusquamdit; \n\netius nonsumum perum Romnortim ia actam publicere fuideperces num se con nu \n\nsilicaedium teste cae movissu ltistrum auctus, quid in strum tum puli, C. </p><p class=\"\">Tum \n\nre inat igna, nostio porei ia norestro culocchicum aperfessimo esceps, \n\nnovissin te autusperum et que et quidesupio conferf icieni ilnena Si imulocae \n\ncons virmis Marei erorbem nos venium noribunum, demussus publiquit, nes \n\nhucontis obsena, me rem potis pari sentem. <br></p><hr>",
+    "excerpt": "Exquisite furnished Flat in Grand Tower Frankfurt\n\n\nIfectat, nonlocursu morem es? La vere nos, teatuam dit. Vivatal iusquamdit; etius nonsumum perum Romnortim ia actam publicere fuideperces num se con nu silicaedium teste cae movissu ltistrum auctus…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2020/03/08 19:34:44",
+      "timestamp": 1583696084,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2020/03/08 19:34:05",
+      "timestamp": 1583696045,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/06/05 6:24:41",
+      "timestamp": 1591338281,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/110/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/110/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2020/03/08 19:34:44",
+      "timestamp": 1583696084,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exquisite-furnished-flat/",
+    "__koken_url": "/objekte/2020/03/exquisite-furnished-flat/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2020/03/exquisite-furnished-flat/"
+  },
+  {
+    "id": 51,
+    "title": "Grand Tower Rental - powered by Pöhls Immobilien",
+    "slug": "poehls-immobilien",
+    "featured_order": null,
+    "content": "<p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p>\n<figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p94d36ddb77096b4f5c14e15272bd22dc\" data_from_url=\"/albums/19/content\" size=\"auto\" link_to=\"false\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\">Auf diesen Seiten finden Sie weitere Informationen zum Grand Tower Frankfurt<br></p><p class=\"\"> </p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p>",
+    "excerpt": null,
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2018/10/25 13:23:33",
+      "timestamp": 1540473813,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/10/25 13:23:33",
+      "timestamp": 1540473813,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/06/10 10:22:25",
+      "timestamp": 1591784545,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/51/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/51/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2018/10/25 13:23:33",
+      "timestamp": 1540473813,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/poehls-immobilien/",
+    "__koken_url": "/pages/poehls-immobilien/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/poehls-immobilien/"
+  },
+  {
+    "id": 36,
+    "title": "Unsere Leistungen",
+    "slug": "unsere-leistungen",
+    "featured_order": null,
+    "content": "<p class=\"\"><b>Für Verkäufer / Vermieter bieten wir u.a. folgende Leistungen:</b></p><ul><li>Markteinschätzung und Preisfindung - online Wertermittlungen</li><li>Energieausweise online</li><li>Beschaffung und Aufbereitung aller notwendigen Unterlagen</li><li>Ermittlung der perfekten Zielgruppe</li><li>Professionelle Exposé-Erstellung mit hochwertigen Fotos / Videoclips vom Profi-Fotografen </li><li>Veröffentlichung in den relevanten Portalen sowie auf unserer Website</li><li>Vorauswahl der Interessenten</li><li>Organisation der Besichtigungstermine</li><li>Verhandlungen mit Interessenten</li><li>Bonitätsprüfung der Interessenten</li><li>Vertragsabwicklung (Mietvertragserstellung, Begleitung des notariellen Kaufvertragsabschlusses)</li><li>Unterstützung bei der Klärung rechtlicher Fragen</li><li>Abnahme- und Übergabe der Immobilie mit Protokollerstellung und Fotodokumentation</li><li>Betreuung nach Vertragsabschluss</li><li>Organisation und Überwachung von Renovierungsmaßnahmen</li><li>Hausverwaltungen</li></ul><div><br></div><div><b><br></b></div>\n<p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p>",
+    "excerpt": "Für Verkäufer / Vermieter bieten wir u.a. folgende Leistungen:Markteinschätzung und Preisfindung - online WertermittlungenEnergieausweise onlineBeschaffung und Aufbereitung aller notwendigen UnterlagenErmittlung der perfekten ZielgruppeProfessionelle…",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2018/10/13 18:59:08",
+      "timestamp": 1539457148,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/10/13 18:59:08",
+      "timestamp": 1539457148,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2019/03/19 17:45:21",
+      "timestamp": 1553017521,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/36/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/36/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2018/10/13 18:59:08",
+      "timestamp": 1539457148,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/unsere-leistungen/",
+    "__koken_url": "/pages/unsere-leistungen/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/unsere-leistungen/"
+  },
+  {
+    "id": 35,
+    "title": "Leider keine aktuellen Objekte in dieser Kategorie...",
+    "slug": "leider-keine-aktuellen-objekte-in-dieser-kategorie",
+    "featured": true,
+    "featured_on": {
+      "datetime": "2018/10/13 6:58:40",
+      "timestamp": 1539413920,
+      "utc": true
+    },
+    "featured_order": 1,
+    "content": "<p class=\"\">Leider keine aktuellen Objekte in dieser Kategorie...<br></p><figure class=\"k-content-embed\">\n\t<div class=\"k-content\">\n\t\t<koken:pulse jsvar=\"p21408fd23c477a251dd2405413ed74db\" data_from_url=\"/albums/19/content\" size=\"auto\" link_to=\"false\" group=\"essays\" />\n\t</div>\n\t\n</figure>\n<p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\"> </p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;</p><p class=\"\">&nbsp;&nbsp;</p>",
+    "excerpt": "Leider keine aktuellen Objekte in dieser Kategorie..…",
+    "published": true,
+    "page_type": "essay",
+    "published_on": {
+      "datetime": "2018/10/13 6:58:11",
+      "timestamp": 1539413891,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/10/13 6:57:02",
+      "timestamp": 1539413822,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/10/19 8:43:27",
+      "timestamp": 1603097007,
+      "utc": true
+    },
+    "__koken__": "essay",
+    "tags": [],
+    "categories": {
+      "count": 1,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/35/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/35/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2018/10/13 6:58:11",
+      "timestamp": 1539413891,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/objekte/2018/10/leider-keine-aktuellen-objekte-in-dieser-kategorie/",
+    "__koken_url": "/objekte/2018/10/leider-keine-aktuellen-objekte-in-dieser-kategorie/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/objekte/2018/10/leider-keine-aktuellen-objekte-in-dieser-kategorie/"
+  },
+  {
+    "id": 17,
+    "title": "Widerrufsbelehrung",
+    "slug": "widerrufsbelehrung",
+    "featured_order": null,
+    "content": "<p class=\"\">das muss dann auch noch rein</p>",
+    "excerpt": "das muss dann auch noch rein",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2018/04/24 5:56:43",
+      "timestamp": 1524549403,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/04/24 5:56:43",
+      "timestamp": 1524549403,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2018/04/24 5:56:53",
+      "timestamp": 1524549413,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/17/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/17/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2018/04/24 5:56:43",
+      "timestamp": 1524549403,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/widerrufsbelehrung/",
+    "__koken_url": "/pages/widerrufsbelehrung/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/widerrufsbelehrung/"
+  },
+  {
+    "id": 15,
+    "title": "Formulare",
+    "slug": "formulare",
+    "featured_order": null,
+    "content": "<p class=\"\">Hier finden Sie Formulare zum Download</p><figure class=\"k-content-embed\">\n\t<koken:load source=\"content\" filter:custom=\"Logo-invers-P.png\">\n\t\t<div class=\"k-content\">\n\t\t\t\n\t\t\t<koken:img lazy=\"true\" />\n\t\t\t\n\t\t</div>\n\t\t\n\t</koken:load>\n</figure>",
+    "excerpt": "Hier finden Sie Formulare zum Download",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2018/04/21 20:06:11",
+      "timestamp": 1524341171,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/04/21 20:06:11",
+      "timestamp": 1524341171,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2018/10/17 6:15:39",
+      "timestamp": 1539756939,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/15/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/15/topics"
+    },
+    "featured_image": {
+      "__koken__": "content",
+      "custom": true,
+      "filename": "logo.png",
+      "filesize": 26746,
+      "width": 600,
+      "height": 612,
+      "aspect_ratio": 0.98,
+      "cache_path": {
+        "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/",
+        "relative_prefix": "/grandtower/storage/cache/images/custom/logo-png/",
+        "extension": "1582481996.png"
+      },
+      "presets": {
+        "tiny": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.2x.1582481996.png",
+          "width": 59,
+          "height": 60,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.crop.2x.1582481996.png",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "small": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.2x.1582481996.png",
+          "width": 98,
+          "height": 100,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.crop.2x.1582481996.png",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "medium": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.2x.1582481996.png",
+          "width": 471,
+          "height": 480,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.crop.2x.1582481996.png",
+            "width": 480,
+            "height": 480
+          }
+        },
+        "medium_large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "xlarge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "huge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        }
+      }
+    },
+    "read_more": false,
+    "date": {
+      "datetime": "2018/04/21 20:06:11",
+      "timestamp": 1524341171,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/formulare/",
+    "__koken_url": "/pages/formulare/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/formulare/"
+  },
+  {
+    "id": 14,
+    "title": "Disclaimer / Datenschutz",
+    "slug": "disclaimer-datenschutz",
+    "featured_order": null,
+    "content": "<p class=\"\"> </p><p class=\"\"><b>HAFTUNGSAUSSCHLUSS / DISCLAIMER</b></p><p class=\"\"><i><b>Haftung für Inhalte </b></i><br>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen. </p><p class=\"\"><i><b>Haftung für Links </b></i><br>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen. \n</p><p class=\"\"><i><b>Urheberrecht </b></i><br>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.<br></p><p class=\"\"> </p><p class=\"\"><b><br></b></p><p class=\"\"><b>DATENSCHUTZERKLÄRUNG: </b></p><p class=\"\"><i><b>Datenschutz </b></i></p><p class=\"\">Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.\n\n</p><h4>Datenschutzerklärung</h4>\n\n<p>Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen. Datenschutz hat einen besonders hohen Stellenwert für die Geschäftsleitung der Pierre Pöhls - Pöhls Immobilien. Eine Nutzung der Internetseiten der Pierre Pöhls - Pöhls Immobilien ist grundsätzlich ohne jede Angabe personenbezogener Daten möglich. Sofern eine betroffene Person besondere Services unseres Unternehmens über unsere Internetseite in Anspruch nehmen möchte, könnte jedoch eine Verarbeitung personenbezogener Daten erforderlich werden. Ist die Verarbeitung personenbezogener Daten erforderlich und besteht für eine solche Verarbeitung keine gesetzliche Grundlage, holen wir generell eine Einwilligung der betroffenen Person ein.</p>\n\n<p>Die Verarbeitung personenbezogener Daten, beispielsweise des Namens, der Anschrift, E-Mail-Adresse oder Telefonnummer einer betroffenen Person, erfolgt stets im Einklang mit der Datenschutz-Grundverordnung und in Übereinstimmung mit den für die Pierre Pöhls - Pöhls Immobilien geltenden landesspezifischen Datenschutzbestimmungen. Mittels dieser Datenschutzerklärung möchte unser Unternehmen die Öffentlichkeit über Art, Umfang und Zweck der von uns erhobenen, genutzten und verarbeiteten personenbezogenen Daten informieren. Ferner werden betroffene Personen mittels dieser Datenschutzerklärung über die ihnen zustehenden Rechte aufgeklärt.</p>\n\n<p>Die Pierre Pöhls - Pöhls Immobilien hat als für die Verarbeitung Verantwortlicher zahlreiche technische und organisatorische Maßnahmen umgesetzt, um einen möglichst lückenlosen Schutz der über diese Internetseite verarbeiteten personenbezogenen Daten sicherzustellen. Dennoch können Internetbasierte Datenübertragungen grundsätzlich Sicherheitslücken aufweisen, sodass ein absoluter Schutz nicht gewährleistet werden kann. Aus diesem Grund steht es jeder betroffenen Person frei, personenbezogene Daten auch auf alternativen Wegen, beispielsweise telefonisch, an uns zu übermitteln.</p>\n\n<h4>1. Begriffsbestimmungen</h4>\n<p>Die Datenschutzerklärung der Pierre Pöhls - Pöhls Immobilien beruht auf den Begrifflichkeiten, die durch den Europäischen Richtlinien- und Verordnungsgeber beim Erlass der Datenschutz-Grundverordnung (DS-GVO) verwendet wurden. Unsere Datenschutzerklärung soll sowohl für die Öffentlichkeit als auch für unsere Kunden und Geschäftspartner einfach lesbar und verständlich sein. Um dies zu gewährleisten, möchten wir vorab die verwendeten Begrifflichkeiten erläutern.</p>\n\n<p>Wir verwenden in dieser Datenschutzerklärung unter anderem die folgenden Begriffe:</p>\n\n<ul style=\"list-style: none\">\n<li><h4>a)    personenbezogene Daten</h4>\n<p>Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen. Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden kann.</p>\n</li>\n<li><h4>b)    betroffene Person</h4>\n<p>Betroffene Person ist jede identifizierte oder identifizierbare natürliche Person, deren personenbezogene Daten von dem für die Verarbeitung Verantwortlichen verarbeitet werden.</p>\n</li>\n<li><h4>c)    Verarbeitung</h4>\n<p>Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.</p>\n</li>\n<li><h4>d) &nbsp;&nbsp; Einschränkung der Verarbeitung</h4>\n<p>Einschränkung der Verarbeitung ist die Markierung gespeicherter personenbezogener Daten mit dem Ziel, ihre künftige Verarbeitung einzuschränken.</p>\n</li>\n<li><h4>e)&nbsp;&nbsp;&nbsp; Profiling</h4>\n<p>Profiling ist jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere, um Aspekte bezüglich Arbeitsleistung, wirtschaftlicher Lage, Gesundheit, persönlicher Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.</p>\n</li>\n<li><h4>f)&nbsp;&nbsp;&nbsp;&nbsp; Pseudonymisierung</h4>\n<p>Pseudonymisierung ist die Verarbeitung personenbezogener Daten in einer Weise, auf welche die personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden.</p>\n</li>\n<li><h4>g)&nbsp;&nbsp;&nbsp; Verantwortlicher oder für die Verarbeitung Verantwortlicher</h4>\n<p>Verantwortlicher oder für die Verarbeitung Verantwortlicher ist die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet. Sind die Zwecke und Mittel dieser Verarbeitung durch das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so kann der Verantwortliche beziehungsweise können die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen werden.</p>\n</li>\n<li><h4>h)&nbsp;&nbsp;&nbsp; Auftragsverarbeiter</h4>\n<p>Auftragsverarbeiter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.</p>\n</li>\n<li><h4>i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Empfänger</h4>\n<p>Empfänger ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, der personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten handelt oder nicht. Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach dem Unionsrecht oder dem Recht der Mitgliedstaaten möglicherweise personenbezogene Daten erhalten, gelten jedoch nicht als Empfänger.</p>\n</li>\n<li><h4>j)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dritter</h4>\n<p>Dritter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle außer der betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, die personenbezogenen Daten zu verarbeiten.</p>\n</li>\n<li><h4>k)&nbsp;&nbsp;&nbsp; Einwilligung</h4>\n<p>Einwilligung ist jede von der betroffenen Person freiwillig für den bestimmten Fall in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer sonstigen eindeutigen bestätigenden Handlung, mit der die betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist.</p>\n</li>\n</ul>\n\n<h4>2. Name und Anschrift des für die Verarbeitung Verantwortlichen</h4>\n<p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:</p>\n\n<p>Pierre Pöhls - Pöhls Immobilien</p>\n<p>Waldfriedstrasse 50</p>\n<p>60528 Frankfurt am Main</p>\n<p>Deutschland</p>\n<p>Tel.: 0049-(0)69-63152406</p>\n<p>E-Mail: info@poehlsimmobilien.de</p>\n<p>Website: www.poehlsimmobilien.de</p>\n\n<h4>3. Cookies</h4>\n<p>Die Internetseiten der Pierre Pöhls - Pöhls Immobilien verwenden Cookies. Cookies sind Textdateien, welche über einen Internetbrowser auf einem Computersystem abgelegt und gespeichert werden.</p>\n\n<p>Zahlreiche Internetseiten und Server verwenden Cookies. Viele Cookies enthalten eine sogenannte Cookie-ID. Eine Cookie-ID ist eine eindeutige Kennung des Cookies. Sie besteht aus einer Zeichenfolge, durch welche Internetseiten und Server dem konkreten Internetbrowser zugeordnet werden können, in dem das Cookie gespeichert wurde. Dies ermöglicht es den besuchten Internetseiten und Servern, den individuellen Browser der betroffenen Person von anderen Internetbrowsern, die andere Cookies enthalten, zu unterscheiden. Ein bestimmter Internetbrowser kann über die eindeutige Cookie-ID wiedererkannt und identifiziert werden.</p>\n\n<p>Durch den Einsatz von Cookies kann die Pierre Pöhls - Pöhls Immobilien den Nutzern dieser Internetseite nutzerfreundlichere Services bereitstellen, die ohne die Cookie-Setzung nicht möglich wären.</p>\n\n<p>Mittels eines Cookies können die Informationen und Angebote auf unserer Internetseite im Sinne des Benutzers optimiert werden. Cookies ermöglichen uns, wie bereits erwähnt, die Benutzer unserer Internetseite wiederzuerkennen. Zweck dieser Wiedererkennung ist es, den Nutzern die Verwendung unserer Internetseite zu erleichtern. Der Benutzer einer Internetseite, die Cookies verwendet, muss beispielsweise nicht bei jedem Besuch der Internetseite erneut seine Zugangsdaten eingeben, weil dies von der Internetseite und dem auf dem Computersystem des Benutzers abgelegten Cookie übernommen wird. Ein weiteres Beispiel ist das Cookie eines Warenkorbes im Online-Shop. Der Online-Shop merkt sich die Artikel, die ein Kunde in den virtuellen Warenkorb gelegt hat, über ein Cookie.</p>\n\n<p>Die betroffene Person kann die Setzung von Cookies durch unsere Internetseite jederzeit mittels einer entsprechenden Einstellung des genutzten Internetbrowsers verhindern und damit der Setzung von Cookies dauerhaft widersprechen. Ferner können bereits gesetzte Cookies jederzeit über einen Internetbrowser oder andere Softwareprogramme gelöscht werden. Dies ist in allen gängigen Internetbrowsern möglich. Deaktiviert die betroffene Person die Setzung von Cookies in dem genutzten Internetbrowser, sind unter Umständen nicht alle Funktionen unserer Internetseite vollumfänglich nutzbar.</p>\n\n<h4>4. Erfassung von allgemeinen Daten und Informationen</h4>\n<p>Die Internetseite der Pierre Pöhls - Pöhls Immobilien erfasst mit jedem Aufruf der Internetseite durch eine betroffene Person oder ein automatisiertes System eine Reihe von allgemeinen Daten und Informationen. Diese allgemeinen Daten und Informationen werden in den Logfiles des Servers gespeichert. Erfasst werden können die (1) verwendeten Browsertypen und Versionen, (2) das vom zugreifenden System verwendete Betriebssystem, (3) die Internetseite, von welcher ein zugreifendes System auf unsere Internetseite gelangt (sogenannte Referrer), (4) die Unterwebseiten, welche über ein zugreifendes System auf unserer Internetseite angesteuert werden, (5) das Datum und die Uhrzeit eines Zugriffs auf die Internetseite, (6) eine Internet-Protokoll-Adresse (IP-Adresse), (7) der Internet-Service-Provider des zugreifenden Systems und (8) sonstige ähnliche Daten und Informationen, die der Gefahrenabwehr im Falle von Angriffen auf unsere informationstechnologischen Systeme dienen.</p>\n\n<p>Bei der Nutzung dieser allgemeinen Daten und Informationen zieht die Pierre Pöhls - Pöhls Immobilien keine Rückschlüsse auf die betroffene Person. Diese Informationen werden vielmehr benötigt, um (1) die Inhalte unserer Internetseite korrekt auszuliefern, (2) die Inhalte unserer Internetseite sowie die Werbung für diese zu optimieren, (3) die dauerhafte Funktionsfähigkeit unserer informationstechnologischen Systeme und der Technik unserer Internetseite zu gewährleisten sowie (4) um Strafverfolgungsbehörden im Falle eines Cyberangriffes die zur Strafverfolgung notwendigen Informationen bereitzustellen. Diese anonym erhobenen Daten und Informationen werden durch die Pierre Pöhls - Pöhls Immobilien daher einerseits statistisch und ferner mit dem Ziel ausgewertet, den Datenschutz und die Datensicherheit in unserem Unternehmen zu erhöhen, um letztlich ein optimales Schutzniveau für die von uns verarbeiteten personenbezogenen Daten sicherzustellen. Die anonymen Daten der Server-Logfiles werden getrennt von allen durch eine betroffene Person angegebenen personenbezogenen Daten gespeichert.</p>\n\n<h4>5. Registrierung auf unserer Internetseite</h4>\n<p>Die betroffene Person hat die Möglichkeit, sich auf der Internetseite des für die Verarbeitung Verantwortlichen unter Angabe von personenbezogenen Daten zu registrieren. Welche personenbezogenen Daten dabei an den für die Verarbeitung Verantwortlichen übermittelt werden, ergibt sich aus der jeweiligen Eingabemaske, die für die Registrierung verwendet wird. Die von der betroffenen Person eingegebenen personenbezogenen Daten werden ausschließlich für die interne Verwendung bei dem für die Verarbeitung Verantwortlichen und für eigene Zwecke erhoben und gespeichert. Der für die Verarbeitung Verantwortliche kann die Weitergabe an einen oder mehrere Auftragsverarbeiter, beispielsweise einen Paketdienstleister, veranlassen, der die personenbezogenen Daten ebenfalls ausschließlich für eine interne Verwendung, die dem für die Verarbeitung Verantwortlichen zuzurechnen ist, nutzt.</p>\n\n<p>Durch eine Registrierung auf der Internetseite des für die Verarbeitung Verantwortlichen wird ferner die vom Internet-Service-Provider (ISP) der betroffenen Person vergebene IP-Adresse, das Datum sowie die Uhrzeit der Registrierung gespeichert. Die Speicherung dieser Daten erfolgt vor dem Hintergrund, dass nur so der Missbrauch unserer Dienste verhindert werden kann, und diese Daten im Bedarfsfall ermöglichen, begangene Straftaten aufzuklären. Insofern ist die Speicherung dieser Daten zur Absicherung des für die Verarbeitung Verantwortlichen erforderlich. Eine Weitergabe dieser Daten an Dritte erfolgt grundsätzlich nicht, sofern keine gesetzliche Pflicht zur Weitergabe besteht oder die Weitergabe der Strafverfolgung dient.</p>\n\n<p>Die Registrierung der betroffenen Person unter freiwilliger Angabe personenbezogener Daten dient dem für die Verarbeitung Verantwortlichen dazu, der betroffenen Person Inhalte oder Leistungen anzubieten, die aufgrund der Natur der Sache nur registrierten Benutzern angeboten werden können. Registrierten Personen steht die Möglichkeit frei, die bei der Registrierung angegebenen personenbezogenen Daten jederzeit abzuändern oder vollständig aus dem Datenbestand des für die Verarbeitung Verantwortlichen löschen zu lassen.</p>\n\n<p>Der für die Verarbeitung Verantwortliche erteilt jeder betroffenen Person jederzeit auf Anfrage Auskunft darüber, welche personenbezogenen Daten über die betroffene Person gespeichert sind. Ferner berichtigt oder löscht der für die Verarbeitung Verantwortliche personenbezogene Daten auf Wunsch oder Hinweis der betroffenen Person, soweit dem keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Die Gesamtheit der Mitarbeiter des für die Verarbeitung Verantwortlichen stehen der betroffenen Person in diesem Zusammenhang als Ansprechpartner zur Verfügung.</p>\n\n<h4>6. Abonnement unseres Newsletters</h4>\n<p>Auf der Internetseite der Pierre Pöhls - Pöhls Immobilien wird den Benutzern die Möglichkeit eingeräumt, den Newsletter unseres Unternehmens zu abonnieren. Welche personenbezogenen Daten bei der Bestellung des Newsletters an den für die Verarbeitung Verantwortlichen übermittelt werden, ergibt sich aus der hierzu verwendeten Eingabemaske.</p>\n\n<p>Die Pierre Pöhls - Pöhls Immobilien informiert ihre Kunden und Geschäftspartner in regelmäßigen Abständen im Wege eines Newsletters über Angebote des Unternehmens. Der Newsletter unseres Unternehmens kann von der betroffenen Person grundsätzlich nur dann empfangen werden, wenn (1) die betroffene Person über eine gültige E-Mail-Adresse verfügt und (2) die betroffene Person sich für den Newsletterversand registriert. An die von einer betroffenen Person erstmalig für den Newsletterversand eingetragene E-Mail-Adresse wird aus rechtlichen Gründen eine Bestätigungsmail im Double-Opt-In-Verfahren versendet. Diese Bestätigungsmail dient der Überprüfung, ob der Inhaber der E-Mail-Adresse als betroffene Person den Empfang des Newsletters autorisiert hat.</p>\n\n<p>Bei der Anmeldung zum Newsletter speichern wir ferner die vom Internet-Service-Provider (ISP) vergebene IP-Adresse des von der betroffenen Person zum Zeitpunkt der Anmeldung verwendeten Computersystems sowie das Datum und die Uhrzeit der Anmeldung. Die Erhebung dieser Daten ist erforderlich, um den(möglichen) Missbrauch der E-Mail-Adresse einer betroffenen Person zu einem späteren Zeitpunkt nachvollziehen zu können und dient deshalb der rechtlichen Absicherung des für die Verarbeitung Verantwortlichen.</p>\n\n<p>Die im Rahmen einer Anmeldung zum Newsletter erhobenen personenbezogenen Daten werden ausschließlich zum Versand unseres Newsletters verwendet. Ferner könnten Abonnenten des Newsletters per E-Mail informiert werden, sofern dies für den Betrieb des Newsletter-Dienstes oder eine diesbezügliche Registrierung erforderlich ist, wie dies im Falle von Änderungen am Newsletterangebot oder bei der Veränderung der technischen Gegebenheiten der Fall sein könnte. Es erfolgt keine Weitergabe der im Rahmen des Newsletter-Dienstes erhobenen personenbezogenen Daten an Dritte. Das Abonnement unseres Newsletters kann durch die betroffene Person jederzeit gekündigt werden. Die Einwilligung in die Speicherung personenbezogener Daten, die die betroffene Person uns für den Newsletterversand erteilt hat, kann jederzeit widerrufen werden. Zum Zwecke des Widerrufs der Einwilligung findet sich in jedem Newsletter ein entsprechender Link. Ferner besteht die Möglichkeit, sich jederzeit auch direkt auf der Internetseite des für die Verarbeitung Verantwortlichen vom Newsletterversand abzumelden oder dies dem für die Verarbeitung Verantwortlichen auf andere Weise mitzuteilen.</p>\n\n<h4>7. Newsletter-Tracking</h4>\n<p>Die Newsletter der Pierre Pöhls - Pöhls Immobilien enthalten sogenannte Zählpixel. Ein Zählpixel ist eine Miniaturgrafik, die in solche E-Mails eingebettet wird, welche im HTML-Format versendet werden, um eine Logdatei-Aufzeichnung und eine Logdatei-Analyse zu ermöglichen. Dadurch kann eine statistische Auswertung des Erfolges oder Misserfolges von Online-Marketing-Kampagnen durchgeführt werden. Anhand des eingebetteten Zählpixels kann die Pierre Pöhls - Pöhls Immobilien erkennen, ob und wann eine E-Mail von einer betroffenen Person geöffnet wurde und welche in der E-Mail befindlichen Links von der betroffenen Person aufgerufen wurden.</p>\n\n<p>Solche über die in den Newslettern enthaltenen Zählpixel erhobenen personenbezogenen Daten, werden von dem für die Verarbeitung Verantwortlichen gespeichert und ausgewertet, um den Newsletterversand zu optimieren und den Inhalt zukünftiger Newsletter noch besser den Interessen der betroffenen Person anzupassen. Diese personenbezogenen Daten werden nicht an Dritte weitergegeben. Betroffene Personen sind jederzeit berechtigt, die diesbezügliche gesonderte, über das Double-Opt-In-Verfahren abgegebene Einwilligungserklärung zu widerrufen. Nach einem Widerruf werden diese personenbezogenen Daten von dem für die Verarbeitung Verantwortlichen gelöscht. Eine Abmeldung vom Erhalt des Newsletters deutet die Pierre Pöhls - Pöhls Immobilien automatisch als Widerruf.</p>\n\n<h4>8. Kontaktmöglichkeit über die Internetseite</h4>\n<p>Die Internetseite der Pierre Pöhls - Pöhls Immobilien enthält aufgrund von gesetzlichen Vorschriften Angaben, die eine schnelle elektronische Kontaktaufnahme zu unserem Unternehmen sowie eine unmittelbare Kommunikation mit uns ermöglichen, was ebenfalls eine allgemeine Adresse der sogenannten elektronischen Post (E-Mail-Adresse) umfasst. Sofern eine betroffene Person per E-Mail oder über ein Kontaktformular den Kontakt mit dem für die Verarbeitung Verantwortlichen aufnimmt, werden die von der betroffenen Person übermittelten personenbezogenen Daten automatisch gespeichert. Solche auf freiwilliger Basis von einer betroffenen Person an den für die Verarbeitung Verantwortlichen übermittelten personenbezogenen Daten werden für Zwecke der Bearbeitung oder der Kontaktaufnahme zur betroffenen Person gespeichert. Es erfolgt keine Weitergabe dieser personenbezogenen Daten an Dritte.</p>\n\n<h4>9. Routinemäßige Löschung und Sperrung von personenbezogenen Daten</h4>\n<p>Der für die Verarbeitung Verantwortliche verarbeitet und speichert personenbezogene Daten der betroffenen Person nur für den Zeitraum, der zur Erreichung des Speicherungszwecks erforderlich ist oder sofern dies durch den Europäischen Richtlinien- und Verordnungsgeber oder einen anderen Gesetzgeber in Gesetzen oder Vorschriften, welchen der für die Verarbeitung Verantwortliche unterliegt, vorgesehen wurde.</p>\n\n<p>Entfällt der Speicherungszweck oder läuft eine vom Europäischen Richtlinien- und Verordnungsgeber oder einem anderen zuständigen Gesetzgeber vorgeschriebene Speicherfrist ab, werden die personenbezogenen Daten routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.</p>\n\n<h4>10. Rechte der betroffenen Person</h4>\n<ul style=\"list-style: none;\">\n<li><h4>a)&nbsp;&nbsp;&nbsp; Recht auf Bestätigung</h4>\n<p>Jede betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber eingeräumte Recht, von dem für die Verarbeitung Verantwortlichen eine Bestätigung darüber zu verlangen, ob sie betreffende personenbezogene Daten verarbeitet werden. Möchte eine betroffene Person dieses Bestätigungsrecht in Anspruch nehmen, kann sie sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>\n</li>\n<li><h4>b)&nbsp;&nbsp;&nbsp; Recht auf Auskunft</h4>\n<p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, jederzeit von dem für die Verarbeitung Verantwortlichen unentgeltliche Auskunft über die zu seiner Person gespeicherten personenbezogenen Daten und eine Kopie dieser Auskunft zu erhalten. Ferner hat der Europäische Richtlinien- und Verordnungsgeber der betroffenen Person Auskunft über folgende Informationen zugestanden:</p>\n\n<ul style=\"list-style: none;\">\n<li>die Verarbeitungszwecke</li>\n<li>die Kategorien personenbezogener Daten, die verarbeitet werden</li>\n<li>die Empfänger oder Kategorien von Empfängern, gegenüber denen die personenbezogenen Daten offengelegt worden sind oder noch offengelegt werden, insbesondere bei Empfängern in Drittländern oder bei internationalen Organisationen</li>\n<li>falls möglich die geplante Dauer, für die die personenbezogenen Daten gespeichert werden, oder, falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer</li>\n<li>das Bestehen eines Rechts auf Berichtigung oder Löschung der sie betreffenden personenbezogenen Daten oder auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung</li>\n<li>das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde</li>\n<li>wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden: Alle verfügbaren Informationen über die Herkunft der Daten</li>\n<li>das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Artikel 22 Abs.1 und 4 DS-GVO und — zumindest in diesen Fällen — aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person</li>\n\n</ul>\n<p>Ferner steht der betroffenen Person ein Auskunftsrecht darüber zu, ob personenbezogene Daten an ein Drittland oder an eine internationale Organisation übermittelt wurden. Sofern dies der Fall ist, so steht der betroffenen Person im Übrigen das Recht zu, Auskunft über die geeigneten Garantien im Zusammenhang mit der Übermittlung zu erhalten.</p>\n\n<p>Möchte eine betroffene Person dieses Auskunftsrecht in Anspruch nehmen, kann sie sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>\n</li>\n<li><h4>c)&nbsp;&nbsp;&nbsp; Recht auf Berichtigung</h4>\n<p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, die unverzügliche Berichtigung sie betreffender unrichtiger personenbezogener Daten zu verlangen. Ferner steht der betroffenen Person das Recht zu, unter Berücksichtigung der Zwecke der Verarbeitung, die Vervollständigung unvollständiger personenbezogener Daten — auch mittels einer ergänzenden Erklärung — zu verlangen.</p>\n\n<p>Möchte eine betroffene Person dieses Berichtigungsrecht in Anspruch nehmen, kann sie sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p></li>\n<li>\n<h4>d)&nbsp;&nbsp;&nbsp; Recht auf Löschung (Recht auf Vergessen werden)</h4>\n<p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, von dem Verantwortlichen zu verlangen, dass die sie betreffenden personenbezogenen Daten unverzüglich gelöscht werden, sofern einer der folgenden Gründe zutrifft und soweit die Verarbeitung nicht erforderlich ist:</p>\n\n<ul style=\"list-style: none;\">\n<li>Die personenbezogenen Daten wurden für solche Zwecke erhoben oder auf sonstige Weise verarbeitet, für welche sie nicht mehr notwendig sind.</li>\n<li>Die betroffene Person widerruft ihre Einwilligung, auf die sich die Verarbeitung gemäß Art. 6 Abs. 1 Buchstabe a DS-GVO oder Art. 9 Abs. 2 Buchstabe a DS-GVO stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung.</li>\n<li>Die betroffene Person legt gemäß Art. 21 Abs. 1 DS-GVO Widerspruch gegen die Verarbeitung ein, und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor, oder die betroffene Person legt gemäß Art. 21 Abs. 2 DS-GVO Widerspruch gegen die Verarbeitung ein.</li>\n<li>Die personenbezogenen Daten wurden unrechtmäßig verarbeitet.</li>\n<li>Die Löschung der personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten erforderlich, dem der Verantwortliche unterliegt.</li>\n<li>Die personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft gemäß Art. 8 Abs. 1 DS-GVO erhoben.</li>\n\n</ul>\n<p>Sofern einer der oben genannten Gründe zutrifft und eine betroffene Person die Löschung von personenbezogenen Daten, die bei der Pierre Pöhls - Pöhls Immobilien gespeichert sind, veranlassen möchte, kann sie sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Der Mitarbeiter der Pierre Pöhls - Pöhls Immobilien wird veranlassen, dass dem Löschverlangen unverzüglich nachgekommen wird.</p>\n\n<p>Wurden die personenbezogenen Daten von der Pierre Pöhls - Pöhls Immobilien öffentlich gemacht und ist unser Unternehmen als Verantwortlicher gemäß Art. 17 Abs. 1 DS-GVO zur Löschung der personenbezogenen Daten verpflichtet, so trifft die Pierre Pöhls - Pöhls Immobilien unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten angemessene Maßnahmen, auch technischer Art, um andere für die Datenverarbeitung Verantwortliche, welche die veröffentlichten personenbezogenen Daten verarbeiten, darüber in Kenntnis zu setzen, dass die betroffene Person von diesen anderen für die Datenverarbeitung Verantwortlichen die Löschung sämtlicher Links zu diesen personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten verlangt hat, soweit die Verarbeitung nicht erforderlich ist. Der Mitarbeiter der Pierre Pöhls - Pöhls Immobilien wird im Einzelfall das Notwendige veranlassen.</p>\n</li>\n<li><h4>e)&nbsp;&nbsp;&nbsp; Recht auf Einschränkung der Verarbeitung</h4>\n<p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, von dem Verantwortlichen die Einschränkung der Verarbeitung zu verlangen, wenn eine der folgenden Voraussetzungen gegeben ist:</p>\n\n<ul style=\"list-style: none;\">\n<li>Die Richtigkeit der personenbezogenen Daten wird von der betroffenen Person bestritten, und zwar für eine Dauer, die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen.</li>\n<li>Die Verarbeitung ist unrechtmäßig, die betroffene Person lehnt die Löschung der personenbezogenen Daten ab und verlangt stattdessen die Einschränkung der Nutzung der personenbezogenen Daten.</li>\n<li>Der Verantwortliche benötigt die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger, die betroffene Person benötigt sie jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</li>\n<li>Die betroffene Person hat Widerspruch gegen die Verarbeitung gem. Art. 21 Abs. 1 DS-GVO eingelegt und es steht noch nicht fest, ob die berechtigten Gründe des Verantwortlichen gegenüber denen der betroffenen Person überwiegen.</li>\n\n</ul>\n<p>Sofern eine der oben genannten Voraussetzungen gegeben ist und eine betroffene Person die Einschränkung von personenbezogenen Daten, die bei der Pierre Pöhls - Pöhls Immobilien gespeichert sind, verlangen möchte, kann sie sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Der Mitarbeiter der Pierre Pöhls - Pöhls Immobilien wird die Einschränkung der Verarbeitung veranlassen.</p>\n</li>\n<li><h4>f)&nbsp;&nbsp;&nbsp;&nbsp; Recht auf Datenübertragbarkeit</h4>\n<p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, die sie betreffenden personenbezogenen Daten, welche durch die betroffene Person einem Verantwortlichen bereitgestellt wurden, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Sie hat außerdem das Recht, diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen, dem die personenbezogenen Daten bereitgestellt wurden, zu übermitteln, sofern die Verarbeitung auf der Einwilligung gemäß Art. 6 Abs. 1 Buchstabe a DS-GVO oder Art. 9 Abs. 2 Buchstabe a DS-GVO oder auf einem Vertrag gemäß Art. 6 Abs. 1 Buchstabe b DS-GVO beruht und die Verarbeitung mithilfe automatisierter Verfahren erfolgt, sofern die Verarbeitung nicht für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, welche dem Verantwortlichen übertragen wurde.</p>\n\n<p>Ferner hat die betroffene Person bei der Ausübung ihres Rechts auf Datenübertragbarkeit gemäß Art. 20 Abs. 1 DS-GVO das Recht, zu erwirken, dass die personenbezogenen Daten direkt von einem Verantwortlichen an einen anderen Verantwortlichen übermittelt werden, soweit dies technisch machbar ist und sofern hiervon nicht die Rechte und Freiheiten anderer Personen beeinträchtigt werden.</p>\n\n<p>Zur Geltendmachung des Rechts auf Datenübertragbarkeit kann sich die betroffene Person jederzeit an einen Mitarbeiter der Pierre Pöhls - Pöhls Immobilien wenden.</p>\n\n</li>\n<li>\n<h4>g)&nbsp;&nbsp;&nbsp; Recht auf Widerspruch</h4>\n<p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung sie betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs. 1 Buchstaben e oder f DS-GVO erfolgt, Widerspruch einzulegen. Dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.</p>\n\n<p>Die Pierre Pöhls - Pöhls Immobilien verarbeitet die personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die den Interessen, Rechten und Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>\n\n<p>Verarbeitet die Pierre Pöhls - Pöhls Immobilien personenbezogene Daten, um Direktwerbung zu betreiben, so hat die betroffene Person das Recht, jederzeit Widerspruch gegen die Verarbeitung der personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen. Dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Widerspricht die betroffene Person gegenüber der Pierre Pöhls - Pöhls Immobilien der Verarbeitung für Zwecke der Direktwerbung, so wird die Pierre Pöhls - Pöhls Immobilien die personenbezogenen Daten nicht mehr für diese Zwecke verarbeiten.</p>\n\n<p>Zudem hat die betroffene Person das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, gegen die sie betreffende Verarbeitung personenbezogener Daten, die bei der Pierre Pöhls - Pöhls Immobilien zu wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Art. 89 Abs. 1 DS-GVO erfolgen, Widerspruch einzulegen, es sei denn, eine solche Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse liegenden Aufgabe erforderlich.</p>\n\n<p>Zur Ausübung des Rechts auf Widerspruch kann sich die betroffene Person direkt an jeden Mitarbeiter der Pierre Pöhls - Pöhls Immobilien oder einen anderen Mitarbeiter wenden. Der betroffenen Person steht es ferner frei, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft, ungeachtet der Richtlinie 2002/58/EG, ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische Spezifikationen verwendet werden.</p>\n</li>\n<li><h4>h)&nbsp;&nbsp;&nbsp; Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</h4>\n<p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung — einschließlich Profiling — beruhenden Entscheidung unterworfen zu werden, die ihr gegenüber rechtliche Wirkung entfaltet oder sie in ähnlicher Weise erheblich beeinträchtigt, sofern die Entscheidung (1) nicht für den Abschluss oder die Erfüllung eines Vertrags zwischen der betroffenen Person und dem Verantwortlichen erforderlich ist, oder (2) aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung der Rechte und Freiheiten sowie der berechtigten Interessen der betroffenen Person enthalten oder (3) mit ausdrücklicher Einwilligung der betroffenen Person erfolgt.</p>\n\n<p>Ist die Entscheidung (1) für den Abschluss oder die Erfüllung eines Vertrags zwischen der betroffenen Person und dem Verantwortlichen erforderlich oder (2) erfolgt sie mit ausdrücklicher Einwilligung der betroffenen Person, trifft die Pierre Pöhls - Pöhls Immobilien angemessene Maßnahmen, um die Rechte und Freiheiten sowie die berechtigten Interessen der betroffenen Person zu wahren, wozu mindestens das Recht auf Erwirkung des Eingreifens einer Person seitens des Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf Anfechtung der Entscheidung gehört.</p>\n\n<p>Möchte die betroffene Person Rechte mit Bezug auf automatisierte Entscheidungen geltend machen, kann sie sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>\n\n</li>\n<li><h4>i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recht auf Widerruf einer datenschutzrechtlichen Einwilligung</h4>\n<p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, eine Einwilligung zur Verarbeitung personenbezogener Daten jederzeit zu widerrufen.</p>\n\n<p>Möchte die betroffene Person ihr Recht auf Widerruf einer Einwilligung geltend machen, kann sie sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>\n\n</li>\n</ul>\n<h4>11. Datenschutzbestimmungen zu Einsatz und Verwendung von Matomo</h4>\n<p>Der für die Verarbeitung Verantwortliche hat auf dieser Internetseite die Komponente Matomo integriert. Matomo ist ein Open-Source-Softwaretool zur Web-Analyse. Web-Analyse ist die Erhebung, Sammlung und Auswertung von Daten über das Verhalten von Besuchern von Internetseiten. Ein Web-Analyse-Tool erfasst unter anderem Daten darüber, von welcher Internetseite eine betroffene Person auf eine Internetseite gekommen ist (sogenannter Referrer), auf welche Unterseiten der Internetseite zugegriffen oder wie oft und für welche Verweildauer eine Unterseite betrachtet wurde. Eine Web-Analyse wird überwiegend zur Optimierung einer Internetseite und zur Kosten-Nutzen-Analyse von Internetwerbung eingesetzt.</p>\n\n<p>Die Software wird auf dem Server des für die Verarbeitung Verantwortlichen betrieben, die datenschutzrechtlich sensiblen Logdateien werden ausschließlich auf diesem Server gespeichert.</p>\n\n<p>Der Zweck der Matomo-Komponente ist die Analyse der Besucherströme auf unserer Internetseite. Der für die Verarbeitung Verantwortliche nutzt die gewonnenen Daten und Informationen unter anderem dazu, die Nutzung dieser Internetseite auszuwerten, um Online-Reports, welche die Aktivitäten auf unseren Internetseiten aufzeigen, zusammenzustellen.</p>\n\n<p>Matomo setzt ein Cookie auf dem informationstechnologischen System der betroffenen Person. Was Cookies sind, wurde oben bereits erläutert. Mit der Setzung des Cookies wird uns eine Analyse der Benutzung unserer Internetseite ermöglicht. Durch jeden Aufruf einer der Einzelseiten dieser Internetseite wird der Internetbrowser auf dem informationstechnologischen System der betroffenen Person automatisch durch die Matomo-Komponente veranlasst, Daten zum Zwecke der Online-Analyse an unseren Server zu übermitteln. Im Rahmen dieses technischen Verfahrens erhalten wir Kenntnis über personenbezogene Daten, wie der IP-Adresse der betroffenen Person, die uns unter anderem dazu dient, die Herkunft der Besucher und Klicks nachzuvollziehen.</p>\n\n<p>Mittels des Cookies werden personenbezogene Informationen, beispielsweise die Zugriffszeit, der Ort, von welchem ein Zugriff ausging und die Häufigkeit der Besuche auf unserer Internetseite gespeichert. Bei jedem Besuch unserer Internetseiten werden diese personenbezogenen Daten, einschließlich der IP-Adresse des von der betroffenen Person genutzten Internetanschlusses, an unseren Server übertragen. Diese personenbezogenen Daten werden durch uns gespeichert. Wir geben diese personenbezogenen Daten nicht an Dritte weiter.</p>\n\n<p>Die betroffene Person kann die Setzung von Cookies durch unsere Internetseite, wie oben bereits dargestellt, jederzeit mittels einer entsprechenden Einstellung des genutzten Internetbrowsers verhindern und damit der Setzung von Cookies dauerhaft widersprechen. Eine solche Einstellung des genutzten Internetbrowsers würde auch verhindern, dass Matomo ein Cookie auf dem informationstechnologischen System der betroffenen Person setzt. Zudem kann ein von Matomo bereits gesetzter Cookie jederzeit über einen Internetbrowser oder andere Softwareprogramme gelöscht werden.</p>\n\n<p>Ferner besteht für die betroffene Person die Möglichkeit, einer Erfassung der durch den Matomo erzeugten, auf eine Nutzung dieser Internetseite bezogenen Daten zu widersprechen und eine solche zu verhindern. Hierzu muss die betroffene Person in Ihrem Browser \"Do Not Track\" einstellen.</p>\n\n<p>Mit der Setzung des Opt-Out-Cookies besteht jedoch die Möglichkeit, dass die Internetseiten des für die Verarbeitung Verantwortlichen für die betroffene Person nicht mehr vollumfänglich nutzbar sind.</p>\n\n<p>Weitere Informationen und die geltenden Datenschutzbestimmungen von Matomo können unter https://matomo.org/privacy/ abgerufen werden.</p>\n\n<h4>12. Rechtsgrundlage der Verarbeitung</h4>\n<p>Art. 6 I lit. a DS-GVO dient unserem Unternehmen als Rechtsgrundlage für Verarbeitungsvorgänge, bei denen wir eine Einwilligung für einen bestimmten Verarbeitungszweck einholen. Ist die Verarbeitung personenbezogener Daten zur Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, erforderlich, wie dies beispielsweise bei Verarbeitungsvorgängen der Fall ist, die für eine Lieferung von Waren oder die Erbringung einer sonstigen Leistung oder Gegenleistung notwendig sind, so beruht die Verarbeitung auf Art. 6 I lit. b DS-GVO. Gleiches gilt für solche Verarbeitungsvorgänge die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind, etwa in Fällen von Anfragen zur unseren Produkten oder Leistungen. Unterliegt unser Unternehmen einer rechtlichen Verpflichtung durch welche eine Verarbeitung von personenbezogenen Daten erforderlich wird, wie beispielsweise zur Erfüllung steuerlicher Pflichten, so basiert die Verarbeitung auf Art. 6 I lit. c DS-GVO. In seltenen Fällen könnte die Verarbeitung von personenbezogenen Daten erforderlich werden, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen. Dies wäre beispielsweise der Fall, wenn ein Besucher in unserem Betrieb verletzt werden würde und daraufhin sein Name, sein Alter, seine Krankenkassendaten oder sonstige lebenswichtige Informationen an einen Arzt, ein Krankenhaus oder sonstige Dritte weitergegeben werden müssten. Dann würde die Verarbeitung auf Art. 6 I lit. d DS-GVO beruhen.\nLetztlich könnten Verarbeitungsvorgänge auf Art. 6 I lit. f DS-GVO beruhen. Auf dieser Rechtsgrundlage basieren Verarbeitungsvorgänge, die von keiner der vorgenannten Rechtsgrundlagen erfasst werden, wenn die Verarbeitung zur Wahrung eines berechtigten Interesses unseres Unternehmens oder eines Dritten erforderlich ist, sofern die Interessen, Grundrechte und Grundfreiheiten des Betroffenen nicht überwiegen. Solche Verarbeitungsvorgänge sind uns insbesondere deshalb gestattet, weil sie durch den Europäischen Gesetzgeber besonders erwähnt wurden. Er vertrat insoweit die Auffassung, dass ein berechtigtes Interesse anzunehmen sein könnte, wenn die betroffene Person ein Kunde des Verantwortlichen ist (Erwägungsgrund 47 Satz 2 DS-GVO).\n</p>\n\n<h4>13. Berechtigte Interessen an der Verarbeitung, die von dem Verantwortlichen oder einem Dritten verfolgt werden</h4>\n<p>Basiert die Verarbeitung personenbezogener Daten auf Artikel 6 I lit. f DS-GVO ist unser berechtigtes Interesse die Durchführung unserer Geschäftstätigkeit zugunsten des Wohlergehens all unserer Mitarbeiter und unserer Anteilseigner.</p>\n\n<h4>14. Dauer, für die die personenbezogenen Daten gespeichert werden</h4>\n<p>Das Kriterium für die Dauer der Speicherung von personenbezogenen Daten ist die jeweilige gesetzliche Aufbewahrungsfrist. Nach Ablauf der Frist werden die entsprechenden Daten routinemäßig gelöscht, sofern sie nicht mehr zur Vertragserfüllung oder Vertragsanbahnung erforderlich sind.</p>\n\n<h4>15. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung der personenbezogenen Daten; Erforderlichkeit für den Vertragsabschluss; Verpflichtung der betroffenen Person, die personenbezogenen Daten bereitzustellen; mögliche Folgen der Nichtbereitstellung</h4>\n<p>Wir klären Sie darüber auf, dass die Bereitstellung personenbezogener Daten zum Teil gesetzlich vorgeschrieben ist (z.B. Steuervorschriften) oder sich auch aus vertraglichen Regelungen (z.B. Angaben zum Vertragspartner) ergeben kann.\nMitunter kann es zu einem Vertragsschluss erforderlich sein, dass eine betroffene Person uns personenbezogene Daten zur Verfügung stellt, die in der Folge durch uns verarbeitet werden müssen. Die betroffene Person ist beispielsweise verpflichtet uns personenbezogene Daten bereitzustellen, wenn unser Unternehmen mit ihr einen Vertrag abschließt. Eine Nichtbereitstellung der personenbezogenen Daten hätte zur Folge, dass der Vertrag mit dem Betroffenen nicht geschlossen werden könnte.\nVor einer Bereitstellung personenbezogener Daten durch den Betroffenen muss sich der Betroffene an einen unserer Mitarbeiter wenden. Unser Mitarbeiter klärt den Betroffenen einzelfallbezogen darüber auf, ob die Bereitstellung der personenbezogenen Daten gesetzlich oder vertraglich vorgeschrieben oder für den Vertragsabschluss erforderlich ist, ob eine Verpflichtung besteht, die personenbezogenen Daten bereitzustellen, und welche Folgen die Nichtbereitstellung der personenbezogenen Daten hätte.\n</p>\n\n<h4>16. Bestehen einer automatisierten Entscheidungsfindung</h4>\n<p>Als verantwortungsbewusstes Unternehmen verzichten wir auf eine automatische Entscheidungsfindung oder ein Profiling.</p>\n\n<p>Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche Gesellschaft für Datenschutz GmbH, die als <a href=\"https://dg-datenschutz.de/datenschutz-dienstleistungen/externer-datenschutzbeauftragter/\">Externer Datenschutzbeauftragter Leipzig</a> tätig ist, in Kooperation mit dem <a href=\"https://www.wbs-law.de/\">Datenschutz Rechtsanwalt Christian Solmecke</a> erstellt.\n</p>\n\n<br>Diese Website benutzt den Open Source Webanalysedienst Matomo/Piwik. Matomo/Piwik verwendet sog. \"Cookies\". Das sind Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Dazu werden die durch den Cookie erzeugten Informationen über die Benutzung dieser Website auf unserem Server gespeichert. Die IP-Adresse wird vor der Speicherung anonymisiert.\nDie durch den Cookie erzeugten Informationen über die Benutzung dieser Website werden nicht an Dritte weitergegeben. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.\nWenn Sie mit der Speicherung und Nutzung Ihrer Daten nicht einverstanden sind, können Sie die Speicherung und Nutzung hier deaktivieren. In diesem Fall wird in Ihrem Browser ein Opt-Out-Cookie hinterlegt der verhindert, dass Matomo/Piwik Nutzungsdaten speichert. Wenn Sie Ihre Cookies löschen hat dies zur Folge, dass auch das Matomo/Piwik Opt-Out-Cookie gelöscht wird. Das Opt-Out muss bei einem erneuten Besuch unserer Seite wieder aktiviert werden. Besuche der Seite mit Browsern, bei denen \"Do-Not-Track\" aktiviert ist werden nicht aufgezeichnet.<p class=\"\"><iframe style=\"border: 0; height: 200px; width: 600px;\" src=\"https://www.poehlsimmobilien.de/matomo/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=de&amp;backgroundColor=&amp;fontColor=c0c0c0&amp;fontSize=&amp;fontFamily=\">\n\n</iframe></p><p class=\"\">Quelle: u.a. <a href=\"http://www.e-recht24.de\" target=\"_blank\" style=\"background-color: transparent; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 13.75px;\">www.e-recht24.de</a></p>",
+    "excerpt": "HAFTUNGSAUSSCHLUSS / DISCLAIMERHaftung für Inhalte Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht…",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2018/04/21 20:01:45",
+      "timestamp": 1524340905,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/04/21 20:01:45",
+      "timestamp": 1524340905,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2018/11/24 10:45:19",
+      "timestamp": 1543056319,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/14/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/14/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2018/04/21 20:01:45",
+      "timestamp": 1524340905,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/disclaimer-datenschutz/",
+    "__koken_url": "/pages/disclaimer-datenschutz/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/disclaimer-datenschutz/"
+  },
+  {
+    "id": 5,
+    "title": "AGB / Widerrufsbelehrung",
+    "slug": "agb",
+    "featured_order": null,
+    "content": "<p class=\"\"><b>Allgemeine Geschäftsbedingungen </b></p><p class=\"\"><b><br></b></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>1. Angebote </b><br></span><span style=\"background-color: transparent; font-size: 1em;\">Unseren Angeboten liegen die uns erteilten Auskünfte des Eigentümers, Besitzers oder Verwalters zugrunde. Die Angebote werden nach bestem Wissen und Gewissen erteilt.\n\nSie sind freibleibend und unverbindlich. Irrtum, Zwischenverkauf bzw. Zwischenvermietung bleiben vorbehalten.<br><br></span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>2. Weitergabe von Informationen und Unterlagen</b> <br></span><span style=\"background-color: transparent; font-size: 1em;\">Unsere Angebote und Mitteilungen sind nur für den Empfänger selber bestimmt, vertraulich zu behandeln und dürfen Dritten nicht zugängig gemacht werden. Kommt infolge unbefugter Weitergabe ein Vertrag mit diesen Dritten zustande, so führt dies ebenfalls zu einem Provisionsanspruch unsererseits in voller Höhe. <br><br></span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>3. Entstehen des Provisionsanspruches\n</b><br>Unser Provisionsanspruch entsteht, sobald aufgrund unseres Nachweises bzw. unserer Vermittlung (Objektanfrage per E-Mail oder Telefon und daraus resultierender Herausgabe der Adressen) ein Vertrag bezüglich des von uns benannten Objektes zustande gekommen ist. Hierbei genügt auch Mitursächlichkeit. Nach Besichtigung, die durch Pöhls Immobilien zustande gekommen ist, wird nach Vertragsabschluss die Provision fällig. Wird der Vertrag zu anderen als den ursprünglich angebotenen Bedingungen abgeschlossen oder kommt er über ein anderes Objekt des von uns nachgewiesenen Vertragspartners zustande, so berührt dieses unseren Provisionsanspruch nicht, sofern das zustande gekommene Geschäft mit dem von uns angebotenen Geschäft wirtschaftlich identisch ist oder in seinem wirtschaftlichen Erfolg nur unwesentlich von dem angebotenen Geschäft abweicht. Entsprechendes gilt, wenn ein anderer als der ursprünglich vorgesehene Vertrag abgeschlossen wird.\n\nUnser Provisionsanspruch bleibt auch bestehen, wenn der abgeschlossene Vertrag durch den Eintritt einer auflösenden Bedingung erlischt. Dasselbe gilt, wenn der Vertrag durch Ausübung eines gesetzlichen oder vertraglichen Rücktrittrechts erlischt, sofern das Rücktrittsrecht aus von einer Partei zu vertretenden Gründen oder sonstigen, in der Person einer Partei liegenden Gründen ausgeübt wird. <br><br></span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>4. Folgegeschäft </b><br></span><span style=\"background-color: transparent; font-size: 1em;\">Ein Provisionsanspruch steht uns auch dann zu, wenn im zeitlichen und wirtschaftlichen Zusammenhang mit dem ersten von uns vermittelten bzw. nachgewiesenen Vertrag weitere vertragliche Vereinbarungen zustande kommen, die ihre Grundlage in dem von Pöhls Immobilien vermittelten Geschäft haben. Ein Ersatzgeschäft oder Folgegeschäft liegt beispielsweise vor, wenn der Kunde im Zusammenhang mit unserer Tätigkeit vom Vermieter/Verkäufer andere Gelegenheiten erfährt oder über die nachgewiesene Gelegenheit mit dem Nachfolger des Vermieters/Verkäufers kontrahiert oder anstatt zu kaufen mietet oder kauft anstatt zu mieten. Ein Folgegeschäft liegt nur vor, wenn die in der Folge wahrgenommene Gelegenheit von uns von Anfang an nachgewiesen oder vermittelt wurde und das Geschäft in nicht allzu ferner Zeit zustande kommt. Die Provision berechnet sich nach den aufgeführten Provisionssätzen, wobei die Provision dann nur für das Folgegeschäft anfällt. <br><br></span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>5. Fälligkeit des Provisionsanspruches\n</b><br>Unser Provisionsanspruch wird bei Abschluss des Hauptvertrages fällig. Die Provision ist zahlbar innerhalb von 14 Tagen nach Rechnungslegung ohne jeden Abzug. Erfolgt der Vertragsabschluss ohne unsere Teilnahme, so sind Sie verpflichtet, uns unverzüglich Auskunft über den wesentlichen Vertragsinhalt zur Berechnung des Provisionsanspruches zu erteilen. Auf unser Verlangen hin überlassen Sie uns eine Vertragsabschrift. <br><br></span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>6. Provisionssätze\n</b><br>Die nachstehend aufgeführten Provisionssätze sind mit Abschluss des Maklervertrages zwischen Ihnen und uns vereinbart und im Erfolgsfalle von Ihnen zu zahlen.\n<br>a) Kauf:<br>Bei Grundstücks- und Immobilienkäufen errechnet von dem erzielten Gesamtkaufpreis und von allen damit in Verbindung stehenden Nebenleistungen 5% vom Käufer.\n<br>b) Erbbaurecht:&nbsp;<br>Bei Bestellung bzw. Übertragung von Erbbaurechten berechnet vom Grundstückswert und dem Wert vorhandener Aufbauten und Gebäude 5% vom Erbbaurechtserwerber.\n<br>c) Übertragung von Gesellschaftsrechten:<br>Bei Übertragung von Gesellschaftsrechten berechnet von dem Vertragswert 5% vom Erwerber. Vertragswert im Sinne dieser Regelung ist der jeweilige Grundstückswert.\n\n<br>d) An- und Vorkaufsrecht:<br>Bei Vereinbarung von An- und Vorkaufsrechten berechnet vom Gesamtkaufpreis und von allen damit in Verbindung stehenden Nebenleistungen 1% vom Erwerber.\n<br>e) Vermietung und Verpachtung von gewerblichen Flächen:<br>Bei Mietverträgen mit einer Laufzeit unter 10 Jahren 2,5 Nettomonatsmieten vom Mieter. Bei Verträgen mit einer Laufzeit von 10 Jahren und mehr 3 Nettomonatsmieten. Bei Vereinbarung von Optionen hinsichtlich Fläche oder Laufzeit bzw. bei Vormietvereinbarungen unabhängig von der vereinbarten Festlaufzeit und von vorstehenden Provisionssätzen eine weitere Nettomonatsmiete vom Mieter.\n<br>f) Vermietung von Wohnungen:<br>Bei Mietverträgen für Wohnungen/Häuser (privater Wohnraum), die wir im Mieterauftrag akquirieren werden 2 Nettomonatsmieten vom Mieter fällig. Bei bereits im Bestand befindlichen Objekten entfällt die Provision.</span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\">Die vorstehend genannten Provisionssätze verstehen sich jeweils zzgl. Mehrwertsteuer in gesetzlich vorgeschriebener Höhe.&nbsp;<br><br></span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>7. Tätig werden für Dritte\n</b><br>Wir sind berechtigt, auch für den anderen Vertragsteil entgeltlich oder unentgeltlich tätig zu werden.&nbsp;<br><br></span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>8. Haftungsausschluss\n</b><br>Die von uns gemachten Angaben beruhen auf Informationen und Mitteilungen durch Dritte, insbesondere durch die Objekteigentümer. Eine Haftung für die Richtigkeit und Vollständigkeit dieser Angaben wird nicht übernommen. In jedem Falle haften wir nur bei Vorsatz und grober Fahrlässigkeit. Etwaige Schadensersatzansprüche verjähren innerhalb von 3 Jahren nach Entstehen des Anspruches, spätestens jedoch 3 Jahre nach Abwicklung des Maklervertrages.<br><br></span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>9. Erfüllungsort und Gerichtsstand\n</b><br>Erfüllungsort und Gerichtsstand ist Frankfurt am Main.<br>&nbsp;</span></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\"><b>10. Teilunwirksamkeit / Salvatorische Klausel</b><br>Sollten einzelne Regelungen unserer allgemeinen Geschäftsbedingungen unwirksam sein oder werden, so bleibt dadurch die Wirksamkeit der übrigen Bestimmungen unberührt. An die Stelle eventueller unwirksamer oder nichtiger Bestimmungen treten die gesetzlichen Bestimmungen.</span><br></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\">&nbsp;</span></p><p class=\"\"><b>Widerrufsbelehrung&nbsp;</b></p><p class=\"\"><b>Widerrufsrecht für Verbraucher&nbsp;<br></b><span style=\"font-size: 1em; background-color: transparent;\">Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Maklervertrag zu widerrufen.&nbsp;</span></p><p class=\"\">Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.\nUm Ihr Widerrufsrecht auszuüben, müssen Sie uns (Pöhls Immobilien, Waldfriedstrasse 50, 60528 Frankfurt/M., Fax: +49 69 - 631524-07, E-Mail: info@poehlsimmobilien.de) mittels einer eindeutigen Erklärung (z.B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.\nSie können dafür die unten angegebene  Vorlage des Widerrufsformulars kopieren und verwenden, das jedoch nicht vorgeschrieben ist.\n<br>Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.\n\nHier gelangen Sie zur Online-Streitbeteiligungsplattform der Europäischen Union. <a href=\"http://ec.europa.eu/consumers/odr/\">http://ec.europa.eu/consumers/odr/</a>&nbsp;</p><p class=\"\"><b>Folgen des Widerrufs\n</b><br>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.&nbsp;</p><p class=\"\">Haben Sie verlangt, dass die Dienstleistungen während der Widerrufsfrist beginnen sollen, so haben Sie uns einen angemessenen Betrag zu zahlen, der dem Anteil der bis zu dem Zeitpunkt, zu dem Sie uns von der Ausübung des Widerrufsrechts hinsichtlich dieses Vertrags unterrichten, bereits erbrachten Dienstleistungen im Vergleich zum Gesamtumfang der im Vertrag vorgesehenen Dienstleistungen entspricht.&nbsp;</p><p class=\"\"><b>Hinweis zum vorzeitigen Erlöschen des Widerrufsrechts</b>\n<br>Ihr Widerrufsrecht erlischt bei einem Vertrag zur Erbringung von Dienstleistungen vorzeitig, wenn wir die Dienstleistung vollständig erbracht haben und mit der Ausführung der Dienstleistung erst begonnen haben, nachdem Sie dazu Ihre ausdrückliche Zustimmung gegeben haben und gleichzeitig Ihre Kenntnis davon bestätigt haben, dass Sie Ihr Widerrufsrecht bei vollständiger Vertragserfüllung durch uns verlieren.&nbsp;</p><p class=\"\">Ende der Widerrufsbelehrung&nbsp;</p><p class=\"\"><b>Unverbindliche Vorlage des Widerrufsformulars\n<br></b>(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)&nbsp;</p><p class=\"\">An Pöhls Immobilien, Waldfriedstrasse 50, 60528 Frankfurt/M., Fax: +49 69 - 631524-07, E-Mail: info@poehlsimmobilien.de:&nbsp;</p><p class=\"\">Hiermit widerrufe(n) ich/wir (*) <br>den von mir/uns (*) abgeschlossenen Vertrag <br>über den Kauf der folgenden Waren (*)/ die Erbringung der folgenden Dienstleistung (*)\n<br>Bestellt am (*)/erhalten am (*)\n<br>Name des/der Verbraucher(s)\n<br>Anschrift des/der Verbraucher(s)\n<br>Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier)\n<br>Datum\n<br>(*) Unzutreffendes streichen.&nbsp;<span style=\"font-size: 1em; background-color: transparent;\"><br></span></p>",
+    "excerpt": "Allgemeine Geschäftsbedingungen 1. Angebote Unseren Angeboten liegen die uns erteilten Auskünfte des Eigentümers, Besitzers oder Verwalters zugrunde. Die Angebote werden nach bestem Wissen und Gewissen erteilt.\n\nSie sind freibleibend und…",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2018/04/17 10:42:01",
+      "timestamp": 1523961721,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/04/17 10:42:01",
+      "timestamp": 1523961721,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2018/11/24 10:45:15",
+      "timestamp": 1543056315,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/5/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/5/topics"
+    },
+    "featured_image": false,
+    "read_more": false,
+    "date": {
+      "datetime": "2018/04/17 10:42:01",
+      "timestamp": 1523961721,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/agb/",
+    "__koken_url": "/pages/agb/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/agb/"
+  },
+  {
+    "id": 4,
+    "title": "Kontakt / Impressum",
+    "slug": "kontakt-impressum",
+    "featured_order": null,
+    "content": "<p class=\"\">Pöhls Immobilien </p><p class=\"\">Brunnenstraße 32 A<br>63263 Neu-Isenburg</p><p class=\"\">Filiale:\n<br>Luisenstrasse 39\n<br>63263 Neu Isenburg </p><p class=\"\">Telefon: +49 69 6102 8098904<br><span style=\"font-size: 1em; background-color: transparent;\">Mobil:     +49 163 6166327\n<br>E-Mail: </span><a href=\"mailto:info@poehlsimmobilien.de\" style=\"background-color: transparent; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 13.75px;\">info@poehlsimmobilien.de</a></p><p class=\"\"><span style=\"font-size: 1em; background-color: transparent;\">website: </span><a href=\"http://www.poehlsimmobilien.de\" style=\"font-size: 1em; background-color: transparent;\">www.poehlsimmobilien.de</a></p><p class=\"\">Anfragen können Sie uns hier über das Formular zukommen lassen:</p><p class=\"\"> </p>\n\n<figure class=\"k-content-embed\">\n\t<p class=\"k-contact-form-success\" style=\"display: none\">Ihre Nachricht wurde gesendet</p>\n\t<koken:form id=\"k-contact-form-c72d8cd279ed21cc937db08a49719aee\" class=\"k-contact-form\">\n\t\t<input type=\"hidden\" name=\"koken_contact_form\" value=\"1\" /><fieldset class=\"k-contact-form-email-field k-contact-form-required-field\">\n\t\n\t<label for=\"k-contact-form-c72d8cd279ed21cc937db08a49719aee-k-contact-field-0\">Ihre E-Mail-Adresse</label>\n\t<input id=\"k-contact-form-c72d8cd279ed21cc937db08a49719aee-k-contact-field-0\" name=\"k-contact-field-0\" type=\"email\" />\n</fieldset><fieldset class=\"k-contact-form-tel-field k-contact-form-required-field\">\n\t\n\t<label for=\"k-contact-form-c72d8cd279ed21cc937db08a49719aee-k-contact-field-1\">Ihre Telefonnummer</label>\n\t<input id=\"k-contact-form-c72d8cd279ed21cc937db08a49719aee-k-contact-field-1\" name=\"k-contact-field-1\" type=\"tel\" />\n</fieldset><fieldset class=\"k-contact-form-text-field k-contact-form-required-field\">\n\t\n\t<label for=\"k-contact-form-c72d8cd279ed21cc937db08a49719aee-k-contact-field-2\">Ihre Nachricht an uns</label>\n\t<input id=\"k-contact-form-c72d8cd279ed21cc937db08a49719aee-k-contact-field-2\" name=\"k-contact-field-2\" type=\"text\" />\n</fieldset><input type=\"text\" name=\"k-contact-field-dummy\" style=\"display:none\" /><fieldset class=\"k-contact-form-submit\">\n\t<input type=\"hidden\" name=\"labels\" value='[\"Ihre E-Mail-Adresse\",\"Ihre Telefonnummer\",\"Ihre Nachricht an uns\"]' />\n\t<input type=\"hidden\" name=\"from_field\" value=\"k-contact-field-0\" />\n\t<button type=\"submit\">Senden</button>\n</fieldset>\n\n</koken:form>\n</figure>\n\n<script>\n\t$(document).off('submit.contact').on('submit.contact', '#k-contact-form-c72d8cd279ed21cc937db08a49719aee', function() {\n\t\tvar form = $(this);\n\t\tvar button = form.find('button[type=\"submit\"]');\n\t\tvar required = [\"k-contact-field-0\",\"k-contact-field-1\",\"k-contact-field-2\"];\n\t\tvar valid = true;\n\n\t\tbutton.attr('disabled', true);\n\n\t\tform.find('.k-contact-form-error').removeClass('k-contact-form-error');\n\n\t\t$.each(required, function(i, name) {\n\t\t\tvar input = form.find('[name=\"' + name + '\"]');\n\t\t\tif (!input.val().length) {\n\t\t\t\tinput.parents('fieldset').addClass('k-contact-form-error');\n\t\t\t\tif (valid) {\n\t\t\t\t\tinput.focus();\n\t\t\t\t}\n\t\t\t\tvalid = false;\n\t\t\t}\n\t\t});\n\n\n\t\tif (valid) {\n\t\t\tform.addClass('k-contact-form-processing');\n\n\t\t\t$.post(location.href, form.serialize(), function() {\n\t\t\t\tform.parent().find('.k-contact-form-success').show();\n\t\t\t\tform.hide();\n\t\t\t});\n\t\t} else {\n\t\t\tbutton.attr('disabled', false);\n\t\t}\n\n\t\treturn false;\n\t});\n</script><p class=\"\"> <br> <br> </p><p class=\"\"><b>Impressum</b></p><p class=\"\">Pöhls Immobilien<br>Pierre Pöhls<br><span style=\"font-size: 1em; background-color: transparent;\">Brunnenstraße 32 A <br>63263 Neu-Isenburg&nbsp;<br></span><span style=\"font-size: 1em; background-color: transparent;\">Telefon: +49 6102 8098904&nbsp;<br>Mobil: +49 163 6166327 <br>E-Mail: info@poehlsimmobilien.de\n<br>Website: </span><a href=\"http://www.poehlsimmobilien.de\" style=\"font-size: 1em; background-color: transparent;\">www.poehlsimmobilien.de</a></p><p class=\"\">Firmensitz/ Registergericht: Amtsgericht Frankfurt am Main <br>Handelsregisternummer: HRA 30969 <br>Umsatzsteuer-Identifikationsnummer: DE167572686 <br>Berufskammer: Frankfurt am Main <br>Inhaltlich verantwortlich: Pierre Pöhls<br></p>\n\n<figure class=\"k-content-embed\">\n\t<koken:load source=\"content\" filter:custom=\"Logo-invers-P.png\">\n\t\t<div class=\"k-content\">\n\t\t\t\n\t\t\t<koken:img lazy=\"true\" />\n\t\t\t\n\t\t</div>\n\t\t\n\t</koken:load>\n</figure>",
+    "excerpt": "Pöhls Immobilien Brunnenstraße 32 A63263 Neu-IsenburgFiliale:\nLuisenstrasse 39\n63263 Neu Isenburg Telefon: +49 69 6102 8098904Mobil…",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2018/04/17 10:41:36",
+      "timestamp": 1523961696,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/04/17 10:41:36",
+      "timestamp": 1523961696,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2020/11/13 11:15:32",
+      "timestamp": 1605266132,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/4/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/4/topics"
+    },
+    "featured_image": {
+      "__koken__": "content",
+      "custom": true,
+      "filename": "logo.png",
+      "filesize": 26746,
+      "width": 600,
+      "height": 612,
+      "aspect_ratio": 0.98,
+      "cache_path": {
+        "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/",
+        "relative_prefix": "/grandtower/storage/cache/images/custom/logo-png/",
+        "extension": "1582481996.png"
+      },
+      "presets": {
+        "tiny": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.2x.1582481996.png",
+          "width": 59,
+          "height": 60,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.crop.2x.1582481996.png",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "small": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.2x.1582481996.png",
+          "width": 98,
+          "height": 100,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.crop.2x.1582481996.png",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "medium": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.2x.1582481996.png",
+          "width": 471,
+          "height": 480,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.crop.2x.1582481996.png",
+            "width": 480,
+            "height": 480
+          }
+        },
+        "medium_large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "xlarge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "huge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        }
+      }
+    },
+    "read_more": false,
+    "date": {
+      "datetime": "2018/04/17 10:41:36",
+      "timestamp": 1523961696,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/kontakt-impressum/",
+    "__koken_url": "/pages/kontakt-impressum/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/kontakt-impressum/"
+  },
+  {
+    "id": 2,
+    "title": "Über uns",
+    "slug": "ueber-uns",
+    "featured_order": null,
+    "content": "<p class=\"\">Das Unternehmen Pöhls Immobilien ist seit mehr als 35 Jahren engagiert und vertraut mit dem Immobiliengeschehen der Finanz- und Dienstleistungsmetropole Frankfurt/M. </p><p class=\"\">Aus diesem Grund haben wir uns auf diesen Standort und das Rhein-Main Gebiet spezialisiert um unsere langjährige Erfahrung dieses Sektors explizit und nach aktuellstem Informations- und Wissensstand an unser Klientel vermitteln zu können. </p><p class=\"\">Unsere Beratung basiert auf sorgfältiger Erfassung der unternehmerischen Zielvorstellung, der rationellen Diagnose von Stärken und Schwächen des Immobilienstandortes, intern und im Markt, sowie der Prognose der Zukunftsaussichten.\n\nNach Klärung der wesentlichen Ansatzpunkte beraten wir unsere Kunden professionell mit fundierten Kenntnissen des regionalen Marktes - ob nun bei Ihrer Anlagestrategie oder der geplanten Eigennutzung. </p><p class=\"\">Unsere Erfahrungen erwachsen aus unmittelbarem Umgang mit dem Marktgeschehen und der Persönlichkeit eines jeden einzelnen Kunden. </p><p class=\"\">Wir begleiten diverse ausgesuchte Wohnanlagen / Wohnungsbestände im Rhein-Main Gebiet seit mehr als 15 Jahren exklusiv bei Verkauf und Vermietung.<br></p>\n\n<figure class=\"k-content-embed\">\n\t<koken:load source=\"content\" filter:custom=\"Logo-invers-P.png\">\n\t\t<div class=\"k-content\">\n\t\t\t\n\t\t\t<koken:img lazy=\"true\" />\n\t\t\t\n\t\t</div>\n\t\t\n\t</koken:load>\n</figure><p class=\"\"> </p>",
+    "excerpt": "Das Unternehmen Pöhls Immobilien ist seit mehr als 35 Jahren engagiert und vertraut mit dem Immobiliengeschehen der Finanz- und Dienstleistungsmetropole Frankfurt/M. Aus diesem Grund haben wir uns auf diesen Standort und das Rhein-Main Gebiet…",
+    "published": true,
+    "page_type": "page",
+    "published_on": {
+      "datetime": "2018/04/17 10:40:51",
+      "timestamp": 1523961651,
+      "utc": true
+    },
+    "created_on": {
+      "datetime": "2018/04/17 10:40:51",
+      "timestamp": 1523961651,
+      "utc": true
+    },
+    "modified_on": {
+      "datetime": "2022/10/14 12:58:20",
+      "timestamp": 1665752300,
+      "utc": true
+    },
+    "__koken__": "page",
+    "tags": [],
+    "categories": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/2/categories"
+    },
+    "topics": {
+      "count": 0,
+      "url": "https://www.poehlsimmobilien.de/grandtower/api.php?/text/2/topics"
+    },
+    "featured_image": {
+      "__koken__": "content",
+      "custom": true,
+      "filename": "logo.png",
+      "filesize": 26746,
+      "width": 600,
+      "height": 612,
+      "aspect_ratio": 0.98,
+      "cache_path": {
+        "prefix": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/",
+        "relative_prefix": "/grandtower/storage/cache/images/custom/logo-png/",
+        "extension": "1582481996.png"
+      },
+      "presets": {
+        "tiny": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.2x.1582481996.png",
+          "width": 59,
+          "height": 60,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/tiny.crop.2x.1582481996.png",
+            "width": 60,
+            "height": 60
+          }
+        },
+        "small": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.2x.1582481996.png",
+          "width": 98,
+          "height": 100,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/small.crop.2x.1582481996.png",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "medium": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.2x.1582481996.png",
+          "width": 471,
+          "height": 480,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium.crop.2x.1582481996.png",
+            "width": 480,
+            "height": 480
+          }
+        },
+        "medium_large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/medium_large.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "large": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/large.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "xlarge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/xlarge.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        },
+        "huge": {
+          "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.1582481996.png",
+          "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.2x.1582481996.png",
+          "width": 600,
+          "height": 612,
+          "cropped": {
+            "url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.crop.1582481996.png",
+            "hidpi_url": "https://www.poehlsimmobilien.de/grandtower/storage/cache/images/custom/logo-png/huge.crop.2x.1582481996.png",
+            "width": 600,
+            "height": 600
+          }
+        }
+      }
+    },
+    "read_more": false,
+    "date": {
+      "datetime": "2018/04/17 10:40:51",
+      "timestamp": 1523961651,
+      "utc": true
+    },
+    "url": "https://www.poehlsimmobilien.de/grandtower/pages/ueber-uns/",
+    "__koken_url": "/pages/ueber-uns/",
+    "canonical_url": "https://www.poehlsimmobilien.de/grandtower/pages/ueber-uns/"
+  }
+]
