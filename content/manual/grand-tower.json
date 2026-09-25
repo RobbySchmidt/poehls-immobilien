@@ -40,7 +40,8 @@
           "value": "Europaviertel"
         }
       ],
-      "machine_translated": false
+      "machine_translated": false,
+      "summary": "47 Geschosse im Frankfurter Europaviertel, fertiggestellt 2020."
     },
     {
       "languages_code": "en",
@@ -64,7 +65,8 @@
           "label": "Location",
           "value": "Europaviertel"
         }
-      ]
+      ],
+      "summary": "47 storeys in Frankfurt’s Europaviertel, completed in 2020."
     }
   ]
 }

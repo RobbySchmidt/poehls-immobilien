@@ -118,16 +118,18 @@
   },
   "gt": {
     "available": "Verfügbare Wohnungen",
-    "availableIntro": "{n} Wohnungen im Grand Tower – zur Miete und zum Kauf.",
-    "forRent": "Zur Miete",
-    "forSale": "Zum Kauf",
     "impressions": "Eindrücke",
     "interest": "Interesse am Grand Tower?",
     "interestText": "Wir zeigen Ihnen die verfügbaren Wohnungen gern persönlich.",
     "viewing": "Besichtigung anfragen",
     "discover": "Grand Tower entdecken",
     "rentFrom": "Miete ab",
-    "aboutAria": "Über den Grand Tower"
+    "unitsAria": "Grand Tower und verfügbare Wohnungen",
+    "vacancy": "Aktuell frei: {list}.",
+    "vacancyRent": "{n} Wohnung zur Miete | {n} Wohnungen zur Miete",
+    "vacancyBuy": "{n} Wohnung zum Kauf | {n} Wohnungen zum Kauf",
+    "and": "und",
+    "noVacancy": "Aktuell sind keine Wohnungen frei – wir informieren Sie gern, sobald eine frei wird."
   },
   "services": {
     "steps": "So läuft eine Vermarktung ab",

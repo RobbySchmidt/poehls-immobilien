@@ -118,16 +118,18 @@
   },
   "gt": {
     "available": "Available apartments",
-    "availableIntro": "{n} apartments in the Grand Tower – to rent and to buy.",
-    "forRent": "To rent",
-    "forSale": "To buy",
     "impressions": "Impressions",
     "interest": "Interested in the Grand Tower?",
     "interestText": "We would be pleased to show you the available apartments in person.",
     "viewing": "Request a viewing",
     "discover": "Discover the Grand Tower",
     "rentFrom": "Rent from",
-    "aboutAria": "About the Grand Tower"
+    "unitsAria": "Grand Tower and available apartments",
+    "vacancy": "Available now: {list}.",
+    "vacancyRent": "{n} apartment to rent | {n} apartments to rent",
+    "vacancyBuy": "{n} apartment to buy | {n} apartments to buy",
+    "and": "and",
+    "noVacancy": "No apartments are available right now – we will gladly let you know as soon as one becomes free."
   },
   "services": {
     "steps": "How a sale or letting works",

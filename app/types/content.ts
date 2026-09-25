@@ -66,6 +66,7 @@ export interface Project {
   tagline: string
   address: string
   intro: string[]
+  summary: string
   facts: { label: string, value: string, verify?: boolean }[]
   mood_day: string
   mood_night: string
