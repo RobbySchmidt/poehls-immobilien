@@ -49,6 +49,15 @@ export interface Listing {
   project: string | null
   featured: boolean
   date_published: string
+  translations?: ListingTranslation[]
+}
+
+export interface ListingTranslation {
+  languages_code: string
+  title: string
+  teaser: string
+  description: string
+  machine_translated: boolean
 }
 
 export interface Project {
