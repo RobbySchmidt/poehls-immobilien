@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Website-Konzept – Pöhls Immobilien</title>
+<style>
+@font-face {
+  font-family: "Schibsted Grotesk";
+  src: url("../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 400 900;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Schibsted Grotesk";
+  src: url("../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-ext-wght-normal.woff2") format("woff2-variations");
+  font-weight: 400 900;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@page { size: A4; margin: 0; }
+:root {
+  --paper: #ffffff;
+  --ink: #1b2430;
+  --navy: #2b4a6e;
+  --muted: #5a6778;
+  --mist: #eef2f6;
+  --line: #dde3ea;
+  --r: 3.6mm;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif; color: var(--ink); background: #d9dee5; font-size: 9.8pt; line-height: 1.55; }
+.page { width: 210mm; height: 297mm; background: var(--paper); padding: 14mm 16mm 11mm; display: flex; flex-direction: column; gap: 7mm; overflow: hidden; break-after: page; position: relative; }
+@media screen { body { padding: 10mm 0; } .page { margin: 0 auto 10mm; box-shadow: 0 2px 14px rgba(0,0,0,.12); } }
+h1, h2, h3 { font-weight: 600; letter-spacing: -0.015em; line-height: 1.1; text-wrap: balance; }
+h2 { font-size: 19pt; }
+h3 { font-size: 10.6pt; letter-spacing: -0.005em; }
+.label { font-size: 7.4pt; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.muted { color: var(--muted); }
+.small { font-size: 8pt; color: var(--muted); }
+
+.run { display: flex; justify-content: space-between; align-items: center; border-bottom: .5pt solid var(--line); padding-bottom: 3mm; font-size: 8pt; color: var(--muted); }
+.run .brand { display: flex; align-items: center; gap: 2.2mm; font-weight: 600; font-size: 9.5pt; color: var(--ink); }
+.run .brand img { height: 7mm; }
+.foot { margin-top: auto; display: flex; justify-content: space-between; border-top: .5pt solid var(--line); padding-top: 2.4mm; font-size: 7.4pt; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.photo { position: relative; border-radius: var(--r); overflow: hidden; background: var(--mist); }
+.photo > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.photo.framed { outline: .5pt solid var(--line); outline-offset: -.5pt; }
+.plinth { position: absolute; left: -1px; bottom: -1px; z-index: 1; background: var(--paper); border-top-right-radius: var(--r); padding: 5mm 8mm 1px 1px; max-width: 80%; }
+.plinth::before, .plinth::after { content: ""; position: absolute; width: var(--r); height: var(--r); background: radial-gradient(circle at 100% 0, transparent calc(var(--r) - .25mm), var(--paper) var(--r)); }
+.plinth::before { left: 1px; top: calc(-1 * var(--r)); }
+.plinth::after { left: 100%; bottom: 0; }
+.photo:has(> .plinth) { border-bottom-left-radius: 0; }
+figcaption { margin-top: 2mm; font-size: 8pt; color: var(--muted); }
+figcaption b { color: var(--ink); font-weight: 600; }
+
+/* 1 – cover */
+.cover .photo { height: 150mm; }
+.cover .photo > img { object-position: 62% 50%; }
+.cover h1 { font-size: 28pt; margin-top: 2mm; }
+.letter { display: grid; grid-template-columns: 1fr 52mm; gap: 12mm; }
+.letter p + p { margin-top: 3mm; }
+.letter .sign { margin-top: 5mm; }
+.meta { border-top: .5pt solid var(--ink); padding-top: 3mm; display: grid; gap: 3.5mm; align-content: start; }
+.meta div { display: grid; gap: .5mm; }
+.meta dt { font-size: 7.4pt; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+
+/* 2 – overview */
+.pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8mm; }
+.pillars div { border-top: 1.2pt solid var(--ink); padding-top: 3mm; }
+.pillars p { margin-top: 2mm; color: var(--muted); }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+.pair .photo { aspect-ratio: 16 / 10; }
+.wide { display: grid; gap: 0; }
+.wide .photo { aspect-ratio: 1.95 / 1 !important; }
+.wide .photo > img { object-position: 50% 0; }
+.wide .photo { aspect-ratio: 16 / 10; }
+.wide figcaption { margin-top: 2mm; }
+
+/* 3 – mobile */
+.phones { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8mm; }
+.phone { border-radius: 6mm; padding: 1.8mm; background: var(--ink); }
+.phone .photo { border-radius: 4.4mm; aspect-ratio: 390 / 844; }
+.phone .photo > img { object-position: 50% 0; }
+.feat { display: grid; grid-template-columns: 1fr 1fr; column-gap: 10mm; list-style: none; }
+.feat li { padding: 2.4mm 0; border-bottom: .5pt solid var(--line); }
+.feat li b { font-weight: 600; }
+.feat li span { display: block; color: var(--muted); font-size: 8.6pt; }
+
+/* 4 – next steps */
+.steps { list-style: none; display: grid; counter-reset: s; }
+.steps li { display: grid; grid-template-columns: 12mm 1fr; gap: 1mm 4mm; padding: 3.4mm 0; border-top: .5pt solid var(--line); counter-increment: s; }
+.steps li:last-child { border-bottom: .5pt solid var(--line); }
+.steps li::before { content: counter(s); grid-row: 1 / span 2; font-size: 15pt; font-weight: 600; color: var(--navy); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.steps li > * { grid-column: 2; }
+.steps p { color: var(--muted); max-width: 130mm; }
+.visit { display: grid; grid-template-columns: 1fr 34mm; gap: 9mm; align-items: center; background: var(--mist); border-radius: var(--r); padding: 6.5mm 8mm; }
+.visit .url { font-size: 12.5pt; font-weight: 600; color: var(--navy); margin-top: 1.5mm; }
+.visit img { width: 34mm; height: 34mm; display: block; }
+.contact { display: grid; grid-template-columns: 1fr 1fr; gap: 10mm; }
+.contact dl div { display: flex; gap: 3mm; padding: 1.6mm 0; border-bottom: .5pt solid var(--line); }
+.contact dt { width: 20mm; color: var(--muted); flex: none; }
+.ph { background: #fbf1dc; color: #8a5a12; border-radius: 1mm; padding: 0 1.2mm; }
+.fine { font-size: 7.2pt; color: var(--muted); max-width: 160mm; }
+</style>
+</head>
+<body>
+
+<!-- ============ 1 · Titel und Anschreiben ============ -->
+<section class="page cover">
+  <header class="run">
+    <span class="brand"><img src="../../public/brand/logo.png" alt="">Pöhls Immobilien</span>
+    <span>Website-Konzept · September 2026</span>
+  </header>
+  <div class="photo">
+    <img src="../../public/media/gt-1745-1600.webp" alt="Blick über das Frankfurter Westend auf die Hochhäuser der Innenstadt">
+    <div class="plinth">
+      <p class="label">Erster Entwurf</p>
+      <h1>Eine neue Website für Pöhls Immobilien</h1>
+    </div>
+  </div>
+  <div class="letter">
+    <div>
+      <p>Sehr geehrter Herr Pöhls,</p>
+      <p>wir sind rhowerk, eine Agentur für Webdesign und Entwicklung aus Leipzig. Wir haben uns Ihre Website und Ihre Angebote genau angesehen und einen ersten Entwurf erstellt, wie eine neue Website für Pöhls Immobilien aussehen könnte: mit Ihren aktuellen Objekten, Ihren Texten und einer eigenen Seite für den Grand Tower.</p>
+      <p>Der Entwurf ist ein Ausgangspunkt. Was Ihnen wichtig ist, was fehlt und was anders sein soll, möchten wir gemeinsam mit Ihnen herausfinden und darauf aufbauen.</p>
+      <p>In den nächsten Tagen melden wir uns telefonisch bei Ihnen. Ein Verkaufsgespräch wird das nicht: Wir möchten Ihnen den Entwurf kurz zeigen und hören, was Sie davon halten.</p>
+      <p class="sign">Mit freundlichen Grüßen<br><span class="ph">[Vorname Nachname]</span>, rhowerk</p>
+    </div>
+    <dl class="meta">
+      <div><dt>Für</dt><dd>Pöhls Immobilien<br>Pierre Pöhls, Dreieich</dd></div>
+      <div><dt>Von</dt><dd>rhowerk, Leipzig</dd></div>
+      <div><dt>Vorschau</dt><dd>poehls-immobilien.netlify.app</dd></div>
+    </dl>
+  </div>
+  <footer class="foot"><span>rhowerk · Konzeptentwurf für Pöhls Immobilien</span><span>1 / 4</span></footer>
+</section>
+
+<!-- ============ 2 · Der Entwurf im Überblick ============ -->
+<section class="page">
+  <header class="run"><span class="brand">Der Entwurf im Überblick</span><span>Website-Konzept · Pöhls Immobilien</span></header>
+  <h2>Ihre Angebote im Mittelpunkt</h2>
+  <p class="muted" style="max-width:150mm;margin-top:-3mm">Was der Entwurf heute schon zeigt. Die Grundlage für unser Gespräch, keine fertige Festlegung.</p>
+  <div class="pillars">
+    <div><h3>Objekte zuerst</h3><p>Große Fotos, klare Preise und eine Suche, die schon auf der Startseite zeigt, wie viele passende Angebote es gibt. Alle 59 aktuellen Objekte und 13 Referenzen sind eingebunden.</p></div>
+    <div><h3>Der Grand Tower</h3><p>Eine eigene Seite für Ihr bekanntestes Projekt, mit allen freien Wohnungen und einer Bildergalerie.</p></div>
+    <div><h3>Zweisprachig, hell und dunkel</h3><p>Jede Seite auf Deutsch und Englisch. Die Darstellung folgt der Einstellung der Besucher und lässt sich umschalten.</p></div>
+  </div>
+  <figure>
+    <div class="pair">
+      <div class="photo framed"><img src="shots/home-day.jpg" alt="Startseite im hellen Modus"></div>
+      <div class="photo framed"><img src="shots/home-night.jpg" alt="Startseite im dunklen Modus"></div>
+    </div>
+    <figcaption><b>Startseite</b> im hellen und im dunklen Modus.</figcaption>
+  </figure>
+  <figure class="wide">
+    <div class="photo framed"><img src="shots/gt-night.jpg" alt="Grand-Tower-Seite im dunklen Modus"></div>
+    <figcaption><b>Grand Tower.</b> Eine eigene Seite für das Projekt. Direkt darunter stehen alle freien Wohnungen, dazu eine Galerie mit 38 Fotos.</figcaption>
+  </figure>
+  <footer class="foot"><span>rhowerk · Konzeptentwurf für Pöhls Immobilien</span><span>2 / 4</span></footer>
+</section>
+
+<!-- ============ 3 · Smartphone ============ -->
+<section class="page">
+  <header class="run"><span class="brand">Ansicht am Smartphone</span><span>Website-Konzept · Pöhls Immobilien</span></header>
+  <h2>Gebaut für das Smartphone</h2>
+  <p style="max-width:140mm;margin-top:-3mm" class="muted">Viele Interessenten suchen unterwegs. Jede Seite ist deshalb zuerst für das Handy gestaltet und passt sich an Tablet und Desktop an.</p>
+  <div class="phones">
+    <figure><div class="phone"><div class="photo"><img src="shots/m-home.jpg" alt="Startseite am Smartphone"></div></div><figcaption><b>Startseite</b> mit Schnellsuche</figcaption></figure>
+    <figure><div class="phone"><div class="photo"><img src="shots/m-detail.jpg" alt="Objektseite am Smartphone"></div></div><figcaption><b>Objektseite</b> mit Galerie und Anfrage</figcaption></figure>
+    <figure><div class="phone"><div class="photo"><img src="shots/m-gt-en.jpg" alt="Grand Tower auf Englisch am Smartphone"></div></div><figcaption><b>Grand Tower</b> in englischer Sprache</figcaption></figure>
+  </div>
+  <ul class="feat">
+    <li><b>Schnellsuche</b><span>Kaufen oder Mieten und Objektart, mit Trefferzahl</span></li>
+    <li><b>Galerien mit Vollbildansicht</b><span>Alle Fotos eines Objekts, am Handy per Wischen</span></li>
+    <li><b>Filter für alle Angebote</b><span>Objektart, Zimmer, Preis und Sortierung</span></li>
+    <li><b>Direkte Anfrage</b><span>Anruf oder Anfrageformular mit Bezug zum Objekt</span></li>
+    <li><b>Referenzen</b><span>Verkaufte und vermietete Objekte</span></li>
+    <li><b>Zweisprachig</b><span>Jede Seite auf Deutsch und Englisch</span></li>
+  </ul>
+  <footer class="foot"><span>rhowerk · Konzeptentwurf für Pöhls Immobilien</span><span>3 / 4</span></footer>
+</section>
+
+<!-- ============ 4 · Nächste Schritte ============ -->
+<section class="page">
+  <header class="run"><span class="brand">Nächste Schritte</span><span>Website-Konzept · Pöhls Immobilien</span></header>
+  <h2>Gemeinsam weiterentwickeln</h2>
+  <ol class="steps">
+    <li><h3>Kennenlernen</h3><p>Wir zeigen Ihnen den Entwurf in einem kurzen Video-Termin und hören zu: Was gefällt Ihnen, was fehlt, was soll anders sein? Unverbindlich.</p></li>
+    <li><h3>Ihre Wünsche</h3><p>Wir sammeln Ihre Ideen und Anforderungen, etwa zu Inhalten, Funktionen, Bildsprache oder der Pflege Ihrer Angebote, und passen den Entwurf daran an.</p></li>
+    <li><h3>Ausbau</h3><p>Auf dieser Grundlage bauen wir Ihre Website Schritt für Schritt aus, in enger Abstimmung mit Ihnen. Dazu gehören ein System, mit dem Sie Angebote selbst pflegen, und der Versand von Anfragen.</p></li>
+    <li><h3>Veröffentlichung</h3><p>Erst wenn alles Ihren Vorstellungen entspricht, geht die Website unter Ihrer Domain online. Zeitrahmen und Aufwand besprechen wir gern persönlich.</p></li>
+  </ol>
+  <div class="visit">
+    <div>
+      <p class="label">Vorschau</p>
+      <p class="url">poehls-immobilien.netlify.app</p>
+      <p class="small" style="margin-top:2mm">Die Vorschau ist nur für Sie bestimmt und für Suchmaschinen gesperrt. Am besten öffnen Sie sie auch einmal auf dem Smartphone.</p>
+    </div>
+    <img src="qr.svg" alt="QR-Code zur Vorschau">
+  </div>
+  <div class="contact">
+    <div>
+      <p class="label">Ihr Ansprechpartner</p>
+      <h3 style="font-size:13pt;margin-top:1.5mm">rhowerk</h3>
+      <p style="margin-top:2mm">Wir freuen uns darauf, Ihnen den Entwurf zu zeigen und Ihre Ideen zu hören.</p>
+    </div>
+    <dl>
+      <div><dt>Name</dt><dd><span class="ph">[Vorname Nachname]</span></dd></div>
+      <div><dt>Telefon</dt><dd><span class="ph">[Telefon]</span></dd></div>
+      <div><dt>E-Mail</dt><dd><span class="ph">[E-Mail]</span></dd></div>
+      <div><dt>Web</dt><dd>rhowerk.de</dd></div>
+    </dl>
+  </div>
+  <p class="fine">Texte, Angebote und Fotos stammen von www.poehlsimmobilien.de und wurden ausschließlich für diesen Entwurf verwendet. Auf Wunsch nehmen wir die Vorschau sofort offline.</p>
+  <footer class="foot"><span>rhowerk · Konzeptentwurf für Pöhls Immobilien</span><span>4 / 4</span></footer>
+</section>
+
+</body>
+</html>

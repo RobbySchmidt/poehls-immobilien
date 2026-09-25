@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Exposé – Website Pöhls Immobilien</title>
+<style>
+@font-face {
+  font-family: "Schibsted Grotesk";
+  src: url("../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 400 900;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Schibsted Grotesk";
+  src: url("../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-ext-wght-normal.woff2") format("woff2-variations");
+  font-weight: 400 900;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@page { size: A4; margin: 0; }
+:root {
+  --paper: #ffffff;
+  --ink: #1b2430;
+  --navy: #2b4a6e;
+  --muted: #5a6778;
+  --mist: #eef2f6;
+  --line: #dde3ea;
+  --gold: #c8923a;
+  --r: 3.6mm;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif; color: var(--ink); background: #d9dee5; font-size: 9.6pt; line-height: 1.5; }
+.page { width: 210mm; height: 297mm; background: var(--paper); padding: 13mm 14mm 11mm; display: flex; flex-direction: column; gap: 7mm; overflow: hidden; page-break-after: always; break-after: page; position: relative; }
+@media screen { body { padding: 10mm 0; } .page { margin: 0 auto 10mm; box-shadow: 0 2px 14px rgba(0,0,0,.12); } }
+h1, h2, h3 { font-weight: 600; letter-spacing: -0.015em; line-height: 1.08; text-wrap: balance; }
+h2 { font-size: 20pt; }
+h3 { font-size: 10.5pt; letter-spacing: -0.005em; }
+.small { font-size: 7.8pt; color: var(--muted); }
+.label { font-size: 7.4pt; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+
+/* running head / foot – like a broker's exposé */
+.run { display: flex; justify-content: space-between; align-items: baseline; border-bottom: .6pt solid var(--ink); padding-bottom: 2.4mm; }
+.run .brand { display: flex; align-items: center; gap: 2.2mm; font-weight: 600; font-size: 9.5pt; }
+.run .brand img { height: 7mm; }
+.foot { margin-top: auto; display: flex; justify-content: space-between; border-top: .5pt solid var(--line); padding-top: 2.4mm; font-size: 7.4pt; color: var(--muted); }
+
+/* photo with the plinth notch from the website */
+.photo { position: relative; border-radius: var(--r); overflow: hidden; background: var(--mist); }
+.photo > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.photo.framed { outline: .5pt solid var(--line); outline-offset: -.5pt; }
+.plinth { position: absolute; left: -1px; bottom: -1px; z-index: 1; background: var(--paper); border-top-right-radius: var(--r); padding: 4.5mm 7mm 1px 1px; max-width: 78%; }
+.plinth::before, .plinth::after { content: ""; position: absolute; width: var(--r); height: var(--r); background: radial-gradient(circle at 100% 0, transparent calc(var(--r) - .25mm), var(--paper) var(--r)); }
+.plinth::before { left: 1px; top: calc(-1 * var(--r)); }
+.plinth::after { left: 100%; bottom: 0; }
+.photo:has(> .plinth) { border-bottom-left-radius: 0; }
+
+/* ---------- page 1 ---------- */
+.cover .photo { height: 158mm; }
+.cover .photo > img { object-position: 62% 50%; }
+.cover h1 { font-size: 30pt; margin-top: 2mm; }
+.cover .intro { display: grid; grid-template-columns: 1.25fr 1fr; gap: 10mm; align-items: start; }
+.cover .intro p.lead { font-size: 12.5pt; line-height: 1.45; font-weight: 500; }
+.cover .intro p + p { margin-top: 3mm; }
+.keyline { display: grid; gap: 0; }
+.keyline div { display: flex; justify-content: space-between; gap: 4mm; padding: 1.9mm 0; border-bottom: .5pt solid var(--line); }
+.keyline div:first-child { border-top: .5pt solid var(--line); }
+.keyline dt { color: var(--muted); }
+.keyline dd { font-weight: 600; text-align: right; }
+
+/* ---------- page 2 ---------- */
+.desc { display: grid; grid-template-columns: 1.2fr 1fr; gap: 10mm; }
+.desc .text p { margin-top: 3mm; max-width: 88mm; }
+.desc .text p:first-of-type { margin-top: 4mm; }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.pair .photo { height: 57mm; }
+.pair .photo > img { object-position: 50% 0; }
+figcaption { margin-top: 2mm; font-size: 7.8pt; color: var(--muted); }
+figcaption b { color: var(--ink); font-weight: 600; }
+.wide { display: grid; grid-template-columns: 118mm 1fr; gap: 6mm; align-items: end; }
+.wide .photo { aspect-ratio: 16 / 10; }
+.wide figcaption { margin: 0; }
+
+/* ---------- page 3 ---------- */
+.phones { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7mm; }
+.phone { border-radius: 6mm; padding: 1.8mm; background: var(--ink); }
+.phone .photo { border-radius: 4.4mm; aspect-ratio: 390 / 844; }
+.phone .photo > img { object-position: 50% 0; }
+.feat { display: grid; grid-template-columns: 1fr 1fr; column-gap: 9mm; }
+.feat li { list-style: none; padding: 2.3mm 0; border-bottom: .5pt solid var(--line); break-inside: avoid; }
+.feat li b { font-weight: 600; }
+.feat li span { display: block; color: var(--muted); font-size: 8.4pt; }
+
+/* ---------- page 4 – floor plan ---------- */
+.plan { border: 1.6pt solid var(--ink); display: grid; grid-template-columns: 1.35fr 1fr 1fr; grid-template-rows: 30mm 30mm 26mm; position: relative; }
+.room { border: .8pt solid var(--ink); padding: 3mm 3.4mm; display: flex; flex-direction: column; justify-content: space-between; position: relative; background:
+  repeating-linear-gradient(45deg, transparent 0 2.6mm, rgba(43,74,110,.035) 2.6mm 2.9mm); }
+.room h3 { font-size: 9.8pt; }
+.room .area { font-size: 7.6pt; color: var(--muted); }
+.room.hall { grid-row: 1 / 3; background: var(--mist); }
+.room.gt { grid-column: 2 / 4; }
+.room.wide2 { grid-column: 2 / 4; }
+.room.util { font-size: 7.6pt; }
+.door { position: absolute; width: 6mm; height: 6mm; border: .8pt solid var(--ink); border-bottom: none; border-left: none; border-top-right-radius: 6mm; background: var(--paper); }
+.plan .compass { position: absolute; right: -1mm; top: -8mm; font-size: 7pt; color: var(--muted); letter-spacing: .08em; }
+.visit { display: grid; grid-template-columns: 1fr 38mm; gap: 9mm; align-items: center; background: var(--mist); border-radius: var(--r); padding: 7mm 8mm; }
+.visit .url { font-size: 13pt; font-weight: 600; color: var(--navy); margin-top: 2mm; word-break: break-all; }
+.visit img { width: 38mm; height: 38mm; display: block; }
+.contact { display: grid; grid-template-columns: 1fr 1fr; gap: 10mm; }
+.contact dl div { display: flex; gap: 3mm; padding: 1.6mm 0; border-bottom: .5pt solid var(--line); }
+.contact dt { width: 20mm; color: var(--muted); flex: none; }
+.ph { background: #fbf1dc; color: #8a5a12; border-radius: 1mm; padding: 0 1.2mm; }
+.fine { font-size: 7.2pt; color: var(--muted); max-width: 150mm; }
+</style>
+</head>
+<body>
+
+<!-- ============ 1 · Titel ============ -->
+<section class="page cover">
+  <header class="run">
+    <span class="brand"><img src="../../public/brand/logo.png" alt="">Pöhls Immobilien</span>
+    <span class="label">Exposé · Objekt-Nr. PI-2026-01</span>
+  </header>
+  <div class="photo">
+    <img src="../../public/media/gt-1745-1600.webp" alt="Blick über das Frankfurter Westend auf die Hochhäuser der Innenstadt">
+    <div class="plinth">
+      <p class="label">Neubau · Frankfurt und Rhein-Main</p>
+      <h1>Ihre neue Website</h1>
+    </div>
+  </div>
+  <div class="intro">
+    <div>
+      <p class="lead">Wir haben uns Ihre Website angesehen und ihr eine neue Bühne gebaut: mit Ihren Angeboten, Ihren Texten und Ihrem Grand Tower. Fertig und online, damit Sie sie nicht nur beschrieben bekommen, sondern besichtigen können.</p>
+      <p>Auf den folgenden Seiten finden Sie Beschreibung, Ausstattung und Grundriss. Die Besichtigung ist jederzeit online möglich.</p>
+    </div>
+    <dl class="keyline">
+      <div><dt>Objektart</dt><dd>Website, Neubau</dd></div>
+      <div><dt>Zustand</dt><dd>Erstbezug, bezugsfertig</dd></div>
+      <div><dt>Sprachen</dt><dd>Deutsch, Englisch</dd></div>
+      <div><dt>Angebote</dt><dd>59 aktuell, 13 Referenzen</dd></div>
+      <div><dt>Kaufpreis</dt><dd>auf Anfrage</dd></div>
+    </dl>
+  </div>
+  <footer class="foot"><span>Konzeptentwurf von rhowerk, Leipzig</span><span class="num">1 / 4</span></footer>
+</section>
+
+<!-- ============ 2 · Objektbeschreibung ============ -->
+<section class="page">
+  <header class="run"><span class="brand">Objektbeschreibung</span><span class="label">Objekt-Nr. PI-2026-01</span></header>
+  <div class="desc">
+    <div class="text">
+      <h2>Ein Zuhause für Ihre Angebote</h2>
+      <p>Die neue Website stellt Ihre Objekte in den Mittelpunkt: große Fotos, klare Preise und eine Suche, die schon auf der Startseite zeigt, wie viele passende Angebote es gibt. Interessenten finden in wenigen Klicks ihre Wohnung und fragen direkt an.</p>
+      <p>Der Grand Tower bekommt eine eigene Seite mit allen freien Wohnungen und einer Bildergalerie. Referenzen zeigen, was Sie bereits verkauft und vermietet haben.</p>
+      <p>Die Seite ist komplett zweisprachig und passt sich Tag und Nacht an: Sie erscheint hell oder dunkel, je nach Einstellung Ihrer Besucher, und lässt sich per Klick umschalten.</p>
+    </div>
+    <dl class="keyline" style="align-self:end">
+      <div><dt>Baujahr</dt><dd class="num">2026</dd></div>
+      <div><dt>Umfang</dt><dd class="num">über 160 Seiten</dd></div>
+      <div><dt>Sprachen</dt><dd>Deutsch, Englisch</dd></div>
+      <div><dt>Darstellung</dt><dd>Tag- und Nachtmodus</dd></div>
+      <div><dt>Endgeräte</dt><dd>Smartphone, Tablet, Desktop</dd></div>
+      <div><dt>Pflege</dt><dd>eigenes CMS vorbereitet</dd></div>
+      <div><dt>Suchmaschinen</dt><dd>sprechende Adressen, DE/EN</dd></div>
+      <div><dt>Provision</dt><dd>provisionsfrei</dd></div>
+    </dl>
+  </div>
+  <figure class="pair">
+    <div class="photo framed"><img src="shots/home-day.jpg" alt="Startseite bei Tag"></div>
+    <div class="photo framed"><img src="shots/home-night.jpg" alt="Startseite bei Nacht"></div>
+  </figure>
+  <figcaption style="margin-top:-4.5mm"><b>Tag und Nacht.</b> Dieselbe Startseite im hellen und im dunklen Modus, jeweils mit eigenem Frankfurt-Motiv.</figcaption>
+  <figure class="wide">
+    <div class="photo framed"><img src="shots/gt-night.jpg" alt="Grand-Tower-Seite bei Nacht"></div>
+    <figcaption><b>Grand Tower.</b> Eine eigene Bühne für Ihr Aushängeschild. Direkt darunter stehen alle freien Wohnungen, dazu eine Galerie mit 38 Fotos.</figcaption>
+  </figure>
+  <footer class="foot"><span>Konzeptentwurf von rhowerk, Leipzig</span><span class="num">2 / 4</span></footer>
+</section>
+
+<!-- ============ 3 · Ausstattung ============ -->
+<section class="page">
+  <header class="run"><span class="brand">Ausstattung</span><span class="label">Objekt-Nr. PI-2026-01</span></header>
+  <h2>Gemacht für das Smartphone</h2>
+  <p style="max-width:140mm;margin-top:-3mm">Die meisten Interessenten suchen unterwegs. Deshalb ist jede Seite zuerst für das Handy gebaut.</p>
+  <div class="phones">
+    <figure><div class="phone"><div class="photo"><img src="shots/m-home.jpg" alt="Startseite am Smartphone"></div></div><figcaption><b>Startseite</b> mit Schnellsuche</figcaption></figure>
+    <figure><div class="phone"><div class="photo"><img src="shots/m-detail.jpg" alt="Objektseite am Smartphone"></div></div><figcaption><b>Objektseite</b> mit Galerie und Anfrage-Leiste</figcaption></figure>
+    <figure><div class="phone"><div class="photo"><img src="shots/m-gt-en.jpg" alt="Grand Tower auf Englisch am Smartphone"></div></div><figcaption><b>Grand Tower</b> auf Englisch, bei Nacht</figcaption></figure>
+  </div>
+  <ul class="feat">
+    <li><b>Schnellsuche</b><span>Kaufen oder Mieten, Objektart, Trefferzahl live</span></li>
+    <li><b>Galerien mit Vollbildansicht</b><span>Alle Fotos eines Objekts, auch am Handy per Wischen</span></li>
+    <li><b>Filter für alle Angebote</b><span>Objektart, Zimmer, Preis, Sortierung</span></li>
+    <li><b>Direkte Anfrage</b><span>Anrufen oder Objekt anfragen, Betreff schon ausgefüllt</span></li>
+    <li><b>Referenzen</b><span>Verkaufte und vermietete Objekte als Nachweis</span></li>
+    <li><b>Zweisprachig</b><span>Jede Seite auf Deutsch und Englisch, per Klick umschaltbar</span></li>
+  </ul>
+  <footer class="foot"><span>Konzeptentwurf von rhowerk, Leipzig</span><span class="num">3 / 4</span></footer>
+</section>
+
+<!-- ============ 4 · Grundriss & Besichtigung ============ -->
+<section class="page">
+  <header class="run"><span class="brand">Grundriss und Besichtigung</span><span class="label">Objekt-Nr. PI-2026-01</span></header>
+  <h2>Grundriss</h2>
+  <div class="plan" aria-label="Aufbau der Website als Grundriss">
+    <span class="compass">N ↑</span>
+    <div class="room hall"><div><h3>Startseite</h3><p class="small" style="margin-top:1.5mm">Eingang mit Schnellsuche, neuen Angeboten und Grand Tower</p></div><span class="area">Diele</span></div>
+    <div class="room gt"><div><h3>Grand Tower</h3><p class="small" style="margin-top:1.5mm">Eigene Seite, freie Wohnungen, Galerie</p></div><span class="area">Penthouse</span></div>
+    <div class="room"><div><h3>Angebote</h3></div><span class="area num">59 Objektseiten</span></div>
+    <div class="room"><div><h3>Referenzen</h3></div><span class="area num">13 Objekte</span></div>
+    <div class="room"><div><h3>Leistungen</h3></div><span class="area">Verkauf, Vermietung, Betreuung</span></div>
+    <div class="room"><div><h3>Über uns</h3></div><span class="area">Pierre Pöhls</span></div>
+    <div class="room util"><div><h3>Kontakt</h3></div><span class="area">Impressum, Datenschutz, AGB</span></div>
+  </div>
+  <p class="small" style="margin-top:-4mm">Jeder Raum doppelt vorhanden: einmal auf Deutsch, einmal auf Englisch.</p>
+
+  <div class="visit">
+    <div>
+      <p class="label">Besichtigung</p>
+      <h2 style="font-size:16pt;margin-top:1.5mm">Jederzeit online, ohne Termin</h2>
+      <p class="url">poehls-immobilien.netlify.app</p>
+      <p class="small" style="margin-top:2mm">Am schönsten auf dem Smartphone. Die Vorschau ist nur für Sie bestimmt und für Suchmaschinen gesperrt.</p>
+    </div>
+    <img src="qr.svg" alt="QR-Code zur Vorschau">
+  </div>
+
+  <div class="contact">
+    <div>
+      <p class="label">Ihr Ansprechpartner</p>
+      <h3 style="font-size:13pt;margin-top:1.5mm">rhowerk</h3>
+      <p style="margin-top:2mm">Wir melden uns in den nächsten Tagen telefonisch bei Ihnen und zeigen Ihnen den Entwurf gern in einem kurzen Video-Termin.</p>
+    </div>
+    <dl>
+      <div><dt>Name</dt><dd><span class="ph">[Vorname Nachname]</span></dd></div>
+      <div><dt>Telefon</dt><dd><span class="ph">[Telefon]</span></dd></div>
+      <div><dt>E-Mail</dt><dd><span class="ph">[E-Mail]</span></dd></div>
+      <div><dt>Web</dt><dd>rhowerk.de</dd></div>
+      <div><dt>Sitz</dt><dd>Leipzig</dd></div>
+    </dl>
+  </div>
+
+  <p class="fine">Konzeptentwurf. Texte, Angebote und Fotos stammen von www.poehlsimmobilien.de und wurden ausschließlich für diesen Entwurf verwendet. Auf Wunsch nehmen wir die Vorschau sofort offline.</p>
+  <footer class="foot"><span>Konzeptentwurf von rhowerk, Leipzig</span><span class="num">4 / 4</span></footer>
+</section>
+
+</body>
+</html>
