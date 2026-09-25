@@ -44,8 +44,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      // false while pages are still being built; switched to true in Task 15
-      failOnError: false,
+      failOnError: true,
       routes: ['/', ...listingRoutes],
     },
   },
