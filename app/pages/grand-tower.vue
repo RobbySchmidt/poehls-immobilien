@@ -36,7 +36,7 @@ const openAt = (i: number) => galleryRef.value?.show(i)
             <MoodImage :day="useFile(photo.day)" :night="useFile(photo.night)" eager sizes="(min-width: 1280px) 1280px, 100vw" alt="" />
             <div class="plinth pr-10 pt-5 max-md:right-10 max-md:min-w-0 max-md:pr-5 max-md:pt-3">
               <p class="text-sm font-semibold text-muted-foreground">{{ project.address }}</p>
-              <h1 class="mt-1.5 text-f-6xl max-md:text-[2.125rem] max-md:leading-[1.02]">{{ project.title }}</h1>
+              <h1 class="mt-1.5 text-f-6xl max-md:text-[2.125rem] leading-[1.1]">{{ project.title }}</h1>
               <p class="mt-2.5 text-f-xl font-semibold max-md:hidden">{{ project.tagline }}</p>
             </div>
           </div>

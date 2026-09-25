@@ -17,7 +17,7 @@ const mood = useHeroMood()
       />
       <div class="plinth pr-10 pt-5 max-md:right-10 max-md:min-w-0 max-md:pr-5 max-md:pt-3">
         <p class="text-sm font-semibold text-muted-foreground">{{ home.hero.kicker }}</p>
-        <h1 id="hero-title" class="mt-2 text-f-6xl md:whitespace-nowrap max-md:mt-0.5 max-md:text-[2.125rem] max-md:leading-[1.02]">{{ home.hero.title }}</h1>
+        <h1 id="hero-title" class="mt-2 text-f-6xl md:whitespace-nowrap max-md:mt-0.5 max-md:text-[2.125rem] leading-[1.1]">{{ home.hero.title }}</h1>
       </div>
     </div>
     <div class="flex flex-col gap-x-12 gap-y-5 pt-5 lg:flex-row lg:items-center lg:justify-between lg:pt-6">
