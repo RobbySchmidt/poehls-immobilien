@@ -3,9 +3,10 @@
     {
       "languages_code": "de",
       "hero": {
-        "kicker": "Immobilienmakler in Frankfurt und Rhein-Main",
-        "title": "Pöhls Immobilien",
-        "lead": "Kaufen, mieten, verkaufen – mit über 35 Jahren Markterfahrung an Ihrer Seite."
+        "kicker": "Immobilienmakler seit über 35 Jahren",
+        "title": "Wir kennen Frankfurt.",
+        "tagline": "Kaufen, mieten, verkaufen – in der Stadt und im ganzen Rhein-Main-Gebiet.",
+        "personal": "Persönliche Beratung durch Pierre Pöhls."
       },
       "latest": {
         "title": "Neue Angebote",
@@ -52,9 +53,10 @@
       "languages_code": "en",
       "machine_translated": true,
       "hero": {
-        "kicker": "Estate agents in Frankfurt and the Rhine-Main region",
-        "title": "Pöhls Immobilien",
-        "lead": "Buy, rent, sell – with more than 35 years of market experience at your side."
+        "kicker": "Estate agents for more than 35 years",
+        "title": "We know Frankfurt.",
+        "tagline": "Buy, rent, sell – in the city and across the Rhine-Main region.",
+        "personal": "Personal advice from Pierre Pöhls."
       },
       "latest": {
         "title": "New properties",

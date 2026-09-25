@@ -6,11 +6,13 @@
   },
   "hero": {
     "day": [
+      "gt-1745",
       "m-1514",
       "m-1665",
       "m-745"
     ],
     "night": [
+      "m-2511",
       "m-703",
       "gt-1814",
       "m-707"
@@ -24,7 +26,9 @@
       "m-703": "Frankfurter Skyline bei Nacht, im Main gespiegelt, rechts die Europäische Zentralbank",
       "gt-1814": "Balkon des Grand Tower in der Abenddämmerung mit Blick über die beleuchtete Stadt",
       "m-707": "Die Europäische Zentralbank bei Nacht mit erleuchteten Fenstern",
-      "m-1987": "Porträt von Pierre Pöhls vor der Frankfurter Skyline"
+      "m-1987": "Porträt von Pierre Pöhls vor der Frankfurter Skyline",
+      "gt-1745": "Blick über das Frankfurter Westend auf die Hochhäuser der Innenstadt an einem klaren Tag",
+      "m-2511": "Frankfurt in der Abenddämmerung, Blick über das Europaviertel zur Messe"
     },
     "en": {
       "m-1514": "Frankfurt skyline with high-rise towers on a sunny day",
@@ -33,7 +37,9 @@
       "m-703": "Frankfurt skyline at night reflected in the Main, the European Central Bank on the right",
       "gt-1814": "Grand Tower balcony at dusk overlooking the illuminated city",
       "m-707": "The European Central Bank at night with lit windows",
-      "m-1987": "Portrait of Pierre Pöhls in front of the Frankfurt skyline"
+      "m-1987": "Portrait of Pierre Pöhls in front of the Frankfurt skyline",
+      "gt-1745": "View across Frankfurt’s Westend towards the city-centre high-rises on a clear day",
+      "m-2511": "Frankfurt at dusk, looking across the Europaviertel towards the trade fair"
     }
   }
 }
