@@ -14,10 +14,10 @@ const company = useCompany()
         <p class="mt-3 max-w-[48ch] text-f-xl text-muted-foreground">{{ home.contact.text }}</p>
       </div>
       <div class="flex flex-col gap-3 sm:flex-row">
-        <Button as-child class="h-12 rounded-full px-7 text-base">
+        <Button as-child size="cta">
           <a :href="company.phone_href"><Phone class="size-4" aria-hidden="true" />Anrufen</a>
         </Button>
-        <Button as-child variant="outline" class="h-12 rounded-full px-7 text-base">
+        <Button as-child variant="outline" size="cta">
           <NuxtLink to="/kontakt"><Mail class="size-4" aria-hidden="true" />Nachricht schreiben</NuxtLink>
         </Button>
       </div>

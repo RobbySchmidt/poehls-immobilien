@@ -6,12 +6,14 @@ withDefaults(defineProps<{
   night: FileAsset | null | undefined
   sizes?: string
   eager?: boolean
-}>(), { sizes: '100vw', eager: false })
+  /** pass '' for purely decorative use */
+  alt?: string
+}>(), { sizes: '100vw', eager: false, alt: undefined })
 </script>
 
 <template>
   <div class="relative size-full">
-    <ResponsiveImage :file="day" :sizes="sizes" :eager="eager" class="absolute inset-0 transition-opacity duration-300 ease-out motion-reduce:transition-none dark:opacity-0" />
-    <ResponsiveImage :file="night" :sizes="sizes" class="absolute inset-0 opacity-0 transition-opacity duration-300 ease-out motion-reduce:transition-none dark:opacity-100" />
+    <ResponsiveImage :file="day" :sizes="sizes" :eager="eager" :alt="alt" class="absolute inset-0 transition-opacity duration-300 ease-out motion-reduce:transition-none dark:opacity-0" />
+    <ResponsiveImage :file="night" :sizes="sizes" :alt="alt" class="absolute inset-0 opacity-0 transition-opacity duration-300 ease-out motion-reduce:transition-none dark:opacity-100" />
   </div>
 </template>

@@ -66,7 +66,7 @@ const statusText = computed(() => (l.value.availability === 'sold' ? 'erfolgreic
         <div v-if="archived" class="mt-8 rounded-2xl bg-secondary p-6">
           <p class="font-semibold">Dieses Objekt wurde {{ statusText }}.</p>
           <p class="mt-1 text-muted-foreground">Sie möchten Ihre Immobilie ebenfalls verkaufen oder vermieten?</p>
-          <Button as-child class="mt-4 h-12 rounded-full px-7 text-base"><NuxtLink to="/leistungen">Leistungen ansehen</NuxtLink></Button>
+          <Button as-child size="cta" class="mt-4"><NuxtLink to="/leistungen">Leistungen ansehen</NuxtLink></Button>
         </div>
 
         <section v-if="l.description" class="mt-f-12" aria-labelledby="desc-title">
@@ -86,7 +86,7 @@ const statusText = computed(() => (l.value.availability === 'sold' ? 'erfolgreic
         </section>
 
         <div v-if="l.expose && !archived" class="mt-f-8">
-          <Button as-child variant="outline" class="h-12 rounded-full px-7 text-base">
+          <Button as-child variant="outline" size="cta">
             <a :href="l.expose.url" target="_blank" rel="noopener"><Download class="size-4" aria-hidden="true" />Exposé herunterladen</a>
           </Button>
         </div>
@@ -107,8 +107,8 @@ const statusText = computed(() => (l.value.availability === 'sold' ? 'erfolgreic
     <!-- Mobile action bar -->
     <div v-if="!archived" class="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-background p-3 lg:hidden">
       <div class="flex gap-2">
-        <Button as-child variant="outline" class="h-12 flex-1 rounded-full text-base"><a :href="company.phone_href"><Phone class="size-4" aria-hidden="true" />Anrufen</a></Button>
-        <Button as-child class="h-12 flex-1 rounded-full text-base"><NuxtLink :to="{ path: '/kontakt', query: { objekt: l.slug } }"><Mail class="size-4" aria-hidden="true" />Objekt anfragen</NuxtLink></Button>
+        <Button as-child variant="outline" size="cta" class="flex-1"><a :href="company.phone_href"><Phone class="size-4" aria-hidden="true" />Anrufen</a></Button>
+        <Button as-child size="cta" class="flex-1"><NuxtLink :to="{ path: '/kontakt', query: { objekt: l.slug } }"><Mail class="size-4" aria-hidden="true" />Objekt anfragen</NuxtLink></Button>
       </div>
     </div>
   </article>

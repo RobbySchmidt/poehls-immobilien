@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { parseFilters, filtersToQuery, applyFilters, sortListings, DEFAULT_FILTERS, activeFilterCount } from '~/utils/filters'
+import { parseFilters, filtersToQuery, applyFilters, sortListings, DEFAULT_FILTERS, activeFilterCount, resultLabel, activeChips } from '~/utils/filters'
 import type { Listing } from '~/types/content'
 
 const l = (over: Partial<Listing>): Listing => ({
@@ -65,6 +65,31 @@ describe('sortListings', () => {
   it('sorts by price with unpriced listings last in both directions', () => {
     expect(sortListings(ls, 'preis-auf').map((x) => x.id)).toEqual([3, 1, 2])
     expect(sortListings(ls, 'preis-ab').map((x) => x.id)).toEqual([1, 3, 2])
+  })
+})
+
+describe('resultLabel', () => {
+  it('speaks of matches when filters are active, with correct singular', () => {
+    expect(resultLabel(12, true)).toBe('12 passende Angebote')
+    expect(resultLabel(1, true)).toBe('1 passendes Angebot')
+    expect(resultLabel(0, true)).toBe('Keine passenden Angebote')
+  })
+  it('is neutral without filters', () => {
+    expect(resultLabel(59, false)).toBe('59 Angebote')
+    expect(resultLabel(1, false)).toBe('1 Angebot')
+  })
+})
+
+describe('activeChips', () => {
+  it('describes each active filter with the patch that removes it', () => {
+    const NB = ' '
+    expect(activeChips({ typ: 'miete', art: 'wohnung', zimmer: 3, preis: 1500, sort: 'preis-ab' })).toEqual([
+      { key: 'typ', label: 'Mieten', remove: { typ: null, preis: null } },
+      { key: 'art', label: 'Wohnung', remove: { art: null } },
+      { key: 'zimmer', label: 'ab 3 Zimmer', remove: { zimmer: null } },
+      { key: 'preis', label: `bis 1.500${NB}€`, remove: { preis: null } },
+    ])
+    expect(activeChips(DEFAULT_FILTERS)).toEqual([])
   })
 })
 

@@ -20,10 +20,10 @@ const inquiry = computed(() => ({ path: '/kontakt', query: { objekt: props.listi
       </div>
     </div>
     <div class="mt-6 grid gap-2">
-      <Button as-child class="h-12 rounded-full text-base">
+      <Button as-child size="cta">
         <NuxtLink :to="inquiry"><Mail class="size-4" aria-hidden="true" />Objekt anfragen</NuxtLink>
       </Button>
-      <Button as-child variant="outline" class="h-12 rounded-full text-base">
+      <Button as-child variant="outline" size="cta">
         <a :href="company.phone_href"><Phone class="size-4" aria-hidden="true" />{{ company.phone }}</a>
       </Button>
     </div>

@@ -1,4 +1,5 @@
 import type { Listing, MarketingType, PropertyType } from '~/types/content'
+import { PROPERTY_TYPE_LABEL, formatEuro } from './format'
 
 export type SortKey = 'neu' | 'preis-auf' | 'preis-ab'
 export interface Filters {
@@ -82,6 +83,23 @@ export function sortListings(ls: Listing[], sort: SortKey): Listing[] {
     if (pb == null) return -1
     return (pa - pb) * dir
   })
+}
+
+export function resultLabel(count: number, filtered: boolean): string {
+  if (!filtered) return `${count} ${count === 1 ? 'Angebot' : 'Angebote'}`
+  if (count === 0) return 'Keine passenden Angebote'
+  return count === 1 ? '1 passendes Angebot' : `${count} passende Angebote`
+}
+
+export interface FilterChip { key: keyof Filters, label: string, remove: Partial<Filters> }
+
+export function activeChips(f: Filters): FilterChip[] {
+  const chips: FilterChip[] = []
+  if (f.typ) chips.push({ key: 'typ', label: f.typ === 'kauf' ? 'Kaufen' : 'Mieten', remove: { typ: null, preis: null } })
+  if (f.art) chips.push({ key: 'art', label: PROPERTY_TYPE_LABEL[f.art], remove: { art: null } })
+  if (f.zimmer) chips.push({ key: 'zimmer', label: `ab ${f.zimmer} Zimmer`, remove: { zimmer: null } })
+  if (f.preis) chips.push({ key: 'preis', label: `bis ${formatEuro(f.preis)}`, remove: { preis: null } })
+  return chips
 }
 
 export function activeFilterCount(f: Filters): number {

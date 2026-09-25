@@ -25,8 +25,8 @@ const onPointerUp = (e: PointerEvent) => {
       <DialogDescription class="sr-only">Mit den Pfeiltasten blättern, Escape schließt.</DialogDescription>
       <div class="relative flex h-[80dvh] touch-pan-y items-center justify-center" @pointerdown="onPointerDown" @pointerup="onPointerUp">
         <img v-if="current" :src="assetUrl(current, 1600)" :alt="current.description" :width="current.width" :height="current.height" class="max-h-full max-w-full select-none object-contain" draggable="false">
-        <Button variant="outline" size="icon" class="absolute left-3 top-1/2 size-11 -translate-y-1/2 rounded-full text-foreground" aria-label="Vorheriges Bild" @click="go(-1)"><ChevronLeft class="size-5" aria-hidden="true" /></Button>
-        <Button variant="outline" size="icon" class="absolute right-3 top-1/2 size-11 -translate-y-1/2 rounded-full text-foreground" aria-label="Nächstes Bild" @click="go(1)"><ChevronRight class="size-5" aria-hidden="true" /></Button>
+        <Button variant="outline" size="icon-pill" class="absolute left-3 top-1/2 -translate-y-1/2 text-foreground" aria-label="Vorheriges Bild" @click="go(-1)"><ChevronLeft class="size-5" aria-hidden="true" /></Button>
+        <Button variant="outline" size="icon-pill" class="absolute right-3 top-1/2 -translate-y-1/2 text-foreground" aria-label="Nächstes Bild" @click="go(1)"><ChevronRight class="size-5" aria-hidden="true" /></Button>
       </div>
       <p class="pb-4 text-center text-sm text-muted-foreground tabular" aria-live="polite">{{ index + 1 }} / {{ images.length }}</p>
     </DialogContent>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SearchX } from '@lucide/vue'
+import { SearchX, X } from '@lucide/vue'
 import type { Filters } from '~/utils/filters'
 
 useSeoMeta({ title: 'Angebote', description: 'Aktuelle Eigentumswohnungen, Häuser, Gewerbe- und Anlageobjekte von Pöhls Immobilien in Frankfurt und Rhein-Main.' })
@@ -13,6 +13,8 @@ onMounted(() => { hydrated.value = true })
 
 const filters = computed<Filters>(() => (hydrated.value ? parseFilters(route.query) : DEFAULT_FILTERS))
 const results = computed(() => sortListings(applyFilters(all, filters.value), filters.value.sort))
+const chips = computed(() => activeChips(filters.value))
+const resultKey = computed(() => JSON.stringify(filtersToQuery(filters.value)))
 
 function update(patch: Partial<Filters>) {
   router.replace({ query: filtersToQuery({ ...filters.value, ...patch }) })
@@ -34,10 +36,23 @@ function reset() {
       </div>
     </div>
     <div class="container-page py-f-12">
-      <p class="mb-8 text-sm text-muted-foreground tabular" aria-live="polite">
-        {{ results.length }} {{ results.length === 1 ? 'Angebot' : 'Angebote' }}
-      </p>
-      <div v-if="results.length" class="grid gap-x-f-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Feedback: count re-pops and results fade in on every filter change -->
+      <div class="mb-8 flex min-h-11 flex-wrap items-center gap-2">
+        <p class="mr-2 text-f-xl font-semibold" role="status" aria-live="polite">
+          <span :key="resultKey" class="inline-block motion-safe:animate-in motion-safe:fade-in motion-safe:zoom-in-95 motion-safe:duration-300">{{ resultLabel(results.length, chips.length > 0) }}</span>
+        </p>
+        <button
+          v-for="c in chips"
+          :key="c.key"
+          type="button"
+          class="inline-flex h-9 items-center gap-1.5 rounded-full bg-secondary pl-3.5 pr-2.5 text-sm font-semibold transition-colors duration-150 hover:bg-accent focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
+          :aria-label="`Filter „${c.label}“ entfernen`"
+          @click="update(c.remove)"
+        >
+          {{ c.label }}<X class="size-3.5 text-muted-foreground" aria-hidden="true" />
+        </button>
+      </div>
+      <div v-if="results.length" :key="resultKey" class="grid gap-x-f-8 gap-y-12 motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-1 motion-safe:duration-300 md:grid-cols-2 lg:grid-cols-3">
         <ListingCard v-for="(l, i) in results" :key="l.id" :listing="l" :eager="i < 3" :heading-level="2" />
       </div>
       <div v-else class="flex flex-col items-start gap-4 rounded-2xl bg-secondary p-f-12">
@@ -45,8 +60,8 @@ function reset() {
         <h2 class="text-f-2xl">Keine Angebote für diese Auswahl</h2>
         <p class="max-w-[48ch] text-muted-foreground">Passen Sie die Filter an oder sprechen Sie uns an – wir suchen gern gezielt für Sie.</p>
         <div class="flex flex-wrap gap-3">
-          <Button class="h-12 rounded-full px-7 text-base" @click="reset">Filter zurücksetzen</Button>
-          <Button as-child variant="outline" class="h-12 rounded-full px-7 text-base"><NuxtLink to="/kontakt">Suchauftrag besprechen</NuxtLink></Button>
+          <Button size="cta" @click="reset">Filter zurücksetzen</Button>
+          <Button as-child variant="outline" size="cta"><NuxtLink to="/kontakt">Suchauftrag besprechen</NuxtLink></Button>
         </div>
       </div>
     </div>

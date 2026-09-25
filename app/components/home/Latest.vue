@@ -12,7 +12,7 @@ const latest = computed(() => sortListings(all, 'neu').slice(0, 6))
         <ListingCard v-for="l in latest" :key="l.id" :listing="l" />
       </div>
       <div class="mt-f-12">
-        <Button as-child class="h-12 rounded-full px-7 text-base">
+        <Button as-child size="cta">
           <NuxtLink to="/angebote">Alle {{ all.length }} Angebote ansehen</NuxtLink>
         </Button>
       </div>

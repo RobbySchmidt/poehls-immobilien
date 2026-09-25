@@ -15,8 +15,8 @@ useSeoMeta({ title: is404.value ? 'Seite nicht gefunden' : 'Fehler' })
         {{ is404 ? 'Vielleicht wurde das Objekt bereits verkauft oder vermietet. Unsere aktuellen Angebote finden Sie hier:' : 'Bitte versuchen Sie es erneut oder kehren Sie zur Startseite zurück.' }}
       </p>
       <div class="mt-8 flex flex-wrap gap-3">
-        <Button as-child class="h-12 rounded-full px-7 text-base"><NuxtLink to="/angebote">Angebote ansehen</NuxtLink></Button>
-        <Button as-child variant="outline" class="h-12 rounded-full px-7 text-base"><NuxtLink to="/">Zur Startseite</NuxtLink></Button>
+        <Button as-child size="cta"><NuxtLink to="/angebote">Angebote ansehen</NuxtLink></Button>
+        <Button as-child variant="outline" size="cta"><NuxtLink to="/">Zur Startseite</NuxtLink></Button>
       </div>
     </div>
   </NuxtLayout>

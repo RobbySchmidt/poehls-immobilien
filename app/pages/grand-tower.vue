@@ -1,27 +1,30 @@
 <script setup lang="ts">
+import { Images } from '@lucide/vue'
+
 const project = useProject('grand-tower')!
 useSeoMeta({ title: project.title, description: project.tagline })
-const hero = useFile(project.mood_night)
-const photo = useFile(project.mood_day)
+const heroDay = useFile(project.mood_day)
+const heroNight = useFile(project.mood_night)
 const units = sortListings(useAvailableListings().filter((l) => l.project === 'grand-tower'), 'preis-auf')
 const rent = units.filter((l) => l.marketing_type === 'miete')
 const buy = units.filter((l) => l.marketing_type === 'kauf')
 const gallery = project.images.map((id) => useFile(id)).filter((f): f is NonNullable<typeof f> => !!f)
 const open = ref(false)
 const index = ref(0)
+const photo = project.mood_pairs.photo
 const facts = project.facts.map(({ label, value }) => ({ label, value }))
 </script>
 
 <template>
-  <div class="dark">
-    <div class="bg-background text-foreground">
+  <div>
+    <div>
       <section class="relative flex min-h-[70dvh] items-end overflow-hidden" aria-labelledby="gt-h1">
-        <div class="absolute inset-0"><ResponsiveImage :file="hero" eager sizes="100vw" /></div>
+        <div class="absolute inset-0"><MoodImage :day="heroDay" :night="heroNight" eager sizes="100vw" /></div>
         <div class="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/10" aria-hidden="true" />
         <div class="container-page relative pb-f-16 pt-40">
           <p class="text-sm font-semibold text-muted-foreground">{{ project.address }}</p>
           <h1 id="gt-h1" class="mt-3 text-f-6xl">{{ project.title }}</h1>
-          <p class="mt-4 max-w-[40ch] text-f-xl">{{ project.tagline }}</p>
+          <p class="mt-4 max-w-[40ch] text-f-xl font-semibold">{{ project.tagline }}</p>
         </div>
       </section>
 
@@ -35,7 +38,7 @@ const facts = project.facts.map(({ label, value }) => ({ label, value }))
             </div>
           </dl>
         </div>
-        <div class="aspect-[4/5] overflow-hidden rounded-2xl lg:col-span-5"><ResponsiveImage :file="photo" sizes="(min-width: 1024px) 40vw, 100vw" /></div>
+        <div class="aspect-[4/5] overflow-hidden rounded-2xl lg:col-span-5"><MoodImage :day="useFile(photo.day)" :night="useFile(photo.night)" sizes="(min-width: 1024px) 40vw, 100vw" alt="Grand Tower Frankfurt" /></div>
       </section>
 
       <section class="bg-secondary py-f-24" aria-labelledby="gt-units">
@@ -55,11 +58,11 @@ const facts = project.facts.map(({ label, value }) => ({ label, value }))
       <section v-if="gallery.length" class="container-page py-f-24" aria-labelledby="gt-gallery">
         <SiteSectionHeading id="gt-gallery" title="Eindrücke" />
         <div class="grid grid-cols-2 gap-2.5 md:grid-cols-4">
-          <button v-for="(img, i) in gallery.slice(0, 12)" :key="img.id" type="button" class="aspect-[4/3] overflow-hidden rounded-xl" :aria-label="`Bild ${i + 1} von ${gallery.length} vergrößern`" @click="index = i; open = true">
-            <ResponsiveImage :file="img" sizes="(min-width: 768px) 25vw, 50vw" />
-          </button>
+          <div v-for="(img, i) in gallery.slice(0, 12)" :key="img.id" class="aspect-[4/3]">
+            <ListingGalleryTile :file="img" sizes="(min-width: 768px) 25vw, 50vw" :label="`Grand Tower – Bild ${i + 1} von ${gallery.length} vergrößern`" @open="index = i; open = true" />
+          </div>
         </div>
-        <Button v-if="gallery.length > 12" variant="outline" class="mt-6 h-11 rounded-full px-5 text-foreground" @click="index = 0; open = true">Alle {{ gallery.length }} Fotos</Button>
+        <Button variant="outline" size="pill" class="mt-6" @click="index = 0; open = true"><Images class="size-4" aria-hidden="true" />Alle {{ gallery.length }} Fotos ansehen</Button>
         <ListingLightbox v-model:open="open" v-model:index="index" :images="gallery" :title="project.title" />
       </section>
 
@@ -69,7 +72,7 @@ const facts = project.facts.map(({ label, value }) => ({ label, value }))
             <h2 id="gt-contact" class="text-f-4xl">Interesse am Grand Tower?</h2>
             <p class="mt-3 max-w-[48ch] text-f-xl text-muted-foreground">Wir zeigen Ihnen die verfügbaren Wohnungen gern persönlich.</p>
           </div>
-          <Button as-child class="h-12 rounded-full px-7 text-base"><NuxtLink :to="{ path: '/kontakt', query: { thema: 'grand-tower' } }">Besichtigung anfragen</NuxtLink></Button>
+          <Button as-child size="cta"><NuxtLink :to="{ path: '/kontakt', query: { thema: 'grand-tower' } }">Besichtigung anfragen</NuxtLink></Button>
         </div>
       </section>
     </div>

@@ -41,13 +41,13 @@ watch(() => route.fullPath, () => { open.value = false })
         <a :href="company.phone_href" class="hidden items-center gap-2 rounded-full px-3 py-2.5 text-sm font-semibold tabular hover:bg-accent xl:inline-flex">
           <Phone class="size-4" aria-hidden="true" />{{ company.phone }}
         </a>
-        <Button as-child variant="ghost" size="icon" class="size-11 rounded-full xl:hidden">
+        <Button as-child variant="ghost" size="icon-pill" class="xl:hidden">
           <a :href="company.phone_href" :aria-label="`Anrufen: ${company.phone}`"><Phone class="size-5" aria-hidden="true" /></a>
         </Button>
         <SiteThemeToggle />
         <Sheet v-model:open="open">
           <SheetTrigger as-child>
-            <Button variant="ghost" size="icon" class="size-11 rounded-full lg:hidden" aria-label="Menü öffnen">
+            <Button variant="ghost" size="icon-pill" class="lg:hidden" aria-label="Menü öffnen">
               <Menu class="size-5" aria-hidden="true" />
             </Button>
           </SheetTrigger>

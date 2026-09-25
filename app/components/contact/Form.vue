@@ -69,7 +69,7 @@ const describedBy = (f: keyof ContactValues) => (errors.value[f] ? `e-${f}` : un
     <div class="grid gap-2">
       <Label for="f-concern">Ihr Anliegen</Label>
       <Select v-model="values.concern">
-        <SelectTrigger id="f-concern" class="h-12 w-full text-base"><SelectValue /></SelectTrigger>
+        <SelectTrigger id="f-concern" size="field" class="w-full"><SelectValue /></SelectTrigger>
         <SelectContent><SelectItem v-for="[k, label] in concerns" :key="k" :value="k">{{ label }}</SelectItem></SelectContent>
       </Select>
     </div>
@@ -83,6 +83,6 @@ const describedBy = (f: keyof ContactValues) => (errors.value[f] ? `e-${f}` : un
       <p v-if="errors.message" id="e-message" class="flex items-center gap-1.5 text-sm text-destructive"><CircleAlert class="size-4 shrink-0" aria-hidden="true" />{{ errors.message }}</p>
     </div>
     <p class="text-sm text-muted-foreground">Mit dem Absenden stimmen Sie zu, dass wir Ihre Angaben zur Bearbeitung der Anfrage verwenden. Mehr in der <NuxtLink to="/datenschutz" class="text-primary underline underline-offset-4">Datenschutzerklärung</NuxtLink>.</p>
-    <div><Button type="submit" class="h-12 rounded-full px-7 text-base">Nachricht senden</Button></div>
+    <div><Button type="submit" size="cta">Nachricht senden</Button></div>
   </form>
 </template>

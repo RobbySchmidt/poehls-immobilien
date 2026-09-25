@@ -12,7 +12,7 @@ const services = useServicesContent()
         <h2 id="owners-title" class="text-f-4xl">{{ home.owners.title }}</h2>
         <p class="mt-4 max-w-[48ch] text-f-xl text-muted-foreground">{{ home.owners.text }}</p>
         <div class="mt-8 flex flex-wrap gap-3">
-          <Button as-child variant="outline" class="h-12 rounded-full px-7 text-base">
+          <Button as-child variant="outline" size="cta">
             <NuxtLink to="/leistungen">Leistungen ansehen</NuxtLink>
           </Button>
         </div>

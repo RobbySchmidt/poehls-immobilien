@@ -23,6 +23,16 @@
   ],
   "mood_day": "m-1665",
   "mood_night": "gt-1814",
+  "mood_pairs": {
+    "photo": {
+      "day": "gt-1759",
+      "night": "gt-1815"
+    },
+    "band": {
+      "day": "gt-1757",
+      "night": "gt-1813"
+    }
+  },
   "images_from": {
     "source": "grandtower",
     "page": "poehls-immobilien"

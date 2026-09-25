@@ -60,6 +60,8 @@ export interface Project {
   facts: { label: string, value: string, verify?: boolean }[]
   mood_day: string
   mood_night: string
+  /** day/night image pairs for secondary placements (home band background, side photo) */
+  mood_pairs: Record<'photo' | 'band', { day: string, night: string }>
   images: string[]
 }
 
