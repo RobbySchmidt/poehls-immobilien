@@ -6,6 +6,8 @@ import { toListing, dedupeListings, assignSlugs } from './lib/listings.mjs'
 import { fileId, altText } from './lib/files.mjs'
 import { cleanLegacyHtml, withAnchors } from './lib/legal.mjs'
 import { processImage, processLogo } from './lib/images.mjs'
+import { looksLikeFloorPlan, orderPhotosFirst } from './lib/floorplan.mjs'
+import sharp from 'sharp'
 
 const ROOT = path.resolve(import.meta.dirname, '..')
 const L = (p) => path.join(ROOT, 'data', 'legacy', p)
@@ -91,9 +93,21 @@ for (const id of needed) {
   if (++done % 100 === 0) console.log(`images ${done}/${needed.size}`)
 }
 const knownFiles = new Set(files.map((f) => f.id))
+
+// Floor plans make poor covers → photos first, plans at the end of the gallery.
+const plans = new Set(manual('floor-plans').ids)
+for (const f of files) {
+  const thumb = path.join(MEDIA, `${f.id}-${Math.min(...f.variants)}.webp`)
+  const { data } = await sharp(thumb).resize(64, 64, { fit: 'fill' }).removeAlpha().raw().toBuffer({ resolveWithObject: true })
+  if (looksLikeFloorPlan(data)) plans.add(f.id)
+}
+const reordered = []
 for (const l of listings) {
-  if (l.cover_image && !knownFiles.has(l.cover_image)) l.cover_image = l.images[0]?.directus_files_id ?? null
-  l.images = l.images.filter((i) => knownFiles.has(i.directus_files_id) && i.directus_files_id !== l.cover_image)
+  const ids = [l.cover_image, ...l.images.map((i) => i.directus_files_id)].filter((id) => id && knownFiles.has(id))
+  const ordered = orderPhotosFirst(ids, plans)
+  if (ordered[0] !== ids[0]) reordered.push(l.id)
+  l.cover_image = ordered[0] ?? null
+  l.images = ordered.slice(1).map((id, n) => ({ sort: n + 1, directus_files_id: id }))
 }
 
 // ---- legal ----
@@ -123,6 +137,8 @@ write('content/generated/build-report.json', {
   rented: count((l) => l.availability === 'rented'),
   grand_tower: count((l) => l.project === 'grand-tower'),
   files: files.length,
+  floor_plans: plans.size,
+  covers_replaced_by_photo: reordered,
   duplicates_dropped: dropped,
   warnings,
 })
