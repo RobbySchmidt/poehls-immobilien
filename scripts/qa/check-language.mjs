@@ -55,6 +55,17 @@ for (const [from, code, expected] of switches) {
   if (got !== expected) { problems++; console.log(`PROBLEM Sprachwechsel ${from} → ${got} (erwartet ${expected})`) }
 }
 
+// error pages: html lang is set, and the switch leads to the other language's home page
+for (const [from, code, expected] of [['/gibt-es-nicht', 'en', '/en'], ['/en/does-not-exist', 'de', '/']]) {
+  await page.goto(BASE + from, { waitUntil: 'networkidle0' })
+  const lang = await page.evaluate(() => document.documentElement.lang)
+  if (!lang) { problems++; console.log(`PROBLEM ${from}: <html> ohne lang`) }
+  await page.click(`header a[hreflang="${code}"]`)
+  await page.waitForFunction((prev) => location.pathname !== prev, { timeout: 3000 }, from).catch(() => {})
+  const got = await page.evaluate(() => location.pathname)
+  if (got !== expected) { problems++; console.log(`PROBLEM Sprachwechsel auf Fehlerseite ${from} → ${got} (erwartet ${expected})`) }
+}
+
 await browser.close()
 console.log(problems ? `${problems} Probleme` : 'keine Probleme')
 process.exit(problems ? 1 : 0)

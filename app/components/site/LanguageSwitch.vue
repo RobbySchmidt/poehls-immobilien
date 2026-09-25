@@ -2,11 +2,14 @@
 // "DE | EN" – switches to the same page in the other language (keeps slug and query).
 const { locale, locales, t } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
+const localePath = useLocalePath()
 const route = useRoute()
-const items = computed(() => (locales.value as { code: 'de' | 'en' }[]).map((l) => ({
-  code: l.code,
-  to: { path: switchLocalePath(l.code), query: route.query },
-})))
+// Unmatched routes (error page) have no counterpart – fall back to the other language's home page.
+const items = computed(() => (locales.value as { code: 'de' | 'en' }[]).map((l) => {
+  const path = switchLocalePath(l.code)
+  const unmatched = !route.name || !path || (path === route.path && l.code !== locale.value)
+  return { code: l.code, to: unmatched ? localePath('index', l.code) : { path, query: route.query } }
+}))
 </script>
 
 <template>

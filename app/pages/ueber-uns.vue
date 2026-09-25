@@ -14,8 +14,14 @@ useSeoMeta({ title: a.title, description: a.lead })
         <p class="mt-4 max-w-[48ch] text-f-xl text-muted-foreground">{{ a.lead }}</p>
       </div>
       <figure class="md:col-span-5">
-        <div class="aspect-[4/5] overflow-hidden rounded-2xl"><ResponsiveImage :file="portrait" eager sizes="(min-width: 768px) 40vw, 100vw" /></div>
-        <figcaption class="mt-3 text-sm text-muted-foreground">{{ t('about.owner', { name: company.owner }) }}</figcaption>
+        <!-- Same plinth language as the cards and the Grand Tower title: name cut into the photo. -->
+        <div class="relative aspect-4/5 overflow-hidden rounded-[14px] bg-muted">
+          <ResponsiveImage :file="portrait" eager sizes="(min-width: 768px) 40vw, 100vw" />
+          <figcaption class="plinth pr-8 pt-4">
+            <span class="block text-sm text-muted-foreground">{{ t('about.owner') }}</span>
+            <span class="block text-f-3xl font-semibold tracking-[-0.015em]">{{ company.owner }}</span>
+          </figcaption>
+        </div>
       </figure>
     </section>
     <section class="container-page pb-f-24">

@@ -2,6 +2,7 @@
 import type { NuxtError } from '#app'
 
 const props = defineProps<{ error: NuxtError }>()
+useSiteHead()
 const { t } = useI18n()
 const localePath = useLocalePath()
 const is404 = computed(() => props.error.statusCode === 404)
