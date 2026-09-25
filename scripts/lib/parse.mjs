@@ -70,6 +70,7 @@ export function normalizeCity(city) {
   if (!city) return null
   const c = city.trim()
   if (/^frankfurt(\s*\/\s*m\.?|\s+am\s+main)?$/i.test(c)) return 'Frankfurt am Main'
+  if (/^neu[\s-]+isenburg$/i.test(c)) return 'Neu-Isenburg'
   return c
 }
 

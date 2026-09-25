@@ -40,7 +40,7 @@ const statusText = computed(() => (l.value.availability === 'sold' ? 'erfolgreic
     <div class="container-page pt-f-8">
       <nav aria-label="Brotkrumen" class="mb-6 text-sm text-muted-foreground">
         <NuxtLink :to="archived ? '/referenzen' : '/angebote'" class="hover:text-foreground hover:underline">{{ archived ? 'Referenzen' : 'Angebote' }}</NuxtLink>
-        <span aria-hidden="true"> / </span><span>{{ locationText(l) }}</span>
+        <template v-if="locationText(l)"><span aria-hidden="true"> / </span><span>{{ locationText(l) }}</span></template>
       </nav>
       <ListingGallery :images="images" :title="l.title" />
     </div>
@@ -54,7 +54,7 @@ const statusText = computed(() => (l.value.availability === 'sold' ? 'erfolgreic
           <Badge v-if="l.furnished" variant="secondary" class="rounded-full px-3 py-1">Möbliert</Badge>
         </div>
         <h1 class="mt-4 text-f-4xl">{{ l.title }}</h1>
-        <p class="mt-2 text-f-xl text-muted-foreground">{{ address || locationText(l) }}</p>
+        <p v-if="address || locationText(l)" class="mt-2 text-f-xl text-muted-foreground">{{ address || locationText(l) }}</p>
 
         <dl v-if="keyFacts.length" class="mt-8 grid grid-cols-2 gap-6 border-y border-border py-6 sm:grid-cols-3 lg:grid-cols-5">
           <div v-for="f in keyFacts" :key="f.label">

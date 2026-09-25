@@ -120,6 +120,17 @@ const legal = {
   agb: legalPage('agb', 'Allgemeine Geschäftsbedingungen'),
 }
 
+// ---- social preview image (1200×630 JPEG, widest support in messengers) ----
+{
+  const heroId = mood.hero.day[0]
+  const rec = registry.get(heroId)
+  const master = await sharp(L(rec.file)).rotate().toBuffer()
+  const { width, height } = await sharp(master).metadata()
+  const left = cropIds.has(heroId) ? Math.round(width * mood.crop_left.fraction) : 0
+  await sharp(master).extract({ left, top: 0, width: width - left, height })
+    .resize(1200, 630, { fit: 'cover' }).jpeg({ quality: 82 }).toFile(path.join(ROOT, 'public', 'og.jpg'))
+}
+
 // ---- logo ----
 fs.mkdirSync(path.join(ROOT, 'public', 'brand'), { recursive: true })
 await processLogo(L('media/brand/logo-source.jpg'), path.join(ROOT, 'public', 'brand', 'logo.png'))

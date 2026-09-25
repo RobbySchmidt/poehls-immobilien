@@ -28,6 +28,11 @@ export default defineNuxtConfig({
     },
   },
 
+  // Absolute URLs for social previews: NUXT_PUBLIC_SITE_URL=https://… yarn generate
+  runtimeConfig: {
+    public: { siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '' },
+  },
+
   css: ['~/assets/css/tailwind.css'],
 
   vite: {

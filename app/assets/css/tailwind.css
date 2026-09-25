@@ -181,7 +181,7 @@ html.theme-anim,
 html.theme-anim *,
 html.theme-anim *::before,
 html.theme-anim *::after {
-  transition: background-color 300ms ease-out, color 300ms ease-out, border-color 300ms ease-out, fill 300ms ease-out !important;
+  transition: background-color 300ms ease-out, color 300ms ease-out, border-color 300ms ease-out, fill 300ms ease-out, opacity 300ms ease-out !important;
 }
 @media (prefers-reduced-motion: reduce) {
   html.theme-anim, html.theme-anim * { transition: none !important; }

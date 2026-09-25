@@ -4,6 +4,7 @@ import type { Concern, ContactValues } from '~/utils/contact'
 
 // PROTOTYPE: validates and confirms, but sends nothing (spec E6).
 const route = useRoute()
+const company = useCompany()
 const values = reactive<ContactValues>({ name: '', email: '', phone: '', concern: 'sonstiges', subject: '', message: '' })
 const errors = ref<Partial<Record<keyof ContactValues, string>>>({})
 const sent = ref(false)
@@ -43,7 +44,8 @@ const describedBy = (f: keyof ContactValues) => (errors.value[f] ? `e-${f}` : un
   <div v-if="sent" ref="successEl" tabindex="-1" class="rounded-2xl bg-secondary p-8 outline-none" role="status">
     <CircleCheck class="size-6 text-primary" aria-hidden="true" />
     <h2 class="mt-3 text-f-2xl">Vielen Dank, {{ values.name.trim().split(' ')[0] }}!</h2>
-    <p class="mt-2 text-muted-foreground">Ihre Nachricht ist angekommen. Wir melden uns innerhalb eines Werktags.</p>
+    <p class="mt-2 text-muted-foreground">Wir melden uns innerhalb eines Werktags.</p>
+    <p class="mt-4 text-sm text-muted-foreground">Hinweis: Dies ist ein Konzeptentwurf – die Nachricht wurde nicht versendet. Erreichen Sie uns direkt unter {{ company.phone }}.</p>
   </div>
 
   <form v-else novalidate class="grid gap-6" @submit.prevent="submit">

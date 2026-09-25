@@ -48,6 +48,7 @@ export function toListing(legacy, { source, exposeOk }) {
 
   const priceRaw = priceLabel ? facts.get(priceLabel) : null
   const street = legacy.address?.street || null
+  const city = normalizeCity(legacy.address?.city?.replace(/\s+/g, ' ') || null)
   const haystack = `${legacy.title} ${legacy.text || ''}`.normalize('NFC')
 
   const imgs = legacy.images || []
@@ -73,8 +74,11 @@ export function toListing(legacy, { source, exposeOk }) {
     country: COUNTRY_BY_LEGACY_ID[legacy.id] || 'DE',
     street,
     zip: legacy.address?.zip || null,
-    city: normalizeCity(legacy.address?.city?.replace(/\s+/g, ' ') || null),
-    district: DISTRICTS.find((d) => haystack.includes(d)) || null,
+    city,
+    // Frankfurt districts only, as whole words – "Westendlage" in Neu-Isenburg is not the Westend
+    district: city === 'Frankfurt am Main'
+      ? DISTRICTS.find((d) => new RegExp(`(^|[^\\p{L}])${d}s?([^\\p{L}]|$)`, 'u').test(haystack)) || null
+      : null,
     rooms: parseGermanNumber(facts.get('Zimmer')),
     living_area: livingLabel ? parseGermanNumber(facts.get(livingLabel)) : null,
     usable_area: usableLabel ? parseGermanNumber(facts.get(usableLabel)) : null,

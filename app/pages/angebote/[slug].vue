@@ -5,10 +5,13 @@ if (!listing || listing.availability !== 'available') {
   throw createError({ statusCode: 404, statusMessage: 'Angebot nicht gefunden', fatal: true })
 }
 const cover = useFile(listing.cover_image)
+const siteUrl = useRuntimeConfig().public.siteUrl as string
 useSeoMeta({
   title: listing.title,
   description: listing.teaser,
-  ogImage: cover ? assetUrl(cover, 1600) : undefined,
+  ogTitle: listing.title,
+  ogDescription: listing.teaser,
+  ogImage: cover ? absoluteUrl(siteUrl, assetUrl(cover, 1600)) : undefined,
 })
 </script>
 

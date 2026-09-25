@@ -100,6 +100,13 @@ describe('toListing', () => {
     expect(mainGt.project).toBe('grand-tower')
   })
 
+  it('sets a district only for Frankfurt and does not match words like "Westendlage" elsewhere', () => {
+    const ni = toListing(legacy({ title: 'Villa in bester Westendlage', text: '', address: { street: null, zip: '63263', city: 'Neu Isenburg' } }), { source: 'main', exposeOk: ok })
+    expect(ni).toMatchObject({ city: 'Neu-Isenburg', district: null })
+    const gen = toListing(legacy({ title: 'EDEN Tower', text: 'in zentraler Lage des Europaviertels' }), { source: 'main', exposeOk: ok })
+    expect(gen.district).toBe('Europaviertel')
+  })
+
   it('skips placeholders and unlisted entries', () => {
     expect(toListing(legacy({ status: 'placeholder' }), { source: 'main', exposeOk: ok })).toBeNull()
     expect(toListing(legacy({ status: 'unlisted' }), { source: 'main', exposeOk: ok })).toBeNull()

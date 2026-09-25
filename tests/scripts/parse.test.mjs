@@ -93,6 +93,7 @@ describe('normalizeCity', () => {
     expect(normalizeCity('Frankfurt')).toBe('Frankfurt am Main')
     expect(normalizeCity('Frankfurt am Main')).toBe('Frankfurt am Main')
     expect(normalizeCity('Kelkheim-Eppenhain')).toBe('Kelkheim-Eppenhain')
+    expect(normalizeCity('Neu Isenburg')).toBe('Neu-Isenburg')
     expect(normalizeCity(null)).toBeNull()
   })
 })
