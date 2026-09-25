@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { validateContact, resolveInquiry, refreshErrors } from '~/utils/contact'
+import { validateContact, resolveInquiry, refreshErrors, concernLabels } from '~/utils/contact'
 import type { Listing } from '~/types/content'
 
 const ok = { name: 'Erika Muster', email: 'erika@example.de', phone: '', concern: 'kaufen' as const, subject: '', message: 'Ich interessiere mich für die Wohnung.' }
@@ -45,5 +45,27 @@ describe('resolveInquiry', () => {
     expect(resolveInquiry({ objekt: 'gibts-nicht' }, listings)).toEqual({ subject: '', concern: 'sonstiges' })
     expect(resolveInquiry({ objekt: ['eden', 'x'] }, listings).subject).toBe('Anfrage zu: EDEN – Luxuriöses Wohnambiente')
     expect(resolveInquiry({}, listings)).toEqual({ subject: '', concern: 'sonstiges' })
+  })
+})
+
+describe('contact in english', () => {
+  const listings = [{ slug: 'eden', title: 'EDEN – Luxurious living', marketing_type: 'miete', availability: 'available' }] as Listing[]
+  it('validates with english messages', () => {
+    const e = validateContact({ ...ok, name: '', email: 'kaputt', phone: 'abc', message: '' }, 'en')
+    expect(e).toEqual({
+      name: 'Please enter your name.',
+      email: 'Please check the email address – it should look like name@example.com',
+      phone: 'Please use only digits, spaces and + ( ) - /.',
+      message: 'Please tell us briefly what it is about.',
+    })
+    expect(refreshErrors({ name: 'x' }, { ...ok, name: '' }, 'en')).toEqual({ name: 'Please enter your name.' })
+  })
+  it('prefills an english subject', () => {
+    expect(resolveInquiry({ objekt: 'eden' }, listings, 'en')).toEqual({ subject: 'Enquiry: EDEN – Luxurious living', concern: 'mieten' })
+    expect(resolveInquiry({ thema: 'grand-tower' }, listings, 'en').subject).toBe('Enquiry: Grand Tower')
+  })
+  it('labels concerns per locale', () => {
+    expect(concernLabels('en').kaufen).toBe('I would like to buy')
+    expect(concernLabels('de').sonstiges).toBe('Sonstiges')
   })
 })
