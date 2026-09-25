@@ -1,5 +1,5 @@
 import type { Listing, MarketingType, PropertyType } from '~/types/content'
-import { PROPERTY_TYPE_LABEL, formatEuro } from './format'
+import { formatEuro, propertyTypeLabel, type Locale } from './format'
 
 export type SortKey = 'neu' | 'preis-auf' | 'preis-ab'
 export interface Filters {
@@ -85,7 +85,12 @@ export function sortListings(ls: Listing[], sort: SortKey): Listing[] {
   })
 }
 
-export function resultLabel(count: number, filtered: boolean): string {
+export function resultLabel(count: number, filtered: boolean, locale: Locale = 'de'): string {
+  if (locale === 'en') {
+    if (!filtered) return `${count} ${count === 1 ? 'property' : 'properties'}`
+    if (count === 0) return 'No matching properties'
+    return count === 1 ? '1 matching property' : `${count} matching properties`
+  }
   if (!filtered) return `${count} ${count === 1 ? 'Angebot' : 'Angebote'}`
   if (count === 0) return 'Keine passenden Angebote'
   return count === 1 ? '1 passendes Angebot' : `${count} passende Angebote`
@@ -93,12 +98,13 @@ export function resultLabel(count: number, filtered: boolean): string {
 
 export interface FilterChip { key: keyof Filters, label: string, remove: Partial<Filters> }
 
-export function activeChips(f: Filters): FilterChip[] {
+export function activeChips(f: Filters, locale: Locale = 'de'): FilterChip[] {
+  const en = locale === 'en'
   const chips: FilterChip[] = []
-  if (f.typ) chips.push({ key: 'typ', label: f.typ === 'kauf' ? 'Kaufen' : 'Mieten', remove: { typ: null, preis: null } })
-  if (f.art) chips.push({ key: 'art', label: PROPERTY_TYPE_LABEL[f.art], remove: { art: null } })
-  if (f.zimmer) chips.push({ key: 'zimmer', label: `ab ${f.zimmer} Zimmer`, remove: { zimmer: null } })
-  if (f.preis) chips.push({ key: 'preis', label: `bis ${formatEuro(f.preis)}`, remove: { preis: null } })
+  if (f.typ) chips.push({ key: 'typ', label: en ? (f.typ === 'kauf' ? 'Buy' : 'Rent') : (f.typ === 'kauf' ? 'Kaufen' : 'Mieten'), remove: { typ: null, preis: null } })
+  if (f.art) chips.push({ key: 'art', label: propertyTypeLabel(f.art, locale), remove: { art: null } })
+  if (f.zimmer) chips.push({ key: 'zimmer', label: en ? `${f.zimmer}+ rooms` : `ab ${f.zimmer} Zimmer`, remove: { zimmer: null } })
+  if (f.preis) chips.push({ key: 'preis', label: `${en ? 'up to' : 'bis'} ${formatEuro(f.preis, locale)}`, remove: { preis: null } })
   return chips
 }
 

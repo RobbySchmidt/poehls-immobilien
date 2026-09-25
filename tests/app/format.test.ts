@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { formatEuro, formatArea, formatRooms, priceText, priceLabel, priceParts, cardFacts, mainArea, availableFromText, locationText } from '~/utils/format'
+import { formatEuro, formatArea, formatRooms, priceText, priceLabel, priceParts, cardFacts, mainArea, availableFromText, locationText, propertyTypeLabel, marketingLabel, featureLabel } from '~/utils/format'
 import type { Listing } from '~/types/content'
 
 const base = (over: Partial<Listing> = {}): Listing => ({
@@ -93,5 +93,43 @@ describe('locationText', () => {
     expect(locationText(base({ district: 'Fechenheim' }))).toBe('Frankfurt am Main-Fechenheim')
     expect(locationText(base())).toBe('Frankfurt am Main')
     expect(locationText(base({ city: 'Fouesnant', country: 'FR' }))).toBe('Fouesnant, Frankreich')
+  })
+})
+
+describe('english formatting', () => {
+  it('formats numbers and units the British way', () => {
+    expect(formatEuro(249000, 'en')).toBe('€249,000')
+    expect(formatRooms(3, 'en')).toBe('3 rooms')
+    expect(formatRooms(1, 'en')).toBe('1 room')
+    expect(formatRooms(2.5, 'en')).toBe('2.5 rooms')
+    expect(formatArea(89.3, 'en')).toBe(`89.3${NB}m²`)
+    expect(formatArea(1200, 'en')).toBe(`1,200${NB}m²`)
+  })
+  it('localizes prices, labels and facts', () => {
+    expect(priceText(base({ marketing_type: 'miete', price: 1290, price_type: 'kaltmiete' }), 'en')).toBe('€1,290 / month')
+    expect(priceText(base({ marketing_type: 'miete', price: 18500, price_type: 'miete_jahr' }), 'en')).toBe('€18,500 / year')
+    expect(priceParts(base({ price: null, price_on_request: true }), 'en')).toEqual({ value: 'Price on request', unit: null, compact: true })
+    expect(priceParts(base({ availability: 'rented' }), 'en')).toEqual({ value: 'Let', unit: null, compact: true })
+    expect(priceParts(base({ marketing_type: 'miete', price: 1290, price_type: 'kaltmiete' }), 'en')).toEqual({ value: '€1,290', unit: '/ month', compact: false })
+    expect(priceLabel(base({ marketing_type: 'miete', price_type: 'kaltmiete' }), 'en')).toBe('Net rent')
+    expect(priceLabel(base(), 'en')).toBe('Purchase price')
+    expect(cardFacts(base(), 'en')).toBe(`3 rooms · 89.3${NB}m²`)
+    expect(cardFacts(base({ rooms: null, living_area: null, usable_area: 1200 }), 'en')).toBe(`1,200${NB}m² usable area`)
+    expect(cardFacts(base({ rooms: null, living_area: null, plot_area: 736 }), 'en')).toBe(`736${NB}m² plot`)
+    expect(mainArea(base(), 'en')).toEqual({ label: 'Living space', value: `89.3${NB}m²` })
+  })
+  it('localizes dates, places and vocabularies', () => {
+    const today = new Date(2026, 8, 25)
+    expect(availableFromText('2026-11-01', today, 'en')).toBe('1 Nov 2026')
+    expect(availableFromText('2020-06-01', today, 'en')).toBe('immediately')
+    expect(availableFromText('sofort', today, 'en')).toBe('immediately')
+    expect(locationText(base({ city: 'Fouesnant', country: 'FR' }), 'en')).toBe('Fouesnant, France')
+    expect(propertyTypeLabel('grundstueck', 'en')).toBe('Plot')
+    expect(propertyTypeLabel('grundstueck')).toBe('Grundstück')
+    expect(marketingLabel('miete', 'en')).toBe('Rent')
+    expect(featureLabel('Objekt-Nr.', 'en')).toBe('Property no.')
+    expect(featureLabel('x-fache Miete', 'en')).toBe('Rental multiplier')
+    expect(featureLabel('Unbekannt', 'en')).toBe('Unbekannt')
+    expect(featureLabel('Objekt-Nr.')).toBe('Objekt-Nr.')
   })
 })

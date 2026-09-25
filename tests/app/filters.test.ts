@@ -98,3 +98,14 @@ describe('activeFilterCount', () => {
     expect(activeFilterCount({ ...DEFAULT_FILTERS, typ: 'kauf', zimmer: 2, sort: 'preis-ab' })).toBe(2)
   })
 })
+
+describe('english filter texts', () => {
+  it('localizes the result line and chips', () => {
+    expect(resultLabel(12, true, 'en')).toBe('12 matching properties')
+    expect(resultLabel(1, true, 'en')).toBe('1 matching property')
+    expect(resultLabel(0, true, 'en')).toBe('No matching properties')
+    expect(resultLabel(59, false, 'en')).toBe('59 properties')
+    expect(activeChips({ ...DEFAULT_FILTERS, typ: 'miete', art: 'haus', zimmer: 3, preis: 1500 }, 'en').map((c) => c.label))
+      .toEqual(['Rent', 'House', '3+ rooms', 'up to €1,500'])
+  })
+})
