@@ -24,7 +24,7 @@ useSeoMeta({ title: a.title, description: a.lead })
         </div>
       </figure>
     </section>
-    <section class="container-page pb-f-24">
+    <section class="container-page pb-f-24 pt-f-16">
       <div class="grid gap-f-12 md:grid-cols-3">
         <div v-for="sec in a.sections" :key="sec.title">
           <h2 class="text-f-2xl">{{ sec.title }}</h2>
