@@ -43,6 +43,8 @@ export default defineNuxtConfig({
   modules: ['shadcn-nuxt', '@nuxtjs/i18n'],
 
   i18n: {
+    // absolute hreflang/canonical links once the domain is known (same env as siteUrl)
+    baseUrl: process.env.NUXT_PUBLIC_SITE_URL || undefined,
     locales: [
       { code: 'de', language: 'de-DE', name: 'Deutsch', file: 'de.json' },
       { code: 'en', language: 'en-GB', name: 'English', file: 'en.json' },

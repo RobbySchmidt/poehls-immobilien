@@ -10,5 +10,6 @@ const { t } = useI18n()
       <slot />
     </main>
     <SiteFooter />
+    <SiteScrollTop />
   </div>
 </template>

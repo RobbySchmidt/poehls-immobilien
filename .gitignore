@@ -34,3 +34,6 @@ public/media/
 
 # QA screenshots
 qa-screenshots/
+
+# Netlify CLI state (site link, generated functions)
+.netlify/

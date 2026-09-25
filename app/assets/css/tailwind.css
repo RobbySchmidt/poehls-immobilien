@@ -135,11 +135,15 @@
    The notch takes the colour of the surface the card stands on → set --surface on secondary sections. */
 @utility plinth {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  /* 1px past the clipped edges: box heights from aspect-ratio are fractional, otherwise a hairline of the
+     photo shows below/left of the notch */
+  left: -1px;
+  bottom: -1px;
+  padding-left: 1px;
   z-index: 1;
   min-width: 56%;
-  padding: 0.8rem 1.5rem 0 0;
+  padding-block: 0.8rem 1px;
+  padding-right: 1.5rem;
   background: var(--surface, var(--background));
   border-top-right-radius: 14px;
   &::before, &::after {
@@ -149,7 +153,7 @@
     height: 14px;
     background: radial-gradient(circle at 100% 0, transparent 13.5px, var(--surface, var(--background)) 14px);
   }
-  &::before { left: 0; top: -14px; }
+  &::before { left: 1px; top: -14px; }
   &::after { left: 100%; bottom: 0; }
 }
 
@@ -218,4 +222,11 @@ html.theme-anim *::after {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* The plinth fills the lower left corner of its (rounded, overflow-hidden) photo box. A rounded corner there
+   lets a hairline of the photo shine through the anti-aliased curve – square it off; the plinth is page surface.
+   Unlayered on purpose so it wins over rounded-* utilities. */
+:has(> .plinth) {
+  border-bottom-left-radius: 0;
 }

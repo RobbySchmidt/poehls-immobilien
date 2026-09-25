@@ -1,4 +1,8 @@
 {
+  "photo": {
+    "day": "m-1551",
+    "night": "m-703"
+  },
   "translations": [
     {
       "languages_code": "de",
@@ -39,28 +43,6 @@
             "Hausverwaltungen",
             "Unterstützung bei der Klärung rechtlicher Fragen"
           ]
-        }
-      ],
-      "steps": [
-        {
-          "title": "Bewertung",
-          "text": "Markteinschätzung und Preisfindung – auf Wunsch als Online-Wertermittlung."
-        },
-        {
-          "title": "Unterlagen & Exposé",
-          "text": "Wir beschaffen alle Unterlagen, organisieren den Energieausweis und erstellen ein Exposé mit Profi-Fotos und Videoclips."
-        },
-        {
-          "title": "Vermarktung",
-          "text": "Passende Zielgruppe, relevante Portale und unsere Website – auf Wunsch mit Home Staging oder im Bieterverfahren."
-        },
-        {
-          "title": "Besichtigung & Prüfung",
-          "text": "Vorauswahl der Interessenten, Besichtigungstermine, Verhandlungen und Bonitätsprüfung."
-        },
-        {
-          "title": "Vertrag & Übergabe",
-          "text": "Mietvertrag oder Begleitung zum Notar, Übergabe mit Protokoll und Fotodokumentation."
         }
       ],
       "machine_translated": false
@@ -105,28 +87,6 @@
             "Property management",
             "Support in clarifying legal questions"
           ]
-        }
-      ],
-      "steps": [
-        {
-          "title": "Valuation",
-          "text": "Market assessment and pricing – as an online valuation if you wish."
-        },
-        {
-          "title": "Documents & exposé",
-          "text": "We obtain all documents, arrange the energy performance certificate and create an exposé with professional photos and video clips."
-        },
-        {
-          "title": "Marketing",
-          "text": "The right target group, relevant portals and our website – with home staging or a bidding procedure if you wish."
-        },
-        {
-          "title": "Viewings & checks",
-          "text": "Pre-selection of prospects, viewings, negotiations and credit checks."
-        },
-        {
-          "title": "Contract & handover",
-          "text": "Tenancy agreement or support at the notary, handover with report and photo documentation."
         }
       ]
     }
