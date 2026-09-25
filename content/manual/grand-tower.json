@@ -8,12 +8,23 @@
     "Pöhls Immobilien vermittelt im Grand Tower möblierte und unmöblierte Wohnungen zur Miete sowie ausgewählte Eigentumswohnungen."
   ],
   "facts": [
-    { "label": "Höhe", "value": "172 m", "verify": true },
-    { "label": "Geschosse", "value": "47", "verify": true },
-    { "label": "Fertigstellung", "value": "2020", "verify": true },
-    { "label": "Lage", "value": "Europaviertel" }
+    {
+      "label": "Geschosse",
+      "value": "47"
+    },
+    {
+      "label": "Fertigstellung",
+      "value": "2020"
+    },
+    {
+      "label": "Lage",
+      "value": "Europaviertel"
+    }
   ],
   "mood_day": "m-1665",
   "mood_night": "gt-1814",
-  "images_from": { "source": "grandtower", "page": "poehls-immobilien" }
+  "images_from": {
+    "source": "grandtower",
+    "page": "poehls-immobilien"
+  }
 }

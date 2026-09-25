@@ -59,7 +59,7 @@ export function toListing(legacy, { source, exposeOk }) {
   return {
     id: source === 'grandtower' ? 100000 + legacy.id : legacy.id,
     legacy_id: legacy.id,
-    legacy_url: legacy.url,
+    legacy_url: legacy.legacy_url,
     source,
     status: availability === 'available' ? 'published' : 'archived',
     availability,

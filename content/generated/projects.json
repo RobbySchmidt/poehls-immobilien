@@ -10,19 +10,12 @@
     ],
     "facts": [
       {
-        "label": "Höhe",
-        "value": "172 m",
-        "verify": true
-      },
-      {
         "label": "Geschosse",
-        "value": "47",
-        "verify": true
+        "value": "47"
       },
       {
         "label": "Fertigstellung",
-        "value": "2020",
-        "verify": true
+        "value": "2020"
       },
       {
         "label": "Lage",

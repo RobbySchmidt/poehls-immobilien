@@ -6,7 +6,7 @@ const img = (id) => ({ id, file: `media/images/${id}.jpg`, width: 1600, height: 
 const legacy = (over = {}) => ({
   id: 170,
   title: 'Gemütliche Maisonettewohnung mitten in Fechenheim - Eigennutzung oder Kapitalanlage',
-  url: 'https://www.poehlsimmobilien.de/objekte/2026/07/x/',
+  legacy_url: 'https://www.poehlsimmobilien.de/objekte/2026/07/x/',
   published_on: '2026/07/27 15:03:42',
   status: 'active',
   categories: [{ slug: 'kauf-etw' }],
@@ -31,7 +31,7 @@ describe('toListing', () => {
   it('maps a regular purchase listing', () => {
     const l = toListing(legacy(), { source: 'main', exposeOk: ok })
     expect(l).toMatchObject({
-      id: 170, legacy_id: 170, source: 'main', status: 'published', availability: 'available',
+      id: 170, legacy_id: 170, legacy_url: 'https://www.poehlsimmobilien.de/objekte/2026/07/x/', source: 'main', status: 'published', availability: 'available',
       title: 'Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage',
       marketing_type: 'kauf', property_type: 'wohnung', furnished: false, country: 'DE',
       street: 'Gründenseestr. 23', zip: '60386', city: 'Frankfurt am Main', district: 'Fechenheim',

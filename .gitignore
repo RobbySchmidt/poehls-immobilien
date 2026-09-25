@@ -31,3 +31,6 @@ data/legacy/media/
 
 # Generated image variants – regenerate with: yarn content
 public/media/
+
+# QA screenshots
+qa-screenshots/
