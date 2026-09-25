@@ -21,12 +21,9 @@ const gallery = [...featured, ...project.images.filter((id) => !featured.include
   .map((id) => useFile(id))
   .filter((f): f is NonNullable<typeof f> => !!f)
   .map((f, i, list) => ({ ...f, description: `${project.title} – ${t('gallery.imageOf', { n: i + 1, total: list.length })}` }))
-const open = ref(false)
-const index = ref(0)
+const galleryRef = ref<{ show: (i: number) => void } | null>(null)
 const photo = project.mood_pairs.photo
-const mosaic = gallery.slice(0, 4)
-const mosaicClass = ['max-md:col-span-3 max-md:aspect-4/3 md:row-span-2', 'max-md:aspect-square md:col-span-2', 'max-md:aspect-square', 'max-md:aspect-square']
-const openAt = (i: number) => { index.value = i; open.value = true }
+const openAt = (i: number) => galleryRef.value?.show(i)
 </script>
 
 <template>
@@ -64,32 +61,9 @@ const openAt = (i: number) => { index.value = i; open.value = true }
           <h2 id="gt-gallery" class="text-f-4xl">{{ t('gt.impressions') }}</h2>
           <div><p v-for="p in project.intro" :key="p" class="mb-3 max-w-[60ch] text-muted-foreground last:mb-0 md:text-f-xl">{{ p }}</p></div>
         </div>
-        <!-- Curated mosaic: 1 large + 3 small; the last tile opens the rest in the lightbox. -->
-        <div class="grid grid-cols-3 gap-2 md:h-[clamp(520px,44vw,640px)] md:grid-cols-[7fr_2.5fr_2.5fr] md:grid-rows-[1.15fr_1fr] md:gap-3">
-          <div v-for="(img, i) in mosaic" :key="img.id" class="min-h-0" :class="mosaicClass[i]">
-            <ListingGalleryTile
-              :file="img"
-              :sizes="i === 0 ? '(min-width: 768px) 58vw, 100vw' : i === 1 ? '(min-width: 768px) 40vw, 33vw' : '(min-width: 768px) 20vw, 33vw'"
-              :badge="i === 0 ? 'teach' : i === mosaic.length - 1 && gallery.length > mosaic.length ? 'none' : 'hover'"
-              :label="i === mosaic.length - 1 && gallery.length > mosaic.length ? t('gallery.allPhotos', { n: gallery.length }) : t('gallery.enlarge', { title: project.title, n: i + 1, total: gallery.length })"
-              class="max-md:rounded-xl"
-              @open="openAt(i)"
-            >
-              <span v-if="i === mosaic.length - 1 && gallery.length > mosaic.length" class="plinth min-w-0 pr-5 text-left max-md:pr-3 max-md:pt-1.5">
-                <span class="block text-sm text-muted-foreground max-md:hidden">{{ t('gallery.viewAll') }}</span>
-                <span class="block whitespace-nowrap text-f-3xl font-semibold tracking-[-0.015em] tabular transition-colors duration-150 group-hover:text-primary max-md:text-lg">{{ t('gallery.more', { n: gallery.length - mosaic.length }) }}</span>
-              </span>
-            </ListingGalleryTile>
-          </div>
-        </div>
-        <div class="mt-4 flex justify-end md:mt-5">
-          <button type="button" class="inline-flex items-center gap-2 text-[15px] font-semibold underline underline-offset-4 hover:text-primary" @click="openAt(0)">
-            <Images class="size-4" aria-hidden="true" />{{ t('gallery.allPhotos', { n: gallery.length }) }}
-          </button>
-        </div>
+        <ListingGallery ref="galleryRef" :images="gallery" :title="project.title" />
       </div>
     </section>
-    <ListingLightbox v-model:open="open" v-model:index="index" :images="gallery" :title="project.title" />
 
     <section class="py-f-24" aria-labelledby="gt-contact">
       <div class="container-page flex flex-col gap-6 md:flex-row md:items-end md:justify-between">

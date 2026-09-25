@@ -45,7 +45,7 @@ const statusText = computed(() => (l.value.availability === 'sold' ? t('detail.s
         <NuxtLink :to="localePath(archived ? 'referenzen' : 'angebote')" class="hover:text-foreground hover:underline">{{ archived ? t('references.title') : t('listings.title') }}</NuxtLink>
         <template v-if="locationText(l, locale)"><span aria-hidden="true"> / </span><span>{{ locationText(l, locale) }}</span></template>
       </nav>
-      <ListingGallery :images="images" :title="l.title" />
+      <ListingGallery :images="images" :title="l.title" eager />
     </div>
 
     <div class="container-page mt-f-12 grid gap-f-16 lg:grid-cols-12">
