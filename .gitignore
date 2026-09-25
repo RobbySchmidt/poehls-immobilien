@@ -25,3 +25,6 @@ logs
 
 # Legacy media (~800 MB) – regenerate with: node scripts/scrape-legacy.mjs
 data/legacy/media/
+
+# Brainstorming mockups
+.superpowers/
