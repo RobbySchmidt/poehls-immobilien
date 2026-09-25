@@ -105,7 +105,9 @@
     "count": "{n} of {total}",
     "thumbs": "Thumbnails",
     "showImage": "Show image {n}",
-    "imageOf": "image {n} of {total}"
+    "imageOf": "image {n} of {total}",
+    "viewAll": "View all",
+    "more": "+{n}"
   },
   "references": {
     "title": "References",

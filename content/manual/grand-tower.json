@@ -13,6 +13,12 @@
       "night": "gt-1813"
     }
   },
+  "gallery_featured": [
+    "gt-1755",
+    "gt-1737",
+    "gt-1816",
+    "gt-1813"
+  ],
   "images_from": {
     "source": "grandtower",
     "page": "poehls-immobilien"

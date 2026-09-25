@@ -105,7 +105,9 @@
     "count": "{n} von {total}",
     "thumbs": "Vorschaubilder",
     "showImage": "Bild {n} zeigen",
-    "imageOf": "Bild {n} von {total}"
+    "imageOf": "Bild {n} von {total}",
+    "viewAll": "Alle ansehen",
+    "more": "+{n}"
   },
   "references": {
     "title": "Referenzen",
