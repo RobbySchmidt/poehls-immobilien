@@ -15,7 +15,10 @@ const vacancy = units.length
         .join(` ${t('gt.and')} `),
     })
   : t('gt.noVacancy')
-const gallery = project.images.map((id) => useFile(id)).filter((f): f is NonNullable<typeof f> => !!f)
+const gallery = project.images
+  .map((id) => useFile(id))
+  .filter((f): f is NonNullable<typeof f> => !!f)
+  .map((f, i, list) => ({ ...f, description: `${project.title} – ${t('gallery.imageOf', { n: i + 1, total: list.length })}` }))
 const open = ref(false)
 const index = ref(0)
 const photo = project.mood_pairs.photo

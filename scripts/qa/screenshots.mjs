@@ -8,7 +8,9 @@ const CHROME = process.env.CHROME_PATH || 'C:/Program Files/Google/Chrome/Applic
 const OUT = 'qa-screenshots'
 const listings = JSON.parse(fs.readFileSync('content/generated/listings.json', 'utf8'))
 const detail = listings.find((l) => l.availability === 'available' && l.images.length > 5)
-const pages = ['/', '/angebote', '/angebote?typ=miete&art=wohnung', `/angebote/${detail.slug}`, '/grand-tower', '/referenzen', '/leistungen', '/ueber-uns', '/kontakt', '/datenschutz', '/gibt-es-nicht']
+const dePages = ['/', '/angebote', '/angebote?typ=miete&art=wohnung', `/angebote/${detail.slug}`, '/grand-tower', '/referenzen', '/leistungen', '/ueber-uns', '/kontakt', '/datenschutz', '/gibt-es-nicht']
+const enPages = ['/en', '/en/properties', '/en/properties?typ=miete&art=wohnung', `/en/properties/${detail.slug}`, '/en/grand-tower', '/en/references', '/en/services', '/en/about', '/en/contact', '/en/privacy', '/en/does-not-exist']
+const pages = [...dePages, ...enPages]
 const widths = [360, 768, 1280, 1536]
 
 fs.mkdirSync(OUT, { recursive: true })
@@ -42,7 +44,8 @@ for (const theme of ['light', 'dark']) {
         r.brokenImages.length && `defekte Bilder: ${r.brokenImages.slice(0, 3).join(', ')}`,
       ].filter(Boolean)
       if (issues.length) { problems++; console.log(`PROBLEM ${theme} ${w}px ${p}: ${issues.join(', ')}`) }
-      const name = `${theme}-${w}-${p.replace(/[/?&=]+/g, '_') || 'home'}.png`
+      const lang = p === '/en' || p.startsWith('/en/') ? 'en' : 'de'
+      const name = `${lang}-${theme}-${w}-${p.replace(/^\/en(?=\/|\?|$)/, '').replace(/[/?&=]+/g, '_') || 'home'}.png`
       await page.screenshot({ path: `${OUT}/${name}`, fullPage: true })
     }
     await page.close()
