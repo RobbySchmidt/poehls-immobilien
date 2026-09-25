@@ -17,12 +17,14 @@ const nav = computed(() => [
 // base names: "angebote", "angebote-slug", … – a detail page keeps its section active
 const isActive = (name: string) => (getRouteBaseName(route) ?? '').startsWith(name)
 watch(() => route.fullPath, () => { open.value = false })
+// on the home page the logo link goes nowhere – scroll back up instead
+const onLogo = () => { if (getRouteBaseName(route) === 'index') scrollToTop() }
 </script>
 
 <template>
   <header class="sticky top-0 z-40 border-b border-border bg-background">
     <div class="container-page flex h-16 items-center justify-between gap-4 md:h-20">
-      <NuxtLink :to="localePath('index')" class="rounded-md" :aria-label="t('nav.homeAria')">
+      <NuxtLink :to="localePath('index')" class="rounded-md" :aria-label="t('nav.homeAria')" @click="onLogo">
         <SiteLogo />
       </NuxtLink>
 

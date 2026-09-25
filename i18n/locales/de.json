@@ -50,7 +50,8 @@
     "quickSearch": "Schnellsuche",
     "marketingAria": "Vermarktungsart",
     "typeAria": "Objektart",
-    "perMonth": "/ Monat"
+    "perMonth": "/ Monat",
+    "toTop": "Nach oben"
   },
   "listings": {
     "title": "Angebote",

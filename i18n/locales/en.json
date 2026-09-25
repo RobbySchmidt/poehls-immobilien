@@ -50,7 +50,8 @@
     "quickSearch": "Quick search",
     "marketingAria": "Buy or rent",
     "typeAria": "Property type",
-    "perMonth": "/ month"
+    "perMonth": "/ month",
+    "toTop": "Back to top"
   },
   "listings": {
     "title": "Properties",
