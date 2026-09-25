@@ -1,0 +1,58 @@
+{
+  "translations": [
+    {
+      "languages_code": "de",
+      "title": "Über uns",
+      "lead": "Seit über 35 Jahren am Frankfurter Immobilienmarkt – ortskundig, persönlich und mit klarem Blick für Chancen und Risiken.",
+      "sections": [
+        {
+          "title": "Spezialisiert auf Frankfurt und Rhein-Main",
+          "text": [
+            "Pöhls Immobilien ist seit mehr als 35 Jahren mit dem Immobiliengeschehen der Finanz- und Dienstleistungsmetropole Frankfurt am Main vertraut. Deshalb konzentrieren wir uns bewusst auf diesen Standort und das Rhein-Main-Gebiet – und geben unsere Erfahrung auf aktuellem Wissensstand an unsere Kundinnen und Kunden weiter."
+          ]
+        },
+        {
+          "title": "Beratung, die bei Ihrem Ziel beginnt",
+          "text": [
+            "Am Anfang steht Ihr Ziel: Wir erfassen sorgfältig, was Sie erreichen möchten, analysieren Stärken und Schwächen der Immobilie und ihres Standorts – intern wie im Markt – und schätzen die Zukunftsaussichten ein.",
+            "Auf dieser Grundlage beraten wir Sie mit fundierter Kenntnis des regionalen Marktes, ob bei Ihrer Anlagestrategie oder bei der geplanten Eigennutzung."
+          ]
+        },
+        {
+          "title": "Erfahrung aus dem Marktgeschehen",
+          "text": [
+            "Unsere Erfahrung stammt aus dem unmittelbaren Umgang mit dem Markt und aus der Zusammenarbeit mit jedem einzelnen Kunden. Ausgesuchte Wohnanlagen und Wohnungsbestände im Rhein-Main-Gebiet begleiten wir seit mehr als 15 Jahren exklusiv bei Verkauf und Vermietung."
+          ]
+        }
+      ],
+      "machine_translated": false
+    },
+    {
+      "languages_code": "en",
+      "machine_translated": true,
+      "title": "About us",
+      "lead": "More than 35 years on the Frankfurt property market – with local knowledge, a personal approach and a clear view of opportunities and risks.",
+      "sections": [
+        {
+          "title": "Specialised in Frankfurt and Rhine-Main",
+          "text": [
+            "For more than 35 years Pöhls Immobilien has been closely familiar with the property market of the financial and service metropolis of Frankfurt am Main. That is why we deliberately focus on this location and the Rhine-Main region – and pass on our experience to our clients, always up to date."
+          ]
+        },
+        {
+          "title": "Advice that starts with your goal",
+          "text": [
+            "It all begins with your goal: we carefully establish what you want to achieve, analyse the strengths and weaknesses of the property and its location – internally and in the market – and assess its future prospects.",
+            "On this basis we advise you with sound knowledge of the regional market, whether for your investment strategy or for owner-occupation."
+          ]
+        },
+        {
+          "title": "Experience from the market",
+          "text": [
+            "Our experience comes from working directly with the market and with every single client. We have been exclusively handling the sale and letting of selected residential complexes and portfolios in the Rhine-Main region for more than 15 years."
+          ]
+        }
+      ]
+    }
+  ]
+}

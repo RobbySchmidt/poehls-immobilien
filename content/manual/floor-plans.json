@@ -1,0 +1,8 @@
+{
+  "_note": "Grundrisse, die die automatische Erkennung (scripts/lib/floorplan.mjs) nicht findet. Entspricht später einem Feld 'ist Grundriss' an der Datei in Directus.",
+  "ids": [
+    "m-2623",
+    "m-2624",
+    "m-1599"
+  ]
+}

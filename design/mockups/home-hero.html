@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Startseite Hero-Entwürfe</title>
+<script>if (location.hash === '#dark') document.documentElement.classList.add('dark')</script>
+<style>
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-ext-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* ---------- Tokens: 1:1 aus app/assets/css/tailwind.css ---------- */
+:root {
+  --radius: 0.75rem;
+  --background: oklch(0.995 0.002 250);
+  --foreground: oklch(0.235 0.025 250);
+  --card: oklch(1 0 0);
+  --primary: oklch(0.4 0.08 250);
+  --primary-foreground: oklch(0.99 0.003 250);
+  --secondary: oklch(0.955 0.008 250);
+  --muted: oklch(0.955 0.008 250);
+  --muted-foreground: oklch(0.46 0.025 250);
+  --accent: oklch(0.935 0.012 250);
+  --border: oklch(0.905 0.01 250);
+  --input: oklch(0.6 0.02 250);
+  --ring: oklch(0.24 0.05 250);
+  /* fluid scale (tailwind.css @theme) */
+  --f-lg: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --f-xl: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+  --f-2xl: clamp(1.125rem, 0.98rem + 0.75vw, 1.5rem);
+  --f-4xl: clamp(1.75rem, 1.5rem + 1.25vw, 2.25rem);
+  --f-6xl: clamp(2.4375rem, 1.8rem + 3.2vw, 3.75rem);
+  --sp-16: clamp(2.25rem, 1.25rem + 5vw, 4rem);
+  --sp-24: clamp(3rem, 1.5rem + 7.5vw, 6rem);
+  color-scheme: light;
+}
+.dark {
+  --background: oklch(0.175 0.018 250);
+  --foreground: oklch(0.96 0.004 250);
+  --card: oklch(0.225 0.022 250);
+  --primary: oklch(0.76 0.12 78);
+  --primary-foreground: oklch(0.2 0.03 78);
+  --secondary: oklch(0.225 0.022 250);
+  --muted: oklch(0.225 0.022 250);
+  --muted-foreground: oklch(0.76 0.018 250);
+  --accent: oklch(0.265 0.024 250);
+  --border: oklch(0.29 0.02 250);
+  --input: oklch(0.56 0.02 250);
+  --ring: oklch(0.96 0.004 250);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  background: var(--secondary); color: var(--foreground);
+  font-size: var(--f-lg); line-height: 1.6; -webkit-font-smoothing: antialiased;
+}
+html.anim, html.anim * { transition: background-color 300ms ease-out, color 300ms ease-out, border-color 300ms ease-out, opacity 300ms ease-out; }
+a { color: inherit; text-decoration: none; }
+img { display: block; }
+.num { font-variant-numeric: lining-nums proportional-nums; }
+h1, h2, h3 { font-weight: 600; text-wrap: balance; }
+h1 { letter-spacing: -0.03em; }
+h2 { letter-spacing: -0.02em; }
+p { text-wrap: pretty; }
+.page { max-width: 80rem; margin-inline: auto; padding-inline: 2rem; width: 100%; }
+@media (max-width: 47.99rem) { .page { padding-inline: 1rem; } }
+:focus-visible { outline: 3px solid color-mix(in oklch, var(--ring) 50%, transparent); outline-offset: 2px; }
+
+/* ---------- Mockup chrome (not part of the design) ---------- */
+.doc-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; padding-block: 3.5rem 3rem; }
+.doc-top h1 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); line-height: 1.05; }
+.doc-top p { margin-top: 1rem; max-width: 64ch; color: var(--muted-foreground); }
+.doc-top p strong { color: var(--foreground); font-weight: 600; }
+.mode {
+  flex: none; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;
+  height: 44px; padding-inline: 1.25rem; border-radius: 999px; display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--background); color: var(--foreground); border: 1px solid var(--input);
+}
+.mode:hover { background: var(--accent); }
+.mode svg { width: 18px; height: 18px; }
+.dir { padding-top: 4rem; }
+.dir-head { display: grid; grid-template-columns: 4fr 8fr; gap: 3rem; align-items: start; margin-bottom: 2rem; }
+.dir-key { font-size: 15px; font-weight: 600; color: var(--muted-foreground); }
+.dir-head h2 { font-size: var(--f-4xl); line-height: 1.1; margin-top: .25rem; }
+.dir-head .why { color: var(--muted-foreground); max-width: 68ch; }
+.dir-head .why strong { color: var(--foreground); font-weight: 600; }
+@media (max-width: 60rem) { .dir-head { grid-template-columns: 1fr; gap: .75rem; } }
+
+.frame { position: relative; background: var(--background); border-block: 1px solid var(--border); overflow: hidden; }
+.fold {
+  position: absolute; left: 0; right: 0; top: 900px; height: 0; border-top: 1px dashed color-mix(in oklch, var(--muted-foreground) 60%, transparent);
+  pointer-events: none; z-index: 5;
+}
+.fold span { position: absolute; right: 12px; top: -22px; font-size: 12px; font-weight: 600; color: var(--muted-foreground); background: var(--background); padding: 0 6px; border-radius: 4px; }
+@media (max-width: 47.99rem) { .fold { top: 844px; } }
+.fold-m { display: none; }
+@media (max-width: 47.99rem) { .fold-d { display: none; } .fold-m { display: inline; } }
+.next { height: 200px; overflow: hidden; border-top: 1px solid var(--border); }
+.next .page { padding-top: 56px; display: grid; grid-template-columns: 7fr 5fr; gap: 4rem; }
+.next p { font-size: var(--f-xl); line-height: 1.55; color: var(--muted-foreground); max-width: 60ch; }
+.next .next-label { font-size: 14px; font-weight: 600; color: var(--muted-foreground); }
+@media (max-width: 47.99rem) { .next .page { grid-template-columns: 1fr; padding-top: 40px; } .next .next-label { display: none; } }
+.doc-end { padding-block: 4rem 5rem; color: var(--muted-foreground); font-size: 15px; }
+.doc-end ul { margin-top: .75rem; padding-left: 1.1rem; max-width: 84ch; }
+.doc-end li { margin-block: .35rem; }
+.doc-end strong { color: var(--foreground); font-weight: 600; }
+
+/* ---------- Site header (simplified from app/components/site/Header.vue) ---------- */
+.site-h { height: 80px; border-bottom: 1px solid var(--border); background: var(--background); position: relative; z-index: 3; }
+.site-h .page { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.logo { display: inline-flex; align-items: center; gap: .625rem; font-size: 16px; font-weight: 600; letter-spacing: -0.01em; }
+.logo img { height: 44px; width: auto; }
+.dark .logo img { filter: invert(1); }
+.nav { display: flex; gap: 4px; list-style: none; }
+.nav a { display: block; padding: 10px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; color: var(--muted-foreground); }
+.nav a[aria-current] { background: var(--accent); color: var(--foreground); }
+.h-tools { display: flex; align-items: center; gap: 4px; }
+.h-tools .tel { display: inline-flex; align-items: center; gap: 8px; padding: 10px 12px; font-size: 14px; font-weight: 600; }
+.icon-btn { width: 44px; height: 44px; border-radius: 999px; display: inline-grid; place-items: center; background: none; border: 0; color: inherit; cursor: pointer; }
+.icon-btn:hover { background: var(--accent); }
+.i { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.i-sm { width: 16px; height: 16px; }
+.only-dark { display: none; }
+.dark .only-dark { display: inline; }
+.dark .only-light { display: none; }
+.mob-only { display: none !important; }
+@media (max-width: 63.99rem) { .nav, .h-tools .tel { display: none; } .mob-only { display: inline-grid !important; } }
+@media (max-width: 47.99rem) { .site-h { height: 64px; } }
+
+/* ---------- Shared hero atoms ---------- */
+.addr { font-size: 14px; font-weight: 600; color: var(--muted-foreground); }
+.h1 { font-size: var(--f-6xl); line-height: 1; }
+.tag { font-size: var(--f-xl); line-height: 1.45; font-weight: 600; max-width: 44ch; }
+.lead { font-size: var(--f-lg); color: var(--muted-foreground); max-width: 46ch; }
+.nw { white-space: nowrap; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem; white-space: nowrap;
+  height: 48px; padding-inline: 1.75rem; border-radius: 999px; font-size: 16px; font-weight: 600;
+  background: var(--primary); color: var(--primary-foreground);
+}
+.btn:hover { background: color-mix(in oklch, var(--primary) 90%, var(--background)); }
+.btn svg { width: 18px; height: 18px; }
+.link { font-size: 16px; font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; text-decoration-color: var(--input); }
+.link:hover { text-decoration-color: currentColor; }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.facts > div { border-top: 1px solid var(--border); padding-top: .875rem; }
+.facts dt { font-size: 14px; color: var(--muted-foreground); }
+.facts dd { font-size: var(--f-2xl); line-height: 1.25; font-weight: 600; margin-top: .25rem; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.75rem; }
+.avail { font-size: 15px; color: var(--muted-foreground); }
+.avail b { color: var(--foreground); font-weight: 600; }
+
+/* Day/night pair – same mechanism as MoodImage.vue */
+.mood { position: relative; overflow: hidden; background: var(--muted); }
+.mood img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: opacity 300ms ease-out; }
+.mood .n { opacity: 0; }
+.dark .mood .d { opacity: 0; }
+.dark .mood .n { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .mood img, html.anim * { transition: none !important; } }
+
+/* =========================================================
+   Startseite – shared
+   ========================================================= */
+.hero { --surface: var(--background); }
+.hero .page { padding-top: 2rem; padding-bottom: 3.5rem; }
+.ph { position: relative; aspect-ratio: 2 / 1; border-radius: 14px; }
+.ph .d { object-position: 50% 36%; }
+.ph .n { object-position: 50% 30%; }
+.dark .ph img.n { filter: brightness(1.08); }
+.d-only { display: block; }
+.m-only { display: none; }
+.hero .pl { padding: 1.25rem 2.25rem 0 0; }
+.hero .pl .h1 { margin-top: .5rem; max-width: 13em; }
+.pl .h1.narrow { max-width: 12ch; }
+
+/* Quick-Bar – 1:1 structure of app/components/listing/QuickSearch.vue, proposed tone: segmented neutral, submit filled */
+.qb { display: flex; align-items: center; gap: .5rem; padding: .5rem; border-radius: 999px; background: var(--secondary); width: max-content; }
+.seg { display: inline-flex; align-items: center; gap: 4px; height: 48px; padding: 4px; border-radius: 999px; }
+.seg button { font: inherit; font-size: 14px; font-weight: 600; height: 40px; padding-inline: 1.25rem; border: 0; border-radius: 999px; background: none; color: var(--muted-foreground); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--background); color: var(--foreground); box-shadow: 0 1px 2px oklch(0.235 0.025 250 / .08), 0 2px 8px oklch(0.235 0.025 250 / .06); }
+.dark .seg button[aria-pressed="true"] { background: var(--accent); box-shadow: none; }
+.seg.on-bg { background: var(--secondary); }
+.sel { font: inherit; display: inline-flex; align-items: center; justify-content: space-between; gap: .75rem; height: 48px; min-width: 11rem; padding-inline: 1.25rem; border: 0; border-radius: 999px; background: var(--background); color: var(--foreground); font-size: 16px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+.sel svg { width: 16px; height: 16px; opacity: .5; }
+button.btn { border: 0; font-family: inherit; cursor: pointer; }
+.btn .cnt { font-variant-numeric: tabular-nums; }
+
+.below { display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem 3rem; padding-top: 1.5rem; }
+.below .lead { font-size: var(--f-xl); max-width: 48ch; }
+.own { font-size: 15px; color: var(--muted-foreground); text-align: right; }
+.own .link { font-size: 15px; color: var(--foreground); display: inline-flex; align-items: center; gap: .375rem; }
+.own .link svg { width: 16px; height: 16px; }
+
+/* ---------- A – Suchmaske im Sockel ---------- */
+.a .pl { padding-right: 2.5rem; }
+.a .pl .qb { margin-top: 1.75rem; }
+
+/* ---------- B – Zwei Aussparungen ---------- */
+.notch-r {
+  position: absolute; right: 0; bottom: 0; z-index: 1;
+  padding: 1rem 0 0 1rem; background: var(--surface); border-top-left-radius: 14px;
+}
+.notch-r::before, .notch-r::after {
+  content: ''; position: absolute; width: 14px; height: 14px;
+  background: radial-gradient(circle at 0 0, transparent 13.5px, var(--surface) 14px);
+}
+.notch-r::before { right: 0; top: -14px; }
+.notch-r::after { right: 100%; bottom: 0; }
+.b .pl { min-width: 0; }
+.b .ph .d { object-position: 50% 26%; }
+.b .ph .n { object-position: 50% 30%; }
+.b .qb { background: var(--secondary); }
+
+/* ---------- C – Sockel + Suchzeile ---------- */
+.c .pl { padding-right: 2.5rem; }
+.c .pl .tag { margin-top: .875rem; max-width: 40em; }
+.c .below { align-items: center; }
+
+/* Sockel – utility `plinth` from tailwind.css */
+.plinth {
+  position: absolute; left: 0; bottom: 0; z-index: 1; min-width: 56%;
+  padding: .8rem 1.5rem 0 0; background: var(--surface, var(--background)); border-top-right-radius: 14px;
+}
+.plinth::before, .plinth::after {
+  content: ''; position: absolute; width: 14px; height: 14px;
+  background: radial-gradient(circle at 100% 0, transparent 13.5px, var(--surface, var(--background)) 14px);
+}
+.plinth::before { left: 0; top: -14px; }
+.plinth::after { left: 100%; bottom: 0; }
+.b-bar { display: none !important; }
+.a-split { display: none !important; }
+.a .a-seg { display: none; }
+
+/* ---------- Tablet (768–1023): 16:9 ---------- */
+@media (max-width: 63.99rem) {
+  .ph { aspect-ratio: 16 / 9; }
+  .notch-r { display: none; }
+  .b .b-bar { display: block !important; margin-top: 1rem; }
+  .a .pl .qb { display: none; }
+  .a .a-split { display: flex !important; }
+  .below { flex-direction: column; align-items: flex-start; }
+  .own { text-align: left; }
+}
+
+/* ---------- Mobile (<768) ---------- */
+@media (max-width: 47.99rem) {
+  .hero .page { padding-top: 1rem; padding-bottom: 2.5rem; }
+  .ph { aspect-ratio: 4 / 3; }
+  .d-only { display: none; }
+  .m-only { display: block; }
+  .hero .pl { right: 2.5rem; min-width: 0; padding: .75rem 1.25rem 0 0; }
+  .hero .pl .h1 { font-size: 2.125rem; line-height: 1.02; margin-top: 0; }
+  .hero .pl .addr { display: none; }
+  .qb { width: 100%; flex-direction: column; align-items: stretch; border-radius: 1.5rem; }
+  .qb .seg { display: flex; }
+  .seg button { flex: 1; }
+  .sel, .qb .btn { width: 100%; }
+  .below { padding-top: 1.25rem; gap: 1rem; }
+  .below .lead { font-size: 17px; }
+  .c .below { align-items: stretch; }
+  .c .pl .tag { display: none; }
+  /* A mobile: taller photo, Kaufen|Mieten stays in the plinth, the rest continues below */
+  .a .ph { aspect-ratio: 4 / 5; }
+  .a .a-seg { display: flex; margin-top: 1.125rem; width: 100%; }
+  .a .pl { right: 1.5rem; padding-right: 1rem; }
+  .a .a-split { flex-direction: column; gap: .5rem; }
+  .a .a-split .sel { background: var(--secondary); }
+}
+@media (min-width: 48rem) and (max-width: 63.99rem) {
+  .hero .pl { min-width: 0; max-width: 72%; }
+  .hero .pl .h1 { max-width: 11em; }
+  .hero .pl .addr { display: none; }
+  .a .ph { aspect-ratio: 4 / 3; }
+  .c .pl .tag { display: none; }
+  .c .m-only { display: block; }
+  .a .a-split { gap: .5rem; }
+  .a .a-split .sel { background: var(--secondary); }
+  .a .a-seg { display: inline-flex; margin-top: 1.25rem; }
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="phone" viewBox="0 0 24 24"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></symbol>
+  <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+  <symbol id="moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></symbol>
+  <symbol id="menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></symbol>
+  <symbol id="chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+</svg>
+
+<template id="site-header">
+  <header class="site-h">
+    <div class="page">
+      <a href="#" class="logo" aria-label="Pöhls Immobilien – Startseite"><img src="../../public/brand/logo.png" alt="" width="87" height="243"><span>Pöhls Immobilien</span></a>
+      <nav aria-label="Hauptnavigation"><ul class="nav">
+        <li><a href="#">Angebote</a></li><li><a href="#">Grand Tower</a></li><li><a href="#">Leistungen</a></li><li><a href="#">Über uns</a></li><li><a href="#">Kontakt</a></li>
+      </ul></nav>
+      <div class="h-tools">
+        <a class="tel num" href="#"><svg class="i i-sm"><use href="#phone"/></svg>+49 6103 3124633</a>
+        <a class="icon-btn mob-only" href="#" aria-label="Anrufen"><svg class="i"><use href="#phone"/></svg></a>
+        <button class="icon-btn" type="button" data-toggle aria-label="Tag/Nacht wechseln"><svg class="i only-light"><use href="#sun"/></svg><svg class="i only-dark"><use href="#moon"/></svg></button>
+        <button class="icon-btn mob-only" type="button" aria-label="Menü öffnen"><svg class="i"><use href="#menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+</template>
+
+<template id="photo">
+  <img class="d" src="../../public/media/m-1514-1192.webp" srcset="../../public/media/m-1514-480.webp 480w, ../../public/media/m-1514-960.webp 960w, ../../public/media/m-1514-1192.webp 1192w" sizes="(min-width: 1280px) 1216px, 100vw" alt="Frankfurter Skyline mit Hochhäusern an einem sonnigen Tag">
+  <img class="n" src="../../public/media/m-703-1192.webp" srcset="../../public/media/m-703-480.webp 480w, ../../public/media/m-703-960.webp 960w, ../../public/media/m-703-1192.webp 1192w" sizes="(min-width: 1280px) 1216px, 100vw" alt="Frankfurter Skyline bei Nacht, im Main gespiegelt">
+</template>
+
+<template id="seg"><div class="seg" role="group" aria-label="Vermarktungsart"><button type="button" aria-pressed="true">Kaufen</button><button type="button" aria-pressed="false">Mieten</button></div></template>
+<template id="sel"><button type="button" class="sel" aria-label="Objektart">Alle Objektarten<svg class="i"><use href="#chev"/></svg></button></template>
+<template id="go"><button type="submit" class="btn"><span class="cnt">26</span>&nbsp;Angebote ansehen<svg class="i"><use href="#arrow"/></svg></button></template>
+<template id="own"><p class="own">Sie möchten verkaufen oder vermieten?<br><a class="link" href="#">Immobilie bewerten lassen<svg class="i"><use href="#arrow"/></svg></a></p></template>
+
+<template id="next">
+  <div class="next"><div class="page">
+    <div>
+      <p style="font-size:var(--f-4xl);line-height:1.1;font-weight:600;color:var(--foreground);letter-spacing:-0.02em">Neue Angebote</p>
+      <p style="margin-top:.75rem">Eigentumswohnungen, Häuser, Gewerbe- und Anlageobjekte – frisch im Angebot.</p>
+    </div>
+    <p class="next-label">… folgender Inhalt der Seite</p>
+  </div></div>
+  <div class="fold"><span class="fold-d">Bildschirmkante bei 900 px</span><span class="fold-m">Bildschirmkante iPhone (844 px)</span></div>
+</template>
+
+<div class="page doc-top">
+  <div>
+    <h1>Startseite – Hero mit Sockel</h1>
+    <p>Drei Richtungen, die den Kopf der <strong>Grand-Tower-Seite</strong> (Foto über volle Breite, Sockel unten links) auf die Startseite übertragen und die <strong>Quick-Bar</strong> (Kaufen | Mieten · Objektart · Angebote ansehen) einbauen. Pro Ansicht genau ein gefüllter Button: „26 Angebote ansehen“. Gestrichelt: Bildschirmkante eines üblichen Laptops (1440 × 900) bzw. iPhone.</p>
+  </div>
+  <button class="mode" type="button" data-toggle><svg class="i only-light"><use href="#moon"/></svg><svg class="i only-dark"><use href="#sun"/></svg><span class="only-light">Nachtansicht</span><span class="only-dark">Tagansicht</span></button>
+</div>
+
+<!-- ===================== A ===================== -->
+<section class="dir page" id="a">
+  <div class="dir-head">
+    <div><p class="dir-key">Variante A <span class="dir-rec">Empfehlung</span></p><h2>Suchmaske im Sockel</h2></div>
+    <p class="why">Der Sockel trägt Titel <strong>und</strong> Suche – eine einzige Stelle, an der alles passiert. Blickfolge: Foto → Titel → Suche, alles in einer Spalte links unten. Handy: höheres Foto (4:5), <strong>Kaufen | Mieten</strong> bleibt im Sockel, Objektart und Button laufen direkt darunter weiter – die Maske „fließt“ aus dem Bild in die Seite.</p>
+  </div>
+</section>
+<div class="frame">
+  <div data-slot="header"></div>
+  <section class="hero a" aria-labelledby="a-t">
+    <div class="page">
+      <form class="search" role="search" aria-label="Schnellsuche" onsubmit="return false">
+        <div class="ph mood" data-photo>
+          <div class="plinth pl">
+            <p class="addr">Immobilienmakler in Frankfurt am Main</p>
+            <h1 class="h1" id="a-t">Ihre Immobilie in Frankfurt und Rhein-Main.</h1>
+            <div class="qb"><div data-t="seg"></div><div data-t="sel"></div><div data-t="go"></div></div>
+            <div class="a-seg seg on-bg" role="group" aria-label="Vermarktungsart"><button type="button" aria-pressed="true">Kaufen</button><button type="button" aria-pressed="false">Mieten</button></div>
+          </div>
+        </div>
+        <div class="a-split" style="margin-top:.5rem"><div data-t="sel"></div><div data-t="go"></div></div>
+      </form>
+      <div class="below">
+        <p class="lead">Kaufen, mieten, verkaufen – mit über 35 Jahren Markterfahrung an Ihrer Seite.</p>
+        <div data-t="own"></div>
+      </div>
+    </div>
+  </section>
+  <div data-slot="next"></div>
+</div>
+
+<!-- ===================== B ===================== -->
+<section class="dir page" id="b">
+  <div class="dir-head">
+    <div><p class="dir-key">Variante B</p><h2>Zwei Aussparungen</h2></div>
+    <p class="why">Titel-Sockel links, Such-Sockel rechts – beide aus derselben Seitenfläche ins Foto geschnitten, dazwischen reicht das Foto bis zur Unterkante. Die gestufte Kante erinnert an eine Skyline. Ab Tablet abwärts ist rechts kein Platz: die Such-Aussparung entfällt, die Quick-Bar steht unter dem Foto.</p>
+  </div>
+</section>
+<div class="frame">
+  <div data-slot="header"></div>
+  <section class="hero b" aria-labelledby="b-t">
+    <div class="page">
+      <div class="ph mood" data-photo>
+        <div class="plinth pl">
+          <p class="addr">Immobilienmakler in Frankfurt am Main</p>
+          <h1 class="h1 narrow" id="b-t">Ihre Immobilie in Frankfurt und Rhein-Main.</h1>
+        </div>
+        <form class="notch-r" role="search" aria-label="Schnellsuche" onsubmit="return false">
+          <div class="qb"><div data-t="seg"></div><div data-t="sel"></div><div data-t="go"></div></div>
+        </form>
+      </div>
+      <form class="b-bar" role="search" aria-label="Schnellsuche" onsubmit="return false">
+        <div class="qb"><div data-t="seg"></div><div data-t="sel"></div><div data-t="go"></div></div>
+      </form>
+      <div class="below">
+        <p class="lead">Kaufen, mieten, verkaufen – mit über 35 Jahren Markterfahrung an Ihrer Seite.</p>
+        <div data-t="own"></div>
+      </div>
+    </div>
+  </section>
+  <div data-slot="next"></div>
+</div>
+
+<!-- ===================== C ===================== -->
+<section class="dir page" id="c">
+  <div class="dir-head">
+    <div><p class="dir-key">Variante C</p><h2>Sockel + Suchzeile</h2></div>
+    <p class="why">Der Kopf der Grand-Tower-Seite 1:1: Sockel mit Titel und Tagline. Wo dort Text und Button stehen, steht hier die Quick-Bar – bündig an der linken Sockel-/Bildkante, rechts leise der Einstieg für Eigentümer. Am nächsten an der GT-Seite, am wenigsten Neues.</p>
+  </div>
+</section>
+<div class="frame">
+  <div data-slot="header"></div>
+  <section class="hero c" aria-labelledby="c-t">
+    <div class="page">
+      <div class="ph mood" data-photo>
+        <div class="plinth pl">
+          <p class="addr">Immobilienmakler in Frankfurt am Main</p>
+          <h1 class="h1" id="c-t">Ihre Immobilie in Frankfurt und Rhein-Main.</h1>
+          <p class="tag">Kaufen, mieten, verkaufen – mit über 35 Jahren Markterfahrung an Ihrer Seite.</p>
+        </div>
+      </div>
+      <div class="below">
+        <div style="width:100%;max-width:max-content">
+          <p class="tag m-only" style="margin-bottom:1rem">Kaufen, mieten, verkaufen – mit über 35 Jahren Markterfahrung an Ihrer Seite.</p>
+          <form role="search" aria-label="Schnellsuche" onsubmit="return false"><div class="qb"><div data-t="seg"></div><div data-t="sel"></div><div data-t="go"></div></div></form>
+        </div>
+        <div data-t="own"></div>
+      </div>
+    </div>
+  </section>
+  <div data-slot="next"></div>
+</div>
+
+<div class="page doc-end">
+  <strong>Hinweise</strong>
+  <ul>
+    <li>Tokens, Schrift, Radien, Sockel (<strong>plinth</strong>) und Button-Größen 1:1 aus app/assets/css/tailwind.css; Tag/Nacht wie MoodImage.vue (m-1514 / m-703 aus content/manual/mood.json).</li>
+    <li>Quick-Bar-Tonalität angepasst: Kaufen | Mieten neutral (aktives Segment angehoben statt blau), dafür „Angebote ansehen“ gefüllt – so gibt es genau einen gefüllten Button.</li>
+    <li>m-1514 / m-703 liegen maximal 1192 px breit vor; für 1216 px Bildbreite (2× Retina: 2432 px) sollten größere Varianten erzeugt werden.</li>
+  </ul>
+</div>
+
+<script>
+  const tpl = (id) => document.getElementById(id).content
+  document.querySelectorAll('[data-slot="header"]').forEach((s) => s.replaceWith(tpl('site-header').cloneNode(true)))
+  document.querySelectorAll('[data-slot="next"]').forEach((s) => s.replaceWith(tpl('next').cloneNode(true)))
+  document.querySelectorAll('[data-photo]').forEach((p) => p.prepend(tpl('photo').cloneNode(true)))
+  document.querySelectorAll('[data-t]').forEach((s) => s.replaceWith(tpl(s.dataset.t).cloneNode(true)))
+  document.addEventListener('click', (e) => {
+    const seg = e.target.closest('.seg button')
+    if (seg) seg.parentElement.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === seg)))
+    if (!e.target.closest('[data-toggle]')) return
+    const el = document.documentElement
+    el.classList.add('anim')
+    const dark = el.classList.toggle('dark')
+    history.replaceState(null, '', dark ? '#dark' : location.pathname)
+    setTimeout(() => el.classList.remove('anim'), 350)
+  })
+  document.querySelectorAll('a[href="#"]').forEach((a) => a.addEventListener('click', (e) => e.preventDefault()))
+</script>
+</body>
+</html>

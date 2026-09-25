@@ -1,0 +1,902 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grand Tower – Hero-Entwürfe</title>
+<script>if (location.hash === '#dark') document.documentElement.classList.add('dark')</script>
+<style>
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-ext-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* ---------- Tokens: 1:1 aus app/assets/css/tailwind.css ---------- */
+:root {
+  --radius: 0.75rem;
+  --background: oklch(0.995 0.002 250);
+  --foreground: oklch(0.235 0.025 250);
+  --card: oklch(1 0 0);
+  --primary: oklch(0.4 0.08 250);
+  --primary-foreground: oklch(0.99 0.003 250);
+  --secondary: oklch(0.955 0.008 250);
+  --muted: oklch(0.955 0.008 250);
+  --muted-foreground: oklch(0.46 0.025 250);
+  --accent: oklch(0.935 0.012 250);
+  --border: oklch(0.905 0.01 250);
+  --input: oklch(0.6 0.02 250);
+  --ring: oklch(0.24 0.05 250);
+  /* fluid scale (tailwind.css @theme) */
+  --f-lg: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --f-xl: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+  --f-2xl: clamp(1.125rem, 0.98rem + 0.75vw, 1.5rem);
+  --f-4xl: clamp(1.75rem, 1.5rem + 1.25vw, 2.25rem);
+  --f-6xl: clamp(2.4375rem, 1.8rem + 3.2vw, 3.75rem);
+  --sp-16: clamp(2.25rem, 1.25rem + 5vw, 4rem);
+  --sp-24: clamp(3rem, 1.5rem + 7.5vw, 6rem);
+  color-scheme: light;
+}
+.dark {
+  --background: oklch(0.175 0.018 250);
+  --foreground: oklch(0.96 0.004 250);
+  --card: oklch(0.225 0.022 250);
+  --primary: oklch(0.76 0.12 78);
+  --primary-foreground: oklch(0.2 0.03 78);
+  --secondary: oklch(0.225 0.022 250);
+  --muted: oklch(0.225 0.022 250);
+  --muted-foreground: oklch(0.76 0.018 250);
+  --accent: oklch(0.265 0.024 250);
+  --border: oklch(0.29 0.02 250);
+  --input: oklch(0.56 0.02 250);
+  --ring: oklch(0.96 0.004 250);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  background: var(--secondary); color: var(--foreground);
+  font-size: var(--f-lg); line-height: 1.6; -webkit-font-smoothing: antialiased;
+}
+html.anim, html.anim * { transition: background-color 300ms ease-out, color 300ms ease-out, border-color 300ms ease-out, opacity 300ms ease-out; }
+a { color: inherit; text-decoration: none; }
+img { display: block; }
+.num { font-variant-numeric: lining-nums proportional-nums; }
+h1, h2, h3 { font-weight: 600; text-wrap: balance; }
+h1 { letter-spacing: -0.03em; }
+h2 { letter-spacing: -0.02em; }
+p { text-wrap: pretty; }
+.page { max-width: 80rem; margin-inline: auto; padding-inline: 2rem; width: 100%; }
+@media (max-width: 47.99rem) { .page { padding-inline: 1rem; } }
+:focus-visible { outline: 3px solid color-mix(in oklch, var(--ring) 50%, transparent); outline-offset: 2px; }
+
+/* ---------- Mockup chrome (not part of the design) ---------- */
+.doc-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; padding-block: 3.5rem 3rem; }
+.doc-top h1 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); line-height: 1.05; }
+.doc-top p { margin-top: 1rem; max-width: 64ch; color: var(--muted-foreground); }
+.doc-top p strong { color: var(--foreground); font-weight: 600; }
+.mode {
+  flex: none; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;
+  height: 44px; padding-inline: 1.25rem; border-radius: 999px; display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--background); color: var(--foreground); border: 1px solid var(--input);
+}
+.mode:hover { background: var(--accent); }
+.mode svg { width: 18px; height: 18px; }
+.dir { padding-top: 4rem; }
+.dir-head { display: grid; grid-template-columns: 4fr 8fr; gap: 3rem; align-items: start; margin-bottom: 2rem; }
+.dir-key { font-size: 15px; font-weight: 600; color: var(--muted-foreground); }
+.dir-head h2 { font-size: var(--f-4xl); line-height: 1.1; margin-top: .25rem; }
+.dir-head .why { color: var(--muted-foreground); max-width: 68ch; }
+.dir-head .why strong { color: var(--foreground); font-weight: 600; }
+@media (max-width: 60rem) { .dir-head { grid-template-columns: 1fr; gap: .75rem; } }
+
+.frame { position: relative; background: var(--background); border-block: 1px solid var(--border); overflow: hidden; }
+.fold {
+  position: absolute; left: 0; right: 0; top: 900px; height: 0; border-top: 1px dashed color-mix(in oklch, var(--muted-foreground) 60%, transparent);
+  pointer-events: none; z-index: 5;
+}
+.fold span { position: absolute; right: 12px; top: -22px; font-size: 12px; font-weight: 600; color: var(--muted-foreground); background: var(--background); padding: 0 6px; border-radius: 4px; }
+@media (max-width: 47.99rem) { .fold { top: 844px; } }
+.fold-m { display: none; }
+@media (max-width: 47.99rem) { .fold-d { display: none; } .fold-m { display: inline; } }
+.next { height: 200px; overflow: hidden; border-top: 1px solid var(--border); }
+.next .page { padding-top: 56px; display: grid; grid-template-columns: 7fr 5fr; gap: 4rem; }
+.next p { font-size: var(--f-xl); line-height: 1.55; color: var(--muted-foreground); max-width: 60ch; }
+.next .next-label { font-size: 14px; font-weight: 600; color: var(--muted-foreground); }
+@media (max-width: 47.99rem) { .next .page { grid-template-columns: 1fr; padding-top: 40px; } .next .next-label { display: none; } }
+.doc-end { padding-block: 4rem 5rem; color: var(--muted-foreground); font-size: 15px; }
+.doc-end ul { margin-top: .75rem; padding-left: 1.1rem; max-width: 84ch; }
+.doc-end li { margin-block: .35rem; }
+.doc-end strong { color: var(--foreground); font-weight: 600; }
+
+/* ---------- Site header (simplified from app/components/site/Header.vue) ---------- */
+.site-h { height: 80px; border-bottom: 1px solid var(--border); background: var(--background); position: relative; z-index: 3; }
+.site-h .page { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.logo { display: inline-flex; align-items: center; gap: .625rem; font-size: 16px; font-weight: 600; letter-spacing: -0.01em; }
+.logo img { height: 44px; width: auto; }
+.dark .logo img { filter: invert(1); }
+.nav { display: flex; gap: 4px; list-style: none; }
+.nav a { display: block; padding: 10px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; color: var(--muted-foreground); }
+.nav a[aria-current] { background: var(--accent); color: var(--foreground); }
+.h-tools { display: flex; align-items: center; gap: 4px; }
+.h-tools .tel { display: inline-flex; align-items: center; gap: 8px; padding: 10px 12px; font-size: 14px; font-weight: 600; }
+.icon-btn { width: 44px; height: 44px; border-radius: 999px; display: inline-grid; place-items: center; background: none; border: 0; color: inherit; cursor: pointer; }
+.icon-btn:hover { background: var(--accent); }
+.i { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.i-sm { width: 16px; height: 16px; }
+.only-dark { display: none; }
+.dark .only-dark { display: inline; }
+.dark .only-light { display: none; }
+.mob-only { display: none !important; }
+@media (max-width: 63.99rem) { .nav, .h-tools .tel { display: none; } .mob-only { display: inline-grid !important; } }
+@media (max-width: 47.99rem) { .site-h { height: 64px; } }
+
+/* ---------- Shared hero atoms ---------- */
+.addr { font-size: 14px; font-weight: 600; color: var(--muted-foreground); }
+.h1 { font-size: var(--f-6xl); line-height: 1; }
+.tag { font-size: var(--f-xl); line-height: 1.45; font-weight: 600; max-width: 44ch; }
+.lead { font-size: var(--f-lg); color: var(--muted-foreground); max-width: 46ch; }
+.nw { white-space: nowrap; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem; white-space: nowrap;
+  height: 48px; padding-inline: 1.75rem; border-radius: 999px; font-size: 16px; font-weight: 600;
+  background: var(--primary); color: var(--primary-foreground);
+}
+.btn:hover { background: color-mix(in oklch, var(--primary) 90%, var(--background)); }
+.btn svg { width: 18px; height: 18px; }
+.link { font-size: 16px; font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; text-decoration-color: var(--input); }
+.link:hover { text-decoration-color: currentColor; }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.facts > div { border-top: 1px solid var(--border); padding-top: .875rem; }
+.facts dt { font-size: 14px; color: var(--muted-foreground); }
+.facts dd { font-size: var(--f-2xl); line-height: 1.25; font-weight: 600; margin-top: .25rem; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.75rem; }
+.avail { font-size: 15px; color: var(--muted-foreground); }
+.avail b { color: var(--foreground); font-weight: 600; }
+
+/* Day/night pair – same mechanism as MoodImage.vue */
+.mood { position: relative; overflow: hidden; background: var(--muted); }
+.mood img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: opacity 300ms ease-out; }
+.mood .n { opacity: 0; }
+.dark .mood .d { opacity: 0; }
+.dark .mood .n { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .mood img, html.anim * { transition: none !important; } }
+
+/* =========================================================
+   A – Editorial Split
+   ========================================================= */
+.a-hero {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(0, 34rem) 4rem minmax(0, 38rem) minmax(2rem, 1fr);
+  min-height: 740px;
+}
+.a-text { grid-column: 2; display: flex; flex-direction: column; justify-content: space-between; gap: 3rem; padding-block: 5rem 4rem; }
+.a-text .h1 { margin-top: 1rem; }
+.a-text .tag { margin-top: 1.25rem; }
+.a-text .actions { margin-top: 2.5rem; }
+.a-text .avail { margin-top: 1rem; }
+.a-img { grid-column: 4 / 6; border-bottom-left-radius: 14px; }
+/* day: tower from below (gt-1756) – scaled from the bottom so the crane at the top edge falls outside */
+.a-img .d { object-position: 58% 100%; transform: scale(1.18); transform-origin: 58% 100%; }
+.a-img .n { object-position: 18% 50%; }
+@media (max-width: 63.99rem) {
+  .a-hero { grid-template-columns: 1rem minmax(0, 1fr) 1rem; min-height: 0; }
+  .a-img { grid-column: 1 / -1; grid-row: 1; height: 420px; border-radius: 0; }
+  .a-text { grid-column: 2; padding-block: 2rem 3rem; gap: 2rem; }
+  .a-text .actions { margin-top: 1.75rem; }
+}
+@media (min-width: 48rem) and (max-width: 63.99rem) { .a-hero { grid-template-columns: 2rem minmax(0, 1fr) 2rem; } }
+
+/* =========================================================
+   B – Turm / Geschosse
+   ========================================================= */
+.b-hero .page { display: grid; grid-template-columns: minmax(0, 1fr) 18.5rem 11rem; gap: 3rem; min-height: 720px; }
+.b-text { display: flex; flex-direction: column; justify-content: space-between; gap: 3rem; padding-block: 5rem 4rem; }
+.b-text .h1 { margin-top: 1rem; }
+.b-text .tag { margin-top: 1.25rem; }
+.b-text .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 26rem; }
+.b-text .lead { margin-top: 1.5rem; }
+.b-text .actions { margin-top: 2.25rem; }
+.b-tower { margin-top: 3.5rem; border-radius: 150px 150px 0 0; }
+.b-tower .d { object-position: 44% 0%; filter: hue-rotate(-24deg) saturate(.78) brightness(1.03); }
+.b-tower .n { object-position: 14% 50%; }
+.b-scale { position: relative; margin-top: 3.5rem; display: flex; flex-direction: column; }
+.b-count { position: absolute; left: 40px; top: -2px; z-index: 1; }
+.b-count strong { display: block; font-size: 5.5rem; line-height: .9; font-weight: 600; letter-spacing: -0.04em; }
+.b-count span { display: block; margin-top: .5rem; font-size: 15px; font-weight: 600; }
+.ruler { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.ruler i { position: absolute; left: 0; width: 12px; height: 1px; background: var(--border); }
+.ruler i.l { width: 28px; background: var(--muted-foreground); }
+.ruler em { position: absolute; left: 40px; transform: translateY(-50%); font-style: normal; font-size: 13px; font-weight: 600; color: var(--muted-foreground); }
+@media (max-width: 63.99rem) {
+  .b-hero .page { grid-template-columns: minmax(0, 1fr) 8.5rem; gap: 1.5rem 1.25rem; min-height: 0; }
+  .b-text { grid-column: 1 / -1; padding-block: 2rem 0; gap: 2rem; }
+  .b-tower { margin-top: 0; height: 420px; border-radius: 120px 120px 0 0; }
+  .b-scale { margin-top: 0; }
+  .b-count strong { font-size: 4rem; }
+}
+
+/* =========================================================
+   C – Panorama mit Sockel
+   ========================================================= */
+.c-hero .page { padding-top: 1.5rem; padding-bottom: 3.5rem; }
+.c-img { position: relative; height: 560px; border-radius: 14px; }
+.c-img .d { object-position: 50% 45%; }
+.c-img .n { object-position: 50% 62%; }
+.c-plinth {
+  position: absolute; left: 0; bottom: 0; z-index: 1;
+  padding: 1.25rem 2.25rem 0 0; background: var(--background); border-top-right-radius: 14px;
+}
+.c-plinth::before, .c-plinth::after {
+  content: ''; position: absolute; width: 14px; height: 14px;
+  background: radial-gradient(circle at 100% 0, transparent 13.5px, var(--background) 14px);
+}
+.c-plinth::before { left: 0; top: -14px; }
+.c-plinth::after { left: 100%; bottom: 0; }
+.c-plinth .h1 { margin-top: .5rem; }
+.c-plinth .tag { margin-top: .875rem; }
+.c-row { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 4rem; margin-top: 2.25rem; align-items: end; }
+.c-cta { justify-self: end; text-align: right; display: grid; gap: .875rem; justify-items: end; }
+@media (max-width: 63.99rem) {
+  .c-hero .page { padding-top: 1rem; padding-bottom: 2.5rem; }
+  .c-img { height: 480px; }
+  .c-plinth { right: 1.25rem; padding-right: 1.25rem; }
+  .c-row { grid-template-columns: 1fr; gap: 1.75rem; margin-top: 1.5rem; }
+  .c-cta { justify-self: start; text-align: left; justify-items: start; }
+}
+
+/* =========================================================
+   D – Datenblatt mit Verfügbarkeit
+   ========================================================= */
+.d-hero .page { padding-top: 4.5rem; padding-bottom: 3.5rem; }
+.d-top { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 4rem; align-items: stretch; }
+.d-left { display: flex; flex-direction: column; justify-content: space-between; padding-top: 1.75rem; }
+.d-top .h1 { margin-top: 1rem; }
+.d-top .tag { margin-top: 1.25rem; }
+.d-top .facts { margin-top: 3rem; }
+.d-panel { background: var(--secondary); border-radius: 14px; padding: 1.75rem 1.75rem 1.75rem; }
+.dark .d-panel { background: var(--card); }
+.d-panel h2 { font-size: 15px; font-weight: 600; letter-spacing: 0; color: var(--muted-foreground); }
+.d-rows { margin-top: .75rem; }
+.d-rows > div { display: grid; grid-template-columns: 1fr auto; gap: .125rem 1rem; padding-block: 1rem; border-bottom: 1px solid color-mix(in oklch, var(--foreground) 12%, transparent); }
+.d-rows > div:first-child { border-top: 1px solid color-mix(in oklch, var(--foreground) 12%, transparent); }
+.d-rows dt { font-size: var(--f-2xl); font-weight: 600; line-height: 1.25; }
+.d-rows .meta { grid-column: 1; font-size: 15px; color: var(--muted-foreground); }
+.d-rows dd.price { grid-column: 2; grid-row: 1 / 3; align-self: center; text-align: right; font-size: var(--f-2xl); font-weight: 600; line-height: 1.2; }
+.d-rows .price small { display: block; font-size: 14px; font-weight: 400; color: var(--muted-foreground); }
+.d-panel .btn { width: 100%; margin-top: 1.5rem; }
+.d-panel .sub { margin-top: 1rem; text-align: center; font-size: 15px; }
+.d-band { height: 240px; border-radius: 14px; margin-top: 3.5rem; }
+.d-band .d { object-position: 50% 42%; }
+.d-band .n { object-position: 50% 58%; }
+@media (max-width: 63.99rem) {
+  .d-hero .page { padding-top: 2.25rem; padding-bottom: 2.5rem; }
+  .d-top { grid-template-columns: 1fr; gap: 2.25rem; }
+  .d-left { padding-top: 0; }
+  .d-top .facts { margin-top: 2rem; }
+  .d-panel { padding: 1.25rem; }
+  .d-band { height: 180px; margin-top: 2.25rem; }
+}
+@media (max-width: 47.99rem) {
+  .facts { gap: 1rem; grid-template-columns: minmax(0, .8fr) minmax(0, 1fr) minmax(0, 1.3fr); }
+  .b-text .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .facts dd { font-size: 1.125rem; }
+  .actions { gap: 1rem 1.5rem; }
+}
+
+/* =========================================================
+   F – Kacheln statt Hero (Robby, Runde 3)
+   Card = 1:1 app/components/listing/Card.vue + utility `plinth`
+   ========================================================= */
+.superseded { margin-top: 5rem; padding-block: 2.5rem 0; border-top: 1px solid var(--border); }
+.superseded h2 { font-size: var(--f-2xl); line-height: 1.25; }
+.superseded p { margin-top: .5rem; color: var(--muted-foreground); max-width: 70ch; }
+.f-sec { --surface: var(--background); }
+.f-sec .page { padding-top: 2rem; padding-bottom: 4rem; }
+.f-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: clamp(1.5rem, 1.25rem + 1.25vw, 2rem); row-gap: 3rem; }
+@media (max-width: 63.99rem) { .f-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 47.99rem) { .f-grid { grid-template-columns: 1fr; } }
+.card { position: relative; display: flex; flex-direction: column; }
+.card .media { position: relative; aspect-ratio: 4 / 3; overflow: hidden; border-radius: 14px; background: var(--muted); }
+.card .media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.dark .card .media > img { filter: brightness(.94); }
+.plinth {
+  position: absolute; left: 0; bottom: 0; z-index: 1; min-width: 56%;
+  padding: .8rem 1.5rem 0 0; background: var(--surface, var(--background)); border-top-right-radius: 14px;
+}
+.plinth::before, .plinth::after {
+  content: ''; position: absolute; width: 14px; height: 14px;
+  background: radial-gradient(circle at 100% 0, transparent 13.5px, var(--surface, var(--background)) 14px);
+}
+.plinth::before { left: 0; top: -14px; }
+.plinth::after { left: 100%; bottom: 0; }
+.plinth .pl { display: block; font-size: 14px; line-height: 1.43; color: var(--muted-foreground); }
+.plinth .pv { display: block; white-space: nowrap; font-weight: 600; font-size: clamp(1.375rem, 1.2rem + .8vw, 1.6875rem); line-height: 1.2; letter-spacing: -0.015em; transition: color 150ms ease-out; }
+.plinth .pv .u { margin-left: .25rem; font-size: .62em; font-weight: 400; letter-spacing: 0; color: var(--muted-foreground); }
+.card:hover .plinth .pv { color: var(--primary); }
+.card .body { padding-top: 1rem; }
+.card .row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.card .place { font-size: 18px; font-weight: 600; line-height: 1.25; letter-spacing: -0.025em; }
+.card .facts-s { flex: none; white-space: nowrap; font-size: 14px; }
+.card .sub { margin-top: .25rem; font-size: 14px; color: var(--muted-foreground); }
+.card .ttl { margin-top: .5rem; font-size: 14px; font-weight: 400; letter-spacing: 0; line-height: 1.375; color: var(--muted-foreground); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .ttl a { text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 4px; }
+.card .ttl a::after { content: ''; position: absolute; inset: 0; }
+.card:hover .ttl { color: var(--foreground); }
+.card:hover .ttl a { text-decoration-color: currentColor; }
+/* F1 – title tile: a big card, 2 cols × 2 rows, notch holds the title instead of a price */
+.t-tile { grid-column: span 2; grid-row: span 2; }
+.t-tile .media .d { object-position: 50% 45%; }
+.t-tile .media .n { object-position: 42% 55%; }
+.t-tile .plinth { padding: 1rem 2rem 0 0; }
+.t-tile .plinth .h1 { margin-top: .375rem; }
+.t-tile .plinth .tag { margin-top: .625rem; }
+.t-body { padding-top: 1.25rem; display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem 2.5rem; }
+.t-body p { color: var(--muted-foreground); max-width: 50ch; }
+.t-body .link { display: inline-block; margin-top: .875rem; font-size: 15px; }
+@media (max-width: 63.99rem) { .t-tile { grid-row: auto; } }
+@media (max-width: 47.99rem) {
+  .t-tile { grid-column: auto; }
+  .t-tile .plinth { padding: .75rem 1.25rem 0 0; min-width: 0; right: 2.5rem; }
+  .t-tile .plinth .h1 { font-size: 2.125rem; line-height: 1.02; }
+  .t-tile .plinth .tag { display: none; }
+  .t-body { flex-direction: column; align-items: flex-start; padding-top: .75rem; }
+  .t-body .m-tag { display: block; }
+}
+.m-tag { display: none; font-size: var(--f-xl); font-weight: 600; line-height: 1.45; color: var(--foreground) !important; margin-bottom: .5rem; }
+/* F2 – title as plain text above the grid, photo tile = one card */
+.f2-head { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 1.5rem 4rem; align-items: end; padding-top: 2.5rem; margin-bottom: 3rem; }
+.f2-head .h1 { margin-top: 1rem; }
+.f2-head .tag { margin-top: 1.25rem; }
+.f2-head .intro { color: var(--muted-foreground); }
+.f2-head .btn { margin-top: 1.5rem; }
+.f2 .p-tile .media .d { object-position: 50% 45%; }
+.f2 .p-tile .media .n { object-position: 45% 55%; }
+@media (max-width: 63.99rem) { .f2-head { grid-template-columns: 1fr; padding-top: 1rem; margin-bottom: 2.25rem; } }
+
+/* =========================================================
+   E – C + Verfügbarkeit (Empfehlung)
+   ========================================================= */
+.dir-rec { display: inline-block; margin-left: .5rem; padding: 1px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; color: var(--foreground); border: 1px solid var(--input); vertical-align: 1px; }
+.sub-label { font-size: 15px; font-weight: 600; padding-block: 0 1rem; }
+.sub-label span { font-weight: 400; color: var(--muted-foreground); }
+.e-hero .page { padding-top: 1.5rem; padding-bottom: 3.5rem; }
+.e-img { position: relative; height: 470px; border-radius: 14px; }
+.e-img .d { object-position: 50% 42%; }
+.e-img .n { object-position: 50% 60%; }
+/* spec table + availability share one row rhythm */
+.e-band { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 4rem; margin-top: 1.5rem; align-items: start; }
+.e-h { font-size: 14px; font-weight: 600; letter-spacing: 0; color: var(--muted-foreground); line-height: 1.4; }
+.e-spec { padding-top: 1.25rem; }
+.e-spec dl { margin-top: .75rem; }
+.e-spec dl > div { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding-block: .8rem; border-top: 1px solid var(--border); }
+.e-spec dl > div:last-child { border-bottom: 1px solid var(--border); }
+.e-spec dt { color: var(--muted-foreground); font-size: 16px; }
+.e-spec dd { font-weight: 600; font-size: 17px; }
+.e-avail { background: var(--secondary); border-radius: 14px; padding: 1.25rem 1.75rem 1.5rem; }
+.dark .e-avail { background: var(--card); }
+.e-rows { margin-top: .75rem; list-style: none; }
+.e-row {
+  display: grid; grid-template-columns: 8.5rem minmax(0, 1fr) auto 18px; align-items: baseline; gap: .25rem 1.25rem;
+  padding-block: .8rem; border-top: 1px solid color-mix(in oklch, var(--foreground) 12%, transparent);
+}
+.e-rows li:last-child .e-row { border-bottom: 1px solid color-mix(in oklch, var(--foreground) 12%, transparent); }
+.e-row .k { font-size: var(--f-2xl); font-weight: 600; line-height: 1.25; }
+.e-row .m { font-size: 15px; color: var(--muted-foreground); }
+.e-row .pr { font-size: var(--f-2xl); font-weight: 600; line-height: 1.25; text-align: right; white-space: nowrap; }
+.e-row .pr small { font-size: 15px; font-weight: 400; color: var(--muted-foreground); }
+.e-row svg { width: 18px; height: 18px; align-self: center; color: var(--muted-foreground); fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.e-row:hover .k { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.e-row:hover svg { color: var(--foreground); }
+.e-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.75rem; margin-top: 1.25rem; }
+.e-empty-t { margin-top: .75rem; font-size: var(--f-2xl); font-weight: 600; line-height: 1.3; }
+.e-empty-s { margin-top: .375rem; color: var(--muted-foreground); font-size: 16px; max-width: 48ch; }
+.btn-outline { display: inline-flex; align-items: center; gap: .5rem; height: 44px; padding-inline: 1.25rem; border-radius: 999px; font-size: 15px; font-weight: 600; border: 1px solid var(--input); background: var(--background); color: var(--foreground); }
+.btn-outline:hover { background: var(--accent); }
+/* E2: second notch, lower right – mirrors the Sockel */
+.e2 .e-img { height: 600px; }
+.e2 .mood-box { position: absolute; inset: 0; border-radius: 14px; }
+.e-notch-r {
+  position: absolute; right: 0; bottom: 0; z-index: 1; width: 28rem;
+  padding: 1.25rem 0 0 2rem; background: var(--background); border-top-left-radius: 14px;
+}
+.e-notch-r::before, .e-notch-r::after {
+  content: ''; position: absolute; width: 14px; height: 14px;
+  background: radial-gradient(circle at 0 0, transparent 13.5px, var(--background) 14px);
+}
+.e-notch-r::before { right: 0; top: -14px; }
+.e-notch-r::after { right: 100%; bottom: 0; }
+.e-notch-r .e-row { grid-template-columns: minmax(0, 1fr) auto 18px; gap: .125rem 1rem; padding-block: .75rem; }
+.e-notch-r .e-row .m { grid-column: 1; grid-row: 2; }
+.e-notch-r .e-row .pr { grid-row: 1 / 3; align-self: center; }
+.e-notch-r .e-row svg { grid-row: 1 / 3; }
+.e-notch-r .btn { width: 100%; margin-top: 1.25rem; }
+.e2 .c-row { margin-top: 2rem; align-items: end; }
+.e-empty-frame .e-hero .page { padding-top: 0; }
+.e-empty-frame .e-img { height: 150px; border-top-left-radius: 0; border-top-right-radius: 0; }
+.e-empty-frame .e-img .d { object-position: 50% 80%; }
+.e-empty-frame .e-img .n { object-position: 50% 85%; }
+@media (max-width: 63.99rem) {
+  .e-hero .page { padding-top: 1rem; padding-bottom: 2.5rem; }
+  .e-img, .e2 .e-img { height: 480px; }
+  .e-band { grid-template-columns: 1fr; gap: 0; margin-top: 1.5rem; }
+  .e-band .e-avail { order: -1; }
+  .e-spec { padding-top: 2rem; }
+  .e-notch-r { position: static; width: auto; padding: 0; margin-top: 1.5rem; border-radius: 0; }
+  .e-notch-r::before, .e-notch-r::after { display: none; }
+  .e2 .e-img { height: auto; }
+  .e2 .mood-box { position: relative; height: 480px; }
+}
+@media (max-width: 47.99rem) {
+  .e-avail { padding: 1.25rem; }
+  .e-row { grid-template-columns: minmax(0, 1fr) auto 18px; gap: .125rem .75rem; }
+  .e-row .m { grid-column: 1; grid-row: 2; }
+  .e-row .pr { grid-row: 1 / 3; align-self: center; font-size: 1.125rem; }
+  .e-row .pr small { display: block; }
+  .e-row svg { grid-row: 1 / 3; }
+  .e-foot { justify-content: center; }
+  .e-foot .btn { width: 100%; }
+  .e-empty-frame .e-img { height: 110px; }
+  .e-img, .e2 .mood-box { height: 400px; }
+  .c-plinth { right: 3.5rem; }
+  .e2 .e-img { height: auto; }
+  .e-empty-frame .e-img { height: 110px; }
+  .e-empty-frame .e-foot { justify-content: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="phone" viewBox="0 0 24 24"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></symbol>
+  <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+  <symbol id="moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></symbol>
+  <symbol id="menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></symbol>
+  <symbol id="down" viewBox="0 0 24 24"><path d="M12 5v14M19 12l-7 7-7-7"/></symbol>
+</svg>
+
+<template id="site-header">
+  <header class="site-h">
+    <div class="page">
+      <a href="#" class="logo" aria-label="Pöhls Immobilien – Startseite"><img src="../../public/brand/logo.png" alt="" width="87" height="243"><span>Pöhls Immobilien</span></a>
+      <nav aria-label="Hauptnavigation"><ul class="nav">
+        <li><a href="#">Angebote</a></li><li><a href="#" aria-current="page">Grand Tower</a></li><li><a href="#">Leistungen</a></li><li><a href="#">Über uns</a></li><li><a href="#">Kontakt</a></li>
+      </ul></nav>
+      <div class="h-tools">
+        <a class="tel num" href="#"><svg class="i i-sm"><use href="#phone"/></svg>+49 6103 3124633</a>
+        <a class="icon-btn mob-only" href="#" aria-label="Anrufen"><svg class="i"><use href="#phone"/></svg></a>
+        <button class="icon-btn" type="button" data-toggle aria-label="Tag/Nacht wechseln"><svg class="i only-light"><use href="#sun"/></svg><svg class="i only-dark"><use href="#moon"/></svg></button>
+        <button class="icon-btn mob-only" type="button" aria-label="Menü öffnen"><svg class="i"><use href="#menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+</template>
+
+<template id="next">
+  <div class="next"><div class="page">
+    <div>
+      <p>Der Grand Tower im Frankfurter Europaviertel ist das höchste Wohnhochhaus Deutschlands. Hinter der Fassade mit den markanten, geschwungenen Balkonen liegen Apartments mit weitem Blick über die Stadt.</p>
+    </div>
+    <p class="next-label">… folgender Inhalt der Seite</p>
+  </div></div>
+  <div class="fold"><span class="fold-d">Bildschirmkante bei 900 px</span><span class="fold-m">Bildschirmkante iPhone (844 px)</span></div>
+</template>
+
+<div class="page doc-top">
+  <div>
+    <h1>Grand Tower – Hero-Entwürfe</h1>
+    <p>Richtungen für den Kopf der Seite <strong>/grand-tower</strong> – zuerst die aktuelle Richtung <strong>F (Kacheln statt Hero)</strong>, darunter die überholten Entwürfe E und A–D. Jeweils mit vereinfachtem Seitenkopf darüber und dem Anfang des folgenden Inhalts. Die gestrichelte Linie markiert die Bildschirmkante eines üblichen Laptops. Alle Texte stehen auf Vollton&shy;flächen, kein Text liegt auf einem Foto.</p>
+  </div>
+  <button class="mode" type="button" data-toggle><svg class="i only-light"><use href="#moon"/></svg><svg class="i only-dark"><use href="#sun"/></svg><span class="only-light">Nachtansicht</span><span class="only-dark">Tagansicht</span></button>
+</div>
+
+<!-- ============================ F ============================ -->
+<section class="dir" id="f" aria-labelledby="f-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung F <span class="dir-rec">Aktuell</span></p><h2 id="f-t">Kacheln statt Hero</h2></div>
+    <p class="why">Nach Robbys Feedback: Oben stehen direkt die <strong>verfügbaren Wohnungen</strong> im bestehenden Kacheldesign – kein Faktenband, keine Tabelle. „Grand Tower Frankfurt“ spricht dieselbe Sprache wie die Karten: ein Foto im Format 4:3 mit Sockel. <strong>F1</strong> macht daraus eine große Titelkachel (zwei Spalten, zwei Zeilen). <strong>F2</strong> setzt den Titel als ruhigen Text über das Raster, das Hausfoto ist dort eine Kachel wie jede andere.</p>
+  </div>
+
+  <p class="page sub-label">F1 <span>– Titelkachel im Raster (empfohlen)</span></p>
+  <div class="frame">
+    <div data-slot="header"></div>
+    <section class="f-sec" aria-labelledby="f1-h1">
+      <div class="page">
+        <div class="f-grid" data-cards>
+          <article class="card t-tile">
+            <div class="media mood">
+              <img class="d" src="../../public/media/gt-1759-1600.webp" alt="Geschwungene weiße Balkone des Grand Tower">
+              <img class="n" src="../../public/media/gt-1815-1600.webp" alt="Blick vom Balkon des Grand Tower über das nächtliche Frankfurt">
+              <div class="plinth">
+                <p class="addr">Europaallee 2, 60327 Frankfurt am Main</p>
+                <h1 class="h1" id="f1-h1">Grand Tower Frankfurt</h1>
+                <p class="tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+              </div>
+            </div>
+            <div class="t-body">
+              <div>
+                <p class="m-tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+                <p>47 Geschosse im Frankfurter Europaviertel, fertiggestellt 2020. Aktuell frei: 4 Wohnungen zur Miete und 1 zum Kauf.</p>
+                <a class="link" href="#">Alle 38 Fotos ansehen</a>
+              </div>
+              <a class="btn" href="#">Besichtigung anfragen</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <div data-slot="next"></div>
+  </div>
+
+  <p class="page sub-label" style="padding-top:3rem">F2 <span>– Titel über dem Raster, Hausfoto als Kachel</span></p>
+  <div class="frame f2">
+    <div data-slot="header"></div>
+    <section class="f-sec" aria-labelledby="f2-h1">
+      <div class="page">
+        <div class="f2-head">
+          <div>
+            <p class="addr">Europaallee 2, 60327 Frankfurt am Main</p>
+            <h1 class="h1" id="f2-h1">Grand Tower Frankfurt</h1>
+            <p class="tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+          </div>
+          <div>
+            <p class="intro">47 Geschosse im Frankfurter Europaviertel, fertiggestellt 2020. Hinter den geschwungenen Balkonen liegen Apartments mit weitem Blick über die Stadt.</p>
+            <a class="btn" href="#">Besichtigung anfragen</a>
+          </div>
+        </div>
+        <div class="f-grid" data-cards>
+          <article class="card p-tile">
+            <div class="media mood">
+              <img class="d" src="../../public/media/gt-1759-960.webp" alt="">
+              <img class="n" src="../../public/media/gt-1815-960.webp" alt="">
+              <div class="plinth"><span class="pl">Eindrücke</span><span class="pv num">38 Fotos</span></div>
+            </div>
+            <div class="body">
+              <div class="row"><p class="place">Das Haus</p><p class="facts-s num">47 Geschosse</p></div>
+              <p class="sub">Europaviertel · fertiggestellt 2020</p>
+              <h2 class="ttl"><a href="#">Alle Fotos des Grand Tower ansehen</a></h2>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <div data-slot="next"></div>
+  </div>
+</section>
+
+<div class="page superseded">
+  <h2>Frühere Entwürfe – überholt</h2>
+  <p>E und A–D bleiben zum Vergleich stehen. Sie sind durch F ersetzt: Robby möchte kein Faktenband und das bestehende Kacheldesign direkt oben.</p>
+</div>
+
+<!-- ============================ E ============================ -->
+<section class="dir" id="e" aria-labelledby="e-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung E <span class="dir-rec">überholt</span></p><h2 id="e-t">C + Verfügbarkeit</h2></div>
+    <p class="why">Basis ist C: Panorama im Raster, Adresse, Titel und Tagline im Sockel. Darunter zwei Tabellen im selben Zeilenrhythmus – links ruhig <strong>„Das Haus“</strong>, rechts auf eigener Fläche <strong>„Jetzt verfügbar“</strong>. Jede Zeile führt zur passenden Liste, dazu kommt der eine gefüllte Button. <strong>E1</strong> hält das Bild ruhig und alles Wichtige über der Bildschirmkante; <strong>E2</strong> spiegelt den Sockel rechts – markanter, aber vom Bild bleibt weniger.</p>
+  </div>
+
+  <p class="page sub-label">E1 <span>– Verfügbarkeit im Band unter dem Bild</span></p>
+  <div class="frame">
+    <div data-slot="header"></div>
+    <section class="e-hero" aria-labelledby="e1-h1">
+      <div class="page">
+        <div class="e-img mood">
+          <img class="d" src="../../public/media/gt-1759-1600.webp" alt="Geschwungene weiße Balkone des Grand Tower">
+          <img class="n" src="../../public/media/gt-1815-1600.webp" alt="Blick vom Balkon des Grand Tower über das nächtliche Frankfurt">
+          <div class="c-plinth">
+            <p class="addr">Europaallee 2, 60327 Frankfurt am Main</p>
+            <h1 class="h1" id="e1-h1">Grand Tower Frankfurt</h1>
+            <p class="tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+          </div>
+        </div>
+        <div class="e-band">
+          <div class="e-spec">
+            <h2 class="e-h">Das Haus</h2>
+            <dl class="num">
+              <div><dt>Geschosse</dt><dd>47</dd></div>
+              <div><dt>Fertigstellung</dt><dd>2020</dd></div>
+              <div><dt>Lage</dt><dd>Europaviertel</dd></div>
+            </dl>
+          </div>
+          <div class="e-avail">
+            <h2 class="e-h">Jetzt verfügbar im Grand Tower</h2>
+            <ul class="e-rows num">
+              <li><a class="e-row" href="#zur-miete"><span class="k">4 zur Miete</span><span class="m">2–3 Zi. · 58–89 m²</span><span class="pr"><small>ab </small>1.290 € / Monat</span><svg aria-hidden="true"><use href="#down"/></svg></a></li>
+              <li><a class="e-row" href="#zum-kauf"><span class="k">1 zum Kauf</span><span class="m">3 Zi. · 89 m²</span><span class="pr">845.000 €</span><svg aria-hidden="true"><use href="#down"/></svg></a></li>
+            </ul>
+            <div class="e-foot">
+              <a class="btn" href="#gt-units">Verfügbare Wohnungen ansehen<svg class="i"><use href="#down"/></svg></a>
+              <a class="link" href="#">Besichtigung anfragen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div data-slot="next"></div>
+  </div>
+
+  <p class="page sub-label" style="padding-top:3rem">E2 <span>– Verfügbarkeit im zweiten Sockel rechts unten</span></p>
+  <div class="frame e2">
+    <div data-slot="header"></div>
+    <section class="e-hero" aria-labelledby="e2-h1">
+      <div class="page">
+        <div class="e-img">
+          <div class="mood-box mood">
+            <img class="d" src="../../public/media/gt-1759-1600.webp" alt="Geschwungene weiße Balkone des Grand Tower">
+            <img class="n" src="../../public/media/gt-1815-1600.webp" alt="Blick vom Balkon des Grand Tower über das nächtliche Frankfurt">
+            <div class="c-plinth">
+              <p class="addr">Europaallee 2, 60327 Frankfurt am Main</p>
+              <h1 class="h1" id="e2-h1">Grand Tower Frankfurt</h1>
+              <p class="tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+            </div>
+          </div>
+          <div class="e-notch-r">
+            <h2 class="e-h">Jetzt verfügbar</h2>
+            <ul class="e-rows num">
+              <li><a class="e-row" href="#zur-miete"><span class="k">4 zur Miete</span><span class="m">2–3 Zi. · 58–89 m²</span><span class="pr"><small>ab </small>1.290 € / Monat</span><svg aria-hidden="true"><use href="#down"/></svg></a></li>
+              <li><a class="e-row" href="#zum-kauf"><span class="k">1 zum Kauf</span><span class="m">3 Zi. · 89 m²</span><span class="pr">845.000 €</span><svg aria-hidden="true"><use href="#down"/></svg></a></li>
+            </ul>
+            <a class="btn" href="#gt-units">Verfügbare Wohnungen ansehen<svg class="i"><use href="#down"/></svg></a>
+          </div>
+        </div>
+        <div class="c-row">
+          <dl class="facts num">
+            <div><dt>Geschosse</dt><dd>47</dd></div>
+            <div><dt>Fertigstellung</dt><dd>2020</dd></div>
+            <div><dt>Lage</dt><dd>Europaviertel</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <div data-slot="next"></div>
+  </div>
+
+  <p class="page sub-label" style="padding-top:3rem">Leerer Zustand <span>– E1, wenn keine Wohnung frei ist (Ausschnitt ab Bildunterkante)</span></p>
+  <div class="frame e-empty-frame">
+    <section class="e-hero" aria-label="Leerer Zustand">
+      <div class="page">
+        <div class="e-img mood">
+          <img class="d" src="../../public/media/gt-1759-1600.webp" alt="">
+          <img class="n" src="../../public/media/gt-1815-1600.webp" alt="">
+          <div class="c-plinth"><p class="addr">Europaallee 2, 60327 Frankfurt am Main</p><p class="h1" style="font-weight:600;letter-spacing:-0.03em">Grand Tower Frankfurt</p></div>
+        </div>
+        <div class="e-band">
+          <div class="e-spec">
+            <h2 class="e-h">Das Haus</h2>
+            <dl class="num">
+              <div><dt>Geschosse</dt><dd>47</dd></div>
+              <div><dt>Fertigstellung</dt><dd>2020</dd></div>
+              <div><dt>Lage</dt><dd>Europaviertel</dd></div>
+            </dl>
+          </div>
+          <div class="e-avail">
+            <h2 class="e-h">Verfügbarkeit im Grand Tower</h2>
+            <p class="e-empty-t">Aktuell keine freien Wohnungen</p>
+            <p class="e-empty-s">Wir informieren Sie gern, sobald eine frei wird.</p>
+            <div class="e-foot">
+              <a class="btn-outline" href="#">Benachrichtigen lassen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- ============================ A ============================ -->
+<section class="dir" aria-labelledby="a-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung A</p><h2 id="a-t">Editorial Split</h2></div>
+    <p class="why">Text auf ruhiger Fläche links, rechts ein hohes Hochformat des Turms, das bis an den Fensterrand läuft. <strong>Der Turm selbst ist endlich das Hauptmotiv</strong> – heute zeigt der Hero den Nachbarturm. Die Fakten stehen unten auf der Bildkante, der Blick geht von der Überschrift direkt zur Aktion.</p>
+  </div>
+  <div class="frame">
+    <div data-slot="header"></div>
+    <section class="a-hero" aria-labelledby="a-h1">
+      <div class="a-text">
+        <div>
+          <p class="addr">Europaallee 2, 60327 Frankfurt am Main</p>
+          <h1 class="h1" id="a-h1">Grand Tower Frankfurt</h1>
+          <p class="tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+          <div class="actions">
+            <a class="btn" href="#">Verfügbare Wohnungen ansehen<svg class="i"><use href="#down"/></svg></a>
+            <a class="link" href="#">Besichtigung anfragen</a>
+          </div>
+          <p class="avail num"><b>4 Wohnungen zur Miete</b> <span class="nw">ab 1.290 € / Monat</span> · <b class="nw">1 zum Kauf</b></p>
+        </div>
+        <dl class="facts num">
+          <div><dt>Geschosse</dt><dd>47</dd></div>
+          <div><dt>Fertigstellung</dt><dd>2020</dd></div>
+          <div><dt>Lage</dt><dd>Europaviertel</dd></div>
+        </dl>
+      </div>
+      <div class="a-img mood">
+        <img class="d" src="../../public/media/gt-1756-1600.webp" alt="Grand Tower Frankfurt, Fassade mit geschwungenen Balkonen vor blauem Himmel">
+        <img class="n" src="../../public/media/gt-1813-1600.webp" alt="Balkon im Grand Tower mit Blick über das beleuchtete Frankfurt in der Dämmerung">
+      </div>
+    </section>
+    <div data-slot="next"></div>
+  </div>
+</section>
+
+<!-- ============================ B ============================ -->
+<section class="dir" aria-labelledby="b-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung B</p><h2 id="b-t">Turm und Geschosse</h2></div>
+    <p class="why">Ein schmaler, oben gerundeter Bildausschnitt steht wie der Turm selbst auf der Unterkante des Heros, daneben zählt eine Skala die 47 Geschosse. <strong>Höhe wird gezeigt statt behauptet</strong> – die Tagline bekommt ihren Beweis direkt daneben. Die markanteste und eigenständigste Richtung, aber auch die mit dem meisten Gestaltungswillen.</p>
+  </div>
+  <div class="frame">
+    <div data-slot="header"></div>
+    <section class="b-hero" aria-labelledby="b-h1">
+      <div class="page">
+        <div class="b-text">
+          <div>
+            <p class="addr">Europaallee 2, 60327 Frankfurt am Main</p>
+            <h1 class="h1" id="b-h1">Grand Tower Frankfurt</h1>
+            <p class="tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+            <p class="lead">Hinter der Fassade mit den markanten, geschwungenen Balkonen liegen Apartments mit weitem Blick über die Stadt.</p>
+            <div class="actions">
+              <a class="btn" href="#">Verfügbare Wohnungen ansehen<svg class="i"><use href="#down"/></svg></a>
+              <a class="link" href="#">Besichtigung anfragen</a>
+            </div>
+          </div>
+          <div>
+            <p class="avail num" style="margin-bottom:1.5rem"><b>4 Wohnungen zur Miete</b> <span class="nw">ab 1.290 € / Monat</span> · <b class="nw">1 zum Kauf</b></p>
+            <dl class="facts num">
+              <div><dt>Fertigstellung</dt><dd>2020</dd></div>
+              <div><dt>Lage</dt><dd>Europaviertel</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="b-tower mood">
+          <img class="d" src="../../public/media/gt-1842-750.webp" alt="Grand Tower Frankfurt von unten, die ganze Höhe des Turms">
+          <img class="n" src="../../public/media/gt-1813-1600.webp" alt="Geschwungene Balkone des Grand Tower über dem beleuchteten Frankfurt">
+        </div>
+        <div class="b-scale" aria-label="47 Geschosse">
+          <div class="b-count num" aria-hidden="true"><strong>47</strong><span>Geschosse</span></div>
+          <div class="ruler" aria-hidden="true" data-ruler></div>
+        </div>
+      </div>
+    </section>
+    <div data-slot="next"></div>
+  </div>
+</section>
+
+<!-- ============================ C ============================ -->
+<section class="dir" aria-labelledby="c-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung C</p><h2 id="c-t">Panorama mit Sockel</h2></div>
+    <p class="why">Ein breites Bild im Seitenraster, mit Radius statt randlos, Tag und Nacht als echtes Bildpaar. Die Überschrift sitzt in einer Aussparung der Bildecke – <strong>derselbe „Sockel“ wie bei den Objektkarten</strong>, hier im großen Maßstab. So steht Text nie auf dem Foto, und die Seite wirkt wie aus einem Guss mit Angebotsliste und Startseite.</p>
+  </div>
+  <div class="frame">
+    <div data-slot="header"></div>
+    <section class="c-hero" aria-labelledby="c-h1">
+      <div class="page">
+        <div class="c-img mood">
+          <img class="d" src="../../public/media/gt-1759-1600.webp" alt="Geschwungene weiße Balkone des Grand Tower">
+          <img class="n" src="../../public/media/gt-1815-1600.webp" alt="Blick vom Balkon des Grand Tower über das nächtliche Frankfurt">
+          <div class="c-plinth">
+            <p class="addr">Europaallee 2, 60327 Frankfurt am Main</p>
+            <h1 class="h1" id="c-h1">Grand Tower Frankfurt</h1>
+            <p class="tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+          </div>
+        </div>
+        <div class="c-row">
+          <dl class="facts num">
+            <div><dt>Geschosse</dt><dd>47</dd></div>
+            <div><dt>Fertigstellung</dt><dd>2020</dd></div>
+            <div><dt>Lage</dt><dd>Europaviertel</dd></div>
+          </dl>
+          <div class="c-cta">
+            <a class="btn" href="#">Verfügbare Wohnungen ansehen<svg class="i"><use href="#down"/></svg></a>
+            <p class="avail num"><b>4 Wohnungen zur Miete</b> <span class="nw">ab 1.290 € / Monat</span> · <b class="nw">1 zum Kauf</b></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div data-slot="next"></div>
+  </div>
+</section>
+
+<!-- ============================ D ============================ -->
+<section class="dir" aria-labelledby="d-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung D</p><h2 id="d-t">Datenblatt mit Verfügbarkeit</h2></div>
+    <p class="why">Das Wichtigste für Besucher mit Absicht steht oben: <strong>was frei ist, wie groß, zu welchem Preis</strong> – live aus den Angeboten. Das Bild tritt als ruhiges Band (das vorhandene Bildpaar „band“) unter die Information zurück. Am wenigsten Bühne, am meisten Nutzen; wirkt eher wie ein gutes Exposé als wie ein Imagefilm.</p>
+  </div>
+  <div class="frame">
+    <div data-slot="header"></div>
+    <section class="d-hero" aria-labelledby="d-h1">
+      <div class="page">
+        <div class="d-top">
+          <div class="d-left">
+            <div>
+            <p class="addr">Europaallee 2, 60327 Frankfurt am Main</p>
+            <h1 class="h1" id="d-h1">Grand Tower Frankfurt</h1>
+            <p class="tag">Wohnen im höchsten Wohnturm Deutschlands.</p>
+            </div>
+            <dl class="facts num">
+              <div><dt>Geschosse</dt><dd>47</dd></div>
+              <div><dt>Fertigstellung</dt><dd>2020</dd></div>
+              <div><dt>Lage</dt><dd>Europaviertel</dd></div>
+            </dl>
+          </div>
+          <div class="d-panel">
+            <h2>Jetzt verfügbar im Grand Tower</h2>
+            <dl class="d-rows num">
+              <div><dt>4 zur Miete</dt><dd class="meta">2–3 Zimmer · 58–89 m²</dd><dd class="price"><small>ab</small>1.290 € / Monat</dd></div>
+              <div><dt>1 zum Kauf</dt><dd class="meta">3 Zimmer · 89 m²</dd><dd class="price">845.000 €</dd></div>
+            </dl>
+            <a class="btn" href="#">Verfügbare Wohnungen ansehen<svg class="i"><use href="#down"/></svg></a>
+            <p class="sub"><a class="link" href="#">Besichtigung anfragen</a></p>
+          </div>
+        </div>
+        <div class="d-band mood">
+          <img class="d" src="../../public/media/gt-1757-1600.webp" alt="" >
+          <img class="n" src="../../public/media/gt-1815-1600.webp" alt="">
+        </div>
+      </div>
+    </section>
+    <div data-slot="next"></div>
+  </div>
+</section>
+
+<div class="page doc-end">
+  <p><strong>Hinweise zu den Entwürfen</strong></p>
+  <ul>
+    <li>Farben, Schrift, Radien und Button-Größen 1:1 aus <strong>app/assets/css/tailwind.css</strong> bzw. den Button-Varianten (cta: 48 px, Pill). Ein gefüllter Button pro Ansicht.</li>
+    <li>Bilder: Tag gt-1756 / gt-1842 / gt-1759 / gt-1757, Nacht gt-1813 / gt-1815 – alle ohne Baukräne im sichtbaren Ausschnitt. gt-1842 ist ein Listing-Foto (nur 750 px breit) und müsste für die Turm-Richtung in höherer Auflösung nachgeliefert werden.</li>
+    <li>Verfügbarkeit und Preise aus content/generated/listings.json (project = grand-tower), Stand dieses Entwurfs.</li>
+  </ul>
+</div>
+
+<script>
+  const h = document.getElementById('site-header').content
+  const n = document.getElementById('next').content
+  document.querySelectorAll('[data-slot="header"]').forEach((s) => s.replaceWith(h.cloneNode(true)))
+  document.querySelectorAll('[data-slot="next"]').forEach((s) => s.replaceWith(n.cloneNode(true)))
+  // listing cards – data from content/generated/listings.json (project grand-tower, available), sorted by price like the page
+  const units = [
+    { img: 'gt-1899-960', label: 'Kaltmiete', price: '1.290 €', unit: '/ Monat', facts: '2 Zi. · 58,2 m²', title: 'Grand Tower – L’art de vivre' },
+    { img: 'gt-1837-960', label: 'Kaltmiete', price: '1.390 €', unit: '/ Monat', facts: '2 Zi. · 66,9 m²', title: 'Wohnen Sie hoch hinaus' },
+    { img: 'm-1792-960', label: 'Kaltmiete', price: '1.780 €', unit: '/ Monat', facts: '2 Zi. · 66,7 m²', title: 'Grand Tower – L’Art de Vivre' },
+    { img: 'gt-1808-960', label: 'Kaltmiete', price: '1.950 €', unit: '/ Monat', facts: '3 Zi. · 89,1 m²', title: 'Grand Tower – L’Art de Vivre' },
+    { img: 'm-2509-960', label: 'Kaufpreis', price: '845.000 €', unit: '', facts: '3 Zi. · 89,3 m²', title: 'Grand Tower – L’Art de Vivre' },
+  ]
+  const card = (u) => `<article class="card"><div class="media"><img src="../../public/media/${u.img}.webp" alt="">
+    <div class="plinth"><span class="pl">${u.label}</span><span class="pv num">${u.price}${u.unit ? `<span class="u">${u.unit}</span>` : ''}</span></div></div>
+    <div class="body"><div class="row"><p class="place">Grand Tower</p><p class="facts-s num">${u.facts.replace(/ (Zi\.|m²)/g, '&nbsp;$1')}</p></div>
+    <p class="sub">Wohnung · Frankfurt am Main</p><h2 class="ttl"><a href="#">${u.title}</a></h2></div></article>`
+  document.querySelectorAll('[data-cards]').forEach((g) => g.insertAdjacentHTML('beforeend', units.map(card).join('')))
+  // floor ruler: 47 ticks, long tick + label every 10 floors and at 1/47
+  document.querySelectorAll('[data-ruler]').forEach((r) => {
+    let html = ''
+    for (let f = 1; f <= 47; f++) {
+      const pos = (1 - (f - 0.5) / 47) * 100
+      const major = f === 1 || f === 47 || f % 10 === 0
+      html += `<i class="${major ? 'l' : ''}" style="top:${pos}%"></i>`
+      if (major && f < 40) html += `<em style="top:${pos}%">${f}</em>`
+    }
+    r.innerHTML = html
+  })
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('[data-toggle]')) return
+    const el = document.documentElement
+    el.classList.add('anim')
+    const dark = el.classList.toggle('dark')
+    history.replaceState(null, '', dark ? '#dark' : location.pathname)
+    setTimeout(() => el.classList.remove('anim'), 350)
+  })
+  document.querySelectorAll('a[href="#"]').forEach((a) => a.addEventListener('click', (e) => e.preventDefault()))
+</script>
+</body>
+</html>

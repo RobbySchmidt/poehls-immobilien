@@ -1,0 +1,78 @@
+{
+  "slug": "grand-tower",
+  "address": "Europaallee 2, 60327 Frankfurt am Main",
+  "mood_day": "m-1665",
+  "mood_night": "gt-1814",
+  "mood_pairs": {
+    "photo": {
+      "day": "gt-1759",
+      "night": "gt-1815"
+    },
+    "band": {
+      "day": "gt-1757",
+      "night": "gt-1813"
+    }
+  },
+  "gallery_featured": [
+    "gt-1755",
+    "gt-1737",
+    "gt-1816",
+    "gt-1813"
+  ],
+  "images_from": {
+    "source": "grandtower",
+    "page": "poehls-immobilien"
+  },
+  "translations": [
+    {
+      "languages_code": "de",
+      "title": "Grand Tower Frankfurt",
+      "tagline": "Wohnen im höchsten Wohnturm Deutschlands.",
+      "intro": [
+        "Der Grand Tower im Frankfurter Europaviertel ist das höchste Wohnhochhaus Deutschlands. Hinter der Fassade mit den markanten, geschwungenen Balkonen liegen Apartments mit weitem Blick über die Stadt.",
+        "Pöhls Immobilien vermittelt im Grand Tower möblierte und unmöblierte Wohnungen zur Miete sowie ausgewählte Eigentumswohnungen."
+      ],
+      "facts": [
+        {
+          "label": "Geschosse",
+          "value": "47"
+        },
+        {
+          "label": "Fertigstellung",
+          "value": "2020"
+        },
+        {
+          "label": "Lage",
+          "value": "Europaviertel"
+        }
+      ],
+      "machine_translated": false,
+      "summary": "47 Geschosse im Frankfurter Europaviertel, fertiggestellt 2020."
+    },
+    {
+      "languages_code": "en",
+      "machine_translated": true,
+      "title": "Grand Tower Frankfurt",
+      "tagline": "Living in Germany’s tallest residential tower.",
+      "intro": [
+        "The Grand Tower in Frankfurt’s Europaviertel is Germany’s tallest residential high-rise. Behind the façade with its distinctive curved balconies are apartments with sweeping views across the city.",
+        "Pöhls Immobilien arranges furnished and unfurnished apartments to rent in the Grand Tower as well as selected apartments for sale."
+      ],
+      "facts": [
+        {
+          "label": "Storeys",
+          "value": "47"
+        },
+        {
+          "label": "Completed",
+          "value": "2020"
+        },
+        {
+          "label": "Location",
+          "value": "Europaviertel"
+        }
+      ],
+      "summary": "47 storeys in Frankfurt’s Europaviertel, completed in 2020."
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grand Tower – Galerie-Entwürfe</title>
+<script>if (location.hash === '#dark') document.documentElement.classList.add('dark')</script>
+<style>
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-ext-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* ---------- Tokens: 1:1 aus app/assets/css/tailwind.css ---------- */
+:root {
+  --background: oklch(0.995 0.002 250);
+  --foreground: oklch(0.235 0.025 250);
+  --card: oklch(1 0 0);
+  --primary: oklch(0.4 0.08 250);
+  --primary-foreground: oklch(0.99 0.003 250);
+  --secondary: oklch(0.955 0.008 250);
+  --muted: oklch(0.955 0.008 250);
+  --muted-foreground: oklch(0.46 0.025 250);
+  --accent: oklch(0.935 0.012 250);
+  --border: oklch(0.905 0.01 250);
+  --input: oklch(0.6 0.02 250);
+  --ring: oklch(0.24 0.05 250);
+  --f-lg: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --f-xl: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+  --f-2xl: clamp(1.125rem, 0.98rem + 0.75vw, 1.5rem);
+  --f-4xl: clamp(1.75rem, 1.5rem + 1.25vw, 2.25rem);
+  --sp-12: clamp(2rem, 1.25rem + 3.75vw, 3rem);
+  --sp-24: clamp(3rem, 1.5rem + 7.5vw, 6rem);
+  color-scheme: light;
+}
+.dark {
+  --background: oklch(0.175 0.018 250);
+  --foreground: oklch(0.96 0.004 250);
+  --card: oklch(0.225 0.022 250);
+  --primary: oklch(0.76 0.12 78);
+  --primary-foreground: oklch(0.2 0.03 78);
+  --secondary: oklch(0.225 0.022 250);
+  --muted: oklch(0.225 0.022 250);
+  --muted-foreground: oklch(0.76 0.018 250);
+  --accent: oklch(0.265 0.024 250);
+  --border: oklch(0.29 0.02 250);
+  --input: oklch(0.56 0.02 250);
+  --ring: oklch(0.96 0.004 250);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  background: var(--background); color: var(--foreground);
+  font-size: var(--f-lg); line-height: 1.6; -webkit-font-smoothing: antialiased;
+}
+html.anim, html.anim * { transition: background-color 300ms ease-out, color 300ms ease-out, border-color 300ms ease-out; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; }
+img { display: block; }
+.num { font-variant-numeric: lining-nums tabular-nums; }
+h1, h2, h3 { font-weight: 600; text-wrap: balance; }
+h1 { letter-spacing: -0.03em; }
+h2 { letter-spacing: -0.02em; }
+p { text-wrap: pretty; }
+.page { max-width: 80rem; margin-inline: auto; padding-inline: 2rem; width: 100%; }
+@media (max-width: 47.99rem) { .page { padding-inline: 1rem; } }
+:focus-visible { outline: 3px solid color-mix(in oklch, var(--ring) 50%, transparent); outline-offset: 2px; }
+.i { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.i-sm { width: 16px; height: 16px; }
+.only-dark { display: none; }
+.dark .only-dark { display: inline; }
+.dark .only-light { display: none; }
+
+/* ---------- Mockup chrome (not part of the design) ---------- */
+.doc-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; padding-block: 3.5rem 3rem; }
+.doc-top h1 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); line-height: 1.05; }
+.doc-top p { margin-top: 1rem; max-width: 66ch; color: var(--muted-foreground); }
+.doc-top p strong { color: var(--foreground); font-weight: 600; }
+.mode {
+  flex: none; font-size: 15px; font-weight: 600; cursor: pointer;
+  height: 44px; padding-inline: 1.25rem; border-radius: 999px; display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--background); color: var(--foreground); border: 1px solid var(--input);
+}
+.mode:hover { background: var(--accent); }
+.mode svg { width: 18px; height: 18px; }
+@media (max-width: 47.99rem) { .doc-top { flex-direction: column; gap: 1.25rem; padding-block: 2rem 1.5rem; } }
+.dir { padding-top: 4rem; }
+.dir-head { display: grid; grid-template-columns: 4fr 8fr; gap: 3rem; align-items: start; margin-bottom: 1.5rem; }
+.dir-key { font-size: 15px; font-weight: 600; color: var(--muted-foreground); }
+.dir-head h2 { font-size: var(--f-4xl); line-height: 1.1; margin-top: .25rem; }
+.dir-head .why { color: var(--muted-foreground); max-width: 70ch; }
+.dir-head .why strong { color: var(--foreground); font-weight: 600; }
+.pc { margin-top: 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: .25rem 2rem; font-size: 15px; color: var(--muted-foreground); }
+.pc b { display: block; color: var(--foreground); font-weight: 600; }
+.pc ul { padding-left: 1rem; }
+@media (max-width: 60rem) { .dir-head { grid-template-columns: 1fr; gap: .75rem; } .pc { grid-template-columns: 1fr; gap: .75rem; } }
+.dir-rec { display: inline-block; margin-left: .5rem; padding: 1px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; color: var(--foreground); border: 1px solid var(--input); vertical-align: 1px; }
+.sub-label { font-size: 14px; font-weight: 600; padding-block: 0 .75rem; color: var(--muted-foreground); }
+.sub-label [data-h] { font-weight: 400; }
+.frame { position: relative; background: var(--background); border-block: 1px solid var(--border); overflow: hidden; }
+.prev-tail { height: 56px; }
+.next-head { padding-block: 2.5rem 2.5rem; }
+.next-head h2 { font-size: var(--f-4xl); line-height: 1.1; color: var(--muted-foreground); opacity: .55; }
+.doc-end { padding-block: 4rem 5rem; color: var(--muted-foreground); font-size: 15px; }
+.doc-end ul { margin-top: .75rem; padding-left: 1.1rem; max-width: 90ch; }
+.doc-end li { margin-block: .35rem; }
+.doc-end strong { color: var(--foreground); font-weight: 600; }
+
+/* =========================================================
+   Shared gallery atoms
+   ========================================================= */
+.g-sec { --surface: var(--secondary); background: var(--secondary); padding-block: var(--sp-24); }
+.g-h2 { font-size: var(--f-4xl); line-height: 1.1; }
+.g-intro { color: var(--muted-foreground); font-size: var(--f-xl); line-height: 1.5; max-width: 60ch; }
+.g-intro + .g-intro { margin-top: .75rem; }
+.link { display: inline-flex; align-items: center; gap: .5rem; font-size: 15px; font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; text-decoration-color: var(--input); background: none; border: 0; cursor: pointer; }
+.link:hover { text-decoration-color: currentColor; color: var(--primary); }
+
+/* clickable photo – zoom cursor, gentle darkening, small corner badge on hover/focus */
+.tile { position: relative; display: block; width: 100%; height: 100%; padding: 0; border: 0; overflow: hidden; border-radius: 14px; background: var(--muted); cursor: zoom-in; }
+.tile > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: filter 200ms ease-out, transform 600ms cubic-bezier(.2,.7,.2,1); }
+.dark .tile > img { filter: brightness(.94); }
+.tile:hover > img, .tile.is-hover > img { filter: brightness(.9); transform: scale(1.015); }
+.zoom {
+  position: absolute; top: 12px; right: 12px; z-index: 2; width: 36px; height: 36px; border-radius: 999px;
+  display: grid; place-items: center; color: var(--foreground);
+  background: color-mix(in oklch, var(--background) 86%, transparent); backdrop-filter: blur(6px);
+  opacity: 0; transform: scale(.9); transition: opacity 200ms ease-out, transform 200ms ease-out;
+}
+.zoom svg { width: 16px; height: 16px; }
+.tile:hover .zoom, .tile:focus-visible .zoom, .tile.is-hover .zoom { opacity: 1; transform: none; }
+/* touch: no hover – keep the badge only where it teaches (first / large photo) */
+@media (max-width: 47.99rem) {
+  .zoom { width: 32px; height: 32px; top: 10px; right: 10px; }
+  .tile.teach .zoom { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) { .tile > img, .zoom { transition: none; } .tile:hover > img { transform: none; } }
+
+.plinth {
+  position: absolute; left: 0; bottom: 0; z-index: 1; min-width: 56%;
+  padding: .8rem 1.5rem 0 0; background: var(--surface, var(--background)); border-top-right-radius: 14px; text-align: left;
+}
+.plinth::before, .plinth::after {
+  content: ''; position: absolute; width: 14px; height: 14px;
+  background: radial-gradient(circle at 100% 0, transparent 13.5px, var(--surface, var(--background)) 14px);
+}
+.plinth::before { left: 0; top: -14px; }
+.plinth::after { left: 100%; bottom: 0; }
+.plinth .pl { display: block; font-size: 14px; line-height: 1.43; color: var(--muted-foreground); }
+.plinth .pv { display: block; white-space: nowrap; font-weight: 600; font-size: clamp(1.375rem, 1.2rem + .8vw, 1.6875rem); line-height: 1.2; letter-spacing: -0.015em; transition: color 150ms ease-out; }
+.tile:hover .plinth .pv { color: var(--primary); }
+
+.round {
+  width: 44px; height: 44px; border-radius: 999px; display: inline-grid; place-items: center; cursor: pointer;
+  background: var(--background); border: 1px solid var(--input); color: var(--foreground);
+}
+.round:hover { background: var(--accent); }
+.round[disabled] { opacity: .4; cursor: default; }
+.count { font-size: 15px; font-weight: 600; }
+.count span { color: var(--muted-foreground); font-weight: 400; }
+
+/* snap track that starts at the content edge and bleeds out to the viewport edge */
+.track {
+  --gutter: max(2rem, calc((100% - 76rem) / 2));
+  display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
+  padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); scrollbar-width: none;
+}
+.track::-webkit-scrollbar { display: none; }
+.track > * { flex: none; scroll-snap-align: start; }
+@media (max-width: 47.99rem) { .track { --gutter: 1rem; gap: 8px; } }
+.bar { position: relative; height: 2px; background: var(--border); border-radius: 2px; overflow: hidden; }
+.bar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--foreground); border-radius: 2px; transition: width 200ms ease-out, left 200ms ease-out; }
+
+/* =========================================================
+   A – Auswahl (redaktionelles Mosaik)
+   ========================================================= */
+.a-head { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1rem 4rem; align-items: start; margin-bottom: var(--sp-12); }
+.a-grid {
+  display: grid; gap: 12px; height: clamp(520px, 44vw, 640px);
+  grid-template-columns: minmax(0, 7fr) minmax(0, 2.5fr) minmax(0, 2.5fr);
+  grid-template-rows: minmax(0, 1.15fr) minmax(0, 1fr);
+}
+.a-big { grid-column: 1; grid-row: 1 / 3; }
+.a-r1 { grid-column: 2 / 4; grid-row: 1; }
+.a-r2 { grid-column: 2; grid-row: 2; }
+.a-r3 { grid-column: 3; grid-row: 2; }
+.a-foot { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.25rem; }
+.a-foot p { font-size: 15px; color: var(--muted-foreground); }
+.a-r3 .plinth { min-width: 0; padding-right: 1.25rem; }
+@media (max-width: 47.99rem) {
+  .a-head { grid-template-columns: 1fr; gap: .75rem; margin-bottom: 1.5rem; }
+  .a-grid { height: auto; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: auto auto; gap: 8px; }
+  .a-big { grid-column: 1 / -1; grid-row: 1; aspect-ratio: 4 / 3; }
+  .a-r1, .a-r2, .a-r3 { grid-column: auto; grid-row: 2; aspect-ratio: 1; }
+  .a-grid .tile { border-radius: 12px; }
+  .a-r3 .plinth { padding: .45rem .75rem 0 0; border-top-right-radius: 12px; }
+  .a-r3 .plinth .pl { display: none; }
+  .a-r3 .plinth .pv { font-size: 1.125rem; }
+  .a-foot { margin-top: 1rem; }
+  .a-foot p { display: none; }
+}
+
+/* =========================================================
+   B – Streifen (Snap-Scroller, alle 38)
+   ========================================================= */
+.b-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.5rem 4rem; align-items: end; margin-bottom: 2rem; }
+.b-head .g-h2 { margin-bottom: .75rem; }
+.b-ctl { display: flex; align-items: center; gap: .5rem; }
+.b-ctl .count { margin-right: .75rem; }
+.b-item { height: clamp(360px, 32vw, 460px); width: auto; }
+.b-item.l { aspect-ratio: 3 / 2; }
+.b-item.p { aspect-ratio: 4 / 5; }
+.b-foot { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2rem; align-items: center; margin-top: 1.5rem; }
+.b-foot .count { display: none; }
+@media (max-width: 47.99rem) {
+  .b-head { grid-template-columns: 1fr; margin-bottom: 1.5rem; }
+  .b-ctl { display: none; }
+  .b-item, .b-item.l, .b-item.p { height: auto; width: 84%; aspect-ratio: 4 / 3; }
+  .b-item.tile { border-radius: 12px; }
+  .b-foot { grid-template-columns: auto minmax(0, 1fr); gap: 1rem; margin-top: 1rem; }
+  .b-foot .count { display: block; }
+  .b-foot .link { display: none; }
+}
+
+/* =========================================================
+   C – Bühne mit Leiste
+   ========================================================= */
+.c-head { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1rem 4rem; margin-bottom: var(--sp-12); }
+.c-stage { position: relative; aspect-ratio: 2 / 1; }
+.c-stage .tile { position: absolute; inset: 0; }
+.c-stage .plinth { min-width: 0; padding: 1rem 2rem 0 0; display: flex; align-items: flex-end; gap: 2rem; }
+.c-stage .plinth .pv { font-size: var(--f-2xl); }
+.c-nav { display: flex; gap: .5rem; }
+.c-thumbs { display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 8px; margin-top: 14px; overflow-x: auto; scrollbar-width: none; padding: 3px; margin-inline: -3px; }
+.c-thumbs::-webkit-scrollbar { display: none; }
+.c-th { flex: none; width: auto; aspect-ratio: 3 / 2; border-radius: 8px; overflow: hidden; border: 0; padding: 0; cursor: pointer; position: relative; background: var(--muted); }
+.c-th img { width: 100%; height: 100%; object-fit: cover; }
+.c-th[aria-current="true"] { outline: 2px solid var(--foreground); outline-offset: 2px; }
+.c-th:not([aria-current="true"]):hover img { filter: brightness(.9); }
+.c-more { flex: none; width: auto; aspect-ratio: 3 / 2; border-radius: 8px; border: 1px solid var(--input); background: var(--background); display: grid; place-items: center; font-size: 14px; font-weight: 600; cursor: pointer; line-height: 1.2; text-align: center; }
+.c-more:hover { background: var(--accent); }
+@media (max-width: 47.99rem) {
+  .c-head { grid-template-columns: 1fr; gap: .75rem; margin-bottom: 1.5rem; }
+  .c-stage { aspect-ratio: 4 / 3; }
+  .c-stage .tile { border-radius: 12px; }
+  .c-stage .plinth { padding: .6rem 1rem 0 0; gap: 1rem; border-top-right-radius: 12px; }
+  .c-stage .plinth .pl { display: none; }
+  .c-stage .plinth .pv { font-size: 1.125rem; }
+  .c-nav { display: none; }
+  .c-thumbs { display: flex; margin-inline: -1rem; padding: 3px 1rem; }
+  .c-th, .c-more { width: 76px; border-radius: 6px; }
+  .c-more { font-size: 12px; }
+}
+
+/* =========================================================
+   D – Themen
+   ========================================================= */
+.d-head { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 1rem 4rem; margin-bottom: 2.25rem; }
+.seg { display: inline-flex; padding: 4px; gap: 2px; border-radius: 999px; background: var(--background); border: 1px solid var(--border); margin-bottom: 1.5rem; }
+.seg button { height: 40px; padding-inline: 1.125rem; border-radius: 999px; border: 0; background: none; cursor: pointer; font-size: 15px; font-weight: 600; color: var(--muted-foreground); white-space: nowrap; }
+.seg button span { margin-left: .375rem; font-weight: 400; font-variant-numeric: tabular-nums; }
+.seg button:hover { color: var(--foreground); }
+.seg button[aria-selected="true"] { background: var(--primary); color: var(--primary-foreground); }
+.seg button[aria-selected="true"] span { color: color-mix(in oklch, var(--primary-foreground) 75%, transparent); }
+.d-panel[hidden] { display: none; }
+.d-grid { display: grid; gap: 12px; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); grid-template-rows: 1fr 1fr; height: clamp(480px, 40vw, 580px); }
+.d-grid .tile:first-child { grid-row: 1 / 3; }
+.d-grid .tile.d-hide { display: none; }
+.d-foot { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 1.25rem; }
+.d-foot p { font-size: 15px; color: var(--muted-foreground); max-width: 60ch; }
+.d-foot .count { display: none; }
+@media (max-width: 47.99rem) {
+  .d-head { grid-template-columns: 1fr; gap: .75rem; margin-bottom: 1.5rem; }
+  .seg { display: flex; margin-bottom: 1rem; }
+  .seg button { flex: 1; padding-inline: .5rem; font-size: 14px; height: 38px; }
+  .seg button span { margin-left: .25rem; }
+  .d-grid { display: flex; height: auto; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; margin-inline: -1rem; padding-inline: 1rem; scroll-padding-inline: 1rem; scrollbar-width: none; }
+  .d-grid::-webkit-scrollbar { display: none; }
+  .d-grid .tile, .d-grid .tile.d-hide { display: block; flex: none; width: 84%; height: auto; aspect-ratio: 4 / 3; scroll-snap-align: start; border-radius: 12px; }
+  .d-foot p { display: none; }
+  .d-foot .count { display: block; }
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+  <symbol id="moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></symbol>
+  <symbol id="expand" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></symbol>
+  <symbol id="left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+  <symbol id="right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+  <symbol id="images" viewBox="0 0 24 24"><path d="M18 22H4a2 2 0 0 1-2-2V6"/><path d="m22 13-1.296-1.296a2.41 2.41 0 0 0-3.408 0L11 18"/><circle cx="12" cy="8" r="2"/><rect width="16" height="16" x="6" y="2" rx="2"/></symbol>
+</svg>
+
+<template id="intro">
+  <p class="g-intro">Der Grand Tower im Frankfurter Europaviertel ist das höchste Wohnhochhaus Deutschlands. Hinter der Fassade mit den markanten, geschwungenen Balkonen liegen Apartments mit weitem Blick über die Stadt.</p>
+</template>
+<template id="next">
+  <div class="page next-head"><h2>Interesse am Grand Tower?</h2></div>
+</template>
+
+<div class="page doc-top">
+  <div>
+    <h1>Grand Tower – Galerie „Eindrücke“</h1>
+    <p>Vier Richtungen für die Bildsektion auf <strong>/grand-tower</strong> statt des starren Rasters aus 12 gleichen Kacheln. Jede Richtung öffnet die bestehende <strong>Lightbox</strong> mit allen 38 Fotos. Die Sektion liegt wie heute auf <strong>bg-secondary</strong>; darunter jeweils der Anfang des nächsten Abschnitts. Unter jedem Entwurf steht die gemessene Höhe – auf dem iPhone (390 × 844) soll die Sektion höchstens ~1,5 Bildschirmhöhen einnehmen.</p>
+  </div>
+  <button class="mode" type="button" data-toggle><svg class="i only-light"><use href="#moon"/></svg><svg class="i only-dark"><use href="#sun"/></svg><span class="only-light">Nachtansicht</span><span class="only-dark">Tagansicht</span></button>
+</div>
+
+<!-- ============================ A ============================ -->
+<section class="dir" id="a" aria-labelledby="a-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung A <span class="dir-rec">Empfehlung</span></p><h2 id="a-t">Auswahl</h2></div>
+    <div>
+      <p class="why">Vier <strong>bewusst gewählte</strong> Fotos statt zwölf ähnlicher: Haus und Ausblick, eine Wohnung, ein Fassadendetail, die Stadt bei Nacht. Ein großes Bild führt, drei kleine begleiten. Die letzte Kachel trägt denselben <strong>Sockel wie die Wohnungskarten</strong> – „Alle ansehen · 38 Fotos“ – und öffnet die Lightbox. Mobil: ein großes Bild plus eine Dreierreihe.</p>
+      <div class="pc">
+        <div><b>Stärken</b><ul><li>ruhigste, „kuratierteste“ Wirkung, passt zur Titelkachel</li><li>mobil sehr kompakt, kein Wischen nötig</li><li>kein JS außer der Lightbox</li></ul></div>
+        <div><b>Schwächen</b><ul><li>zeigt ohne Klick nur 4 von 38</li><li>Auswahl muss einmal redaktionell festgelegt werden</li></ul></div>
+      </div>
+    </div>
+  </div>
+  <p class="page sub-label">A <span data-h></span></p>
+  <div class="frame">
+    <div class="prev-tail"></div>
+    <section class="g-sec" aria-labelledby="a-h">
+      <div class="page">
+        <div class="a-head">
+          <h2 class="g-h2" id="a-h">Eindrücke</h2>
+          <div data-intro></div>
+        </div>
+        <div class="a-grid">
+          <button class="tile a-big teach is-hover" type="button" data-img="gt-1755" data-size="1600" data-pos="50% 50%" aria-label="Bild 1 von 38 vergrößern"></button>
+          <button class="tile a-r1" type="button" data-img="gt-1737" data-size="960" data-pos="45% 50%" aria-label="Bild 2 von 38 vergrößern"></button>
+          <button class="tile a-r2" type="button" data-img="gt-1816" data-size="480" data-pos="50% 50%" aria-label="Bild 3 von 38 vergrößern"></button>
+          <button class="tile a-r3" type="button" data-img="gt-1813" data-size="480" data-pos="62% 50%" aria-label="Alle 38 Fotos ansehen">
+            <span class="plinth"><span class="pl">Alle ansehen</span><span class="pv num">+34</span></span>
+          </button>
+        </div>
+        <div class="a-foot">
+          <p>Hover-Zustand am großen Bild gezeigt: leichte Abdunklung, Zoom-Cursor, Badge oben rechts.</p>
+          <button class="link" type="button"><svg class="i i-sm"><use href="#images"/></svg>Alle 38 Fotos ansehen</button>
+        </div>
+      </div>
+    </section>
+    <div data-next></div>
+  </div>
+</section>
+
+<!-- ============================ B ============================ -->
+<section class="dir" id="b" aria-labelledby="b-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung B</p><h2 id="b-t">Streifen</h2></div>
+    <div>
+      <p class="why">Alle Fotos in <strong>einer Reihe</strong>, die am Inhaltsrand beginnt und bis an den Bildschirmrand läuft. Quer- und Hochformate wechseln sich ab, das gibt Rhythmus wie in einem Bildband. Desktop: Pfeile und Zähler oben rechts, dünne Fortschrittslinie darunter. Mobil: Wischen, ein Bild auf ~84 % Breite, das nächste lugt hervor.</p>
+      <div class="pc">
+        <div><b>Stärken</b><ul><li>alle 38 erreichbar, ohne die Seite zu verlassen</li><li>mobil nur eine Bildhöhe, natürliche Wischgeste</li></ul></div>
+        <div><b>Schwächen</b><ul><li>Reihenfolge der 38 muss gepflegt werden, sonst folgen ähnliche Skylines aufeinander</li><li>am Desktop wird horizontales Scrollen oft übersehen; die Lightbox kann dasselbe</li></ul></div>
+      </div>
+    </div>
+  </div>
+  <p class="page sub-label">B <span data-h></span></p>
+  <div class="frame">
+    <div class="prev-tail"></div>
+    <section class="g-sec" aria-labelledby="b-h">
+      <div class="page b-head">
+        <div>
+          <h2 class="g-h2" id="b-h">Eindrücke</h2>
+          <div data-intro></div>
+        </div>
+        <div class="b-ctl">
+          <p class="count num" data-count>01 <span>/ 38</span></p>
+          <button class="round" type="button" aria-label="Vorheriges Bild" data-prev disabled><svg class="i"><use href="#left"/></svg></button>
+          <button class="round" type="button" aria-label="Nächstes Bild" data-next-btn><svg class="i"><use href="#right"/></svg></button>
+        </div>
+      </div>
+      <div class="track" data-track="b"></div>
+      <div class="page b-foot">
+        <p class="count num" data-count>1 <span>/ 38</span></p>
+        <div class="bar"><i data-bar style="width: 18%"></i></div>
+        <button class="link" type="button"><svg class="i i-sm"><use href="#images"/></svg>Vollbild</button>
+      </div>
+    </section>
+    <div data-next></div>
+  </div>
+</section>
+
+<!-- ============================ C ============================ -->
+<section class="dir" id="c" aria-labelledby="c-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung C</p><h2 id="c-t">Bühne</h2></div>
+    <div>
+      <p class="why">Ein großes Bild im vollen <strong>2:1-Format der Fotos</strong> – nichts wird beschnitten. Zähler und Pfeile sitzen im Sockel unten links, darunter eine schmale Leiste mit Vorschaubildern. Ein Klick auf die Bühne öffnet die Lightbox an genau dieser Stelle.</p>
+      <div class="pc">
+        <div><b>Stärken</b><ul><li>größte Bildwirkung am Desktop, keine Beschnitte</li><li>mobil kompakt: ein Bild + eine Leiste</li></ul></div>
+        <div><b>Schwächen</b><ul><li>baut die Lightbox im Kleinen nach – doppelte Bedienung</li><li>kleine Vorschaubilder (76 px) sind mobil schwer zu treffen</li></ul></div>
+      </div>
+    </div>
+  </div>
+  <p class="page sub-label">C <span data-h></span></p>
+  <div class="frame">
+    <div class="prev-tail"></div>
+    <section class="g-sec" aria-labelledby="c-h">
+      <div class="page">
+        <div class="c-head">
+          <h2 class="g-h2" id="c-h">Eindrücke</h2>
+          <div data-intro></div>
+        </div>
+        <div class="c-stage">
+          <button class="tile teach" type="button" data-stage aria-label="Bild 1 von 38 vergrößern"></button>
+          <div class="plinth">
+            <div><span class="pl" data-cap>Ausblick</span><span class="pv num" data-count>01 <span style="color:var(--muted-foreground);font-weight:400">/ 38</span></span></div>
+            <div class="c-nav">
+              <button class="round" type="button" aria-label="Vorheriges Bild" data-cprev><svg class="i"><use href="#left"/></svg></button>
+              <button class="round" type="button" aria-label="Nächstes Bild" data-cnext><svg class="i"><use href="#right"/></svg></button>
+            </div>
+          </div>
+        </div>
+        <div class="c-thumbs" data-thumbs></div>
+      </div>
+    </section>
+    <div data-next></div>
+  </div>
+</section>
+
+<!-- ============================ D ============================ -->
+<section class="dir" id="d" aria-labelledby="d-t">
+  <div class="page dir-head">
+    <div><p class="dir-key">Richtung D</p><h2 id="d-t">Themen</h2></div>
+    <div>
+      <p class="why">Die 38 Fotos in <strong>drei Themen</strong> geordnet: Ausblick, Architektur, Wohnungen. Pro Thema eine kleine Komposition aus drei Bildern; der Umschalter zeigt die Anzahl. Mobil werden die drei Bilder zum Wischstreifen. Die Lightbox öffnet nur die Fotos des gewählten Themas.</p>
+      <div class="pc">
+        <div><b>Stärken</b><ul><li>beantwortet die echte Frage: „Wie sieht die Wohnung aus?“</li><li>ähnliche Skylines stören nicht, sie stehen gesammelt unter „Ausblick“</li></ul></div>
+        <div><b>Schwächen</b><ul><li>Fotos müssen im CMS einem Thema zugeordnet werden</li><li>mehr Bedienelemente, etwas weniger ruhig als A</li></ul></div>
+      </div>
+    </div>
+  </div>
+  <p class="page sub-label">D <span data-h></span></p>
+  <div class="frame">
+    <div class="prev-tail"></div>
+    <section class="g-sec" aria-labelledby="d-h">
+      <div class="page">
+        <div class="d-head">
+          <h2 class="g-h2" id="d-h">Eindrücke</h2>
+          <div data-intro></div>
+        </div>
+        <div class="seg" role="tablist" aria-label="Thema">
+          <button role="tab" type="button" aria-selected="true" data-tab="view">Ausblick<span class="num">13</span></button>
+          <button role="tab" type="button" aria-selected="false" data-tab="arch">Architektur<span class="num">19</span></button>
+          <button role="tab" type="button" aria-selected="false" data-tab="home">Wohnungen<span class="num">6</span></button>
+        </div>
+        <div data-panels></div>
+      </div>
+    </section>
+    <div data-next></div>
+  </div>
+</section>
+
+<div class="page doc-end">
+  <p><strong>Hinweise</strong></p>
+  <ul>
+    <li><strong>Bildauswahl:</strong> Die 38 Fotos sind fast alle im Format 2:1. Viele sind Dubletten: gt-1741/1742/1744/1745 (Skyline mit Westend-Turm), gt-1810/1811/1812 (Nacht von oben), gt-1814/1813/1815 (Balkon bei Dämmerung), gt-1756/1758/1764 (Turm von unten). Pro Gruppe höchstens ein Bild in der Auswahl; gt-1815 und gt-1759 bleiben der Titelkachel vorbehalten.</li>
+    <li><strong>Auswahl A:</strong> gt-1755 (Balkonschwung mit Skyline), gt-1737 (Wohnraum), gt-1816 (Fassadendetail), gt-1813 (Balkon bei Dämmerung). Fotos mit Baukran im Bild (gt-1738, gt-1810, gt-1763 …) stehen nicht vorn.</li>
+    <li><strong>Themen D:</strong> Ausblick 13 (gt-1814, 1738, 1741–1745, 1810–1813, 1755, 1815), Wohnungen 6 (gt-1737, 1739, 1740, 1746–1748), Architektur 19 (die übrigen).</li>
+    <li>Vergrößern-Hinweis überall gleich: Zoom-Cursor, leichte Abdunklung und ein kleines Badge oben rechts erst bei Hover/Fokus. Auf Touch-Geräten steht das Badge nur auf dem ersten, großen Bild – als Lernhinweis, nicht auf jeder Kachel.</li>
+    <li>Kein Text liegt auf einem Foto: Zähler und „Alle ansehen“ stehen im Sockel (utility <strong>plinth</strong> mit <strong>--surface: var(--secondary)</strong>).</li>
+  </ul>
+</div>
+
+<script>
+  const ALL = ['gt-1814','gt-1737','gt-1738','gt-1739','gt-1740','gt-1741','gt-1742','gt-1743','gt-1810','gt-1744','gt-1745','gt-1812','gt-1746','gt-1747','gt-1748','gt-1813','gt-1749','gt-1750','gt-1751','gt-1752','gt-1753','gt-1754','gt-1811','gt-1755','gt-1756','gt-1757','gt-1758','gt-1759','gt-1761','gt-1763','gt-1764','gt-1815','gt-1765','gt-1766','gt-1770','gt-1771','gt-1772','gt-1816']
+  const src = (id, s = 960) => `../../public/media/${id}-${s}.webp`
+  const zoom = '<span class="zoom" aria-hidden="true"><svg class="i"><use href="#expand"/></svg></span>'
+  const img = (id, s, pos = '50% 50%') => `<img src="${src(id, s)}" alt="" style="object-position:${pos}">`
+
+  // shared chrome
+  const intro = document.getElementById('intro').content
+  const next = document.getElementById('next').content
+  document.querySelectorAll('[data-intro]').forEach((s) => s.replaceWith(intro.cloneNode(true)))
+  document.querySelectorAll('[data-next]').forEach((s) => s.replaceWith(next.cloneNode(true)))
+
+  // A – static tiles
+  document.querySelectorAll('.a-grid .tile').forEach((t) => {
+    t.insertAdjacentHTML('afterbegin', img(t.dataset.img, t.dataset.size, t.dataset.pos) + (t.classList.contains('a-r3') ? '' : zoom))
+  })
+
+  // B – curated order of the full set: alternate subject and format so neighbours never look alike
+  const bOrder = [
+    ['gt-1755', 'l'], ['gt-1761', 'p', '40% 50%'], ['gt-1737', 'l'], ['gt-1816', 'p'], ['gt-1741', 'l'], ['gt-1754', 'p'],
+    ['gt-1747', 'l'], ['gt-1772', 'p', '45% 50%'], ['gt-1813', 'l'], ['gt-1757', 'p'], ['gt-1746', 'l'],
+  ]
+  document.querySelector('[data-track="b"]').innerHTML = bOrder.map(([id, f, pos], i) =>
+    `<button class="tile b-item ${f}${i === 0 ? ' teach' : ''}" type="button" aria-label="Bild ${i + 1} von 38 vergrößern">${img(id, 960, pos)}${zoom}</button>`).join('')
+
+  // C – stage + thumbs
+  const cSet = [
+    ['gt-1755', 'Ausblick'], ['gt-1737', 'Wohnung'], ['gt-1761', 'Architektur'], ['gt-1741', 'Ausblick'], ['gt-1816', 'Architektur'],
+    ['gt-1746', 'Wohnung'], ['gt-1813', 'Ausblick'], ['gt-1754', 'Architektur'], ['gt-1748', 'Wohnung'], ['gt-1772', 'Architektur'],
+  ]
+  let cI = 0
+  const stage = document.querySelector('[data-stage]')
+  const thumbs = document.querySelector('[data-thumbs]')
+  thumbs.innerHTML = cSet.map(([id], i) => `<button class="c-th" type="button" aria-label="Bild ${i + 1} zeigen" data-ci="${i}">${img(id, 480)}</button>`).join('') +
+    '<button class="c-more" type="button">Alle 38<br>ansehen</button>'
+  const cShow = (i) => {
+    cI = (i + cSet.length) % cSet.length
+    stage.innerHTML = `<img src="${src(cSet[cI][0], 1600)}" alt="">${zoom}`
+    const pad = String(cI + 1).padStart(2, '0')
+    document.querySelector('#c ~ * [data-cap], .c-stage [data-cap]').textContent = cSet[cI][1]
+    document.querySelector('.c-stage [data-count]').innerHTML = `${pad} <span style="color:var(--muted-foreground);font-weight:400">/ 38</span>`
+    thumbs.querySelectorAll('.c-th').forEach((b, j) => b.setAttribute('aria-current', j === cI))
+  }
+  cShow(0)
+  thumbs.addEventListener('click', (e) => { const b = e.target.closest('[data-ci]'); if (b) cShow(+b.dataset.ci) })
+  document.querySelector('[data-cprev]').onclick = () => cShow(cI - 1)
+  document.querySelector('[data-cnext]').onclick = () => cShow(cI + 1)
+
+  // D – themes
+  const themes = {
+    view: { n: 13, label: 'Ausblick', text: 'Vom Balkon über Westend, Messe und Bankenviertel – bei Tag und bei Nacht.', imgs: [['gt-1813', '60% 50%'], ['gt-1755'], ['gt-1741'], ['gt-1814']] },
+    arch: { n: 19, label: 'Architektur', text: 'Die geschwungenen Balkonbänder der Fassade – aus der Nähe und von unten.', imgs: [['gt-1757'], ['gt-1772', '50% 40%'], ['gt-1754'], ['gt-1816']] },
+    home: { n: 6, label: 'Wohnungen', text: 'Raumhohe Fenster, helle Holzböden und offene Küchen.', imgs: [['gt-1747'], ['gt-1746'], ['gt-1748'], ['gt-1739']] },
+  }
+  document.querySelector('[data-panels]').innerHTML = Object.entries(themes).map(([k, t], ti) => `
+    <div class="d-panel" role="tabpanel" data-panel="${k}" ${ti ? 'hidden' : ''}>
+      <div class="d-grid">${t.imgs.map(([id, pos], i) => `<button class="tile${i === 0 ? ' teach' : ''}${i === 3 ? ' d-hide' : ''}" type="button" aria-label="${t.label}: Bild ${i + 1} von ${t.n} vergrößern">${img(id, i ? 960 : 1600, pos)}${zoom}</button>`).join('')}</div>
+      <div class="d-foot">
+        <p>${t.text}</p>
+        <p class="count num">1 <span>/ ${t.n}</span></p>
+        <button class="link" type="button"><svg class="i i-sm"><use href="#images"/></svg>Alle ${t.n} ansehen</button>
+      </div>
+    </div>`).join('')
+  document.querySelector('.seg').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-tab]'); if (!b) return
+    document.querySelectorAll('.seg [data-tab]').forEach((x) => x.setAttribute('aria-selected', x === b))
+    document.querySelectorAll('[data-panel]').forEach((p) => { p.hidden = p.dataset.panel !== b.dataset.tab })
+  })
+
+  // B – arrows / counter / progress
+  const track = document.querySelector('[data-track="b"]')
+  const upd = () => {
+    const items = [...track.children]
+    const x = track.scrollLeft
+    let i = items.findIndex((it) => it.offsetLeft - items[0].offsetLeft >= x - 4)
+    if (i < 0) i = items.length - 1
+    document.querySelectorAll('#b ~ * [data-count], .b-ctl [data-count]')[0].innerHTML = `${String(i + 1).padStart(2, '0')} <span>/ 38</span>`
+    document.querySelector('.b-foot [data-count]').innerHTML = `${i + 1} <span>/ 38</span>`
+    const max = track.scrollWidth - track.clientWidth
+    const w = Math.max(8, (track.clientWidth / track.scrollWidth) * 100 * (items.length / 38))
+    const bar = document.querySelector('[data-bar]')
+    bar.style.width = w + '%'
+    bar.style.left = (max ? (x / max) * (100 - w) * (items.length / 38) : 0) + '%'
+    document.querySelector('[data-prev]').disabled = x < 4
+  }
+  track.addEventListener('scroll', upd, { passive: true })
+  const step = (d) => { const it = track.children[1]; track.scrollBy({ left: d * (it.offsetLeft - track.children[0].offsetLeft), behavior: 'smooth' }) }
+  document.querySelector('[data-prev]').onclick = () => step(-1)
+  document.querySelector('[data-next-btn]').onclick = () => step(1)
+
+  // measured heights of each gallery section
+  const measure = () => document.querySelectorAll('.dir').forEach((d) => {
+    const s = d.querySelector('.g-sec'); const out = d.querySelector('[data-h]')
+    if (!s || !out) return
+    const h = Math.round(s.getBoundingClientRect().height)
+    const vh = innerWidth < 768 ? 844 : 900
+    out.textContent = `– Sektionshöhe ${h} px = ${(h / vh).toFixed(2).replace('.', ',')} Bildschirmhöhen (${innerWidth < 768 ? 'iPhone 844 px' : 'Laptop 900 px'})`
+  })
+  addEventListener('load', () => { measure(); upd() }); addEventListener('resize', () => { measure(); upd() })
+  document.fonts.ready.then(measure)
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('[data-toggle]')) return
+    const el = document.documentElement
+    el.classList.add('anim')
+    const dark = el.classList.toggle('dark')
+    history.replaceState(null, '', dark ? '#dark' : location.pathname)
+    setTimeout(() => el.classList.remove('anim'), 350)
+  })
+</script>
+</body>
+</html>

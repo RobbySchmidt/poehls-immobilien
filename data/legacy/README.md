@@ -64,4 +64,6 @@ Status-Logik: `sold`/`rented` kommen aus den Archiv-Tags, `active` = erscheint a
 - Die Beschreibungen auf der Website sind sehr kurz; die ausführlichen Objektdaten stehen in den Exposé-PDFs.
 - Originalbilder sind nicht öffentlich. Für einige sehr große Originale kann Koken die Größen `huge`/`xlarge` nicht
   rendern, dort wurde automatisch auf `large` bzw. `medium_large` zurückgefallen (Feld `preset`).
+- Logo-Quelle (nicht vom Scraper geladen): `media/brand/logo-source.jpg` von
+  `https://www.poehlsimmobilien.de/storage/cache/images/000/752/Logo-ohne-Kreis-P,large.1675968992.jpg`.
 - Tote Exposé-Links auf der Live-Seite: Inserat 147 (EDEN, aktiv) und 34 (verkauft), siehe `download-errors.json`.

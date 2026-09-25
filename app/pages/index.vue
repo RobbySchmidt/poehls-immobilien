@@ -1,13 +1,18 @@
-<template>
-  <div>
-
-  </div>
-</template>
-
-<script setup>
-
+<script setup lang="ts">
+const { t } = useI18n()
+useSeoMeta({
+  description: t('seo.homeDescription'),
+})
 </script>
 
-<style scoped>
-
-</style>
+<template>
+  <div>
+    <HomeHero />
+    <HomeLatest />
+    <HomeGrandTower />
+    <HomeOwners />
+    <HomePersonal />
+    <HomeReferences />
+    <HomeContactBand />
+  </div>
+</template>

@@ -1,0 +1,20 @@
+{
+  "name": "Pöhls Immobilien",
+  "owner": "Pierre Pöhls",
+  "street": "Staffordstraße 28",
+  "zip": "63303",
+  "city": "Dreieich",
+  "phone": "+49 6103 3124633",
+  "phone_href": "tel:+4961033124633",
+  "mobile": "+49 163 6166327",
+  "mobile_href": "tel:+491636166327",
+  "email": "info@poehlsimmobilien.de",
+  "web": "www.poehlsimmobilien.de",
+  "register_court": "Amtsgericht Offenbach am Main",
+  "register_number": "HRA 42936",
+  "vat_id": "DE167572686",
+  "chamber": "Offenbach am Main",
+  "responsible": "Pierre Pöhls",
+  "portrait": "m-1987",
+  "agency": { "name": "rhowerk", "url": "https://rhowerk.de/" }
+}
