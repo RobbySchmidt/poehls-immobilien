@@ -50,12 +50,11 @@ const sub = computed(() => {
         <p v-if="facts" class="shrink-0 whitespace-nowrap text-sm tabular">{{ facts }}</p>
       </div>
       <p v-if="sub" class="mt-1 text-sm text-muted-foreground">{{ sub }}</p>
-      <component :is="`h${headingLevel}`" class="mt-2 line-clamp-2 text-sm font-normal leading-snug tracking-normal text-muted-foreground">
-        <NuxtLink
-          :to="to"
-          class="underline decoration-transparent underline-offset-4 transition-colors duration-150 after:absolute after:inset-0 after:content-[''] group-hover:text-foreground group-hover:decoration-current focus-visible:outline-none motion-reduce:transition-none"
-        >
-          {{ l.title }}
+      <!-- The link covers the whole card (z-10: above the plinth, so the notch is clickable too);
+           the listing title stays as heading and link text for screen readers only. -->
+      <component :is="`h${headingLevel}`">
+        <NuxtLink :to="to" class="absolute inset-0 z-10 rounded-[18px] focus-visible:outline-none">
+          <span class="sr-only">{{ l.title }}</span>
         </NuxtLink>
       </component>
     </div>
