@@ -5,7 +5,7 @@ const year = 2026
 
 <template>
   <footer class="dark">
-    <div class="bg-background py-f-16 text-foreground">
+    <div class="border-t border-border bg-background py-f-16 text-foreground">
       <div class="container-page grid gap-10 md:grid-cols-12">
         <div class="md:col-span-5">
           <SiteLogo />

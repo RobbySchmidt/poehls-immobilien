@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { Mail, Phone } from '@lucide/vue'
 
+const props = withDefaults(defineProps<{ surface?: 'secondary' | 'background' }>(), { surface: 'secondary' })
 const home = useHomeContent()
 const company = useCompany()
 </script>
 
 <template>
-  <section class="bg-secondary py-f-24" aria-labelledby="contact-title">
+  <section :class="props.surface === 'secondary' ? 'bg-secondary' : 'bg-background'" class="py-f-24" aria-labelledby="contact-title">
     <div class="container-page flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
       <div>
         <h2 id="contact-title" class="text-f-4xl">{{ home.contact.title }}</h2>
