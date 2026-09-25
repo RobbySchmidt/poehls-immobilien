@@ -1,0 +1,25 @@
+<script setup lang="ts">
+import { Mail, Phone } from '@lucide/vue'
+
+const home = useHomeContent()
+const company = useCompany()
+</script>
+
+<template>
+  <section class="bg-secondary py-f-24" aria-labelledby="contact-title">
+    <div class="container-page flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+      <div>
+        <h2 id="contact-title" class="text-f-4xl">{{ home.contact.title }}</h2>
+        <p class="mt-3 max-w-[48ch] text-f-xl text-muted-foreground">{{ home.contact.text }}</p>
+      </div>
+      <div class="flex flex-col gap-3 sm:flex-row">
+        <Button as-child class="h-12 rounded-full px-7 text-base">
+          <a :href="company.phone_href"><Phone class="size-4" aria-hidden="true" />Anrufen</a>
+        </Button>
+        <Button as-child variant="outline" class="h-12 rounded-full px-7 text-base">
+          <NuxtLink to="/kontakt"><Mail class="size-4" aria-hidden="true" />Nachricht schreiben</NuxtLink>
+        </Button>
+      </div>
+    </div>
+  </section>
+</template>

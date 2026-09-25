@@ -172,7 +172,8 @@
   h2 { letter-spacing: -0.02em; }
   h3 { letter-spacing: -0.01em; }
   p, li { text-wrap: pretty; }
-  .tabular { font-variant-numeric: tabular-nums; }
+  /* Schibsted's tabular figures make "." and "," as wide as a digit – lining figures read better */
+  .tabular { font-variant-numeric: lining-nums proportional-nums; }
 }
 
 /* Day/night cross-fade – the one orchestrated motion */
