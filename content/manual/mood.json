@@ -1,16 +1,39 @@
 {
-  "crop_left": { "source": "main", "page": "poehls-immobilien", "fraction": 0.255 },
+  "crop_left": {
+    "source": "main",
+    "page": "poehls-immobilien",
+    "fraction": 0.255
+  },
   "hero": {
-    "day": ["m-1514", "m-1665", "m-745"],
-    "night": ["m-703", "gt-1814", "m-707"]
+    "day": [
+      "m-1514",
+      "m-1665",
+      "m-745"
+    ],
+    "night": [
+      "m-703",
+      "gt-1814",
+      "m-707"
+    ]
   },
   "alts": {
-    "m-1514": "Frankfurter Skyline mit Hochhäusern an einem sonnigen Tag",
-    "m-1665": "Geschwungene Glasbalkone des Grand Tower mit Blick auf ein benachbartes Hochhaus und die Stadt",
-    "m-745": "Blick durch eine Häuserschlucht auf den Turm des Frankfurter Doms",
-    "m-703": "Frankfurter Skyline bei Nacht, im Main gespiegelt, rechts die Europäische Zentralbank",
-    "gt-1814": "Balkon des Grand Tower in der Abenddämmerung mit Blick über die beleuchtete Stadt",
-    "m-707": "Die Europäische Zentralbank bei Nacht mit erleuchteten Fenstern",
-    "m-1987": "Porträt von Pierre Pöhls vor der Frankfurter Skyline"
+    "de": {
+      "m-1514": "Frankfurter Skyline mit Hochhäusern an einem sonnigen Tag",
+      "m-1665": "Geschwungene Glasbalkone des Grand Tower mit Blick auf ein benachbartes Hochhaus und die Stadt",
+      "m-745": "Blick durch eine Häuserschlucht auf den Turm des Frankfurter Doms",
+      "m-703": "Frankfurter Skyline bei Nacht, im Main gespiegelt, rechts die Europäische Zentralbank",
+      "gt-1814": "Balkon des Grand Tower in der Abenddämmerung mit Blick über die beleuchtete Stadt",
+      "m-707": "Die Europäische Zentralbank bei Nacht mit erleuchteten Fenstern",
+      "m-1987": "Porträt von Pierre Pöhls vor der Frankfurter Skyline"
+    },
+    "en": {
+      "m-1514": "Frankfurt skyline with high-rise towers on a sunny day",
+      "m-1665": "Curved glass balconies of the Grand Tower with a neighbouring high-rise and the city",
+      "m-745": "View through a narrow street towards the tower of Frankfurt Cathedral",
+      "m-703": "Frankfurt skyline at night reflected in the Main, the European Central Bank on the right",
+      "gt-1814": "Grand Tower balcony at dusk overlooking the illuminated city",
+      "m-707": "The European Central Bank at night with lit windows",
+      "m-1987": "Portrait of Pierre Pöhls in front of the Frankfurt skyline"
+    }
   }
 }

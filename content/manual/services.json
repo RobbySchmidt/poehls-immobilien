@@ -1,48 +1,134 @@
 {
-  "title": "Verkaufen und vermieten mit Erfahrung",
-  "lead": "Von der Preisfindung bis zur Schlüsselübergabe – und darüber hinaus: Wir übernehmen alles, was für einen erfolgreichen Verkauf oder eine gute Vermietung nötig ist.",
-  "groups": [
+  "translations": [
     {
-      "title": "Verkauf",
-      "items": [
-        "Markteinschätzung und Preisfindung, auch als Online-Wertermittlung",
-        "Erfahrung mit dem Bieterverfahren",
-        "Energieausweis online",
-        "Beschaffung und Aufbereitung aller notwendigen Unterlagen",
-        "Ermittlung der passenden Zielgruppe",
-        "Exposé mit hochwertigen Fotos und Videoclips vom Profi-Fotografen",
-        "Erfahrung mit Home Staging",
-        "Veröffentlichung in den relevanten Portalen und auf unserer Website",
-        "Verhandlungen mit Interessenten",
-        "Begleitung des notariellen Kaufvertragsabschlusses"
-      ]
+      "languages_code": "de",
+      "title": "Verkaufen und vermieten mit Erfahrung",
+      "lead": "Von der Preisfindung bis zur Schlüsselübergabe – und darüber hinaus: Wir übernehmen alles, was für einen erfolgreichen Verkauf oder eine gute Vermietung nötig ist.",
+      "groups": [
+        {
+          "title": "Verkauf",
+          "items": [
+            "Markteinschätzung und Preisfindung, auch als Online-Wertermittlung",
+            "Erfahrung mit dem Bieterverfahren",
+            "Energieausweis online",
+            "Beschaffung und Aufbereitung aller notwendigen Unterlagen",
+            "Ermittlung der passenden Zielgruppe",
+            "Exposé mit hochwertigen Fotos und Videoclips vom Profi-Fotografen",
+            "Erfahrung mit Home Staging",
+            "Veröffentlichung in den relevanten Portalen und auf unserer Website",
+            "Verhandlungen mit Interessenten",
+            "Begleitung des notariellen Kaufvertragsabschlusses"
+          ]
+        },
+        {
+          "title": "Vermietung",
+          "items": [
+            "Vorauswahl der Interessenten",
+            "Organisation der Besichtigungstermine",
+            "Bonitätsprüfung der Interessenten",
+            "Mietvertragserstellung",
+            "Abnahme und Übergabe mit Protokoll und Fotodokumentation"
+          ]
+        },
+        {
+          "title": "Betreuung",
+          "items": [
+            "Betreuung nach Vertragsabschluss",
+            "Renovierungs- und Erhaltungsservice für Eigentümer",
+            "Organisation und Überwachung von Renovierungsmaßnahmen",
+            "Hausverwaltungen",
+            "Unterstützung bei der Klärung rechtlicher Fragen"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Bewertung",
+          "text": "Markteinschätzung und Preisfindung – auf Wunsch als Online-Wertermittlung."
+        },
+        {
+          "title": "Unterlagen & Exposé",
+          "text": "Wir beschaffen alle Unterlagen, organisieren den Energieausweis und erstellen ein Exposé mit Profi-Fotos und Videoclips."
+        },
+        {
+          "title": "Vermarktung",
+          "text": "Passende Zielgruppe, relevante Portale und unsere Website – auf Wunsch mit Home Staging oder im Bieterverfahren."
+        },
+        {
+          "title": "Besichtigung & Prüfung",
+          "text": "Vorauswahl der Interessenten, Besichtigungstermine, Verhandlungen und Bonitätsprüfung."
+        },
+        {
+          "title": "Vertrag & Übergabe",
+          "text": "Mietvertrag oder Begleitung zum Notar, Übergabe mit Protokoll und Fotodokumentation."
+        }
+      ],
+      "machine_translated": false
     },
     {
-      "title": "Vermietung",
-      "items": [
-        "Vorauswahl der Interessenten",
-        "Organisation der Besichtigungstermine",
-        "Bonitätsprüfung der Interessenten",
-        "Mietvertragserstellung",
-        "Abnahme und Übergabe mit Protokoll und Fotodokumentation"
-      ]
-    },
-    {
-      "title": "Betreuung",
-      "items": [
-        "Betreuung nach Vertragsabschluss",
-        "Renovierungs- und Erhaltungsservice für Eigentümer",
-        "Organisation und Überwachung von Renovierungsmaßnahmen",
-        "Hausverwaltungen",
-        "Unterstützung bei der Klärung rechtlicher Fragen"
+      "languages_code": "en",
+      "machine_translated": true,
+      "title": "Selling and letting with experience",
+      "lead": "From pricing to handing over the keys – and beyond: we take care of everything needed for a successful sale or a good letting.",
+      "groups": [
+        {
+          "title": "Sales",
+          "items": [
+            "Market assessment and pricing, also as an online valuation",
+            "Experience with bidding procedures",
+            "Energy performance certificate online",
+            "Obtaining and preparing all necessary documents",
+            "Identifying the right target group",
+            "Exposé with high-quality photos and video clips by a professional photographer",
+            "Experience with home staging",
+            "Publication on the relevant portals and on our website",
+            "Negotiations with prospective buyers",
+            "Support with the notarised purchase contract"
+          ]
+        },
+        {
+          "title": "Letting",
+          "items": [
+            "Pre-selection of prospective tenants",
+            "Organisation of viewings",
+            "Credit checks of prospective tenants",
+            "Drawing up the tenancy agreement",
+            "Inspection and handover with report and photo documentation"
+          ]
+        },
+        {
+          "title": "Management",
+          "items": [
+            "Support after the contract is signed",
+            "Renovation and maintenance service for owners",
+            "Organisation and supervision of renovation work",
+            "Property management",
+            "Support in clarifying legal questions"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "title": "Valuation",
+          "text": "Market assessment and pricing – as an online valuation if you wish."
+        },
+        {
+          "title": "Documents & exposé",
+          "text": "We obtain all documents, arrange the energy performance certificate and create an exposé with professional photos and video clips."
+        },
+        {
+          "title": "Marketing",
+          "text": "The right target group, relevant portals and our website – with home staging or a bidding procedure if you wish."
+        },
+        {
+          "title": "Viewings & checks",
+          "text": "Pre-selection of prospects, viewings, negotiations and credit checks."
+        },
+        {
+          "title": "Contract & handover",
+          "text": "Tenancy agreement or support at the notary, handover with report and photo documentation."
+        }
       ]
     }
-  ],
-  "steps": [
-    { "title": "Bewertung", "text": "Markteinschätzung und Preisfindung – auf Wunsch als Online-Wertermittlung." },
-    { "title": "Unterlagen & Exposé", "text": "Wir beschaffen alle Unterlagen, organisieren den Energieausweis und erstellen ein Exposé mit Profi-Fotos und Videoclips." },
-    { "title": "Vermarktung", "text": "Passende Zielgruppe, relevante Portale und unsere Website – auf Wunsch mit Home Staging oder im Bieterverfahren." },
-    { "title": "Besichtigung & Prüfung", "text": "Vorauswahl der Interessenten, Besichtigungstermine, Verhandlungen und Bonitätsprüfung." },
-    { "title": "Vertrag & Übergabe", "text": "Mietvertrag oder Begleitung zum Notar, Übergabe mit Protokoll und Fotodokumentation." }
   ]
 }

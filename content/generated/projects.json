@@ -1,27 +1,7 @@
 [
   {
     "slug": "grand-tower",
-    "title": "Grand Tower Frankfurt",
-    "tagline": "Wohnen im höchsten Wohnturm Deutschlands.",
     "address": "Europaallee 2, 60327 Frankfurt am Main",
-    "intro": [
-      "Der Grand Tower im Frankfurter Europaviertel ist das höchste Wohnhochhaus Deutschlands. Hinter der Fassade mit den markanten, geschwungenen Balkonen liegen Apartments mit weitem Blick über die Stadt.",
-      "Pöhls Immobilien vermittelt im Grand Tower möblierte und unmöblierte Wohnungen zur Miete sowie ausgewählte Eigentumswohnungen."
-    ],
-    "facts": [
-      {
-        "label": "Geschosse",
-        "value": "47"
-      },
-      {
-        "label": "Fertigstellung",
-        "value": "2020"
-      },
-      {
-        "label": "Lage",
-        "value": "Europaviertel"
-      }
-    ],
     "mood_day": "m-1665",
     "mood_night": "gt-1814",
     "mood_pairs": {
@@ -34,6 +14,56 @@
         "night": "gt-1813"
       }
     },
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Grand Tower Frankfurt",
+        "tagline": "Wohnen im höchsten Wohnturm Deutschlands.",
+        "intro": [
+          "Der Grand Tower im Frankfurter Europaviertel ist das höchste Wohnhochhaus Deutschlands. Hinter der Fassade mit den markanten, geschwungenen Balkonen liegen Apartments mit weitem Blick über die Stadt.",
+          "Pöhls Immobilien vermittelt im Grand Tower möblierte und unmöblierte Wohnungen zur Miete sowie ausgewählte Eigentumswohnungen."
+        ],
+        "facts": [
+          {
+            "label": "Geschosse",
+            "value": "47"
+          },
+          {
+            "label": "Fertigstellung",
+            "value": "2020"
+          },
+          {
+            "label": "Lage",
+            "value": "Europaviertel"
+          }
+        ],
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "machine_translated": true,
+        "title": "Grand Tower Frankfurt",
+        "tagline": "Living in Germany’s tallest residential tower.",
+        "intro": [
+          "The Grand Tower in Frankfurt’s Europaviertel is Germany’s tallest residential high-rise. Behind the façade with its distinctive curved balconies are apartments with sweeping views across the city.",
+          "Pöhls Immobilien arranges furnished and unfurnished apartments to rent in the Grand Tower as well as selected apartments for sale."
+        ],
+        "facts": [
+          {
+            "label": "Storeys",
+            "value": "47"
+          },
+          {
+            "label": "Completed",
+            "value": "2020"
+          },
+          {
+            "label": "Location",
+            "value": "Europaviertel"
+          }
+        ]
+      }
+    ],
     "images": [
       "gt-1814",
       "gt-1737",

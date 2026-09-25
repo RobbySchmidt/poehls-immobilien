@@ -7,6 +7,7 @@ import { fileId, altText } from './lib/files.mjs'
 import { cleanLegacyHtml, withAnchors } from './lib/legal.mjs'
 import { processImage, processLogo } from './lib/images.mjs'
 import { looksLikeFloorPlan, orderPhotosFirst } from './lib/floorplan.mjs'
+import { withTranslations } from './lib/translations.mjs'
 import sharp from 'sharp'
 
 const ROOT = path.resolve(import.meta.dirname, '..')
@@ -84,8 +85,8 @@ for (const id of needed) {
   const { width, height, variants } = await processImage({ input, id, outDir: MEDIA, cropLeft: cropIds.has(id) ? mood.crop_left.fraction : 0 })
   files.push({
     id,
-    title: titleFor.get(id) || mood.alts[id] || '',
-    description: mood.alts[id] || titleFor.get(id) || '',
+    title: titleFor.get(id) || mood.alts.de[id] || '',
+    description: mood.alts.de[id] || titleFor.get(id) || '',
     width, height,
     focal_point: rec.focal_point || null,
     variants,
@@ -136,6 +137,16 @@ fs.mkdirSync(path.join(ROOT, 'public', 'brand'), { recursive: true })
 await processLogo(L('media/brand/logo-source.jpg'), path.join(ROOT, 'public', 'brand', 'logo.png'))
 
 // ---- write ----
+// ---- translations (directus style) ----
+const enListings = read(path.join(ROOT, 'content', 'manual', 'translations', 'listings.en.json'))
+const missingTranslations = []
+listings = listings.map((l) => {
+  const { listing, missing } = withTranslations(l, enListings)
+  if (missing) missingTranslations.push(l.id)
+  return listing
+})
+if (missingTranslations.length) warnings.push(`missing english translation: ${missingTranslations.join(', ')}`)
+
 write('content/generated/listings.json', listings)
 write('content/generated/files.json', files.sort((a, b) => a.id.localeCompare(b.id)))
 write('content/generated/projects.json', [project])
@@ -151,6 +162,7 @@ write('content/generated/build-report.json', {
   floor_plans: plans.size,
   covers_replaced_by_photo: reordered,
   duplicates_dropped: dropped,
+  missing_translations: missingTranslations,
   warnings,
 })
 console.log(`listings ${listings.length} (dropped ${dropped.length} duplicates), files ${files.length}, warnings ${warnings.length}`)

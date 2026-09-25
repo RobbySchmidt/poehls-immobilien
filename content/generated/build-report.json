@@ -21,6 +21,7 @@
       "duplicateOf": 123
     }
   ],
+  "missing_translations": [],
   "warnings": [
     "listing 152: multiple categories miete-waz,miete-wohnung → wohnung",
     "listing 122: multiple categories kauf-12fh,kauf-rendite → haus",

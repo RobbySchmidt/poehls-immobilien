@@ -101,7 +101,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2026-07-27"
+    "date_published": "2026-07-27",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage",
+        "teaser": "Gemütliche Maisonettewohnung (3. OG und DG) in gepflegtem Altbau im Stadtteil Fechenheim.",
+        "description": "<p>Gemütliche Maisonettewohnung (3. OG und DG) in gepflegtem Altbau im Stadtteil Fechenheim.</p><p>Ruhige Wohngegend und gepflegtes Eigentümer / Mieterniveau im Hause.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Cosy maisonette in the heart of Fechenheim – for owner-occupiers or investors",
+        "teaser": "Cosy maisonette apartment (3rd floor and top floor) in a well-kept period building in the district of Fechenheim.",
+        "description": "<p>Cosy maisonette apartment (3rd floor and top floor) in a well-kept period building in the district of Fechenheim.</p><p>Quiet residential area and a well-kept community of owners and tenants within the building.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 168,
@@ -185,7 +201,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2026-04-13"
+    "date_published": "2026-04-13",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse",
+        "teaser": "Moderne 2-Zimmer-Wohnung mit Terrasse und Wintergarten in sehr gepflegtem Mehrfamilienhaus",
+        "description": "<p>Moderne 2-Zimmer-Wohnung mit Terrasse und Wintergarten in sehr gepflegtem Mehrfamilienhaus</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment on the edge of the woods with conservatory and terrace",
+        "teaser": "Modern 2-room apartment with terrace and conservatory in a very well-kept apartment building",
+        "description": "<p>Modern 2-room apartment with terrace and conservatory in a very well-kept apartment building</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 167,
@@ -277,7 +309,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2026-03-16"
+    "date_published": "2026-03-16",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main",
+        "teaser": "Mainterrassen - Moderne Wohngebäude mit gehobenem Ambiente im urban gewachsenen Wohnviertel zwischen Carl-von-Noorden-Platz und dem Mainufer.",
+        "description": "<p>Mainterrassen - Moderne Wohngebäude mit gehobenem Ambiente im urban gewachsenen Wohnviertel zwischen Carl-von-Noorden-Platz und dem Mainufer.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Mainterrassen – urban living opposite the River Main",
+        "teaser": "Mainterrassen – modern residential buildings with an upscale ambience in an established urban quarter between Carl-von-Noorden-Platz and the Main riverbank.",
+        "description": "<p>Mainterrassen – modern residential buildings with an upscale ambience in an established urban quarter between Carl-von-Noorden-Platz and the Main riverbank.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 165,
@@ -413,7 +461,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2025-09-15"
+    "date_published": "2025-09-15",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel",
+        "teaser": "Quartier Prädium - Modernes Wohngebäude im urban gewachsenen Europaviertel mit gehobenem Wohnambiente und Concierge Service.",
+        "description": "<p>Quartier Prädium - Modernes Wohngebäude im urban gewachsenen Europaviertel mit gehobenem Wohnambiente und Concierge Service.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Exclusive Quartier Prädium – urban living in the Europaviertel",
+        "teaser": "Quartier Prädium – a modern residential building in the established urban Europaviertel, with an upscale living ambience and concierge service.",
+        "description": "<p>Quartier Prädium – a modern residential building in the established urban Europaviertel, with an upscale living ambience and concierge service.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 164,
@@ -457,7 +521,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2025-07-25"
+    "date_published": "2025-07-25",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Baugrundstück für 1 Fam.-Haus in herrlicher Lage von Kelkheim-Eppenhain",
+        "teaser": "Baugrundstück mit Süd-West Ausrichtung und Hanglage im Ortskern",
+        "description": "<p>Baugrundstück mit Süd-West Ausrichtung und Hanglage im Ortskern</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Building plot for a single-family house in a delightful location in Kelkheim-Eppenhain",
+        "teaser": "Building plot with south-west orientation on a gentle slope in the village centre",
+        "description": "<p>Building plot with south-west orientation on a gentle slope in the village centre</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 162,
@@ -569,7 +649,23 @@
     },
     "project": "grand-tower",
     "featured": true,
-    "date_published": "2025-04-01"
+    "date_published": "2025-04-01",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Grand Tower – L’Art de Vivre",
+        "teaser": "Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+        "description": "<p>Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Grand Tower – L’Art de Vivre",
+        "teaser": "Grand Tower – the unique and tallest residential building in Germany",
+        "description": "<p>Grand Tower – the unique and tallest residential building in Germany</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 166,
@@ -645,7 +741,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2025-02-10"
+    "date_published": "2025-02-10",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung in bevorzugter Lage von Niederrad",
+        "teaser": "Moderne Wohnung in sehr gepflegtem Mehrfamilienhaus - beliebte Wohngegend mit guter Anbindung in der Gerauer Straße in Frankfurt-Niederrad",
+        "description": "<p>Moderne Wohnung in sehr gepflegtem Mehrfamilienhaus - beliebte Wohngegend mit guter Anbindung in der Gerauer Straße in Frankfurt-Niederrad</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment in a sought-after location in Niederrad",
+        "teaser": "Modern apartment in a very well-kept apartment building – popular residential area with good transport links, on Gerauer Straße in Frankfurt-Niederrad",
+        "description": "<p>Modern apartment in a very well-kept apartment building – popular residential area with good transport links, on Gerauer Straße in Frankfurt-Niederrad</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 158,
@@ -786,7 +898,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2024-09-27"
+    "date_published": "2024-09-27",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle",
+        "teaser": "Großzügige, gepflegte Gewerbeliegenschaft in gutem baulichen Gesamtzustand.",
+        "description": "<p>Großzügige, gepflegte Gewerbeliegenschaft in gutem baulichen Gesamtzustand.</p><p>Durch vorhandene LKW-Zufahrten ist das Eckgrundstück für verschiedene Mieter praktikabel.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Gewerbepark Meiningen – 1,200 m² unheated warehouse",
+        "teaser": "Spacious, well-maintained commercial property in good overall structural condition.",
+        "description": "<p>Spacious, well-maintained commercial property in good overall structural condition.</p><p>With its existing HGV access routes, the corner plot is practical for a variety of tenants.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 108,
@@ -918,7 +1046,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2024-09-27"
+    "date_published": "2024-09-27",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Wohnen über den Dächern Frankfurts am Museumsufer",
+        "teaser": "Moderne, großzügige Maisonette-Wohnung in begehrter Wohnlage nahe des Museumsufers",
+        "description": "<p>Moderne, großzügige Maisonette-Wohnung in begehrter Wohnlage nahe des Museumsufers</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Living above the rooftops of Frankfurt on the Museumsufer",
+        "teaser": "Modern, spacious maisonette apartment in a sought-after residential location near the Museumsufer",
+        "description": "<p>Modern, spacious maisonette apartment in a sought-after residential location near the Museumsufer</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 157,
@@ -1098,7 +1242,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2024-09-26"
+    "date_published": "2024-09-26",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe",
+        "teaser": "Großzügige, gepflegte Gewerbeliegenschaft in gutem baulichen Gesamtzustand.",
+        "description": "<p>Großzügige, gepflegte Gewerbeliegenschaft in gutem baulichen Gesamtzustand.</p><p>Auf ca. 18.500 m² Grundfläche befinden sich mehrere separate Hallengebäude und Bürobereiche in eingeschossiger Bauweise mit insgesamt ca. 11.700 m² Nutzfläche.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Gewerbepark Meiningen – storage, office and open space near the motorway",
+        "teaser": "Spacious, well-maintained commercial property in good overall structural condition.",
+        "description": "<p>Spacious, well-maintained commercial property in good overall structural condition.</p><p>The site of approx. 18,500 m² accommodates several separate single-storey hall buildings and office areas, with a total usable area of approx. 11,700 m².</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 155,
@@ -1170,7 +1330,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2024-07-27"
+    "date_published": "2024-07-27",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN-Savoir Vivre",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels.",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN-Savoir Vivre",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel.",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 154,
@@ -1346,7 +1522,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2024-07-27"
+    "date_published": "2024-07-27",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold",
+        "teaser": "Doppelhaushälfte in ruhiger Wohnlage am Ortsrand von Langenselbold. Große Sonnenterrasse mit schön angelegtem Garten auf 2 Ebenen.",
+        "description": "<p>Doppelhaushälfte in ruhiger Wohnlage am Ortsrand von Langenselbold. Große Sonnenterrasse mit schön angelegtem Garten auf 2 Ebenen.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Spacious semi-detached house on the edge of Langenselbold",
+        "teaser": "Semi-detached house in a quiet residential location on the edge of Langenselbold. Large sun terrace with an attractively landscaped garden on 2 levels.",
+        "description": "<p>Semi-detached house in a quiet residential location on the edge of Langenselbold. Large sun terrace with an attractively landscaped garden on 2 levels.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 160,
@@ -1454,7 +1646,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2024-07-26"
+    "date_published": "2024-07-26",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Großzügige Wohnung in Gravenbruch",
+        "teaser": "3-Zimmer-Eigentumswohnung in ruhiger Lage von Neu-Isenburg-Gravenbruch",
+        "description": "<p>3-Zimmer-Eigentumswohnung in ruhiger Lage von Neu-Isenburg-Gravenbruch</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Spacious apartment in Gravenbruch",
+        "teaser": "3-room apartment for sale in a quiet location in Neu-Isenburg-Gravenbruch",
+        "description": "<p>3-room apartment for sale in a quiet location in Neu-Isenburg-Gravenbruch</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 128,
@@ -1550,7 +1758,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2024-06-10"
+    "date_published": "2024-06-10",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Niederrad Waldfried – hier wohnen Sie gerne",
+        "teaser": "Moderne Wohnung mit gutem Schnitt in gepflegtem 8 Fam.-Haus",
+        "description": "<p>Moderne Wohnung mit gutem Schnitt in gepflegtem 8 Fam.-Haus</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Niederrad Waldfried – a place you will love to call home",
+        "teaser": "Modern apartment with a good layout in a well-kept building with 8 units",
+        "description": "<p>Modern apartment with a good layout in a well-kept building with 8 units</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 156,
@@ -1630,7 +1854,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2024-06-01"
+    "date_published": "2024-06-01",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "2-Zimmer-Wohnung mit schönem Fernblick",
+        "teaser": "2-Zimmer Eigentumswohnung in Maintal-Bischofsheim mit schönem Fernblick",
+        "description": "<p>2-Zimmer Eigentumswohnung in Maintal-Bischofsheim mit schönem Fernblick</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "2-room apartment with lovely distant views",
+        "teaser": "2-room apartment for sale in Maintal-Bischofsheim with lovely distant views",
+        "description": "<p>2-room apartment for sale in Maintal-Bischofsheim with lovely distant views</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 153,
@@ -1702,7 +1942,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-12-29"
+    "date_published": "2023-12-29",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN – Savoir Vivre",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN – Savoir Vivre",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 152,
@@ -1814,7 +2070,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-12-13"
+    "date_published": "2023-12-13",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN – Vollmöblierter Skylineblick aus der 26.Etage",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN – fully furnished, with skyline views from the 26th floor",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 151,
@@ -1886,7 +2158,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-10-04"
+    "date_published": "2023-10-04",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN – Savoir Vivre",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN – Savoir Vivre",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 149,
@@ -1990,7 +2278,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-08-02"
+    "date_published": "2023-08-02",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN Tower – Downtown im Grünen",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN Tower – downtown amid greenery",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 148,
@@ -2110,7 +2414,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-07-20"
+    "date_published": "2023-07-20",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN – l’art de vivre",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN – l’art de vivre",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 147,
@@ -2228,7 +2548,23 @@
     "expose": null,
     "project": null,
     "featured": true,
-    "date_published": "2023-07-20"
+    "date_published": "2023-07-20",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN – Luxuriöses Wohnambiente mit Skylineblick",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN – luxurious living ambience with skyline views",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 146,
@@ -2348,7 +2684,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-07-02"
+    "date_published": "2023-07-02",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN – Savoir Vivre",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN – Savoir Vivre",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 145,
@@ -2436,7 +2788,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-07-02"
+    "date_published": "2023-07-02",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente",
+        "teaser": "Erstbezug nach Totalsanierung mit hochmoderner Ausstattung",
+        "description": "<p>Erstbezug nach Totalsanierung mit hochmoderner Ausstattung</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "First occupancy after complete refurbishment – ultra-modern living ambience",
+        "teaser": "First occupancy after complete refurbishment, with state-of-the-art fittings",
+        "description": "<p>First occupancy after complete refurbishment, with state-of-the-art fittings</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 144,
@@ -2516,7 +2884,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-06-22"
+    "date_published": "2023-06-22",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN Tower – Grüne Insel Downtown",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN Tower – a green island downtown",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 143,
@@ -2608,7 +2992,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-06-22"
+    "date_published": "2023-06-22",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN Tower – Downtown im Grünen",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN Tower – downtown amid greenery",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 142,
@@ -2688,7 +3088,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-06-21"
+    "date_published": "2023-06-21",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "EDEN – l’art de vivre",
+        "teaser": "EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels",
+        "description": "<p>EDEN Tower - das neue architektonische Highlight mit begrünter Fassade in zentraler und exklusiver Lage des urban gewachsenen Europaviertels</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "EDEN – l’art de vivre",
+        "teaser": "EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel",
+        "description": "<p>EDEN Tower – the new architectural highlight with a green façade, in a central and exclusive location in the established urban Europaviertel</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 141,
@@ -2772,7 +3188,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-05-09"
+    "date_published": "2023-05-09",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente",
+        "teaser": "Erstbezug nach Totalsanierung mit hochmoderner Ausstattung",
+        "description": "<p>Erstbezug nach Totalsanierung mit hochmoderner Ausstattung</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "First occupancy after complete refurbishment – ultra-modern living ambience",
+        "teaser": "First occupancy after complete refurbishment, with state-of-the-art fittings",
+        "description": "<p>First occupancy after complete refurbishment, with state-of-the-art fittings</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 139,
@@ -2888,7 +3320,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-05-09"
+    "date_published": "2023-05-09",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Großzügige Dachetage – Topmodernes Wohnambiente",
+        "teaser": "Erstbezug nach Totalsanierung mit hochmoderner Ausstattung.",
+        "description": "<p>Erstbezug nach Totalsanierung mit hochmoderner Ausstattung.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Spacious top-floor apartment – ultra-modern living ambience",
+        "teaser": "First occupancy after complete refurbishment, with state-of-the-art fittings.",
+        "description": "<p>First occupancy after complete refurbishment, with state-of-the-art fittings.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 138,
@@ -2952,7 +3400,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2023-03-23"
+    "date_published": "2023-03-23",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse",
+        "teaser": "Moderne 2-Zimmer-Wohnung mit Terrasse und Wintergarten in sehr gepflegtem Mehrfamilienhaus",
+        "description": "<p>Moderne 2-Zimmer-Wohnung mit Terrasse und Wintergarten in sehr gepflegtem Mehrfamilienhaus</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment on the edge of the woods with conservatory and terrace",
+        "teaser": "Modern 2-room apartment with terrace and conservatory in a very well-kept apartment building",
+        "description": "<p>Modern 2-room apartment with terrace and conservatory in a very well-kept apartment building</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 136,
@@ -3016,7 +3480,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-03-23"
+    "date_published": "2023-03-23",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse",
+        "teaser": "Moderne 2-Zimmer-Wohnung mit Terrasse und Wintergarten in sehr gepflegtem Mehrfamilienhaus",
+        "description": "<p>Moderne 2-Zimmer-Wohnung mit Terrasse und Wintergarten in sehr gepflegtem Mehrfamilienhaus</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment on the edge of the woods with conservatory and terrace",
+        "teaser": "Modern 2-room apartment with terrace and conservatory in a very well-kept apartment building",
+        "description": "<p>Modern 2-room apartment with terrace and conservatory in a very well-kept apartment building</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 135,
@@ -3096,7 +3576,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-02-16"
+    "date_published": "2023-02-16",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Beste Adresse – 1A Citylage",
+        "teaser": "Exklusive Büroetage in topsaniertem, gepflegtem Stilaltbau in zentralster Lage von Frankfurt am Main",
+        "description": "<p>Exklusive Büroetage in topsaniertem, gepflegtem Stilaltbau in zentralster Lage von Frankfurt am Main</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Prime address – top city-centre location",
+        "teaser": "Exclusive office floor in a fully refurbished, well-kept period building in the very heart of Frankfurt am Main",
+        "description": "<p>Exclusive office floor in a fully refurbished, well-kept period building in the very heart of Frankfurt am Main</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 134,
@@ -3172,7 +3668,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2023-02-16"
+    "date_published": "2023-02-16",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Penthouse am Kirchplatz",
+        "teaser": "Penthouse mitten im begehrten Stadtteil Bockenheim gelegen. Moderner Gebäudekomplex mit schöner Parkanlage im Innenbereich",
+        "description": "<p>Penthouse mitten im begehrten Stadtteil Bockenheim gelegen. Moderner Gebäudekomplex mit schöner Parkanlage im Innenbereich</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Penthouse on Kirchplatz",
+        "teaser": "Penthouse in the heart of the sought-after district of Bockenheim. Modern building complex with attractive landscaped grounds in the inner courtyard",
+        "description": "<p>Penthouse in the heart of the sought-after district of Bockenheim. Modern building complex with attractive landscaped grounds in the inner courtyard</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 130,
@@ -3240,7 +3752,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2022-11-07"
+    "date_published": "2022-11-07",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Niederrad Waldfried – Wohnen am Stadtwald",
+        "teaser": "Moderne 2-Zimmer-Wohnung in schöner Wohngegend mit Waldrandlage",
+        "description": "<p>Moderne 2-Zimmer-Wohnung in schöner Wohngegend mit Waldrandlage</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Niederrad Waldfried – living by the Stadtwald",
+        "teaser": "Modern 2-room apartment in an attractive residential area on the edge of the woods",
+        "description": "<p>Modern 2-room apartment in an attractive residential area on the edge of the woods</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 100121,
@@ -3328,7 +3856,23 @@
     },
     "project": "grand-tower",
     "featured": true,
-    "date_published": "2022-10-14"
+    "date_published": "2022-10-14",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Grand Tower – L’art de vivre",
+        "teaser": "Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+        "description": "<p>Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands</p><p>luxuriöses und edel gestaltetes Wohnambiente</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Grand Tower – L’art de vivre",
+        "teaser": "Grand Tower – the unique and tallest residential building in Germany",
+        "description": "<p>Grand Tower – the unique and tallest residential building in Germany</p><p>Luxurious, elegantly designed living ambience</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 29,
@@ -3432,7 +3976,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2022-08-06"
+    "date_published": "2022-08-06",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung mit Terrasse und eigenem Garten",
+        "teaser": "Moderne Wohnung mit Terrasse und eigenem Garten",
+        "description": "",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment with terrace and private garden",
+        "teaser": "Modern apartment with terrace and private garden",
+        "description": "",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 131,
@@ -3480,7 +4040,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2022-07-12"
+    "date_published": "2022-07-12",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung in anspruchsvoller Wohnanlage",
+        "teaser": "Gepflegte Wohnung in modernem Gebäude mit großen Fensterflächen.",
+        "description": "<p>Gepflegte Wohnung in modernem Gebäude mit großen Fensterflächen.</p><p>Architektonisch interessante und Anspruchsvolle Wohnanlage mit parkähnlicher Außenanlage.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment in a distinguished residential complex",
+        "teaser": "Well-kept apartment in a modern building with large windows.",
+        "description": "<p>Well-kept apartment in a modern building with large windows.</p><p>Architecturally interesting, distinguished residential complex with park-like grounds.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 132,
@@ -3536,7 +4112,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2022-07-10"
+    "date_published": "2022-07-10",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Dem Rheingau gegenüber",
+        "teaser": "Großzügige und perfekt geschnittene Wohnung in modernem Gebäude am Rande des Rheingaus gelegen.",
+        "description": "<p>Großzügige und perfekt geschnittene Wohnung in modernem Gebäude am Rande des Rheingaus gelegen.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Across from the Rheingau",
+        "teaser": "Spacious apartment with an excellent layout in a modern building on the edge of the Rheingau.",
+        "description": "<p>Spacious apartment with an excellent layout in a modern building on the edge of the Rheingau.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 100119,
@@ -3632,7 +4224,23 @@
     },
     "project": "grand-tower",
     "featured": true,
-    "date_published": "2021-03-03"
+    "date_published": "2021-03-03",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Wohnen Sie hoch hinaus",
+        "teaser": "Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+        "description": "<p>Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands</p><p>luxuriöses und edel gestaltetes Wohnambiente</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Live high above it all",
+        "teaser": "Grand Tower – the unique and tallest residential building in Germany",
+        "description": "<p>Grand Tower – the unique and tallest residential building in Germany</p><p>Luxurious, elegantly designed living ambience</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 100118,
@@ -3728,7 +4336,23 @@
     },
     "project": "grand-tower",
     "featured": true,
-    "date_published": "2020-10-19"
+    "date_published": "2020-10-19",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Grand Tower – L’Art de Vivre",
+        "teaser": "- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+        "description": "<p>- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands</p><p>- luxuriöses und edel gestaltetes Wohnambiente</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Grand Tower – L’Art de Vivre",
+        "teaser": "Grand Tower – the unique and tallest residential building in Germany",
+        "description": "<p>Grand Tower – the unique and tallest residential building in Germany</p><p>Luxurious, elegantly designed living ambience</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 123,
@@ -3808,7 +4432,23 @@
     },
     "project": "grand-tower",
     "featured": true,
-    "date_published": "2020-10-14"
+    "date_published": "2020-10-14",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Grand Tower – L’Art de Vivre",
+        "teaser": "- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands",
+        "description": "<p>- Grand Tower - das einzigartige und höchste Wohngebäude Deutschlands</p><p>- luxuriöses und edel gestaltetes Wohnambiente</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Grand Tower – L’Art de Vivre",
+        "teaser": "Grand Tower – the unique and tallest residential building in Germany",
+        "description": "<p>Grand Tower – the unique and tallest residential building in Germany</p><p>Luxurious, elegantly designed living ambience</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 122,
@@ -3960,7 +4600,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2020-10-13"
+    "date_published": "2020-10-13",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Dreifamilienhaus in begehrter Westendlage",
+        "teaser": "Dreifamilienhaus in begehrter Westendlage von Neu-Isenburg mit schön eingewachsenem Gartengrundstück",
+        "description": "<p>Dreifamilienhaus in begehrter Westendlage von Neu-Isenburg mit schön eingewachsenem Gartengrundstück</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Three-family house in a sought-after Westend location",
+        "teaser": "Three-family house in the sought-after Westend area of Neu-Isenburg, with a mature garden plot",
+        "description": "<p>Three-family house in the sought-after Westend area of Neu-Isenburg, with a mature garden plot</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 172,
@@ -4105,7 +4761,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2020-08-01"
+    "date_published": "2020-08-01",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Dreifamilienhaus in ruhiger Wohnlage",
+        "teaser": "Mehrfamilienhaus mit 3 Wohneinheiten in ruhiger Wohngegend von Rödermark-Urberach",
+        "description": "<p>Mehrfamilienhaus mit 3 Wohneinheiten in ruhiger Wohngegend von Rödermark-Urberach</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Three-family house in a quiet residential location",
+        "teaser": "Multi-family house with 3 residential units in a quiet residential area of Rödermark-Urberach",
+        "description": "<p>Multi-family house with 3 residential units in a quiet residential area of Rödermark-Urberach</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 119,
@@ -4233,7 +4905,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2020-06-05"
+    "date_published": "2020-06-05",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub",
+        "teaser": "Maisonette-Wohnung in gepflegter Liegenschaft mit insgesamt 6 Wohneinheiten",
+        "description": "<p>Maisonette-Wohnung in gepflegter Liegenschaft mit insgesamt 6 Wohneinheiten</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Maisonette – Niederrad-Waldfried – feel like you are on holiday all year round",
+        "teaser": "Maisonette apartment in a well-kept property with a total of 6 residential units",
+        "description": "<p>Maisonette apartment in a well-kept property with a total of 6 residential units</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 115,
@@ -4341,7 +5029,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2020-03-19"
+    "date_published": "2020-03-19",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Ganzjahresurlaub am Rande des Taunus",
+        "teaser": "Einfamilienhaus im Kelkheimer Ortsteil Fischbach am Fuße des Taunus gelegen",
+        "description": "<p>Einfamilienhaus im Kelkheimer Ortsteil Fischbach am Fuße des Taunus gelegen</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "A year-round holiday on the edge of the Taunus",
+        "teaser": "Detached house in the Kelkheim district of Fischbach, at the foot of the Taunus",
+        "description": "<p>Detached house in the Kelkheim district of Fischbach, at the foot of the Taunus</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 114,
@@ -4449,7 +5153,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2020-03-18"
+    "date_published": "2020-03-18",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Großzügige, moderne Wohnung Nähe Messegelände",
+        "teaser": "Moderne und großzügige Wohnung im 3. Obergeschoß eines modernen Wohnhauses - zentrale und ruhige Lage von Bockenheim in unmittelbarer Nähe zum Messegelände.",
+        "description": "<p>Moderne und großzügige Wohnung im 3. Obergeschoß eines modernen Wohnhauses - zentrale und ruhige Lage von Bockenheim in unmittelbarer Nähe zum Messegelände.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Spacious, modern apartment near the trade fair grounds",
+        "teaser": "Modern, spacious apartment on the 3rd floor of a modern residential building – central, quiet location in Bockenheim, right next to the trade fair grounds.",
+        "description": "<p>Modern, spacious apartment on the 3rd floor of a modern residential building – central, quiet location in Bockenheim, right next to the trade fair grounds.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 111,
@@ -4529,7 +5249,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2020-03-09"
+    "date_published": "2020-03-09",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung – gesuchte Wohngegend – solide Kapitalanlage",
+        "teaser": "Moderne 2-Zimmer-Wohnung mit Süd-Westbalkon in schöner Wohngegend mit Waldrandlage",
+        "description": "<p>Moderne 2-Zimmer-Wohnung mit Süd-Westbalkon in schöner Wohngegend mit Waldrandlage</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment – sought-after residential area – solid investment",
+        "teaser": "Modern 2-room apartment with south-west-facing balcony in an attractive residential area on the edge of the woods",
+        "description": "<p>Modern 2-room apartment with south-west-facing balcony in an attractive residential area on the edge of the woods</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 110,
@@ -4637,7 +5373,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2020-03-09"
+    "date_published": "2020-03-09",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Einziehen und Wohlfühlen – Großzügige Wohnung Nähe Messegelände",
+        "teaser": "Komplett möblierte Wohnung im 3. Obergeschoß eines modernen Wohnhauses - zentrale und ruhige Lage von Bockenheim in unmittelbarer Nähe zum Messegelände.",
+        "description": "<p>Komplett möblierte Wohnung im 3. Obergeschoß eines modernen Wohnhauses - zentrale und ruhige Lage von Bockenheim in unmittelbarer Nähe zum Messegelände.</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Move in and feel at home – spacious apartment near the trade fair grounds",
+        "teaser": "Fully furnished apartment on the 3rd floor of a modern residential building – central, quiet location in Bockenheim, right next to the trade fair grounds.",
+        "description": "<p>Fully furnished apartment on the 3rd floor of a modern residential building – central, quiet location in Bockenheim, right next to the trade fair grounds.</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 106,
@@ -4686,7 +5438,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2019-12-11"
+    "date_published": "2019-12-11",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Gewerbeliegenschaft – Solide Kapitalanlage mit guter Rendite",
+        "teaser": "Modernisiertes Bürogebäude im Gewerbegebiet Riederwald-Seckbach",
+        "description": "<p>Modernisiertes Bürogebäude im Gewerbegebiet Riederwald-Seckbach</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Commercial property – solid investment with a good yield",
+        "teaser": "Modernised office building in the Riederwald-Seckbach commercial area",
+        "description": "<p>Modernised office building in the Riederwald-Seckbach commercial area</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 105,
@@ -4754,7 +5522,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-11-06"
+    "date_published": "2019-11-06",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Wohnen am Museumsufer",
+        "teaser": "Moderne, großzügige Wohnung in begehrter Wohnlage nahe des Museumsufers",
+        "description": "<p>Moderne, großzügige Wohnung in begehrter Wohnlage nahe des Museumsufers</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Living on the Museumsufer",
+        "teaser": "Modern, spacious apartment in a sought-after residential location near the Museumsufer",
+        "description": "<p>Modern, spacious apartment in a sought-after residential location near the Museumsufer</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 104,
@@ -4798,7 +5582,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-11-05"
+    "date_published": "2019-11-05",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Ladengeschäft in guter Lage von Niederrad",
+        "teaser": "Ladenfläche mitten in Niederrad mit durchgehender Schaufensterfront",
+        "description": "<p>Ladenfläche mitten in Niederrad mit durchgehender Schaufensterfront</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Retail unit in a good location in Niederrad",
+        "teaser": "Retail space in the heart of Niederrad with a continuous shop-window frontage",
+        "description": "<p>Retail space in the heart of Niederrad with a continuous shop-window frontage</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 103,
@@ -4837,7 +5637,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-10-12"
+    "date_published": "2019-10-12",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Bürofläche in denkmalgeschütztem Stilaltbau gegenüber Hauptbahnhof",
+        "teaser": "Repräsentative Bürofläche gegenüber dem Hauptbahnhof",
+        "description": "<p>Repräsentative Bürofläche gegenüber dem Hauptbahnhof</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Office space in a listed period building opposite the main station",
+        "teaser": "Prestigious office space opposite the main station",
+        "description": "<p>Prestigious office space opposite the main station</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 101,
@@ -4989,7 +5805,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-10-07"
+    "date_published": "2019-10-07",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Denkmalgeschütztes Haus in Topform",
+        "teaser": "Aufwendig kernsaniertes Reihenhaus unter Denkmalschutz am östlichen Rand von Dortmund",
+        "description": "<p>Aufwendig kernsaniertes Reihenhaus unter Denkmalschutz am östlichen Rand von Dortmund</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Listed house in excellent condition",
+        "teaser": "Extensively and thoroughly refurbished listed terraced house on the eastern edge of Dortmund",
+        "description": "<p>Extensively and thoroughly refurbished listed terraced house on the eastern edge of Dortmund</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 100,
@@ -5053,7 +5885,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-10-05"
+    "date_published": "2019-10-05",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Maisonette Büroräume mit schöner Terrasse",
+        "teaser": "Attraktive, lichtdurchflutete Büro- Praxisflächen auf 2 Etagen in ruhiger Hinterhoflage",
+        "description": "<p>Attraktive, lichtdurchflutete Büro- Praxisflächen auf 2 Etagen in ruhiger Hinterhoflage</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Maisonette office premises with an attractive terrace",
+        "teaser": "Attractive, light-filled office/practice space on 2 floors in a quiet rear courtyard location",
+        "description": "<p>Attractive, light-filled office/practice space on 2 floors in a quiet rear courtyard location</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 97,
@@ -5145,7 +5993,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-06-28"
+    "date_published": "2019-06-28",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung in schönem Altbau",
+        "teaser": "Moderne Wohnetage in gepflegtem Altbau mit 4 Wohnungen",
+        "description": "<p>Moderne Wohnetage in gepflegtem Altbau mit 4 Wohnungen</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment in an attractive period building",
+        "teaser": "Modern full-floor apartment in a well-kept period building with 4 apartments",
+        "description": "<p>Modern full-floor apartment in a well-kept period building with 4 apartments</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 96,
@@ -5269,7 +6133,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-06-24"
+    "date_published": "2019-06-24",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Hier machen Sie das ganze Jahr Urlaub",
+        "teaser": "Reihenmittelhaus in guter Wohngegend von Niederrad",
+        "description": "<p>Reihenmittelhaus in guter Wohngegend von Niederrad</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Feel like you are on holiday all year round",
+        "teaser": "Mid-terrace house in a good residential area of Niederrad",
+        "description": "<p>Mid-terrace house in a good residential area of Niederrad</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 92,
@@ -5389,7 +6269,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-05-20"
+    "date_published": "2019-05-20",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Einfamilienhaus mit vielen Extras in Westhofen",
+        "teaser": "Einseitig angebautes Einfamilienhaus in Wohngebiet von Schwerte-Westhofen",
+        "description": "<p>Einseitig angebautes Einfamilienhaus in Wohngebiet von Schwerte-Westhofen</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Single-family house with many extras in Westhofen",
+        "teaser": "Single-family house, attached on one side, in a residential area of Schwerte-Westhofen",
+        "description": "<p>Single-family house, attached on one side, in a residential area of Schwerte-Westhofen</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 90,
@@ -5601,7 +6497,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2019-04-30"
+    "date_published": "2019-04-30",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Ganzjahresurlaub in mediterraner Atmosphäre",
+        "teaser": "Großzügige Wohnung mit luxuriösem Ambiente und großem Gartengrundstück in begehrter Wohnlage von Frankfurt/M.-Niederrad",
+        "description": "<p>Großzügige Wohnung mit luxuriösem Ambiente und großem Gartengrundstück in begehrter Wohnlage von Frankfurt/M.-Niederrad</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "A year-round holiday in a Mediterranean atmosphere",
+        "teaser": "Spacious apartment with a luxurious ambience and a large garden plot in a sought-after residential location in Frankfurt/M.-Niederrad",
+        "description": "<p>Spacious apartment with a luxurious ambience and a large garden plot in a sought-after residential location in Frankfurt/M.-Niederrad</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 79,
@@ -5705,7 +6617,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2018-12-19"
+    "date_published": "2018-12-19",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung mit praktikablem Schnitt und Atrium-Terrasse",
+        "teaser": "Moderne 2-Zimmer-Wohnung mit Terrasse in schöner Wohngegend mit Waldrandlage",
+        "description": "<p>Moderne 2-Zimmer-Wohnung mit Terrasse in schöner Wohngegend mit Waldrandlage</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment with a practical layout and atrium terrace",
+        "teaser": "Modern 2-room apartment with terrace in an attractive residential area on the edge of the woods",
+        "description": "<p>Modern 2-room apartment with terrace in an attractive residential area on the edge of the woods</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 78,
@@ -5781,7 +6709,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2018-12-19"
+    "date_published": "2018-12-19",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Praxisetage / Büroetage in kleiner Liegenschaft – Citylage von Oberursel",
+        "teaser": "Praxisetage / Büroetage im Erdgeschoss einer kleineren Liegenschaft",
+        "description": "<p>Praxisetage / Büroetage im Erdgeschoss einer kleineren Liegenschaft</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Practice floor / office floor in a small property – central Oberursel",
+        "teaser": "Practice floor / office floor on the ground floor of a smaller property",
+        "description": "<p>Practice floor / office floor on the ground floor of a smaller property</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 77,
@@ -5865,7 +6809,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2018-12-19"
+    "date_published": "2018-12-19",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung mit guter Anbindung zu Flughafen, Bürostadt, Sportverbänden und City",
+        "teaser": "Möblierte, moderne Wohnung in sehr gepflegtem Mehrfamilienhaus mit 16 Wohnungen",
+        "description": "<p>Möblierte, moderne Wohnung in sehr gepflegtem Mehrfamilienhaus mit 16 Wohnungen</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment with good links to the airport, Bürostadt, sports associations and the city centre",
+        "teaser": "Furnished, modern apartment in a very well-kept apartment building with 16 apartments",
+        "description": "<p>Furnished, modern apartment in a very well-kept apartment building with 16 apartments</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 74,
@@ -5969,7 +6929,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2018-12-03"
+    "date_published": "2018-12-03",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse",
+        "teaser": "Moderne 2-Zimmer-Wohnung mit Terrasse, Wintergarten und Gartennutzung in schöner Wohngegend mit Waldrandlage",
+        "description": "<p>Moderne 2-Zimmer-Wohnung mit Terrasse, Wintergarten und Gartennutzung in schöner Wohngegend mit Waldrandlage</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment on the edge of the woods with conservatory and terrace",
+        "teaser": "Modern 2-room apartment with terrace, conservatory and use of the garden in an attractive residential area on the edge of the woods",
+        "description": "<p>Modern 2-room apartment with terrace, conservatory and use of the garden in an attractive residential area on the edge of the woods</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 34,
@@ -6047,7 +7023,23 @@
     "expose": null,
     "project": null,
     "featured": false,
-    "date_published": "2018-12-03"
+    "date_published": "2018-12-03",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung mit Wintergarten und Terrasse am Waldrand",
+        "teaser": "Moderne Wohnung mit Wintergarten und Terrasse am Waldrand",
+        "description": "",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment with conservatory and terrace on the edge of the woods",
+        "teaser": "Modern apartment with conservatory and terrace on the edge of the woods",
+        "description": "",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 67,
@@ -6123,7 +7115,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2018-12-01"
+    "date_published": "2018-12-01",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung mit gutem Schnitt in bevorzugter Waldrandlage",
+        "teaser": "Moderne 2-Zimmer-Wohnung mit Süd-Westbalkon in schöner Wohngegend mit Waldrandlage",
+        "description": "<p>Moderne 2-Zimmer-Wohnung mit Süd-Westbalkon in schöner Wohngegend mit Waldrandlage</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment with a good layout in a sought-after location on the edge of the woods",
+        "teaser": "Modern 2-room apartment with south-west-facing balcony in an attractive residential area on the edge of the woods",
+        "description": "<p>Modern 2-room apartment with south-west-facing balcony in an attractive residential area on the edge of the woods</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 66,
@@ -6215,7 +7223,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2018-12-01"
+    "date_published": "2018-12-01",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung mit Terrasse und Garten – verkehrsgünstig und direkt am Waldrand gelegen",
+        "teaser": "Moderne Wohnung in sehr gepflegtem Mehrfamilienhaus mit 16 Wohnungen",
+        "description": "<p>Moderne Wohnung in sehr gepflegtem Mehrfamilienhaus mit 16 Wohnungen</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment with terrace and garden – well connected and right on the edge of the woods",
+        "teaser": "Modern apartment in a very well-kept apartment building with 16 apartments",
+        "description": "<p>Modern apartment in a very well-kept apartment building with 16 apartments</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 62,
@@ -6319,7 +7343,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2018-11-27"
+    "date_published": "2018-11-27",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Ferienhaus in der Bretagne – 3 Minuten zum wunderschönen Strand von Beg Meil",
+        "teaser": "Im wunderschönen Badeort \"Beg Meil\" gelegenes, typisch bretonisches, Ferienhaus in Strandnähe",
+        "description": "<p>Im wunderschönen Badeort \"Beg Meil\" gelegenes, typisch bretonisches, Ferienhaus in Strandnähe</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Holiday home in Brittany – 3 minutes from the beautiful beach at Beg Meil",
+        "teaser": "Typical Breton holiday home close to the beach in the lovely seaside resort of \"Beg Meil\"",
+        "description": "<p>Typical Breton holiday home close to the beach in the lovely seaside resort of \"Beg Meil\"</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 61,
@@ -6391,7 +7431,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2018-11-27"
+    "date_published": "2018-11-27",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Modernes Haus in Yerres – Vorortlage von Paris",
+        "teaser": "Modernes Haus in ruhiger Wohngegend von Yerres",
+        "description": "<p>Modernes Haus in ruhiger Wohngegend von Yerres</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern house in Yerres – a suburb of Paris",
+        "teaser": "Modern house in a quiet residential area of Yerres",
+        "description": "<p>Modern house in a quiet residential area of Yerres</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 60,
@@ -6483,7 +7539,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2018-11-27"
+    "date_published": "2018-11-27",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung mit Wintergarten und Terrasse",
+        "teaser": "Moderne 2-Zimmer-Wohnung mit Terrasse und Wintergarten in schöner Wohngegend mit Waldrandlage",
+        "description": "<p>Moderne 2-Zimmer-Wohnung mit Terrasse und Wintergarten in schöner Wohngegend mit Waldrandlage</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment with conservatory and terrace",
+        "teaser": "Modern 2-room apartment with terrace and conservatory in an attractive residential area on the edge of the woods",
+        "description": "<p>Modern 2-room apartment with terrace and conservatory in an attractive residential area on the edge of the woods</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 58,
@@ -6567,7 +7639,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2018-11-15"
+    "date_published": "2018-11-15",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung in bevorzugter Lage von Niederrad",
+        "teaser": "Moderne Wohnung in sehr gepflegtem Mehrfamilienhaus - beliebte Wohngegend mit guter Anbindung in Frankfurt-Niederrad - Nähe Commerzbank-Arena / Rennbahn /…",
+        "description": "<p>Moderne Wohnung in sehr gepflegtem Mehrfamilienhaus - beliebte Wohngegend mit guter Anbindung in Frankfurt-Niederrad - Nähe Commerzbank-Arena / Rennbahn / Golfplatz / Naherholungsgebiet Stadtwald - ideale Anbindung zum Flughafen, Bürostadt und den Sportverbänden</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment in a sought-after location in Niederrad",
+        "teaser": "Modern apartment in a very well-kept apartment building – popular residential area with good transport links in Frankfurt-Niederrad – near Commerzbank-Arena /…",
+        "description": "<p>Modern apartment in a very well-kept apartment building – popular residential area with good transport links in Frankfurt-Niederrad – close to the Commerzbank-Arena / racecourse / golf course / Stadtwald recreation area – excellent links to the airport, Bürostadt and the sports associations</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 56,
@@ -6707,7 +7795,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2018-11-15"
+    "date_published": "2018-11-15",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Architektenhaus mit großem Grundstück",
+        "teaser": "Außergewöhnliches, freistehendes Einfamilienhaus in großzügiger Bauweise mit beachtlichem Raumangebot, guter Ausstattung und großem Gartengrundstück in…",
+        "description": "<p>Außergewöhnliches, freistehendes Einfamilienhaus in großzügiger Bauweise mit beachtlichem Raumangebot, guter Ausstattung und großem Gartengrundstück in attraktiver Wohngegend von Weilerbach</p>",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Architect-designed house with a large plot",
+        "teaser": "Exceptional, generously built detached house with considerable space, good fittings and a large garden plot in…",
+        "description": "<p>Exceptional, generously built detached house with considerable space, good fittings and a large garden plot in an attractive residential area of Weilerbach</p>",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 22,
@@ -6823,7 +7927,23 @@
     },
     "project": null,
     "featured": true,
-    "date_published": "2018-10-11"
+    "date_published": "2018-10-11",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Helle Büroetage / Praxisetage in kleiner Gewerbeliegenschaft in Schwalbach",
+        "teaser": "Helle Büroetage / Praxisetage in kleiner Gewerbeliegenschaft in Schwalbach",
+        "description": "",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Bright office floor / practice floor in a small commercial property in Schwalbach",
+        "teaser": "Bright office floor / practice floor in a small commercial property in Schwalbach",
+        "description": "",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 32,
@@ -6903,7 +8023,23 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2018-06-06"
+    "date_published": "2018-06-06",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Großzügige und gemütliche Dachgeschoßwohnung in bester Wohngegend auf dem Sachsenhäuser Berg",
+        "teaser": "Großzügige und gemütliche Dachgeschoßwohnung in bester Wohngegend auf dem Sachsenhäuser Berg",
+        "description": "",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Spacious and cosy top-floor apartment in a prime residential area on the Sachsenhäuser Berg",
+        "teaser": "Spacious and cosy top-floor apartment in a prime residential area on the Sachsenhäuser Berg",
+        "description": "",
+        "machine_translated": true
+      }
+    ]
   },
   {
     "id": 31,
@@ -6991,6 +8127,22 @@
     },
     "project": null,
     "featured": false,
-    "date_published": "2018-06-06"
+    "date_published": "2018-06-06",
+    "translations": [
+      {
+        "languages_code": "de",
+        "title": "Moderne Wohnung mit praktikablem Schnitt in bevorzugter Lage in Niederrad",
+        "teaser": "Moderne Wohnung mit praktikablem Schnitt in bevorzugter Lage in Niederrad",
+        "description": "",
+        "machine_translated": false
+      },
+      {
+        "languages_code": "en",
+        "title": "Modern apartment with a practical layout in a sought-after location in Niederrad",
+        "teaser": "Modern apartment with a practical layout in a sought-after location in Niederrad",
+        "description": "",
+        "machine_translated": true
+      }
+    ]
   }
 ]
