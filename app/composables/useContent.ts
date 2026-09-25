@@ -62,8 +62,9 @@ type Localized<T> = { translations: (T & { languages_code: string })[] }
 const localized = <T>(data: Localized<T>): T => pickTranslation(data.translations, useLocaleCode()) as T
 
 export const useHomeContent = () => localized(homeData as unknown as Localized<Omit<(typeof homeData)['translations'][number], 'languages_code'>>)
-export const useAboutContent = () => localized(aboutData as unknown as Localized<Omit<(typeof aboutData)['translations'][number], 'languages_code'>>)
-export const useServicesContent = () => localized(servicesData as unknown as Localized<Omit<(typeof servicesData)['translations'][number], 'languages_code'>>)
+// language-independent fields (image ids) live next to `translations`
+export const useAboutContent = () => ({ ...localized(aboutData as unknown as Localized<Omit<(typeof aboutData)['translations'][number], 'languages_code'>>), market_photo: aboutData.market_photo })
+export const useServicesContent = () => ({ ...localized(servicesData as unknown as Localized<Omit<(typeof servicesData)['translations'][number], 'languages_code'>>), photo: servicesData.photo })
 export const useLegalPage = (key: 'datenschutz' | 'agb') => (legalData as Record<string, LegalPage>)[key]!
 
 export function useHeroMood() {
