@@ -1,6 +1,7 @@
 # Deploy = upload the locally generated site:
 #   yarn content && NUXT_PUBLIC_SITE_URL=https://<site>.netlify.app yarn generate
-#   npx netlify deploy --prod --dir .output/public
+#   npx netlify-cli deploy --prod --no-build --dir .output/public
+# (--no-build: otherwise the CLI detects Nuxt, runs its own SSR build and ships a server function)
 # No build command on purpose: images (public/media) and legacy sources are gitignored,
 # a Git-triggered Netlify build would publish the site without photos.
 [build]
