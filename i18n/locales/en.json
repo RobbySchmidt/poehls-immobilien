@@ -49,7 +49,8 @@
     "breadcrumb": "Breadcrumb",
     "quickSearch": "Quick search",
     "marketingAria": "Buy or rent",
-    "typeAria": "Property type"
+    "typeAria": "Property type",
+    "perMonth": "/ month"
   },
   "listings": {
     "title": "Properties",
