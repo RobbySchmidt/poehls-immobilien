@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const a = useAboutContent()
 const company = useCompany()
 const portrait = useFile(company.portrait)
@@ -14,7 +15,7 @@ useSeoMeta({ title: a.title, description: a.lead })
       </div>
       <figure class="md:col-span-5">
         <div class="aspect-[4/5] overflow-hidden rounded-2xl"><ResponsiveImage :file="portrait" eager sizes="(min-width: 768px) 40vw, 100vw" /></div>
-        <figcaption class="mt-3 text-sm text-muted-foreground">{{ company.owner }}, Inhaber</figcaption>
+        <figcaption class="mt-3 text-sm text-muted-foreground">{{ t('about.owner', { name: company.owner }) }}</figcaption>
       </figure>
     </section>
     <section class="container-page pb-f-24">

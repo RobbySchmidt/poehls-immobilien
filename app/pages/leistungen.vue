@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { Check } from '@lucide/vue'
 
+const { t } = useI18n()
 const s = useServicesContent()
-useSeoMeta({ title: 'Leistungen', description: s.lead })
+useSeoMeta({ title: t('nav.services'), description: s.lead })
 </script>
 
 <template>
@@ -12,7 +13,7 @@ useSeoMeta({ title: 'Leistungen', description: s.lead })
       <p class="mt-4 max-w-[55ch] text-f-xl text-muted-foreground">{{ s.lead }}</p>
     </section>
 
-    <section class="container-page grid gap-f-12 pb-f-24 md:grid-cols-3" aria-label="Leistungsbereiche">
+    <section class="container-page grid gap-f-12 pb-f-24 md:grid-cols-3" :aria-label="t('services.areasAria')">
       <div v-for="g in s.groups" :key="g.title">
         <h2 class="border-b border-border pb-3 text-f-2xl">{{ g.title }}</h2>
         <ul class="mt-5 space-y-3">
@@ -23,10 +24,10 @@ useSeoMeta({ title: 'Leistungen', description: s.lead })
 
     <section class="bg-secondary py-f-24" aria-labelledby="steps-title">
       <div class="container-page">
-        <SiteSectionHeading id="steps-title" title="So läuft eine Vermarktung ab" />
+        <SiteSectionHeading id="steps-title" :title="t('services.steps')" />
         <ol class="grid gap-8 md:grid-cols-5">
           <li v-for="(step, i) in s.steps" :key="step.title" class="border-t-2 border-foreground pt-4">
-            <span class="text-sm font-semibold text-muted-foreground tabular">Schritt {{ i + 1 }}</span>
+            <span class="text-sm font-semibold text-muted-foreground tabular">{{ t('services.step', { n: i + 1 }) }}</span>
             <h3 class="mt-1 text-f-2xl">{{ step.title }}</h3>
             <p class="mt-2 text-sm text-muted-foreground">{{ step.text }}</p>
           </li>

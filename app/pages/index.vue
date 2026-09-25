@@ -1,6 +1,7 @@
 <script setup lang="ts">
+const { t } = useI18n()
 useSeoMeta({
-  description: 'Pöhls Immobilien – Kaufen, mieten und verkaufen in Frankfurt und im Rhein-Main-Gebiet. Über 35 Jahre Markterfahrung.',
+  description: t('seo.homeDescription'),
 })
 </script>
 
