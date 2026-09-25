@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "title": "Ihre Immobilie in Frankfurt und Rhein-Main.",
+    "lead": "Kaufen, mieten, verkaufen – mit über 35 Jahren Markterfahrung an Ihrer Seite."
+  },
+  "latest": {
+    "title": "Neue Angebote",
+    "intro": "Eigentumswohnungen, Häuser, Gewerbe- und Anlageobjekte – frisch im Angebot."
+  },
+  "grandTower": {
+    "kicker": "Grand Tower · Europaallee 2",
+    "title": "Wohnen im höchsten Wohnturm Deutschlands.",
+    "text": "Möblierte und unmöblierte Apartments zur Miete sowie ausgewählte Eigentumswohnungen – vermittelt und betreut von Pöhls Immobilien."
+  },
+  "owners": {
+    "title": "Sie möchten verkaufen oder vermieten?",
+    "text": "Wir schätzen Ihre Immobilie realistisch ein, bereiten sie professionell auf und finden passende Käufer oder Mieter – von der ersten Einschätzung bis zur Übergabe."
+  },
+  "personal": {
+    "title": "Persönlich betreut von Pierre Pöhls",
+    "text": "Seit über 35 Jahren begleitet Pierre Pöhls Eigentümer, Käufer und Mieter in Frankfurt und im Rhein-Main-Gebiet. Seine Beratung beginnt bei Ihrem Ziel – ob Anlage oder Eigennutzung – und stützt sich auf genaue Kenntnis des regionalen Marktes.",
+    "facts": [
+      { "value": "35+", "label": "Jahre am Frankfurter Immobilienmarkt" },
+      { "value": "15+", "label": "Jahre exklusive Betreuung ausgesuchter Wohnanlagen" },
+      { "value": "Rhein-Main", "label": "Frankfurt und die Region als Schwerpunkt" }
+    ]
+  },
+  "references": {
+    "title": "Erfolgreich vermittelt",
+    "intro": "Eine Auswahl verkaufter und vermieteter Objekte."
+  },
+  "contact": {
+    "title": "Sprechen Sie mit uns.",
+    "text": "Ob Kauf, Miete oder Verkauf – wir beraten Sie persönlich und unverbindlich."
+  }
+}

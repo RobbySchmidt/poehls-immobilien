@@ -1,0 +1,48 @@
+{
+  "title": "Verkaufen und vermieten mit Erfahrung",
+  "lead": "Von der Preisfindung bis zur Schlüsselübergabe – und darüber hinaus: Wir übernehmen alles, was für einen erfolgreichen Verkauf oder eine gute Vermietung nötig ist.",
+  "groups": [
+    {
+      "title": "Verkauf",
+      "items": [
+        "Markteinschätzung und Preisfindung, auch als Online-Wertermittlung",
+        "Erfahrung mit dem Bieterverfahren",
+        "Energieausweis online",
+        "Beschaffung und Aufbereitung aller notwendigen Unterlagen",
+        "Ermittlung der passenden Zielgruppe",
+        "Exposé mit hochwertigen Fotos und Videoclips vom Profi-Fotografen",
+        "Erfahrung mit Home Staging",
+        "Veröffentlichung in den relevanten Portalen und auf unserer Website",
+        "Verhandlungen mit Interessenten",
+        "Begleitung des notariellen Kaufvertragsabschlusses"
+      ]
+    },
+    {
+      "title": "Vermietung",
+      "items": [
+        "Vorauswahl der Interessenten",
+        "Organisation der Besichtigungstermine",
+        "Bonitätsprüfung der Interessenten",
+        "Mietvertragserstellung",
+        "Abnahme und Übergabe mit Protokoll und Fotodokumentation"
+      ]
+    },
+    {
+      "title": "Betreuung",
+      "items": [
+        "Betreuung nach Vertragsabschluss",
+        "Renovierungs- und Erhaltungsservice für Eigentümer",
+        "Organisation und Überwachung von Renovierungsmaßnahmen",
+        "Hausverwaltungen",
+        "Unterstützung bei der Klärung rechtlicher Fragen"
+      ]
+    }
+  ],
+  "steps": [
+    { "title": "Bewertung", "text": "Markteinschätzung und Preisfindung – auf Wunsch als Online-Wertermittlung." },
+    { "title": "Unterlagen & Exposé", "text": "Wir beschaffen alle Unterlagen, organisieren den Energieausweis und erstellen ein Exposé mit Profi-Fotos und Videoclips." },
+    { "title": "Vermarktung", "text": "Passende Zielgruppe, relevante Portale und unsere Website – auf Wunsch mit Home Staging oder im Bieterverfahren." },
+    { "title": "Besichtigung & Prüfung", "text": "Vorauswahl der Interessenten, Besichtigungstermine, Verhandlungen und Bonitätsprüfung." },
+    { "title": "Vertrag & Übergabe", "text": "Mietvertrag oder Begleitung zum Notar, Übergabe mit Protokoll und Fotodokumentation." }
+  ]
+}

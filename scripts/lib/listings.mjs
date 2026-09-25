@@ -99,7 +99,7 @@ export function dedupeListings(listings) {
   const byKey = new Map()
   const dropped = []
   for (const l of listings) {
-    if (!l.street) { byKey.set(Symbol('no-street'), l); continue }
+    if (!l.street || l.living_area == null || l.price == null) { byKey.set(Symbol('not-comparable'), l); continue }
     const key = `${l.street.toLowerCase()}|${l.living_area}|${l.price}`
     const prev = byKey.get(key)
     if (!prev) { byKey.set(key, l); continue }

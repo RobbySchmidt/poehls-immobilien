@@ -1,0 +1,19 @@
+{
+  "listings": 72,
+  "available": 59,
+  "sold": 7,
+  "rented": 6,
+  "grand_tower": 5,
+  "files": 1141,
+  "duplicates_dropped": [
+    {
+      "id": 100117,
+      "duplicateOf": 123
+    }
+  ],
+  "warnings": [
+    "listing 152: multiple categories miete-waz,miete-wohnung → wohnung",
+    "listing 122: multiple categories kauf-12fh,kauf-rendite → haus",
+    "listing 172: multiple categories anlage-mfmh,kauf-rendite → anlage"
+  ]
+}

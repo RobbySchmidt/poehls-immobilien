@@ -120,6 +120,11 @@ describe('dedupeListings', () => {
     const b = { id: 100117, street: 'Europaallee 2', living_area: 66.7, price: 1780, images: [1, 2] }
     expect(dedupeListings([a, b]).dropped).toEqual([{ id: 100117, duplicateOf: 123 }])
   })
+  it('never merges listings whose area or price is unknown', () => {
+    const hall = { id: 158, street: 'Versbachstraße 3-7', living_area: null, price: null, images: [1] }
+    const plot = { id: 157, street: 'Versbachstraße 3-7', living_area: null, price: null, images: [1, 2] }
+    expect(dedupeListings([plot, hall]).kept).toHaveLength(2)
+  })
   it('never merges listings without street', () => {
     const a = { id: 1, street: null, living_area: 50, price: 100, images: [] }
     const b = { id: 2, street: null, living_area: 50, price: 100, images: [] }

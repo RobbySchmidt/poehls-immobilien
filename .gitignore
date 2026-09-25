@@ -28,3 +28,6 @@ data/legacy/media/
 
 # Brainstorming mockups
 .superpowers/
+
+# Generated image variants – regenerate with: yarn content
+public/media/

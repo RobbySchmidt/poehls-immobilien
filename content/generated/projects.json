@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "grand-tower",
+    "title": "Grand Tower Frankfurt",
+    "tagline": "Wohnen im höchsten Wohnturm Deutschlands.",
+    "address": "Europaallee 2, 60327 Frankfurt am Main",
+    "intro": [
+      "Der Grand Tower im Frankfurter Europaviertel ist das höchste Wohnhochhaus Deutschlands. Hinter der Fassade mit den markanten, geschwungenen Balkonen liegen Apartments mit weitem Blick über die Stadt.",
+      "Pöhls Immobilien vermittelt im Grand Tower möblierte und unmöblierte Wohnungen zur Miete sowie ausgewählte Eigentumswohnungen."
+    ],
+    "facts": [
+      {
+        "label": "Höhe",
+        "value": "172 m",
+        "verify": true
+      },
+      {
+        "label": "Geschosse",
+        "value": "47",
+        "verify": true
+      },
+      {
+        "label": "Fertigstellung",
+        "value": "2020",
+        "verify": true
+      },
+      {
+        "label": "Lage",
+        "value": "Europaviertel"
+      }
+    ],
+    "mood_day": "m-1665",
+    "mood_night": "gt-1814",
+    "images": [
+      "gt-1814",
+      "gt-1737",
+      "gt-1738",
+      "gt-1739",
+      "gt-1740",
+      "gt-1741",
+      "gt-1742",
+      "gt-1743",
+      "gt-1810",
+      "gt-1744",
+      "gt-1745",
+      "gt-1812",
+      "gt-1746",
+      "gt-1747",
+      "gt-1748",
+      "gt-1813",
+      "gt-1749",
+      "gt-1750",
+      "gt-1751",
+      "gt-1752",
+      "gt-1753",
+      "gt-1754",
+      "gt-1811",
+      "gt-1755",
+      "gt-1756",
+      "gt-1757",
+      "gt-1758",
+      "gt-1759",
+      "gt-1761",
+      "gt-1763",
+      "gt-1764",
+      "gt-1815",
+      "gt-1765",
+      "gt-1766",
+      "gt-1770",
+      "gt-1771",
+      "gt-1772",
+      "gt-1816"
+    ]
+  }
+]
