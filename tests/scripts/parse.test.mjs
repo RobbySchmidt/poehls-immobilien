@@ -69,6 +69,13 @@ describe('cleanTitle', () => {
     expect(cleanTitle('Gemütliche Wohnung').title).toBe('Gemütliche Wohnung')
     expect(cleanTitle('Gemütlich').commissionFree).toBe(false)
   })
+  it('repairs half-spaced hyphens: dash before lowercase, joined compound before capital', () => {
+    expect(cleanTitle('EDEN- l’art de vivre').title).toBe('EDEN – l’art de vivre')
+    expect(cleanTitle('Baugrundstück in Kelkheim- Eppenhain').title).toBe('Baugrundstück in Kelkheim-Eppenhain')
+    expect(cleanTitle('EDEN-Savoir Vivre').title).toBe('EDEN-Savoir Vivre')
+    expect(cleanTitle('Lager-, Büro- und Freiflächen').title).toBe('Lager-, Büro- und Freiflächen')
+    expect(cleanTitle('Wohn- oder Geschäftshaus').title).toBe('Wohn- oder Geschäftshaus')
+  })
 })
 
 describe('isCommissionFree', () => {

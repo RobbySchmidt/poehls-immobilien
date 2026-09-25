@@ -60,7 +60,9 @@ export function cleanTitle(raw) {
   const commissionFree = isCommissionFree(t)
   t = t.replace(/\s*-\s*(provisionsfrei|ohne\s+käuferprovision)\s*$/i, '')
   t = t.replace(/[`´']/g, '’')
-  t = t.replace(/\s+-\s*/g, ' – ')
+  t = t.replace(/(\p{L})- (\p{Lu})/gu, '$1-$2') // "Kelkheim- Eppenhain": line-wrap leftover in a compound
+  // spaced hyphen → dash; "Büro- und" (suspended hyphen before a conjunction) stays
+  t = t.replace(/\s+-\s*|(?<=\S)-\s+(?!(?:und|oder|bzw\.|sowie|bis)\b)/g, ' – ')
   return { title: t.trim(), commissionFree }
 }
 
