@@ -15,8 +15,8 @@ const arts = (['wohnung', 'haus', 'gewerbe', 'grundstueck', 'anlage'] as Propert
 </script>
 
 <template>
-  <form class="flex flex-col gap-2 rounded-3xl bg-secondary p-2 sm:flex-row sm:items-center sm:rounded-full" role="search" :aria-label="t('common.quickSearch')" @submit.prevent="navigateTo(to)">
-    <SiteSegmented v-model="typ" :options="typOptions" :label="t('common.marketingAria')" tone="accent" surface="background" class="sm:w-auto" :full="true" />
+  <form class="flex flex-col gap-2 rounded-3xl bg-secondary p-2 sm:w-max sm:flex-row sm:items-center sm:rounded-full" role="search" :aria-label="t('common.quickSearch')" @submit.prevent="navigateTo(to)">
+    <SiteSegmented v-model="typ" :options="typOptions" :label="t('common.marketingAria')" tone="neutral" surface="secondary" class="sm:w-auto" :full="true" />
     <Select v-model="art">
       <SelectTrigger size="cta" class="w-full border-0 bg-background shadow-none sm:w-auto sm:min-w-44" :aria-label="t('common.typeAria')">
         <SelectValue />
@@ -26,7 +26,7 @@ const arts = (['wohnung', 'haus', 'gewerbe', 'grundstueck', 'anlage'] as Propert
         <SelectItem v-for="[key, label] in arts" :key="key" :value="key">{{ label }}</SelectItem>
       </SelectContent>
     </Select>
-    <Button type="submit" size="cta" variant="outline">
+    <Button type="submit" size="cta">
       {{ t('common.viewNOffers', { n: count }, count) }}
     </Button>
   </form>
