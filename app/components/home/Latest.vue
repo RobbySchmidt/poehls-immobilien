@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { t } = useI18n()
+const localePath = useLocalePath()
 const home = useHomeContent()
 const all = useAvailableListings()
 const latest = computed(() => sortListings(all, 'neu').slice(0, 6))
@@ -13,7 +15,7 @@ const latest = computed(() => sortListings(all, 'neu').slice(0, 6))
       </div>
       <div class="mt-f-12">
         <Button as-child size="cta">
-          <NuxtLink to="/angebote">Alle {{ all.length }} Angebote ansehen</NuxtLink>
+          <NuxtLink :to="localePath('angebote')">{{ t('common.viewAllOffers', { n: all.length }) }}</NuxtLink>
         </Button>
       </div>
     </div>

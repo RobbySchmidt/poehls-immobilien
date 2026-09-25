@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { t } = useI18n()
+const localePath = useLocalePath()
 const company = useCompany()
 const year = 2026
 </script>
@@ -14,26 +16,26 @@ const year = 2026
           </address>
         </div>
         <div class="text-sm md:col-span-4">
-          <h2 class="mb-3 text-sm font-semibold text-foreground">Kontakt</h2>
+          <h2 class="mb-3 text-sm font-semibold text-foreground">{{ t('footer.contact') }}</h2>
           <ul class="space-y-2 text-muted-foreground">
-            <li>Telefon <a :href="company.phone_href" class="text-foreground tabular hover:underline">{{ company.phone }}</a></li>
-            <li>Mobil <a :href="company.mobile_href" class="text-foreground tabular hover:underline">{{ company.mobile }}</a></li>
+            <li>{{ t('contact.phone') }} <a :href="company.phone_href" class="text-foreground tabular hover:underline">{{ company.phone }}</a></li>
+            <li>{{ t('contact.mobile') }} <a :href="company.mobile_href" class="text-foreground tabular hover:underline">{{ company.mobile }}</a></li>
             <li><a :href="`mailto:${company.email}`" class="text-foreground hover:underline">{{ company.email }}</a></li>
           </ul>
         </div>
-        <nav aria-label="Rechtliches" class="text-sm md:col-span-3">
-          <h2 class="mb-3 text-sm font-semibold text-foreground">Rechtliches</h2>
+        <nav :aria-label="t('footer.legal')" class="text-sm md:col-span-3">
+          <h2 class="mb-3 text-sm font-semibold text-foreground">{{ t('footer.legal') }}</h2>
           <ul class="space-y-2 text-muted-foreground">
-            <li><NuxtLink to="/impressum" class="hover:text-foreground hover:underline">Impressum</NuxtLink></li>
-            <li><NuxtLink to="/datenschutz" class="hover:text-foreground hover:underline">Datenschutz</NuxtLink></li>
-            <li><NuxtLink to="/agb" class="hover:text-foreground hover:underline">AGB</NuxtLink></li>
-            <li><NuxtLink to="/referenzen" class="hover:text-foreground hover:underline">Referenzen</NuxtLink></li>
+            <li><NuxtLink :to="localePath('impressum')" class="hover:text-foreground hover:underline">{{ t('legal.imprint') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath('datenschutz')" class="hover:text-foreground hover:underline">{{ t('legal.privacy') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath('agb')" class="hover:text-foreground hover:underline">{{ t('legal.terms') }}</NuxtLink></li>
+            <li><NuxtLink :to="localePath('referenzen')" class="hover:text-foreground hover:underline">{{ t('footer.references') }}</NuxtLink></li>
           </ul>
         </nav>
       </div>
       <div class="container-page mt-12 flex flex-col gap-2 border-t border-border pt-6 text-sm text-muted-foreground sm:flex-row sm:justify-between">
         <span>© {{ year }} {{ company.name }}</span>
-        <span>Konzeptentwurf von <a :href="company.agency.url" class="text-foreground hover:underline" target="_blank" rel="noopener">{{ company.agency.name }}</a></span>
+        <span>{{ t('footer.draft') }} <a :href="company.agency.url" class="text-foreground hover:underline" target="_blank" rel="noopener">{{ company.agency.name }}</a></span>
       </div>
     </div>
   </footer>

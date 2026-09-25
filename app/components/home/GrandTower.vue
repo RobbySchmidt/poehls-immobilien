@@ -1,9 +1,11 @@
 <script setup lang="ts">
+const { t } = useI18n()
+const localePath = useLocalePath()
 const home = useHomeContent()
 const project = useProject('grand-tower')!
 const units = useAvailableListings().filter((l) => l.project === 'grand-tower')
 const rents = units.filter((l) => l.marketing_type === 'miete' && l.price != null).map((l) => l.price!)
-const fromRent = rents.length ? formatEuro(Math.min(...rents)) : null
+const fromRent = rents.length ? formatEuro(Math.min(...rents), useLocaleCode()) : null
 const band = project.mood_pairs.band
 const photo = project.mood_pairs.photo
 const height = project.facts.find((f) => f.label === 'Höhe')
@@ -23,11 +25,11 @@ const height = project.facts.find((f) => f.label === 'Höhe')
           <p class="mt-4 max-w-[52ch] text-f-xl text-muted-foreground">{{ home.grandTower.text }}</p>
           <dl class="mt-8 flex flex-wrap gap-x-10 gap-y-4">
             <div v-if="height"><dt class="text-sm text-muted-foreground">{{ height.label }}</dt><dd class="text-f-2xl font-semibold tabular">{{ height.value }}</dd></div>
-            <div><dt class="text-sm text-muted-foreground">Verfügbare Wohnungen</dt><dd class="text-f-2xl font-semibold tabular">{{ units.length }}</dd></div>
-            <div v-if="fromRent"><dt class="text-sm text-muted-foreground">Miete ab</dt><dd class="text-f-2xl font-semibold tabular">{{ fromRent }}</dd></div>
+            <div><dt class="text-sm text-muted-foreground">{{ t('gt.available') }}</dt><dd class="text-f-2xl font-semibold tabular">{{ units.length }}</dd></div>
+            <div v-if="fromRent"><dt class="text-sm text-muted-foreground">{{ t('gt.rentFrom') }}</dt><dd class="text-f-2xl font-semibold tabular">{{ fromRent }}</dd></div>
           </dl>
           <Button as-child size="cta" class="mt-10">
-            <NuxtLink to="/grand-tower">Grand Tower entdecken</NuxtLink>
+            <NuxtLink :to="localePath('grand-tower')">{{ t('gt.discover') }}</NuxtLink>
           </Button>
         </div>
         <div class="aspect-[4/3] overflow-hidden rounded-2xl lg:col-span-5">

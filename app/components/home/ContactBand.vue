@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { Mail, Phone } from '@lucide/vue'
 
+const { t } = useI18n()
+const localePath = useLocalePath()
 const props = withDefaults(defineProps<{ surface?: 'secondary' | 'background' }>(), { surface: 'secondary' })
 const home = useHomeContent()
 const company = useCompany()
@@ -15,10 +17,10 @@ const company = useCompany()
       </div>
       <div class="flex flex-col gap-3 sm:flex-row">
         <Button as-child size="cta">
-          <a :href="company.phone_href"><Phone class="size-4" aria-hidden="true" />Anrufen</a>
+          <a :href="company.phone_href"><Phone class="size-4" aria-hidden="true" />{{ t('common.call') }}</a>
         </Button>
         <Button as-child variant="outline" size="cta">
-          <NuxtLink to="/kontakt"><Mail class="size-4" aria-hidden="true" />Nachricht schreiben</NuxtLink>
+          <NuxtLink :to="localePath('kontakt')"><Mail class="size-4" aria-hidden="true" />{{ t('common.writeMessage') }}</NuxtLink>
         </Button>
       </div>
     </div>

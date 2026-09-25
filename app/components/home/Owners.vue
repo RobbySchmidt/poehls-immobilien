@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { Check } from '@lucide/vue'
 
+const { t } = useI18n()
+const localePath = useLocalePath()
 const home = useHomeContent()
 const services = useServicesContent()
 </script>
@@ -13,7 +15,7 @@ const services = useServicesContent()
         <p class="mt-4 max-w-[48ch] text-f-xl text-muted-foreground">{{ home.owners.text }}</p>
         <div class="mt-8 flex flex-wrap gap-3">
           <Button as-child variant="outline" size="cta">
-            <NuxtLink to="/leistungen">Leistungen ansehen</NuxtLink>
+            <NuxtLink :to="localePath('leistungen')">{{ t('common.viewServices') }}</NuxtLink>
           </Button>
         </div>
       </div>

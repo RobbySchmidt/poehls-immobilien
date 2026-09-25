@@ -8,6 +8,7 @@ import { ChevronLeft, ChevronRight, X } from '@lucide/vue'
 import type { FileAsset } from '~/types/content'
 
 const props = defineProps<{ images: FileAsset[], title: string }>()
+const { t } = useI18n()
 const open = defineModel<boolean>('open', { default: false })
 const index = defineModel<number>('index', { default: 0 })
 
@@ -150,10 +151,10 @@ onBeforeUnmount(() => { if (timer) clearTimeout(timer) })
     <DialogPortal>
       <DialogOverlay class="lb-overlay dark" />
       <DialogContent class="lb dark" @close-auto-focus="onCloseAutoFocus" @keydown="onKeydown">
-        <DialogTitle class="sr-only">{{ title }} – Bildergalerie</DialogTitle>
+        <DialogTitle class="sr-only">{{ t('gallery.dialogTitle', { title }) }}</DialogTitle>
 
         <div ref="topRef" class="lb-top">
-          <DialogClose class="lb-btn" aria-label="Galerie schließen">
+          <DialogClose class="lb-btn" :aria-label="t('gallery.close')">
             <X class="size-5" aria-hidden="true" />
           </DialogClose>
         </div>
@@ -174,10 +175,10 @@ onBeforeUnmount(() => { if (timer) clearTimeout(timer) })
             decoding="async"
           >
           <template v-if="many">
-            <button type="button" class="lb-btn lb-side lb-side--prev" aria-label="Vorheriges Bild" @click="go(-1)">
+            <button type="button" class="lb-btn lb-side lb-side--prev" :aria-label="t('gallery.prev')" @click="go(-1)">
               <ChevronLeft class="size-5" aria-hidden="true" />
             </button>
-            <button type="button" class="lb-btn lb-side lb-side--next" aria-label="Nächstes Bild" @click="go(1)">
+            <button type="button" class="lb-btn lb-side lb-side--next" :aria-label="t('gallery.next')" @click="go(1)">
               <ChevronRight class="size-5" aria-hidden="true" />
             </button>
           </template>
@@ -185,16 +186,16 @@ onBeforeUnmount(() => { if (timer) clearTimeout(timer) })
 
         <div class="lb-foot">
           <DialogDescription as="div" class="lb-meta" aria-live="polite">
-            <span v-if="many" class="lb-count">{{ idx + 1 }} von {{ images.length }}</span>
+            <span v-if="many" class="lb-count">{{ t('gallery.count', { n: idx + 1, total: images.length }) }}</span>
             <span class="lb-cap">{{ title }}</span>
           </DialogDescription>
-          <div v-if="many" ref="stripRef" class="lb-strip" role="group" aria-label="Vorschaubilder">
+          <div v-if="many" ref="stripRef" class="lb-strip" role="group" :aria-label="t('gallery.thumbs')">
             <button
               v-for="(img, i) in images"
               :key="img.id"
               type="button"
               class="lb-thumb"
-              :aria-label="`Bild ${i + 1} zeigen`"
+              :aria-label="t('gallery.showImage', { n: i + 1 })"
               :aria-current="i === idx ? 'true' : 'false'"
               @click="go(0, i)"
             >

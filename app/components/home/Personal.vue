@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { t } = useI18n()
+const localePath = useLocalePath()
 const home = useHomeContent()
 const company = useCompany()
 const portrait = useFile(company.portrait)
@@ -20,7 +22,7 @@ const portrait = useFile(company.portrait)
             <dd class="mt-1 text-sm text-muted-foreground">{{ fact.label }}</dd>
           </div>
         </dl>
-        <NuxtLink to="/ueber-uns" class="mt-8 inline-block font-semibold text-primary underline underline-offset-4">Mehr über uns</NuxtLink>
+        <NuxtLink :to="localePath('ueber-uns')" class="mt-8 inline-block font-semibold text-primary underline underline-offset-4">{{ t('common.moreAbout') }}</NuxtLink>
       </div>
     </div>
   </section>

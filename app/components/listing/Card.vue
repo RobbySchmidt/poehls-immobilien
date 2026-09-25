@@ -4,17 +4,20 @@ import type { Listing } from '~/types/content'
 // Card "Sockel": price in a notch cut out of the photo (colour from --surface), location as headline,
 // status via the price label instead of badges. Sections on bg-secondary set [--surface:var(--secondary)].
 const props = withDefaults(defineProps<{ listing: Listing, eager?: boolean, headingLevel?: 2 | 3 | 4 }>(), { eager: false, headingLevel: 3 })
+const { t } = useI18n()
+const localePath = useLocalePath()
+const locale = useLocaleCode()
 const l = computed(() => props.listing)
 const archived = computed(() => l.value.availability !== 'available')
-const to = computed(() => `${archived.value ? '/referenzen/' : '/angebote/'}${l.value.slug}`)
+const to = computed(() => localePath({ name: archived.value ? 'referenzen-slug' : 'angebote-slug', params: { slug: l.value.slug } }))
 const cover = computed(() => useFile(l.value.cover_image))
-const price = computed(() => priceParts(l.value))
-const label = computed(() => (archived.value ? 'Referenz' : priceLabel(l.value)))
-const facts = computed(() => cardFacts(l.value))
+const price = computed(() => priceParts(l.value, locale))
+const label = computed(() => (archived.value ? t('common.reference') : priceLabel(l.value, locale)))
+const facts = computed(() => cardFacts(l.value, locale))
 const place = computed(() => (l.value.project === 'grand-tower' ? 'Grand Tower' : l.value.district ?? l.value.city ?? ''))
 const sub = computed(() => {
-  const type = l.value.property_type ? PROPERTY_TYPE_LABEL[l.value.property_type] : null
-  const where = l.value.country !== 'DE' ? locationText(l.value) : place.value === l.value.city ? null : l.value.city
+  const type = l.value.property_type ? propertyTypeLabel(l.value.property_type, locale) : null
+  const where = l.value.country !== 'DE' ? locationText(l.value, locale) : place.value === l.value.city ? null : l.value.city
   return [type, where].filter(Boolean).join(' · ')
 })
 </script>
@@ -31,7 +34,7 @@ const sub = computed(() => {
       />
       <div v-if="price" class="plinth">
         <span class="block text-sm text-muted-foreground">
-          {{ label }}<template v-if="l.commission_free && !archived"> · <span class="font-semibold text-primary">provisionsfrei</span></template>
+          {{ label }}<template v-if="l.commission_free && !archived"> · <span class="font-semibold text-primary">{{ t('common.commissionFree') }}</span></template>
         </span>
         <span
           class="block whitespace-nowrap font-semibold tabular transition-colors duration-150 group-hover:text-primary motion-reduce:transition-none"
