@@ -44,7 +44,7 @@ const openAt = (i: number) => galleryRef.value?.show(i)
             <div>
               <p class="mb-2 text-f-xl font-semibold md:hidden">{{ project.tagline }}</p>
               <p class="max-w-[60ch] text-f-xl text-muted-foreground">{{ project.summary }} {{ vacancy }}</p>
-              <button v-if="gallery.length" type="button" class="mt-3.5 inline-flex items-center gap-2 text-[15px] font-semibold underline underline-offset-4 hover:text-primary" @click="openAt(0)">
+              <button v-if="gallery.length" type="button" class="mt-3.5 inline-flex items-center gap-2 text-[15px] font-semibold underline underline-offset-4 hover:text-link" @click="openAt(0)">
                 <Images class="size-4" aria-hidden="true" />{{ t('gallery.allPhotos', { n: gallery.length }) }}
               </button>
             </div>

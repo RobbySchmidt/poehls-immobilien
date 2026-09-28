@@ -51,13 +51,13 @@ const mobileAspect = computed(() => ['', 'max-md:aspect-2/1', 'max-md:aspect-4/3
         >
           <span v-if="isMore(i)" class="plinth min-w-0 pr-5 text-left max-md:pr-3 max-md:pt-1.5">
             <span class="block text-sm text-muted-foreground max-md:hidden">{{ t('gallery.viewAll') }}</span>
-            <span class="block whitespace-nowrap text-f-3xl font-semibold tracking-[-0.015em] tabular transition-colors duration-150 group-hover:text-primary max-md:text-lg">{{ t('gallery.more', { n: rest }) }}</span>
+            <span class="block whitespace-nowrap text-f-3xl font-semibold tracking-[-0.015em] tabular transition-colors duration-150 group-hover:text-link max-md:text-lg">{{ t('gallery.more', { n: rest }) }}</span>
           </span>
         </ListingGalleryTile>
       </div>
     </div>
     <div v-if="images.length > 1" class="mt-4 flex justify-end md:mt-5">
-      <button type="button" class="inline-flex items-center gap-2 text-[15px] font-semibold underline underline-offset-4 hover:text-primary" @click="show(0)">
+      <button type="button" class="inline-flex items-center gap-2 text-[15px] font-semibold underline underline-offset-4 hover:text-link" @click="show(0)">
         <Images class="size-4" aria-hidden="true" />{{ t('gallery.allPhotos', { n: images.length }) }}
       </button>
     </div>

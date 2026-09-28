@@ -33,7 +33,7 @@ const onUpdate = (v: unknown) => { if (typeof v === 'string' && v) model.value =
       :class="[
         props.full && 'flex-1',
         props.tone === 'accent'
-          ? 'data-[state=on]:bg-primary data-[state=on]:text-primary-foreground'
+          ? 'data-[state=on]:bg-primary data-[state=on]:text-primary-foreground dark:data-[state=on]:ring-1 dark:data-[state=on]:ring-inset dark:data-[state=on]:ring-primary-foreground/20'
           : 'data-[state=on]:bg-background data-[state=on]:text-foreground data-[state=on]:shadow-sm',
       ]"
     >

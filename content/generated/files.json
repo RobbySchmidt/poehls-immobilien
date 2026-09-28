@@ -130,7 +130,7 @@
   {
     "id": "gt-1745",
     "title": "Grand Tower Frankfurt – Bild 11 von 38",
-    "description": "Grand Tower Frankfurt – Bild 11 von 38",
+    "description": "Blick über das Frankfurter Westend auf die Hochhäuser der Innenstadt an einem klaren Tag",
     "width": 1600,
     "height": 800,
     "focal_point": {
@@ -4744,7 +4744,7 @@
   {
     "id": "m-1551",
     "title": "Wohnen über den Dächern Frankfurts am Museumsufer – Bild 24 von 24",
-    "description": "Wohnen über den Dächern Frankfurts am Museumsufer – Bild 24 von 24",
+    "description": "Frankfurter Westend mit Altbauten, dahinter die Hochhäuser der Innenstadt im Abendlicht",
     "width": 2048,
     "height": 1367,
     "focal_point": {
@@ -5432,8 +5432,8 @@
     "id": "m-1670",
     "title": "Gewerbeliegenschaft – Solide Kapitalanlage mit guter Rendite – Bild 2 von 2",
     "description": "Gewerbeliegenschaft – Solide Kapitalanlage mit guter Rendite – Bild 2 von 2",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5441,7 +5441,7 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
@@ -5639,8 +5639,8 @@
     "id": "m-1683",
     "title": "Großzügige, moderne Wohnung Nähe Messegelände – Bild 6 von 18",
     "description": "Großzügige, moderne Wohnung Nähe Messegelände – Bild 6 von 18",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5648,15 +5648,15 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
     "id": "m-1684",
     "title": "Großzügige, moderne Wohnung Nähe Messegelände – Bild 9 von 18",
     "description": "Großzügige, moderne Wohnung Nähe Messegelände – Bild 9 von 18",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5664,7 +5664,7 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
@@ -5751,8 +5751,8 @@
     "id": "m-1690",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 12 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 12 von 18",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5760,15 +5760,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-1691",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 13 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 13 von 18",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5776,15 +5776,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-1692",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 14 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 14 von 18",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5792,15 +5792,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-1693",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 16 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 16 von 18",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5808,7 +5808,7 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
@@ -5831,8 +5831,8 @@
     "id": "m-1695",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 3 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 3 von 18",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5847,8 +5847,8 @@
     "id": "m-1696",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 2 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 2 von 18",
-    "width": 1024,
-    "height": 684,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5856,15 +5856,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-1697",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 15 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 15 von 18",
-    "width": 1024,
-    "height": 684,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5872,15 +5872,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-1698",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 1 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 1 von 18",
-    "width": 1024,
-    "height": 724,
+    "width": 1067,
+    "height": 754,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5888,15 +5888,15 @@
     "variants": [
       480,
       960,
-      1024
+      1067
     ]
   },
   {
     "id": "m-1699",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 18 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 18 von 18",
-    "width": 1023,
-    "height": 724,
+    "width": 1169,
+    "height": 827,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5904,15 +5904,15 @@
     "variants": [
       480,
       960,
-      1023
+      1169
     ]
   },
   {
     "id": "m-1700",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 4 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 4 von 18",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5927,8 +5927,8 @@
     "id": "m-1701",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 5 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 5 von 18",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5943,8 +5943,8 @@
     "id": "m-1702",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 6 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 6 von 18",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5959,8 +5959,8 @@
     "id": "m-1703",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 8 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 8 von 18",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5968,30 +5968,31 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-1704",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 7 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 7 von 18",
-    "width": 683,
-    "height": 1023,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      683
+      960,
+      1367
     ]
   },
   {
     "id": "m-1705",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 9 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 9 von 18",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -5999,15 +6000,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-1706",
     "title": "Ganzjahresurlaub am Rande des Taunus – Bild 10 von 18",
     "description": "Ganzjahresurlaub am Rande des Taunus – Bild 10 von 18",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6015,7 +6016,7 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
@@ -6166,8 +6167,8 @@
     "id": "m-1719",
     "title": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub – Bild 2 von 23",
     "description": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub – Bild 2 von 23",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6182,8 +6183,8 @@
     "id": "m-1720",
     "title": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub – Bild 1 von 23",
     "description": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub – Bild 1 von 23",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6214,8 +6215,8 @@
     "id": "m-1722",
     "title": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub – Bild 4 von 23",
     "description": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub – Bild 4 von 23",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6310,8 +6311,8 @@
     "id": "m-1728",
     "title": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub – Bild 10 von 23",
     "description": "Maisonette – Niederrad-Waldfried – hier machen Sie das ganze Jahr Urlaub – Bild 10 von 23",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6390,8 +6391,8 @@
     "id": "m-1756",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 27 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 27 von 29",
-    "width": 1600,
-    "height": 1069,
+    "width": 2048,
+    "height": 1368,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6406,8 +6407,8 @@
     "id": "m-1757",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 6 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 6 von 29",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6438,8 +6439,8 @@
     "id": "m-1759",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 4 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 4 von 29",
-    "width": 962,
-    "height": 1024,
+    "width": 1924,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6447,15 +6448,15 @@
     "variants": [
       480,
       960,
-      962
+      1600
     ]
   },
   {
     "id": "m-1760",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 28 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 28 von 29",
-    "width": 965,
-    "height": 1024,
+    "width": 1930,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6463,7 +6464,7 @@
     "variants": [
       480,
       960,
-      965
+      1600
     ]
   },
   {
@@ -6486,8 +6487,8 @@
     "id": "m-1762",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 29 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 29 von 29",
-    "width": 1600,
-    "height": 1270,
+    "width": 2048,
+    "height": 1625,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6502,8 +6503,8 @@
     "id": "m-1763",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 12 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 12 von 29",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6518,8 +6519,8 @@
     "id": "m-1764",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 13 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 13 von 29",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6550,8 +6551,8 @@
     "id": "m-1766",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 15 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 15 von 29",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6566,8 +6567,8 @@
     "id": "m-1767",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 16 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 16 von 29",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6582,8 +6583,8 @@
     "id": "m-1768",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 17 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 17 von 29",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6598,8 +6599,8 @@
     "id": "m-1769",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 10 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 10 von 29",
-    "width": 1600,
-    "height": 953,
+    "width": 2048,
+    "height": 1220,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6614,8 +6615,8 @@
     "id": "m-1770",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 9 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 9 von 29",
-    "width": 1024,
-    "height": 683,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6623,15 +6624,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-1771",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 11 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 11 von 29",
-    "width": 1600,
-    "height": 966,
+    "width": 2048,
+    "height": 1237,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6662,8 +6663,8 @@
     "id": "m-1773",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 18 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 18 von 29",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6678,8 +6679,8 @@
     "id": "m-1774",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 19 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 19 von 29",
-    "width": 1600,
-    "height": 985,
+    "width": 2048,
+    "height": 1260,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6694,8 +6695,8 @@
     "id": "m-1775",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 20 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 20 von 29",
-    "width": 1600,
-    "height": 1131,
+    "width": 2048,
+    "height": 1447,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6710,8 +6711,8 @@
     "id": "m-1776",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 21 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 21 von 29",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6774,8 +6775,8 @@
     "id": "m-1780",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 5 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 5 von 29",
-    "width": 1600,
-    "height": 1033,
+    "width": 2047,
+    "height": 1322,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6790,8 +6791,8 @@
     "id": "m-1781",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 25 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 25 von 29",
-    "width": 1600,
-    "height": 1030,
+    "width": 2048,
+    "height": 1318,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6822,8 +6823,8 @@
     "id": "m-1783",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 2 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 2 von 29",
-    "width": 1600,
-    "height": 1156,
+    "width": 2048,
+    "height": 1480,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6838,8 +6839,8 @@
     "id": "m-1784",
     "title": "Dreifamilienhaus in begehrter Westendlage – Bild 3 von 29",
     "description": "Dreifamilienhaus in begehrter Westendlage – Bild 3 von 29",
-    "width": 1599,
-    "height": 1039,
+    "width": 2047,
+    "height": 1330,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6847,7 +6848,7 @@
     "variants": [
       480,
       960,
-      1599
+      1600
     ]
   },
   {
@@ -6934,8 +6935,8 @@
     "id": "m-1790",
     "title": "Grand Tower – L’Art de Vivre – Bild 11 von 11",
     "description": "Grand Tower – L’Art de Vivre – Bild 11 von 11",
-    "width": 1165,
-    "height": 1600,
+    "width": 1169,
+    "height": 1606,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -6943,7 +6944,7 @@
     "variants": [
       480,
       960,
-      1165
+      1169
     ]
   },
   {
@@ -6998,8 +6999,8 @@
     "id": "m-1794",
     "title": "Grand Tower – L’Art de Vivre – Bild 4 von 11",
     "description": "Grand Tower – L’Art de Vivre – Bild 4 von 11",
-    "width": 1599,
-    "height": 1216,
+    "width": 2048,
+    "height": 1557,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7007,7 +7008,7 @@
     "variants": [
       480,
       960,
-      1599
+      1600
     ]
   },
   {
@@ -7030,8 +7031,8 @@
     "id": "m-1911",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 2 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 2 von 21",
-    "width": 1024,
-    "height": 682,
+    "width": 2047,
+    "height": 1364,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7039,30 +7040,31 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-1912",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 3 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 3 von 21",
-    "width": 682,
-    "height": 1024,
+    "width": 1364,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      682
+      960,
+      1364
     ]
   },
   {
     "id": "m-1913",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 4 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 4 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7077,23 +7079,24 @@
     "id": "m-1914",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 5 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 5 von 21",
-    "width": 684,
-    "height": 1024,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      684
+      960,
+      1367
     ]
   },
   {
     "id": "m-1915",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 6 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 6 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7108,8 +7111,8 @@
     "id": "m-1916",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 7 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 7 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7124,8 +7127,8 @@
     "id": "m-1917",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 8 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 8 von 21",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7133,15 +7136,15 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
     "id": "m-1918",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 9 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 9 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7156,8 +7159,8 @@
     "id": "m-1919",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 10 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 10 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7172,8 +7175,8 @@
     "id": "m-1920",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 11 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 11 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7188,8 +7191,8 @@
     "id": "m-1921",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 12 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 12 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7204,8 +7207,8 @@
     "id": "m-1922",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 13 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 13 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7220,8 +7223,8 @@
     "id": "m-1923",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 14 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 14 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7236,8 +7239,8 @@
     "id": "m-1924",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 15 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 15 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7252,8 +7255,8 @@
     "id": "m-1925",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 16 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 16 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7268,8 +7271,8 @@
     "id": "m-1926",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 17 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 17 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7284,8 +7287,8 @@
     "id": "m-1927",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 18 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 18 von 21",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7300,8 +7303,8 @@
     "id": "m-1928",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 19 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 19 von 21",
-    "width": 1162,
-    "height": 1599,
+    "width": 1275,
+    "height": 1755,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7309,15 +7312,15 @@
     "variants": [
       480,
       960,
-      1162
+      1275
     ]
   },
   {
     "id": "m-1929",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 20 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 20 von 21",
-    "width": 1162,
-    "height": 1599,
+    "width": 1275,
+    "height": 1755,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7325,15 +7328,15 @@
     "variants": [
       480,
       960,
-      1162
+      1275
     ]
   },
   {
     "id": "m-1930",
     "title": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 21 von 21",
     "description": "Einfamilienhaus mit vielen Extras in Westhofen – Bild 21 von 21",
-    "width": 1162,
-    "height": 1599,
+    "width": 1275,
+    "height": 1755,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7341,7 +7344,7 @@
     "variants": [
       480,
       960,
-      1162
+      1275
     ]
   },
   {
@@ -7600,8 +7603,8 @@
     "id": "m-1989",
     "title": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 2 von 8",
     "description": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 2 von 8",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7631,8 +7634,8 @@
     "id": "m-1992",
     "title": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 6 von 8",
     "description": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 6 von 8",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7647,8 +7650,8 @@
     "id": "m-1993",
     "title": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 4 von 8",
     "description": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 4 von 8",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7663,8 +7666,8 @@
     "id": "m-1994",
     "title": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 5 von 8",
     "description": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 5 von 8",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7672,15 +7675,15 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
     "id": "m-1995",
     "title": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 7 von 8",
     "description": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 7 von 8",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7695,8 +7698,8 @@
     "id": "m-1996",
     "title": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 1 von 8",
     "description": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 1 von 8",
-    "width": 1600,
-    "height": 913,
+    "width": 2048,
+    "height": 1168,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7711,8 +7714,8 @@
     "id": "m-1997",
     "title": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 8 von 8",
     "description": "Niederrad Waldfried – Wohnen am Stadtwald – Bild 8 von 8",
-    "width": 1600,
-    "height": 797,
+    "width": 2047,
+    "height": 1020,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7727,8 +7730,8 @@
     "id": "m-1998",
     "title": "Moderne Wohnung in anspruchsvoller Wohnanlage – Bild 1 von 3",
     "description": "Moderne Wohnung in anspruchsvoller Wohnanlage – Bild 1 von 3",
-    "width": 1600,
-    "height": 1071,
+    "width": 2048,
+    "height": 1371,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7759,8 +7762,8 @@
     "id": "m-2000",
     "title": "Moderne Wohnung in anspruchsvoller Wohnanlage – Bild 3 von 3",
     "description": "Moderne Wohnung in anspruchsvoller Wohnanlage – Bild 3 von 3",
-    "width": 1599,
-    "height": 1212,
+    "width": 2048,
+    "height": 1552,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7768,15 +7771,15 @@
     "variants": [
       480,
       960,
-      1599
+      1600
     ]
   },
   {
     "id": "m-2001",
     "title": "Dem Rheingau gegenüber – Bild 3 von 5",
     "description": "Dem Rheingau gegenüber – Bild 3 von 5",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7791,8 +7794,8 @@
     "id": "m-2002",
     "title": "Dem Rheingau gegenüber – Bild 1 von 5",
     "description": "Dem Rheingau gegenüber – Bild 1 von 5",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7807,8 +7810,8 @@
     "id": "m-2003",
     "title": "Dem Rheingau gegenüber – Bild 2 von 5",
     "description": "Dem Rheingau gegenüber – Bild 2 von 5",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7823,8 +7826,8 @@
     "id": "m-2004",
     "title": "Dem Rheingau gegenüber – Bild 5 von 5",
     "description": "Dem Rheingau gegenüber – Bild 5 von 5",
-    "width": 1010,
-    "height": 1600,
+    "width": 1292,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7832,15 +7835,15 @@
     "variants": [
       480,
       960,
-      1010
+      1292
     ]
   },
   {
     "id": "m-2005",
     "title": "Dem Rheingau gegenüber – Bild 4 von 5",
     "description": "Dem Rheingau gegenüber – Bild 4 von 5",
-    "width": 1599,
-    "height": 795,
+    "width": 2048,
+    "height": 1018,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7848,7 +7851,7 @@
     "variants": [
       480,
       960,
-      1599
+      1600
     ]
   },
   {
@@ -7903,8 +7906,8 @@
     "id": "m-2017",
     "title": "Beste Adresse – 1A Citylage – Bild 5 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 5 von 11",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7919,8 +7922,8 @@
     "id": "m-2018",
     "title": "Beste Adresse – 1A Citylage – Bild 6 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 6 von 11",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7935,8 +7938,8 @@
     "id": "m-2019",
     "title": "Beste Adresse – 1A Citylage – Bild 7 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 7 von 11",
-    "width": 1600,
-    "height": 1039,
+    "width": 2047,
+    "height": 1329,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7951,8 +7954,8 @@
     "id": "m-2020",
     "title": "Beste Adresse – 1A Citylage – Bild 8 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 8 von 11",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7967,8 +7970,8 @@
     "id": "m-2021",
     "title": "Beste Adresse – 1A Citylage – Bild 9 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 9 von 11",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -7983,15 +7986,16 @@
     "id": "m-2022",
     "title": "Beste Adresse – 1A Citylage – Bild 10 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 10 von 11",
-    "width": 576,
-    "height": 1024,
+    "width": 1152,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      576
+      960,
+      1152
     ]
   },
   {
@@ -8014,8 +8018,8 @@
     "id": "m-2024",
     "title": "Beste Adresse – 1A Citylage – Bild 4 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 4 von 11",
-    "width": 965,
-    "height": 1024,
+    "width": 1200,
+    "height": 1273,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8023,15 +8027,15 @@
     "variants": [
       480,
       960,
-      965
+      1200
     ]
   },
   {
     "id": "m-2025",
     "title": "Beste Adresse – 1A Citylage – Bild 3 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 3 von 11",
-    "width": 1024,
-    "height": 686,
+    "width": 1200,
+    "height": 804,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8039,15 +8043,15 @@
     "variants": [
       480,
       960,
-      1024
+      1200
     ]
   },
   {
     "id": "m-2026",
     "title": "Beste Adresse – 1A Citylage – Bild 2 von 11",
     "description": "Beste Adresse – 1A Citylage – Bild 2 von 11",
-    "width": 1024,
-    "height": 494,
+    "width": 1182,
+    "height": 570,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8055,7 +8059,7 @@
     "variants": [
       480,
       960,
-      1024
+      1182
     ]
   },
   {
@@ -8300,8 +8304,8 @@
     "id": "m-2043",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 1 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 1 von 20",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8309,45 +8313,47 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2044",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 17 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 17 von 20",
-    "width": 683,
-    "height": 1024,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      683
+      960,
+      1365
     ]
   },
   {
     "id": "m-2045",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 16 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 16 von 20",
-    "width": 683,
-    "height": 1024,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      683
+      960,
+      1365
     ]
   },
   {
     "id": "m-2046",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 2 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 2 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8362,8 +8368,8 @@
     "id": "m-2047",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 5 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 5 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8378,8 +8384,8 @@
     "id": "m-2048",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 6 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 6 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8394,8 +8400,8 @@
     "id": "m-2049",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 7 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 7 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8410,8 +8416,8 @@
     "id": "m-2050",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 8 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 8 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8426,8 +8432,8 @@
     "id": "m-2051",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 9 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 9 von 20",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8435,15 +8441,15 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
     "id": "m-2052",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 10 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 10 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8458,8 +8464,8 @@
     "id": "m-2053",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 3 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 3 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8490,8 +8496,8 @@
     "id": "m-2055",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 12 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 12 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8506,8 +8512,8 @@
     "id": "m-2056",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 13 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 13 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8522,8 +8528,8 @@
     "id": "m-2057",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 14 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 14 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8538,8 +8544,8 @@
     "id": "m-2058",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 4 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 4 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8554,8 +8560,8 @@
     "id": "m-2059",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 15 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 15 von 20",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8570,8 +8576,8 @@
     "id": "m-2060",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 18 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 18 von 20",
-    "width": 1600,
-    "height": 1030,
+    "width": 2048,
+    "height": 1318,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8586,8 +8592,8 @@
     "id": "m-2061",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 19 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 19 von 20",
-    "width": 1600,
-    "height": 1051,
+    "width": 2048,
+    "height": 1345,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8602,23 +8608,8 @@
     "id": "m-2062",
     "title": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 20 von 20",
     "description": "Großzügige Dachetage – Topmodernes Wohnambiente – Bild 20 von 20",
-    "width": 800,
-    "height": 566,
-    "focal_point": {
-      "x": 50,
-      "y": 50
-    },
-    "variants": [
-      480,
-      800
-    ]
-  },
-  {
-    "id": "m-2063",
-    "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 8 von 12",
-    "description": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 8 von 12",
-    "width": 1200,
-    "height": 1600,
+    "width": 2048,
+    "height": 1449,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8626,7 +8617,23 @@
     "variants": [
       480,
       960,
-      1200
+      1600
+    ]
+  },
+  {
+    "id": "m-2063",
+    "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 8 von 12",
+    "description": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 8 von 12",
+    "width": 1536,
+    "height": 2048,
+    "focal_point": {
+      "x": 50,
+      "y": 50
+    },
+    "variants": [
+      480,
+      960,
+      1536
     ]
   },
   {
@@ -8697,8 +8704,8 @@
     "id": "m-2068",
     "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 9 von 12",
     "description": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 9 von 12",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8706,15 +8713,15 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
     "id": "m-2069",
     "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 10 von 12",
     "description": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 10 von 12",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8745,8 +8752,8 @@
     "id": "m-2071",
     "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 1 von 12",
     "description": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 1 von 12",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8777,8 +8784,8 @@
     "id": "m-2073",
     "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 11 von 12",
     "description": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 11 von 12",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8786,15 +8793,15 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
     "id": "m-2074",
     "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 12 von 12",
     "description": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 12 von 12",
-    "width": 1133,
-    "height": 1600,
+    "width": 1231,
+    "height": 1739,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8802,15 +8809,15 @@
     "variants": [
       480,
       960,
-      1133
+      1231
     ]
   },
   {
     "id": "m-2075",
     "title": "EDEN – l’art de vivre – Bild 2 von 11",
     "description": "EDEN – l’art de vivre – Bild 2 von 11",
-    "width": 1011,
-    "height": 1600,
+    "width": 1294,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8818,7 +8825,7 @@
     "variants": [
       480,
       960,
-      1011
+      1294
     ]
   },
   {
@@ -8921,8 +8928,8 @@
     "id": "m-2082",
     "title": "EDEN – l’art de vivre – Bild 1 von 11",
     "description": "EDEN – l’art de vivre – Bild 1 von 11",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8930,7 +8937,7 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
@@ -8953,8 +8960,8 @@
     "id": "m-2084",
     "title": "EDEN Tower – Downtown im Grünen – Bild 2 von 14",
     "description": "EDEN Tower – Downtown im Grünen – Bild 2 von 14",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8962,15 +8969,15 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
     "id": "m-2085",
     "title": "EDEN Tower – Downtown im Grünen – Bild 3 von 14",
     "description": "EDEN Tower – Downtown im Grünen – Bild 3 von 14",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -8978,7 +8985,7 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
@@ -9033,8 +9040,8 @@
     "id": "m-2089",
     "title": "EDEN Tower – Downtown im Grünen – Bild 7 von 14",
     "description": "EDEN Tower – Downtown im Grünen – Bild 7 von 14",
-    "width": 1572,
-    "height": 1600,
+    "width": 2012,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9042,7 +9049,7 @@
     "variants": [
       480,
       960,
-      1572
+      1600
     ]
   },
   {
@@ -9081,8 +9088,8 @@
     "id": "m-2092",
     "title": "EDEN Tower – Downtown im Grünen – Bild 10 von 14",
     "description": "EDEN Tower – Downtown im Grünen – Bild 10 von 14",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9090,15 +9097,15 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
     "id": "m-2093",
     "title": "EDEN Tower – Downtown im Grünen – Bild 11 von 14",
     "description": "EDEN Tower – Downtown im Grünen – Bild 11 von 14",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9113,8 +9120,8 @@
     "id": "m-2094",
     "title": "EDEN Tower – Downtown im Grünen – Bild 1 von 14",
     "description": "EDEN Tower – Downtown im Grünen – Bild 1 von 14",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9145,8 +9152,8 @@
     "id": "m-2096",
     "title": "EDEN Tower – Grüne Insel Downtown – Bild 2 von 11",
     "description": "EDEN Tower – Grüne Insel Downtown – Bild 2 von 11",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9154,7 +9161,7 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
@@ -9289,8 +9296,8 @@
     "id": "m-2105",
     "title": "EDEN Tower – Grüne Insel Downtown – Bild 1 von 11",
     "description": "EDEN Tower – Grüne Insel Downtown – Bild 1 von 11",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9298,7 +9305,7 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
@@ -9321,8 +9328,8 @@
     "id": "m-2107",
     "title": "EDEN Tower – Downtown im Grünen – Bild 13 von 14",
     "description": "EDEN Tower – Downtown im Grünen – Bild 13 von 14",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9330,7 +9337,7 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
@@ -9353,8 +9360,8 @@
     "id": "m-2109",
     "title": "EDEN – l’art de vivre – Bild 10 von 11",
     "description": "EDEN – l’art de vivre – Bild 10 von 11",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9362,7 +9369,7 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
@@ -9545,8 +9552,8 @@
     "id": "m-2121",
     "title": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 3 von 13",
     "description": "Erstbezug nach Totalsanierung – Topmodernes Wohnambiente – Bild 3 von 13",
-    "width": 1600,
-    "height": 1490,
+    "width": 2048,
+    "height": 1907,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -9609,8 +9616,8 @@
     "id": "m-2125",
     "title": "EDEN – Savoir Vivre – Bild 20 von 21",
     "description": "EDEN – Savoir Vivre – Bild 20 von 21",
-    "width": 1600,
-    "height": 1001,
+    "width": 2047,
+    "height": 1281,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10265,8 +10272,8 @@
     "id": "m-2188",
     "title": "EDEN – l’art de vivre – Bild 3 von 21",
     "description": "EDEN – l’art de vivre – Bild 3 von 21",
-    "width": 1600,
-    "height": 1008,
+    "width": 2048,
+    "height": 1290,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10281,8 +10288,8 @@
     "id": "m-2189",
     "title": "EDEN – l’art de vivre – Bild 4 von 21",
     "description": "EDEN – l’art de vivre – Bild 4 von 21",
-    "width": 1600,
-    "height": 945,
+    "width": 2048,
+    "height": 1210,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10297,8 +10304,8 @@
     "id": "m-2190",
     "title": "EDEN – l’art de vivre – Bild 5 von 21",
     "description": "EDEN – l’art de vivre – Bild 5 von 21",
-    "width": 1600,
-    "height": 969,
+    "width": 2048,
+    "height": 1240,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10313,8 +10320,8 @@
     "id": "m-2191",
     "title": "EDEN – l’art de vivre – Bild 6 von 21",
     "description": "EDEN – l’art de vivre – Bild 6 von 21",
-    "width": 1600,
-    "height": 979,
+    "width": 2048,
+    "height": 1253,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10329,8 +10336,8 @@
     "id": "m-2192",
     "title": "EDEN – l’art de vivre – Bild 7 von 21",
     "description": "EDEN – l’art de vivre – Bild 7 von 21",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10345,8 +10352,8 @@
     "id": "m-2193",
     "title": "EDEN – l’art de vivre – Bild 8 von 21",
     "description": "EDEN – l’art de vivre – Bild 8 von 21",
-    "width": 1600,
-    "height": 1067,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10361,8 +10368,8 @@
     "id": "m-2194",
     "title": "EDEN – l’art de vivre – Bild 9 von 21",
     "description": "EDEN – l’art de vivre – Bild 9 von 21",
-    "width": 1600,
-    "height": 976,
+    "width": 2048,
+    "height": 1249,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10377,8 +10384,8 @@
     "id": "m-2195",
     "title": "EDEN – l’art de vivre – Bild 10 von 21",
     "description": "EDEN – l’art de vivre – Bild 10 von 21",
-    "width": 1600,
-    "height": 1111,
+    "width": 2047,
+    "height": 1422,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10393,8 +10400,8 @@
     "id": "m-2196",
     "title": "EDEN – l’art de vivre – Bild 11 von 21",
     "description": "EDEN – l’art de vivre – Bild 11 von 21",
-    "width": 1600,
-    "height": 1005,
+    "width": 2048,
+    "height": 1286,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10409,8 +10416,8 @@
     "id": "m-2197",
     "title": "EDEN – l’art de vivre – Bild 12 von 21",
     "description": "EDEN – l’art de vivre – Bild 12 von 21",
-    "width": 1600,
-    "height": 1161,
+    "width": 2048,
+    "height": 1486,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10457,8 +10464,8 @@
     "id": "m-2200",
     "title": "EDEN – l’art de vivre – Bild 15 von 21",
     "description": "EDEN – l’art de vivre – Bild 15 von 21",
-    "width": 1600,
-    "height": 974,
+    "width": 2048,
+    "height": 1247,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10537,8 +10544,8 @@
     "id": "m-2205",
     "title": "EDEN – l’art de vivre – Bild 2 von 21",
     "description": "EDEN – l’art de vivre – Bild 2 von 21",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10546,7 +10553,7 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
@@ -10665,8 +10672,8 @@
     "id": "m-2213",
     "title": "EDEN Tower – Downtown im Grünen – Bild 7 von 17",
     "description": "EDEN Tower – Downtown im Grünen – Bild 7 von 17",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10674,15 +10681,15 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
     "id": "m-2214",
     "title": "EDEN Tower – Downtown im Grünen – Bild 8 von 17",
     "description": "EDEN Tower – Downtown im Grünen – Bild 8 von 17",
-    "width": 1275,
-    "height": 1600,
+    "width": 1632,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10690,7 +10697,7 @@
     "variants": [
       480,
       960,
-      1275
+      1600
     ]
   },
   {
@@ -10809,8 +10816,8 @@
     "id": "m-2222",
     "title": "EDEN Tower – Downtown im Grünen – Bild 14 von 17",
     "description": "EDEN Tower – Downtown im Grünen – Bild 14 von 17",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10818,7 +10825,7 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
@@ -10905,8 +10912,8 @@
     "id": "m-2228",
     "title": "Penthouse am Kirchplatz – Bild 5 von 10",
     "description": "Penthouse am Kirchplatz – Bild 5 von 10",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -10914,7 +10921,7 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
@@ -11065,8 +11072,8 @@
     "id": "m-2256",
     "title": "EDEN – Savoir Vivre – Bild 7 von 9",
     "description": "EDEN – Savoir Vivre – Bild 7 von 9",
-    "width": 1600,
-    "height": 1395,
+    "width": 2048,
+    "height": 1785,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11225,8 +11232,8 @@
     "id": "m-2281",
     "title": "EDEN – Vollmöblierter Skylineblick aus der 26.Etage – Bild 8 von 19",
     "description": "EDEN – Vollmöblierter Skylineblick aus der 26.Etage – Bild 8 von 19",
-    "width": 1600,
-    "height": 1061,
+    "width": 2048,
+    "height": 1358,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11369,8 +11376,8 @@
     "id": "m-2290",
     "title": "EDEN – Vollmöblierter Skylineblick aus der 26.Etage – Bild 17 von 19",
     "description": "EDEN – Vollmöblierter Skylineblick aus der 26.Etage – Bild 17 von 19",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11378,7 +11385,7 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
@@ -11593,8 +11600,8 @@
     "id": "m-2303",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 2 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 2 von 35",
-    "width": 1019,
-    "height": 1600,
+    "width": 1304,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11602,7 +11609,7 @@
     "variants": [
       480,
       960,
-      1019
+      1304
     ]
   },
   {
@@ -11721,8 +11728,8 @@
     "id": "m-2310",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 9 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 9 von 35",
-    "width": 1124,
-    "height": 1600,
+    "width": 1439,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11730,7 +11737,7 @@
     "variants": [
       480,
       960,
-      1124
+      1439
     ]
   },
   {
@@ -11814,8 +11821,8 @@
     "id": "m-2316",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 15 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 15 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11823,15 +11830,15 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2317",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 16 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 16 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11839,15 +11846,15 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2318",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 17 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 17 von 35",
-    "width": 1332,
-    "height": 1600,
+    "width": 1536,
+    "height": 1845,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11855,15 +11862,15 @@
     "variants": [
       480,
       960,
-      1332
+      1536
     ]
   },
   {
     "id": "m-2319",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 18 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 18 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11871,7 +11878,7 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
@@ -11894,8 +11901,8 @@
     "id": "m-2320",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 19 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 19 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11903,15 +11910,15 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2321",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 20 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 20 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11919,15 +11926,15 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2322",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 21 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 21 von 35",
-    "width": 1152,
-    "height": 1600,
+    "width": 1475,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11935,15 +11942,15 @@
     "variants": [
       480,
       960,
-      1152
+      1475
     ]
   },
   {
     "id": "m-2323",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 22 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 22 von 35",
-    "width": 1168,
-    "height": 1599,
+    "width": 1251,
+    "height": 1713,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11951,15 +11958,15 @@
     "variants": [
       480,
       960,
-      1168
+      1251
     ]
   },
   {
     "id": "m-2324",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 23 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 23 von 35",
-    "width": 1173,
-    "height": 1599,
+    "width": 1356,
+    "height": 1849,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11967,7 +11974,7 @@
     "variants": [
       480,
       960,
-      1173
+      1356
     ]
   },
   {
@@ -11990,8 +11997,8 @@
     "id": "m-2326",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 25 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 25 von 35",
-    "width": 1290,
-    "height": 1600,
+    "width": 1458,
+    "height": 1809,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -11999,15 +12006,15 @@
     "variants": [
       480,
       960,
-      1290
+      1458
     ]
   },
   {
     "id": "m-2327",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 26 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 26 von 35",
-    "width": 1097,
-    "height": 1600,
+    "width": 1098,
+    "height": 1602,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12015,15 +12022,15 @@
     "variants": [
       480,
       960,
-      1097
+      1098
     ]
   },
   {
     "id": "m-2328",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 27 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 27 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12031,7 +12038,7 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
@@ -12070,8 +12077,8 @@
     "id": "m-2330",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 29 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 29 von 35",
-    "width": 1047,
-    "height": 1599,
+    "width": 1291,
+    "height": 1972,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12079,7 +12086,7 @@
     "variants": [
       480,
       960,
-      1047
+      1291
     ]
   },
   {
@@ -12102,8 +12109,8 @@
     "id": "m-2332",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 31 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 31 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12111,15 +12118,15 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2333",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 32 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 32 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12127,15 +12134,15 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2334",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 33 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 33 von 35",
-    "width": 1073,
-    "height": 1599,
+    "width": 1335,
+    "height": 1990,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12143,15 +12150,15 @@
     "variants": [
       480,
       960,
-      1073
+      1335
     ]
   },
   {
     "id": "m-2335",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 34 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 34 von 35",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12159,15 +12166,15 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2336",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 1 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 1 von 35",
-    "width": 1226,
-    "height": 1600,
+    "width": 1536,
+    "height": 2005,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12175,15 +12182,15 @@
     "variants": [
       480,
       960,
-      1226
+      1536
     ]
   },
   {
     "id": "m-2337",
     "title": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 35 von 35",
     "description": "Großzügige Doppelhaushälfte am Ortsrand von Langenselbold – Bild 35 von 35",
-    "width": 1327,
-    "height": 1600,
+    "width": 1451,
+    "height": 1749,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12191,7 +12198,7 @@
     "variants": [
       480,
       960,
-      1327
+      1451
     ]
   },
   {
@@ -12278,8 +12285,8 @@
     "id": "m-2350",
     "title": "EDEN-Savoir Vivre – Bild 5 von 9",
     "description": "EDEN-Savoir Vivre – Bild 5 von 9",
-    "width": 1600,
-    "height": 1488,
+    "width": 2048,
+    "height": 1905,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12310,8 +12317,8 @@
     "id": "m-2352",
     "title": "EDEN-Savoir Vivre – Bild 7 von 9",
     "description": "EDEN-Savoir Vivre – Bild 7 von 9",
-    "width": 1600,
-    "height": 1294,
+    "width": 2048,
+    "height": 1656,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12326,8 +12333,8 @@
     "id": "m-2353",
     "title": "EDEN-Savoir Vivre – Bild 8 von 9",
     "description": "EDEN-Savoir Vivre – Bild 8 von 9",
-    "width": 1049,
-    "height": 1600,
+    "width": 1342,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12335,15 +12342,15 @@
     "variants": [
       480,
       960,
-      1049
+      1342
     ]
   },
   {
     "id": "m-2354",
     "title": "EDEN-Savoir Vivre – Bild 1 von 9",
     "description": "EDEN-Savoir Vivre – Bild 1 von 9",
-    "width": 1082,
-    "height": 1600,
+    "width": 1384,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12351,7 +12358,7 @@
     "variants": [
       480,
       960,
-      1082
+      1384
     ]
   },
   {
@@ -12374,8 +12381,8 @@
     "id": "m-2356",
     "title": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 11 von 11",
     "description": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 11 von 11",
-    "width": 996,
-    "height": 1600,
+    "width": 1275,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12383,7 +12390,7 @@
     "variants": [
       480,
       960,
-      996
+      1275
     ]
   },
   {
@@ -12406,8 +12413,8 @@
     "id": "m-2358",
     "title": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 6 von 11",
     "description": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 6 von 11",
-    "width": 1600,
-    "height": 1097,
+    "width": 2047,
+    "height": 1404,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12422,8 +12429,8 @@
     "id": "m-2359",
     "title": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 4 von 11",
     "description": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 4 von 11",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12431,7 +12438,7 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
@@ -12502,8 +12509,8 @@
     "id": "m-2363",
     "title": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 9 von 11",
     "description": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 9 von 11",
-    "width": 997,
-    "height": 1600,
+    "width": 1276,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12511,7 +12518,7 @@
     "variants": [
       480,
       960,
-      997
+      1276
     ]
   },
   {
@@ -12534,8 +12541,8 @@
     "id": "m-2365",
     "title": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 1 von 11",
     "description": "2-Zimmer-Wohnung mit schönem Fernblick – Bild 1 von 11",
-    "width": 1600,
-    "height": 1088,
+    "width": 2048,
+    "height": 1393,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12566,30 +12573,32 @@
     "id": "m-2367",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 22 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 22 von 36",
-    "width": 566,
-    "height": 800,
+    "width": 1448,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      566
+      960,
+      1448
     ]
   },
   {
     "id": "m-2368",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 4 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 4 von 36",
-    "width": 799,
-    "height": 449,
+    "width": 2048,
+    "height": 1151,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      799
+      960,
+      1600
     ]
   },
   {
@@ -12612,30 +12621,32 @@
     "id": "m-2370",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 2 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 2 von 36",
-    "width": 800,
-    "height": 450,
+    "width": 2048,
+    "height": 1151,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      800
+      960,
+      1600
     ]
   },
   {
     "id": "m-2371",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 5 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 5 von 36",
-    "width": 800,
-    "height": 450,
+    "width": 2048,
+    "height": 1151,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      800
+      960,
+      1600
     ]
   },
   {
@@ -12690,23 +12701,8 @@
     "id": "m-2375",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 20 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 20 von 36",
-    "width": 799,
-    "height": 483,
-    "focal_point": {
-      "x": 50,
-      "y": 50
-    },
-    "variants": [
-      480,
-      799
-    ]
-  },
-  {
-    "id": "m-2376",
-    "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 21 von 36",
-    "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 21 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1237,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12714,7 +12710,23 @@
     "variants": [
       480,
       960,
-      1023
+      1600
+    ]
+  },
+  {
+    "id": "m-2376",
+    "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 21 von 36",
+    "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 21 von 36",
+    "width": 2048,
+    "height": 1367,
+    "focal_point": {
+      "x": 50,
+      "y": 50
+    },
+    "variants": [
+      480,
+      960,
+      1600
     ]
   },
   {
@@ -12737,8 +12749,8 @@
     "id": "m-2378",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 25 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 25 von 36",
-    "width": 1024,
-    "height": 696,
+    "width": 2048,
+    "height": 1393,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12746,22 +12758,23 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2379",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 29 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 29 von 36",
-    "width": 725,
-    "height": 1024,
+    "width": 1450,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      725
+      960,
+      1450
     ]
   },
   {
@@ -12784,8 +12797,8 @@
     "id": "m-2380",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 30 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 30 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12793,15 +12806,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2381",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 31 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 31 von 36",
-    "width": 1024,
-    "height": 684,
+    "width": 2048,
+    "height": 1368,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12809,7 +12822,7 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
@@ -12832,8 +12845,8 @@
     "id": "m-2383",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 33 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 33 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12841,15 +12854,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2384",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 34 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 34 von 36",
-    "width": 1023,
-    "height": 690,
+    "width": 2048,
+    "height": 1381,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12857,15 +12870,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2385",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 35 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 35 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12873,30 +12886,31 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2386",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 28 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 28 von 36",
-    "width": 699,
-    "height": 1024,
+    "width": 1397,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      699
+      960,
+      1397
     ]
   },
   {
     "id": "m-2387",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 27 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 27 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12904,30 +12918,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2388",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 36 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 36 von 36",
-    "width": 673,
-    "height": 1024,
-    "focal_point": {
-      "x": 50,
-      "y": 50
-    },
-    "variants": [
-      480,
-      673
-    ]
-  },
-  {
-    "id": "m-2389",
-    "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 26 von 36",
-    "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 26 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 1347,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12935,7 +12934,23 @@
     "variants": [
       480,
       960,
-      1023
+      1347
+    ]
+  },
+  {
+    "id": "m-2389",
+    "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 26 von 36",
+    "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 26 von 36",
+    "width": 2048,
+    "height": 1367,
+    "focal_point": {
+      "x": 50,
+      "y": 50
+    },
+    "variants": [
+      480,
+      960,
+      1600
     ]
   },
   {
@@ -12958,8 +12973,8 @@
     "id": "m-2390",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 23 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 23 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12967,15 +12982,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2391",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 24 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 24 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12983,15 +12998,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2392",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 16 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 16 von 36",
-    "width": 1024,
-    "height": 689,
+    "width": 2048,
+    "height": 1378,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -12999,15 +13014,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2393",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 14 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 14 von 36",
-    "width": 1024,
-    "height": 566,
+    "width": 2047,
+    "height": 1131,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13015,15 +13030,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2394",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 15 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 15 von 36",
-    "width": 1024,
-    "height": 696,
+    "width": 2048,
+    "height": 1393,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13031,15 +13046,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2395",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 13 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 13 von 36",
-    "width": 1024,
-    "height": 620,
+    "width": 2047,
+    "height": 1240,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13047,15 +13062,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2396",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 6 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 6 von 36",
-    "width": 1024,
-    "height": 675,
+    "width": 2048,
+    "height": 1349,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13063,15 +13078,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2397",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 8 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 8 von 36",
-    "width": 1024,
-    "height": 664,
+    "width": 2048,
+    "height": 1328,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13079,15 +13094,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2398",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 7 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 7 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13095,15 +13110,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2399",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 9 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 9 von 36",
-    "width": 1023,
-    "height": 651,
+    "width": 2048,
+    "height": 1303,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13111,7 +13126,7 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
@@ -13134,8 +13149,8 @@
     "id": "m-2400",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 10 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 10 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13143,15 +13158,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2401",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 11 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 11 von 36",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13159,15 +13174,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2402",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 1 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 1 von 36",
-    "width": 1024,
-    "height": 604,
+    "width": 2048,
+    "height": 1208,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13175,15 +13190,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2403",
     "title": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 12 von 36",
     "description": "Gewerbepark Meiningen – Lager-, Büro- und Freiflächen in Autobahnnähe – Bild 12 von 36",
-    "width": 1024,
-    "height": 633,
+    "width": 2048,
+    "height": 1266,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13191,22 +13206,23 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2404",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 11 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 11 von 25",
-    "width": 724,
-    "height": 1024,
+    "width": 1449,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      724
+      960,
+      1449
     ]
   },
   {
@@ -13229,8 +13245,8 @@
     "id": "m-2406",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 6 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 6 von 25",
-    "width": 1024,
-    "height": 696,
+    "width": 2048,
+    "height": 1393,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13238,15 +13254,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2407",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 7 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 7 von 25",
-    "width": 1024,
-    "height": 620,
+    "width": 2047,
+    "height": 1240,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13254,15 +13270,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2408",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 2 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 2 von 25",
-    "width": 1023,
-    "height": 575,
+    "width": 2047,
+    "height": 1150,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13270,15 +13286,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2409",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 3 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 3 von 25",
-    "width": 1023,
-    "height": 575,
+    "width": 2048,
+    "height": 1151,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13286,7 +13302,7 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
@@ -13309,8 +13325,8 @@
     "id": "m-2410",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 4 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 4 von 25",
-    "width": 1023,
-    "height": 575,
+    "width": 2048,
+    "height": 1151,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13318,15 +13334,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2411",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 8 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 8 von 25",
-    "width": 1024,
-    "height": 647,
+    "width": 2047,
+    "height": 1293,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13334,15 +13350,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2412",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 9 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 9 von 25",
-    "width": 1023,
-    "height": 646,
+    "width": 2047,
+    "height": 1292,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13350,15 +13366,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2413",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 10 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 10 von 25",
-    "width": 1024,
-    "height": 753,
+    "width": 2048,
+    "height": 1507,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13366,15 +13382,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2414",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 12 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 12 von 25",
-    "width": 1024,
-    "height": 696,
+    "width": 2048,
+    "height": 1393,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13382,15 +13398,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2415",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 13 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 13 von 25",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13398,30 +13414,31 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2416",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 14 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 14 von 25",
-    "width": 725,
-    "height": 1024,
+    "width": 1450,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      725
+      960,
+      1450
     ]
   },
   {
     "id": "m-2417",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 15 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 15 von 25",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13429,15 +13446,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2418",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 16 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 16 von 25",
-    "width": 1024,
-    "height": 684,
+    "width": 2048,
+    "height": 1368,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13445,15 +13462,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2419",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 17 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 17 von 25",
-    "width": 1024,
-    "height": 674,
+    "width": 2048,
+    "height": 1348,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13461,7 +13478,7 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
@@ -13484,8 +13501,8 @@
     "id": "m-2420",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 18 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 18 von 25",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13493,15 +13510,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2421",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 19 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 19 von 25",
-    "width": 1023,
-    "height": 690,
+    "width": 2048,
+    "height": 1381,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13509,15 +13526,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2422",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 20 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 20 von 25",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13525,30 +13542,31 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2423",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 21 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 21 von 25",
-    "width": 699,
-    "height": 1024,
+    "width": 1397,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      699
+      960,
+      1397
     ]
   },
   {
     "id": "m-2424",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 22 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 22 von 25",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13556,15 +13574,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2425",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 23 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 23 von 25",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13572,30 +13590,31 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2426",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 24 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 24 von 25",
-    "width": 673,
-    "height": 1024,
+    "width": 1347,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      673
+      960,
+      1347
     ]
   },
   {
     "id": "m-2427",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 1 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 1 von 25",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13603,15 +13622,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2428",
     "title": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 25 von 25",
     "description": "Gewerbepark Meiningen – 1200 m² Kaltlagerhalle – Bild 25 von 25",
-    "width": 1023,
-    "height": 683,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13619,22 +13638,23 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2429",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 2 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 2 von 18",
-    "width": 729,
-    "height": 1024,
+    "width": 1458,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      729
+      960,
+      1458
     ]
   },
   {
@@ -13657,8 +13677,8 @@
     "id": "m-2430",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 3 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 3 von 18",
-    "width": 1600,
-    "height": 1003,
+    "width": 2048,
+    "height": 1284,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13673,8 +13693,8 @@
     "id": "m-2431",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 4 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 4 von 18",
-    "width": 1600,
-    "height": 1042,
+    "width": 2048,
+    "height": 1334,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13689,8 +13709,8 @@
     "id": "m-2432",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 5 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 5 von 18",
-    "width": 1600,
-    "height": 1104,
+    "width": 2048,
+    "height": 1413,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13705,8 +13725,8 @@
     "id": "m-2433",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 6 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 6 von 18",
-    "width": 1600,
-    "height": 1109,
+    "width": 2048,
+    "height": 1419,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13737,38 +13757,40 @@
     "id": "m-2435",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 10 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 10 von 18",
-    "width": 708,
-    "height": 1024,
+    "width": 1417,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      708
+      960,
+      1417
     ]
   },
   {
     "id": "m-2436",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 12 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 12 von 18",
-    "width": 703,
-    "height": 1024,
+    "width": 1406,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      703
+      960,
+      1406
     ]
   },
   {
     "id": "m-2437",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 11 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 11 von 18",
-    "width": 1600,
-    "height": 1074,
+    "width": 2047,
+    "height": 1374,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13799,8 +13821,8 @@
     "id": "m-2439",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 14 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 14 von 18",
-    "width": 1600,
-    "height": 1097,
+    "width": 2048,
+    "height": 1404,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13847,8 +13869,8 @@
     "id": "m-2441",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 17 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 17 von 18",
-    "width": 1139,
-    "height": 1600,
+    "width": 1458,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13856,15 +13878,15 @@
     "variants": [
       480,
       960,
-      1139
+      1458
     ]
   },
   {
     "id": "m-2442",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 1 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 1 von 18",
-    "width": 1036,
-    "height": 1599,
+    "width": 1327,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13872,15 +13894,15 @@
     "variants": [
       480,
       960,
-      1036
+      1327
     ]
   },
   {
     "id": "m-2443",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 8 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 8 von 18",
-    "width": 1600,
-    "height": 1244,
+    "width": 2048,
+    "height": 1592,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13895,23 +13917,24 @@
     "id": "m-2444",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 9 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 9 von 18",
-    "width": 711,
-    "height": 1024,
+    "width": 1422,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      711
+      960,
+      1422
     ]
   },
   {
     "id": "m-2445",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 7 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 7 von 18",
-    "width": 1600,
-    "height": 1057,
+    "width": 2047,
+    "height": 1352,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13926,8 +13949,8 @@
     "id": "m-2446",
     "title": "Großzügige Wohnung in Gravenbruch – Bild 18 von 18",
     "description": "Großzügige Wohnung in Gravenbruch – Bild 18 von 18",
-    "width": 1050,
-    "height": 1600,
+    "width": 1344,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -13935,7 +13958,7 @@
     "variants": [
       480,
       960,
-      1050
+      1344
     ]
   },
   {
@@ -14182,8 +14205,8 @@
     "id": "m-2507",
     "title": "Grand Tower – L’Art de Vivre – Bild 2 von 19",
     "description": "Grand Tower – L’Art de Vivre – Bild 2 von 19",
-    "width": 1200,
-    "height": 1600,
+    "width": 1255,
+    "height": 1673,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14191,7 +14214,7 @@
     "variants": [
       480,
       960,
-      1200
+      1255
     ]
   },
   {
@@ -14214,8 +14237,8 @@
     "id": "m-2509",
     "title": "Grand Tower – L’Art de Vivre – Bild 1 von 19",
     "description": "Grand Tower – L’Art de Vivre – Bild 1 von 19",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14223,7 +14246,7 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
@@ -14245,7 +14268,7 @@
   {
     "id": "m-2511",
     "title": "Grand Tower – L’Art de Vivre – Bild 9 von 19",
-    "description": "Grand Tower – L’Art de Vivre – Bild 9 von 19",
+    "description": "Frankfurt in der Abenddämmerung, Blick über das Europaviertel zur Messe",
     "width": 2048,
     "height": 1164,
     "focal_point": {
@@ -14294,8 +14317,8 @@
     "id": "m-2514",
     "title": "Baugrundstück für 1 Fam.-Haus in herrlicher Lage von Kelkheim-Eppenhain – Bild 1 von 2",
     "description": "Baugrundstück für 1 Fam.-Haus in herrlicher Lage von Kelkheim-Eppenhain – Bild 1 von 2",
-    "width": 1068,
-    "height": 1600,
+    "width": 1367,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14303,15 +14326,15 @@
     "variants": [
       480,
       960,
-      1068
+      1367
     ]
   },
   {
     "id": "m-2515",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 2 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 2 von 25",
-    "width": 1024,
-    "height": 728,
+    "width": 2048,
+    "height": 1455,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14319,15 +14342,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2516",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 3 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 3 von 25",
-    "width": 1600,
-    "height": 1068,
+    "width": 2048,
+    "height": 1367,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14342,8 +14365,8 @@
     "id": "m-2517",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 4 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 4 von 25",
-    "width": 1600,
-    "height": 1051,
+    "width": 2048,
+    "height": 1345,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14358,23 +14381,8 @@
     "id": "m-2518",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 5 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 5 von 25",
-    "width": 680,
-    "height": 1024,
-    "focal_point": {
-      "x": 50,
-      "y": 50
-    },
-    "variants": [
-      480,
-      680
-    ]
-  },
-  {
-    "id": "m-2519",
-    "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 6 von 25",
-    "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 6 von 25",
-    "width": 1599,
-    "height": 1094,
+    "width": 1361,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14382,15 +14390,31 @@
     "variants": [
       480,
       960,
-      1599
+      1361
+    ]
+  },
+  {
+    "id": "m-2519",
+    "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 6 von 25",
+    "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 6 von 25",
+    "width": 2048,
+    "height": 1401,
+    "focal_point": {
+      "x": 50,
+      "y": 50
+    },
+    "variants": [
+      480,
+      960,
+      1600
     ]
   },
   {
     "id": "m-2520",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 7 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 7 von 25",
-    "width": 1600,
-    "height": 1041,
+    "width": 2048,
+    "height": 1333,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14405,8 +14429,8 @@
     "id": "m-2521",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 8 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 8 von 25",
-    "width": 1599,
-    "height": 1041,
+    "width": 2048,
+    "height": 1333,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14414,15 +14438,15 @@
     "variants": [
       480,
       960,
-      1599
+      1600
     ]
   },
   {
     "id": "m-2522",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 9 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 9 von 25",
-    "width": 1600,
-    "height": 998,
+    "width": 2048,
+    "height": 1278,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14437,8 +14461,8 @@
     "id": "m-2523",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 10 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 10 von 25",
-    "width": 1600,
-    "height": 1211,
+    "width": 2048,
+    "height": 1550,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14453,8 +14477,8 @@
     "id": "m-2524",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 11 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 11 von 25",
-    "width": 1600,
-    "height": 1186,
+    "width": 2048,
+    "height": 1518,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14469,8 +14493,8 @@
     "id": "m-2525",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 12 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 12 von 25",
-    "width": 1600,
-    "height": 962,
+    "width": 2048,
+    "height": 1231,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14485,8 +14509,8 @@
     "id": "m-2526",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 13 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 13 von 25",
-    "width": 1600,
-    "height": 1078,
+    "width": 2048,
+    "height": 1379,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14501,8 +14525,8 @@
     "id": "m-2527",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 14 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 14 von 25",
-    "width": 1600,
-    "height": 948,
+    "width": 2048,
+    "height": 1214,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14517,8 +14541,8 @@
     "id": "m-2528",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 15 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 15 von 25",
-    "width": 1600,
-    "height": 1067,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14533,38 +14557,8 @@
     "id": "m-2529",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 16 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 16 von 25",
-    "width": 683,
-    "height": 1024,
-    "focal_point": {
-      "x": 50,
-      "y": 50
-    },
-    "variants": [
-      480,
-      683
-    ]
-  },
-  {
-    "id": "m-2530",
-    "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 17 von 25",
-    "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 17 von 25",
-    "width": 683,
-    "height": 1024,
-    "focal_point": {
-      "x": 50,
-      "y": 50
-    },
-    "variants": [
-      480,
-      683
-    ]
-  },
-  {
-    "id": "m-2531",
-    "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 18 von 25",
-    "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 18 von 25",
-    "width": 1067,
-    "height": 1600,
+    "width": 1365,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14572,22 +14566,55 @@
     "variants": [
       480,
       960,
-      1067
+      1365
     ]
   },
   {
-    "id": "m-2532",
-    "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 19 von 25",
-    "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 19 von 25",
-    "width": 683,
-    "height": 1024,
+    "id": "m-2530",
+    "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 17 von 25",
+    "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 17 von 25",
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      683
+      960,
+      1365
+    ]
+  },
+  {
+    "id": "m-2531",
+    "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 18 von 25",
+    "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 18 von 25",
+    "width": 1365,
+    "height": 2048,
+    "focal_point": {
+      "x": 50,
+      "y": 50
+    },
+    "variants": [
+      480,
+      960,
+      1365
+    ]
+  },
+  {
+    "id": "m-2532",
+    "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 19 von 25",
+    "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 19 von 25",
+    "width": 1365,
+    "height": 2047,
+    "focal_point": {
+      "x": 50,
+      "y": 50
+    },
+    "variants": [
+      480,
+      960,
+      1365
     ]
   },
   {
@@ -14626,23 +14653,24 @@
     "id": "m-2535",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 22 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 22 von 25",
-    "width": 799,
-    "height": 533,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      799
+      960,
+      1600
     ]
   },
   {
     "id": "m-2536",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 23 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 23 von 25",
-    "width": 1024,
-    "height": 683,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14650,15 +14678,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2537",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 24 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 24 von 25",
-    "width": 1024,
-    "height": 683,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14666,15 +14694,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2539",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 1 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 1 von 25",
-    "width": 1024,
-    "height": 634,
+    "width": 2048,
+    "height": 1268,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14682,15 +14710,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2540",
     "title": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 25 von 25",
     "description": "Exklusives Quartier Prädium – Urbanes Wohnen im Europaviertel – Bild 25 von 25",
-    "width": 1024,
-    "height": 782,
+    "width": 2048,
+    "height": 1564,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14698,7 +14726,7 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
@@ -14721,8 +14749,8 @@
     "id": "m-2542",
     "title": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 6 von 10",
     "description": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 6 von 10",
-    "width": 1024,
-    "height": 614,
+    "width": 2048,
+    "height": 1228,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14730,15 +14758,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2543",
     "title": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 8 von 10",
     "description": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 8 von 10",
-    "width": 1024,
-    "height": 668,
+    "width": 2048,
+    "height": 1336,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14746,7 +14774,7 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
@@ -14783,8 +14811,8 @@
     "id": "m-2546",
     "title": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 4 von 10",
     "description": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 4 von 10",
-    "width": 1023,
-    "height": 652,
+    "width": 2048,
+    "height": 1305,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14792,15 +14820,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2547",
     "title": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 5 von 10",
     "description": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 5 von 10",
-    "width": 1024,
-    "height": 677,
+    "width": 2048,
+    "height": 1354,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14808,15 +14836,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2548",
     "title": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 7 von 10",
     "description": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 7 von 10",
-    "width": 1024,
-    "height": 713,
+    "width": 2047,
+    "height": 1425,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14824,15 +14852,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2549",
     "title": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 3 von 10",
     "description": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 3 von 10",
-    "width": 1024,
-    "height": 683,
+    "width": 2047,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14840,15 +14868,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2550",
     "title": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 9 von 10",
     "description": "Moderne Wohnung in bevorzugter Lage von Niederrad – Bild 9 von 10",
-    "width": 1023,
-    "height": 620,
+    "width": 2048,
+    "height": 1241,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14856,45 +14884,47 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2582",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 3 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 3 von 14",
-    "width": 683,
-    "height": 1024,
+    "width": 1365,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      683
+      960,
+      1365
     ]
   },
   {
     "id": "m-2583",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 4 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 4 von 14",
-    "width": 832,
-    "height": 1024,
+    "width": 1664,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      832
+      960,
+      1600
     ]
   },
   {
     "id": "m-2584",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 6 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 6 von 14",
-    "width": 1600,
-    "height": 1007,
+    "width": 2048,
+    "height": 1289,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14909,8 +14939,8 @@
     "id": "m-2585",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 7 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 7 von 14",
-    "width": 1600,
-    "height": 1073,
+    "width": 2048,
+    "height": 1373,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14925,8 +14955,8 @@
     "id": "m-2586",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 8 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 8 von 14",
-    "width": 1125,
-    "height": 1600,
+    "width": 1440,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14934,15 +14964,15 @@
     "variants": [
       480,
       960,
-      1125
+      1440
     ]
   },
   {
     "id": "m-2587",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 9 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 9 von 14",
-    "width": 1600,
-    "height": 1218,
+    "width": 2048,
+    "height": 1559,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14957,8 +14987,8 @@
     "id": "m-2588",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 10 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 10 von 14",
-    "width": 1600,
-    "height": 1192,
+    "width": 2048,
+    "height": 1525,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14973,8 +15003,8 @@
     "id": "m-2589",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 11 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 11 von 14",
-    "width": 1600,
-    "height": 1199,
+    "width": 2048,
+    "height": 1535,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -14989,8 +15019,8 @@
     "id": "m-2590",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 12 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 12 von 14",
-    "width": 1600,
-    "height": 1172,
+    "width": 2048,
+    "height": 1501,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15005,8 +15035,8 @@
     "id": "m-2591",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 13 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 13 von 14",
-    "width": 1600,
-    "height": 1386,
+    "width": 2048,
+    "height": 1775,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15037,23 +15067,24 @@
     "id": "m-2593",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 5 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 5 von 14",
-    "width": 626,
-    "height": 1023,
+    "width": 1252,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      626
+      960,
+      1252
     ]
   },
   {
     "id": "m-2594",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 2 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 2 von 14",
-    "width": 1600,
-    "height": 912,
+    "width": 2048,
+    "height": 1168,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15068,8 +15099,8 @@
     "id": "m-2595",
     "title": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 14 von 14",
     "description": "Mainterrassen – Urbanes Wohnen gegenüber dem Main – Bild 14 von 14",
-    "width": 1131,
-    "height": 1599,
+    "width": 1448,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15077,15 +15108,15 @@
     "variants": [
       480,
       960,
-      1131
+      1448
     ]
   },
   {
     "id": "m-2596",
     "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 2 von 12",
     "description": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 2 von 12",
-    "width": 1024,
-    "height": 643,
+    "width": 2048,
+    "height": 1286,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15093,22 +15124,23 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2597",
     "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 3 von 12",
     "description": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 3 von 12",
-    "width": 525,
-    "height": 1024,
+    "width": 1049,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      525
+      960,
+      1049
     ]
   },
   {
@@ -15163,45 +15195,48 @@
     "id": "m-2601",
     "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 7 von 12",
     "description": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 7 von 12",
-    "width": 580,
-    "height": 1024,
+    "width": 1160,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      580
+      960,
+      1160
     ]
   },
   {
     "id": "m-2602",
     "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 8 von 12",
     "description": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 8 von 12",
-    "width": 553,
-    "height": 1024,
+    "width": 1106,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      553
+      960,
+      1106
     ]
   },
   {
     "id": "m-2603",
     "title": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 9 von 12",
     "description": "Moderne Wohnung am Waldrand mit Wintergarten und Terrasse – Bild 9 von 12",
-    "width": 538,
-    "height": 1023,
+    "width": 1077,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      538
+      960,
+      1077
     ]
   },
   {
@@ -15271,8 +15306,8 @@
     "id": "m-2608",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 2 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 2 von 17",
-    "width": 1024,
-    "height": 576,
+    "width": 1182,
+    "height": 665,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15280,15 +15315,15 @@
     "variants": [
       480,
       960,
-      1024
+      1182
     ]
   },
   {
     "id": "m-2609",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 3 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 3 von 17",
-    "width": 1024,
-    "height": 580,
+    "width": 1174,
+    "height": 665,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15296,15 +15331,15 @@
     "variants": [
       480,
       960,
-      1024
+      1174
     ]
   },
   {
     "id": "m-2610",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 4 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 4 von 17",
-    "width": 1024,
-    "height": 610,
+    "width": 1117,
+    "height": 665,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15312,22 +15347,22 @@
     "variants": [
       480,
       960,
-      1024
+      1117
     ]
   },
   {
     "id": "m-2611",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 5 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 5 von 17",
-    "width": 655,
-    "height": 1024,
+    "width": 665,
+    "height": 1040,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      655
+      665
     ]
   },
   {
@@ -15364,8 +15399,8 @@
     "id": "m-2614",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 8 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 8 von 17",
-    "width": 1024,
-    "height": 576,
+    "width": 1182,
+    "height": 665,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15373,7 +15408,7 @@
     "variants": [
       480,
       960,
-      1024
+      1182
     ]
   },
   {
@@ -15395,38 +15430,38 @@
     "id": "m-2616",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 10 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 10 von 17",
-    "width": 536,
-    "height": 1024,
+    "width": 579,
+    "height": 1106,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      536
+      579
     ]
   },
   {
     "id": "m-2617",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 11 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 11 von 17",
-    "width": 558,
-    "height": 1024,
+    "width": 613,
+    "height": 1125,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      558
+      613
     ]
   },
   {
     "id": "m-2618",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 12 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 12 von 17",
-    "width": 1024,
-    "height": 603,
+    "width": 1129,
+    "height": 665,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15434,7 +15469,7 @@
     "variants": [
       480,
       960,
-      1024
+      1129
     ]
   },
   {
@@ -15456,23 +15491,23 @@
     "id": "m-2620",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 14 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 14 von 17",
-    "width": 614,
-    "height": 1024,
+    "width": 665,
+    "height": 1109,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      614
+      665
     ]
   },
   {
     "id": "m-2621",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 15 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 15 von 17",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15480,60 +15515,63 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2622",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 16 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 16 von 17",
-    "width": 768,
-    "height": 1024,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      768
+      960,
+      1536
     ]
   },
   {
     "id": "m-2623",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 1 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 1 von 17",
-    "width": 805,
-    "height": 1024,
+    "width": 1495,
+    "height": 1902,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      805
+      960,
+      1495
     ]
   },
   {
     "id": "m-2624",
     "title": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 17 von 17",
     "description": "Gemütliche Maisonettewohnung mitten in Fechenheim – Eigennutzung oder Kapitalanlage – Bild 17 von 17",
-    "width": 809,
-    "height": 1023,
+    "width": 1511,
+    "height": 1912,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      809
+      960,
+      1511
     ]
   },
   {
     "id": "m-2625",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 2 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 2 von 26",
-    "width": 1024,
-    "height": 730,
+    "width": 2048,
+    "height": 1460,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15541,15 +15579,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2626",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 3 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 3 von 26",
-    "width": 1024,
-    "height": 776,
+    "width": 2048,
+    "height": 1552,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15557,15 +15595,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2627",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 4 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 4 von 26",
-    "width": 1023,
-    "height": 629,
+    "width": 2048,
+    "height": 1259,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15573,15 +15611,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2628",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 5 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 5 von 26",
-    "width": 1024,
-    "height": 634,
+    "width": 2047,
+    "height": 1268,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15589,15 +15627,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2629",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 6 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 6 von 26",
-    "width": 1024,
-    "height": 664,
+    "width": 2048,
+    "height": 1327,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15605,15 +15643,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2630",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 7 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 7 von 26",
-    "width": 1024,
-    "height": 669,
+    "width": 2048,
+    "height": 1338,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15621,15 +15659,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2631",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 8 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 8 von 26",
-    "width": 1024,
-    "height": 730,
+    "width": 2048,
+    "height": 1460,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15637,15 +15675,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2632",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 9 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 9 von 26",
-    "width": 1024,
-    "height": 676,
+    "width": 2048,
+    "height": 1352,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15653,15 +15691,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2633",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 10 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 10 von 26",
-    "width": 1107,
-    "height": 1600,
+    "width": 1417,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15669,45 +15707,47 @@
     "variants": [
       480,
       960,
-      1107
+      1417
     ]
   },
   {
     "id": "m-2634",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 11 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 11 von 26",
-    "width": 760,
-    "height": 1024,
+    "width": 1521,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      760
+      960,
+      1521
     ]
   },
   {
     "id": "m-2635",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 12 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 12 von 26",
-    "width": 778,
-    "height": 1024,
+    "width": 1556,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      778
+      960,
+      1556
     ]
   },
   {
     "id": "m-2636",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 13 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 13 von 26",
-    "width": 1024,
-    "height": 768,
+    "width": 2048,
+    "height": 1536,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15715,15 +15755,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2637",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 14 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 14 von 26",
-    "width": 1024,
-    "height": 816,
+    "width": 2048,
+    "height": 1632,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15731,30 +15771,31 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2638",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 15 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 15 von 26",
-    "width": 633,
-    "height": 1024,
+    "width": 1266,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      633
+      960,
+      1266
     ]
   },
   {
     "id": "m-2639",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 16 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 16 von 26",
-    "width": 1024,
-    "height": 583,
+    "width": 2048,
+    "height": 1166,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15762,15 +15803,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2640",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 17 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 17 von 26",
-    "width": 1024,
-    "height": 707,
+    "width": 2048,
+    "height": 1414,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15778,15 +15819,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2641",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 18 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 18 von 26",
-    "width": 1023,
-    "height": 717,
+    "width": 2047,
+    "height": 1434,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15794,15 +15835,15 @@
     "variants": [
       480,
       960,
-      1023
+      1600
     ]
   },
   {
     "id": "m-2642",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 19 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 19 von 26",
-    "width": 1200,
-    "height": 1600,
+    "width": 1536,
+    "height": 2048,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15810,15 +15851,15 @@
     "variants": [
       480,
       960,
-      1200
+      1536
     ]
   },
   {
     "id": "m-2643",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 20 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 20 von 26",
-    "width": 1024,
-    "height": 826,
+    "width": 2048,
+    "height": 1651,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15826,15 +15867,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2644",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 21 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 21 von 26",
-    "width": 1024,
-    "height": 733,
+    "width": 2048,
+    "height": 1465,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15842,15 +15883,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2645",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 22 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 22 von 26",
-    "width": 1024,
-    "height": 691,
+    "width": 2047,
+    "height": 1381,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15858,15 +15899,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2646",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 23 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 23 von 26",
-    "width": 1024,
-    "height": 678,
+    "width": 2048,
+    "height": 1356,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15874,15 +15915,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2647",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 24 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 24 von 26",
-    "width": 1024,
-    "height": 674,
+    "width": 2048,
+    "height": 1347,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15890,15 +15931,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2648",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 25 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 25 von 26",
-    "width": 1024,
-    "height": 683,
+    "width": 2048,
+    "height": 1365,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15906,15 +15947,15 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2649",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 1 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 1 von 26",
-    "width": 1024,
-    "height": 635,
+    "width": 2048,
+    "height": 1270,
     "focal_point": {
       "x": 50,
       "y": 50
@@ -15922,22 +15963,23 @@
     "variants": [
       480,
       960,
-      1024
+      1600
     ]
   },
   {
     "id": "m-2650",
     "title": "Dreifamilienhaus in ruhiger Wohnlage – Bild 26 von 26",
     "description": "Dreifamilienhaus in ruhiger Wohnlage – Bild 26 von 26",
-    "width": 679,
-    "height": 1024,
+    "width": 1357,
+    "height": 2047,
     "focal_point": {
       "x": 50,
       "y": 50
     },
     "variants": [
       480,
-      679
+      960,
+      1357
     ]
   },
   {

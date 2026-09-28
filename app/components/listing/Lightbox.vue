@@ -312,7 +312,7 @@ onBeforeUnmount(() => { if (timer) clearTimeout(timer) })
 }
 .lb-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
 /* active: fully opaque, 2 px gap in the ground tone, then a 2 px ring in the action colour */
-.lb-thumb[aria-current='true'] { opacity: 1; box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--primary); }
+.lb-thumb[aria-current='true'] { opacity: 1; box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--link); }
 @media (hover: hover) {
   .lb-thumb:not([aria-current='true']):hover { opacity: 0.75; }
 }

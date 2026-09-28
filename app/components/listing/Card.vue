@@ -34,10 +34,10 @@ const sub = computed(() => {
       />
       <div v-if="price" class="plinth">
         <span class="block text-sm text-muted-foreground">
-          {{ label }}<template v-if="l.commission_free && !archived"> · <span class="font-semibold text-primary">{{ t('common.commissionFree') }}</span></template>
+          {{ label }}<template v-if="l.commission_free && !archived"> · <span class="font-semibold text-link">{{ t('common.commissionFree') }}</span></template>
         </span>
         <span
-          class="block whitespace-nowrap font-semibold tabular transition-colors duration-150 group-hover:text-primary motion-reduce:transition-none"
+          class="block whitespace-nowrap font-semibold tabular transition-colors duration-150 group-hover:text-link motion-reduce:transition-none"
           :class="price.compact ? 'text-xl leading-relaxed' : 'text-f-3xl tracking-[-0.015em]'"
         >
           {{ price.value }}<span v-if="price.unit" class="ml-1 text-[0.62em] font-normal tracking-normal text-muted-foreground">{{ price.unit }}</span>

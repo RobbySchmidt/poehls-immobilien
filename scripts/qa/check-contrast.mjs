@@ -33,18 +33,23 @@ function mix(fg, bg, alpha) {
 let failed = 0
 for (const [name, t] of [['Tag', block(':root')], ['Nacht', block('.dark')]]) {
   const surfaces = ['background', 'card', 'secondary', 'accent']
+  // --link falls back to primary (day); at night primary is too dark for text and filled
+  // shapes get a primary-foreground/20 edge (button + segmented), which carries the 3:1 shape contrast.
+  const link = t.link ?? t.primary
+  const shape = t.link ? mix(t['primary-foreground'], t.primary, 0.2) : t.primary
   const checks = []
   for (const s of surfaces) {
     checks.push([`foreground / ${s}`, t.foreground, t[s], 4.5])
     checks.push([`muted-foreground / ${s}`, t['muted-foreground'], t[s], 4.5])
-    checks.push([`primary als Text / ${s}`, t.primary, t[s], 4.5])
+    checks.push([`link (Akzent als Text) / ${s}`, link, t[s], 4.5])
+    // accent is only a hover tint – no filled primary shapes sit on it
+    if (s !== 'accent') checks.push([`primary (Form) / ${s}`, shape, t[s], 3])
     checks.push([`input / ${s}`, t.input, t[s], 3])
     checks.push([`ring 50% / ${s}`, mix(t.ring, t[s], 0.5), t[s], 3])
     checks.push([`destructive Text / ${s}`, t.destructive, t[s], 4.5])
   }
   checks.push(['primary-foreground / primary', t['primary-foreground'], t.primary, 4.5])
   checks.push(['primary-foreground / primary/90', t['primary-foreground'], mix(t.primary, t.background, 0.9), 4.5])
-  checks.push(['primary (Form) / background', t.primary, t.background, 3])
   checks.push(['foreground/70 / background', mix(t.foreground, t.background, 0.7), t.background, 4.5])
   console.log(`\n== ${name}`)
   for (const [label, a, b, min] of checks) {

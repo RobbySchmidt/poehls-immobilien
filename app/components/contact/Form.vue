@@ -45,7 +45,7 @@ const describedBy = (f: keyof ContactValues) => (errors.value[f] ? `e-${f}` : un
 
 <template>
   <div v-if="sent" ref="successEl" tabindex="-1" class="rounded-2xl bg-secondary p-8 outline-none" role="status">
-    <CircleCheck class="size-6 text-primary" aria-hidden="true" />
+    <CircleCheck class="size-6 text-link" aria-hidden="true" />
     <h2 class="mt-3 text-f-2xl">{{ t('contact.thanks', { name: values.name.trim().split(' ')[0] }) }}</h2>
     <p class="mt-2 text-muted-foreground">{{ t('contact.thanksText') }}</p>
     <p class="mt-4 text-sm text-muted-foreground">{{ t('contact.prototypeNote', { phone: company.phone }) }}</p>
@@ -85,7 +85,7 @@ const describedBy = (f: keyof ContactValues) => (errors.value[f] ? `e-${f}` : un
       <Textarea id="f-message" v-model="values.message" rows="6" class="text-base" :aria-invalid="!!errors.message" :aria-describedby="describedBy('message')" @blur="blur('message')" />
       <p v-if="errors.message" id="e-message" class="flex items-center gap-1.5 text-sm text-destructive"><CircleAlert class="size-4 shrink-0" aria-hidden="true" />{{ errors.message }}</p>
     </div>
-    <p class="text-sm text-muted-foreground">{{ t('contact.consent') }} <NuxtLink :to="localePath('datenschutz')" class="text-primary underline underline-offset-4">{{ t('contact.privacyLink') }}</NuxtLink>.</p>
+    <p class="text-sm text-muted-foreground">{{ t('contact.consent') }} <NuxtLink :to="localePath('datenschutz')" class="text-link underline underline-offset-4">{{ t('contact.privacyLink') }}</NuxtLink>.</p>
     <div><Button type="submit" size="cta">{{ t('contact.send') }}</Button></div>
   </form>
 </template>

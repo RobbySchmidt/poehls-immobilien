@@ -24,7 +24,7 @@ const photo = project.mood_pairs.photo
       <MoodImage :day="useFile(photo.day)" :night="useFile(photo.night)" sizes="(min-width: 1024px) 60vw, 100vw" alt="" />
       <span v-if="fromRent" class="plinth">
         <span class="block text-sm text-muted-foreground">{{ t('gt.rentFrom') }}</span>
-        <span class="block whitespace-nowrap text-f-3xl font-semibold tracking-[-0.015em] tabular transition-colors duration-150 group-hover:text-primary motion-reduce:transition-none">
+        <span class="block whitespace-nowrap text-f-3xl font-semibold tracking-[-0.015em] tabular transition-colors duration-150 group-hover:text-link motion-reduce:transition-none">
           {{ fromRent }}<span class="ml-1 text-[0.62em] font-normal tracking-normal text-muted-foreground">{{ t('common.perMonth') }}</span>
         </span>
       </span>

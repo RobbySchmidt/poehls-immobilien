@@ -24,7 +24,7 @@ const services = useServicesContent()
           <h3 class="border-b border-border pb-3 text-f-2xl">{{ group.title }}</h3>
           <ul class="mt-4 space-y-3 text-sm">
             <li v-for="item in group.items.slice(0, 4)" :key="item" class="flex gap-2.5">
-              <Check class="mt-0.5 size-4 shrink-0 text-primary" aria-hidden="true" />{{ item }}
+              <Check class="mt-0.5 size-4 shrink-0 text-link" aria-hidden="true" />{{ item }}
             </li>
           </ul>
         </div>
