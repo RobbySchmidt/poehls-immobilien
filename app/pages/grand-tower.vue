@@ -32,9 +32,11 @@ const openAt = (i: number) => galleryRef.value?.show(i)
     <section class="container-page pb-f-24 pt-8" :aria-label="t('gt.unitsAria')">
       <div class="grid gap-x-f-8 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
         <div class="md:col-span-2 lg:col-span-3 lg:mb-f-8">
-          <div class="relative aspect-4/3 overflow-hidden rounded-[14px] bg-muted md:aspect-video lg:aspect-2/1">
-            <MoodImage :day="useFile(photo.day)" :night="useFile(photo.night)" eager sizes="(min-width: 1280px) 1280px, 100vw" alt="" />
-            <div class="plinth pr-10 pt-5 max-md:right-10 max-md:min-w-0 max-md:pr-5 max-md:pt-3">
+          <div class="relative">
+            <div class="relative aspect-4/3 overflow-hidden rounded-[14px] bg-muted md:aspect-video md:rounded-bl-none lg:aspect-2/1">
+              <MoodImage :day="useFile(photo.day)" :night="useFile(photo.night)" eager sizes="(min-width: 1280px) 1280px, 100vw" alt="" />
+            </div>
+            <div class="plinth plinth-stack pr-10 pt-5">
               <p class="text-sm font-semibold text-muted-foreground">{{ project.address }}</p>
               <h1 class="mt-1.5 text-f-6xl max-md:text-[2.125rem] leading-[1.1]">{{ project.title }}</h1>
               <p class="mt-2.5 text-f-xl font-semibold max-md:hidden">{{ project.tagline }}</p>

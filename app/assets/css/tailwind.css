@@ -116,7 +116,7 @@
   /* navy from light mode stays the button colour; text accents get a light navy for contrast */
   --primary: oklch(0.4 0.08 250);
   --primary-foreground: oklch(0.99 0.003 250);
-  --link: oklch(0.8 0.06 250);
+  --link: oklch(0.72 0.09 250);
   --secondary: oklch(0.225 0.008 255);
   --secondary-foreground: oklch(0.93 0.008 85);
   --muted: oklch(0.225 0.008 255);
@@ -213,15 +213,19 @@
   .tabular { font-variant-numeric: lining-nums proportional-nums; }
 }
 
-/* Day/night cross-fade – the one orchestrated motion */
-html.theme-anim,
-html.theme-anim *,
-html.theme-anim *::before,
-html.theme-anim *::after {
-  transition: background-color 300ms ease-out, color 300ms ease-out, border-color 300ms ease-out, fill 300ms ease-out, opacity 300ms ease-out !important;
+/* Day/night switch: no per-element transitions (colours, hover, day/night photos would each fade at their
+   own pace) – set by useTheme for the moment the .dark class flips. The smoothness comes from one
+   view transition cross-fading the whole page instead. */
+html.theme-switch,
+html.theme-switch *,
+html.theme-switch *::before,
+html.theme-switch *::after {
+  transition: none !important;
 }
-@media (prefers-reduced-motion: reduce) {
-  html.theme-anim, html.theme-anim * { transition: none !important; }
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 220ms;
+  animation-timing-function: ease-out;
 }
 
 @layer base {
@@ -238,4 +242,17 @@ html.theme-anim *::after {
    Unlayered on purpose so it wins over rounded-* utilities. */
 :has(> .plinth) {
   border-bottom-left-radius: 0;
+}
+
+/* Page heads (home, Grand Tower, services): on phones the wide title would leave only a sliver of photo
+   next to the notch – keep the photo whole and set kicker + title below it. The plinth is then a sibling of
+   the photo box (not a child), so the box needs md:rounded-bl-none itself. Unlayered: wins over .plinth. */
+@media (width < 48rem) {
+  .plinth-stack {
+    position: static;
+    min-width: 0;
+    padding: 1.25rem 0 0;
+    background: none;
+  }
+  .plinth-stack::before, .plinth-stack::after { display: none; }
 }
