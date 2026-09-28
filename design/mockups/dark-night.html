@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dark Mode – Frankfurt bei Nacht</title>
+<style>
+:root { --bg: #f4f5f7; --fg: #1d2330; --muted: #5b6475; --line: #dde1e7; color-scheme: light; }
+* { box-sizing: border-box; margin: 0; }
+body { font-family: ui-sans-serif, system-ui, sans-serif; background: var(--bg); color: var(--fg); padding: 32px 16px 64px; }
+.wrap { max-width: 1900px; margin: 0 auto; }
+h1 { font-size: 26px; letter-spacing: -0.02em; }
+.intro { color: var(--muted); margin-top: 6px; max-width: 80ch; line-height: 1.55; }
+.tabs { display: flex; gap: 8px; margin: 22px 0 18px; flex-wrap: wrap; }
+.tabs button { font: inherit; font-size: 14px; font-weight: 600; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: #fff; color: var(--fg); cursor: pointer; }
+.tabs button[aria-pressed="true"] { background: var(--fg); color: #fff; border-color: var(--fg); }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 800px) { .grid { grid-template-columns: 1fr; } }
+figure { background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+figcaption { padding: 12px 16px; font-size: 14px; border-bottom: 1px solid var(--line); }
+figcaption b { display: block; font-size: 15px; }
+figcaption span { color: var(--muted); }
+figure img { display: block; width: 100%; height: auto; }
+.tokens { margin-top: 28px; background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; overflow-x: auto; }
+.tokens h2 { font-size: 17px; margin-bottom: 10px; }
+table { border-collapse: collapse; font-size: 13.5px; min-width: 640px; }
+td, th { padding: 6px 14px 6px 0; text-align: left; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; }
+code { font-size: 12.5px; }
+.sw { display: inline-block; width: 14px; height: 14px; border-radius: 4px; vertical-align: -2px; margin-right: 6px; border: 1px solid #0002; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Dark Mode – „Frankfurt bei Nacht“</h1>
+  <p class="intro">Screenshots der echten Startseite (1280 px). Die Nacht-Version ist nur per CSS über die laufende Seite gelegt – noch nichts im Code geändert. Idee: tiefe, fast neutrale Tinte statt Blaugrau, weiches Elfenbein statt Reinweiß, leisere Tonstufen zwischen den Abschnitten, Fotos leicht gedimmt.</p>
+
+  <div class="tabs" role="group" aria-label="Ausschnitt">
+    <button data-s="s0" aria-pressed="true">Hero</button>
+    <button data-s="s1">Neue Angebote</button>
+    <button data-s="s3">Leistungen</button>
+    <button data-s="s4">Persönlich</button>
+    <button data-s="s6">Kontakt</button>
+    <button data-s="">Ganze Seite</button>
+  </div>
+
+  <div class="grid">
+    <figure><figcaption><b>Light Mode</b><span>Referenz</span></figcaption><img data-v="light" alt="Light Mode"></figure>
+    <figure><figcaption><b>Dark Mode – aktuell</b><span>Blaugrau, Reinweiß</span></figcaption><img data-v="dark-now" alt="Dark Mode aktuell"></figure>
+    <figure><figcaption><b>Dark Mode – Nacht (Vorschlag)</b><span>Tinte, Elfenbein</span></figcaption><img data-v="night" alt="Dark Mode Nacht"></figure>
+  </div>
+
+  <div class="tokens">
+    <h2>Farbwerte</h2>
+    <table>
+      <tr><th>Token</th><th>aktuell</th><th>Nacht</th></tr>
+      <tr><td>background</td><td><i class="sw" style="background:oklch(0.175 0.018 250)"></i><code>0.175 0.018 250</code></td><td><i class="sw" style="background:oklch(0.155 0.006 255)"></i><code>0.155 0.006 255</code></td></tr>
+      <tr><td>secondary / muted</td><td><i class="sw" style="background:oklch(0.225 0.022 250)"></i><code>0.225 0.022 250</code></td><td><i class="sw" style="background:oklch(0.188 0.007 255)"></i><code>0.188 0.007 255</code></td></tr>
+      <tr><td>card</td><td><i class="sw" style="background:oklch(0.225 0.022 250)"></i><code>0.225 0.022 250</code></td><td><i class="sw" style="background:oklch(0.2 0.007 255)"></i><code>0.2 0.007 255</code></td></tr>
+      <tr><td>accent</td><td><i class="sw" style="background:oklch(0.265 0.024 250)"></i><code>0.265 0.024 250</code></td><td><i class="sw" style="background:oklch(0.235 0.008 255)"></i><code>0.235 0.008 255</code></td></tr>
+      <tr><td>border</td><td><i class="sw" style="background:oklch(0.29 0.02 250)"></i><code>0.29 0.02 250</code></td><td><i class="sw" style="background:oklch(0.25 0.007 255)"></i><code>0.25 0.007 255</code></td></tr>
+      <tr><td>foreground</td><td><i class="sw" style="background:oklch(0.96 0.004 250)"></i><code>0.96 0.004 250</code></td><td><i class="sw" style="background:oklch(0.93 0.008 85)"></i><code>0.93 0.008 85</code></td></tr>
+      <tr><td>muted-foreground</td><td><i class="sw" style="background:oklch(0.76 0.018 250)"></i><code>0.76 0.018 250</code></td><td><i class="sw" style="background:oklch(0.74 0.012 80)"></i><code>0.74 0.012 80</code></td></tr>
+      <tr><td>link</td><td><i class="sw" style="background:oklch(0.8 0.07 250)"></i><code>0.8 0.07 250</code></td><td><i class="sw" style="background:oklch(0.8 0.06 250)"></i><code>0.8 0.06 250</code></td></tr>
+      <tr><td>Fotos</td><td>–</td><td><code>brightness(.92)</code></td></tr>
+    </table>
+  </div>
+</div>
+<script>
+const imgs = document.querySelectorAll('img[data-v]'), btns = document.querySelectorAll('.tabs button')
+function show(s) {
+  imgs.forEach((i) => { i.src = `dark-night/${i.dataset.v}${s ? '-' + s : ''}.png` })
+  btns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.s === s)))
+}
+btns.forEach((b) => b.addEventListener('click', () => show(b.dataset.s)))
+show('s0')
+</script>
+</body>
+</html>

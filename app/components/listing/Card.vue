@@ -30,7 +30,7 @@ const sub = computed(() => {
         :eager="eager"
         sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw"
         alt=""
-        :class="archived ? 'saturate-[.45]' : 'dark:brightness-[.94]'"
+        :class="archived && 'saturate-[.45]'"
       />
       <div v-if="price" class="plinth">
         <span class="block text-sm text-muted-foreground">

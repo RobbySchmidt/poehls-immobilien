@@ -104,27 +104,29 @@
   --sidebar-ring: var(--ring);
 }
 
+/* "Frankfurt bei Nacht": deep, almost neutral ink instead of blue-grey, soft ivory text,
+   quiet tone steps between sections */
 .dark {
-  --background: oklch(0.175 0.018 250);
-  --foreground: oklch(0.96 0.004 250);
-  --card: oklch(0.225 0.022 250);
-  --card-foreground: oklch(0.96 0.004 250);
-  --popover: oklch(0.225 0.022 250);
-  --popover-foreground: oklch(0.96 0.004 250);
+  --background: oklch(0.188 0.007 255);
+  --foreground: oklch(0.93 0.008 85);
+  --card: oklch(0.235 0.008 255);
+  --card-foreground: oklch(0.93 0.008 85);
+  --popover: oklch(0.235 0.008 255);
+  --popover-foreground: oklch(0.93 0.008 85);
   /* navy from light mode stays the button colour; text accents get a light navy for contrast */
   --primary: oklch(0.4 0.08 250);
   --primary-foreground: oklch(0.99 0.003 250);
-  --link: oklch(0.8 0.07 250);
-  --secondary: oklch(0.225 0.022 250);
-  --secondary-foreground: oklch(0.96 0.004 250);
-  --muted: oklch(0.225 0.022 250);
-  --muted-foreground: oklch(0.76 0.018 250);
-  --accent: oklch(0.265 0.024 250);
-  --accent-foreground: oklch(0.96 0.004 250);
+  --link: oklch(0.8 0.06 250);
+  --secondary: oklch(0.225 0.008 255);
+  --secondary-foreground: oklch(0.93 0.008 85);
+  --muted: oklch(0.225 0.008 255);
+  --muted-foreground: oklch(0.76 0.012 80);
+  --accent: oklch(0.27 0.009 255);
+  --accent-foreground: oklch(0.93 0.008 85);
   --destructive: oklch(0.7 0.17 24);
-  --border: oklch(0.29 0.02 250);
-  --input: oklch(0.56 0.02 250);
-  --ring: oklch(0.96 0.004 250);
+  --border: oklch(0.29 0.008 255);
+  --input: oklch(0.58 0.01 255);
+  --ring: oklch(0.93 0.008 85);
   --sidebar: var(--card);
   --sidebar-foreground: var(--foreground);
   --sidebar-primary: var(--primary);
@@ -205,6 +207,8 @@
   h2 { letter-spacing: -0.02em; }
   h3 { letter-spacing: -0.01em; }
   p, li { text-wrap: pretty; }
+  /* photos slightly dimmed at night so they don't glare against the dark page */
+  .dark main img { filter: brightness(0.92); }
   /* Schibsted's tabular figures make "." and "," as wide as a digit – lining figures read better */
   .tabular { font-variant-numeric: lining-nums proportional-nums; }
 }
