@@ -21,7 +21,7 @@ const photo = project.mood_pairs.photo
       </Button>
     </div>
     <NuxtLink :to="localePath('grand-tower')" class="group relative block aspect-4/3 overflow-hidden rounded-[14px] bg-muted lg:col-span-7" tabindex="-1" aria-hidden="true">
-      <MoodImage :day="useFile(photo.day)" :night="useFile(photo.night)" sizes="(min-width: 1024px) 60vw, 100vw" alt="" />
+      <MoodImage :day="useFile(photo.day)" :night="useFile(photo.night)" sizes="(min-width: 1024px) 60vw, 100vw" alt="" class="transition-transform duration-500 ease-out group-hover:scale-[1.03] motion-reduce:transition-none" />
       <span v-if="fromRent" class="plinth">
         <span class="block text-sm text-muted-foreground">{{ t('gt.rentFrom') }}</span>
         <span class="block whitespace-nowrap text-f-3xl font-semibold tracking-[-0.015em] tabular transition-colors duration-150 group-hover:text-link motion-reduce:transition-none">

@@ -23,13 +23,15 @@ const sub = computed(() => {
 </script>
 
 <template>
-  <article class="group relative flex flex-col rounded-[18px] outline-offset-8 focus-within:outline-2 focus-within:outline-ring">
+  <!-- Focus ring only for keyboard focus (:focus-visible) – focus-within would also ring the card on click. -->
+  <article class="group relative flex flex-col rounded-[18px] outline-offset-8 has-focus-visible:outline-2 has-focus-visible:outline-ring">
     <div class="relative aspect-[4/3] overflow-hidden rounded-[14px] bg-muted">
       <ResponsiveImage
         :file="cover"
         :eager="eager"
         sizes="(min-width: 1024px) 400px, (min-width: 768px) 50vw, 100vw"
         alt=""
+        class="transition-transform duration-500 ease-out group-hover:scale-[1.03] motion-reduce:transition-none"
         :class="archived && 'saturate-[.45]'"
       />
       <div v-if="price" class="plinth">

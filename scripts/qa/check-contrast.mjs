@@ -49,7 +49,7 @@ for (const [name, t] of [['Tag', block(':root')], ['Nacht', block('.dark')]]) {
     checks.push([`destructive Text / ${s}`, t.destructive, t[s], 4.5])
   }
   checks.push(['primary-foreground / primary', t['primary-foreground'], t.primary, 4.5])
-  checks.push(['primary-foreground / primary/90', t['primary-foreground'], mix(t.primary, t.background, 0.9), 4.5])
+  checks.push(['primary-foreground / primary-hover', t['primary-foreground'], t['primary-hover'], 4.5])
   checks.push(['foreground/70 / background', mix(t.foreground, t.background, 0.7), t.background, 4.5])
   console.log(`\n== ${name}`)
   for (const [label, a, b, min] of checks) {

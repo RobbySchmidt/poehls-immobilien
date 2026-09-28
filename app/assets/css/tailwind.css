@@ -33,6 +33,7 @@
   --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
   --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
   --color-link: var(--link);
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
@@ -77,6 +78,8 @@
   --popover-foreground: oklch(0.235 0.025 250);
   --primary: oklch(0.4 0.08 250);
   --primary-foreground: oklch(0.99 0.003 250);
+  /* button hover: a clearly darker navy (the old primary/90 was barely visible) – lighter in dark mode */
+  --primary-hover: oklch(0.33 0.075 250);
   /* accent as text colour (links, icons, hover) – same as primary here, lighter in dark mode */
   --link: var(--primary);
   --secondary: oklch(0.955 0.008 250);
@@ -116,6 +119,7 @@
   /* navy from light mode stays the button colour; text accents get a light navy for contrast */
   --primary: oklch(0.4 0.08 250);
   --primary-foreground: oklch(0.99 0.003 250);
+  --primary-hover: oklch(0.47 0.085 250);
   --link: oklch(0.72 0.09 250);
   --secondary: oklch(0.225 0.008 255);
   --secondary-foreground: oklch(0.93 0.008 85);
@@ -184,6 +188,7 @@
   & ul { list-style: disc; padding-left: 1.25em; margin-block: 0 1em; }
   & li { margin-block: 0.25em; }
   & a { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+  & a:hover { text-decoration-thickness: 2px; }
   & b, & strong { font-weight: 600; }
 }
 

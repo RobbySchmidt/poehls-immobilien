@@ -85,7 +85,7 @@ const describedBy = (f: keyof ContactValues) => (errors.value[f] ? `e-${f}` : un
       <Textarea id="f-message" v-model="values.message" rows="6" class="text-base" :aria-invalid="!!errors.message" :aria-describedby="describedBy('message')" @blur="blur('message')" />
       <p v-if="errors.message" id="e-message" class="flex items-center gap-1.5 text-sm text-destructive"><CircleAlert class="size-4 shrink-0" aria-hidden="true" />{{ errors.message }}</p>
     </div>
-    <p class="text-sm text-muted-foreground">{{ t('contact.consent') }} <NuxtLink :to="localePath('datenschutz')" class="text-link underline underline-offset-4">{{ t('contact.privacyLink') }}</NuxtLink>.</p>
+    <p class="text-sm text-muted-foreground">{{ t('contact.consent') }} <NuxtLink :to="localePath('datenschutz')" class="text-link underline underline-offset-4 hover:decoration-2">{{ t('contact.privacyLink') }}</NuxtLink>.</p>
     <div><Button type="submit" size="cta">{{ t('contact.send') }}</Button></div>
   </form>
 </template>

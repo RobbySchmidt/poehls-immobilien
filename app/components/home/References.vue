@@ -18,7 +18,7 @@ const refs = sortListings(useArchivedListings(), 'neu')
         <div class="mt-8 flex items-center gap-2">
           <CarouselPrevious class="static size-11 translate-y-0" :aria-label="t('references.prev')" />
           <CarouselNext class="static size-11 translate-y-0" :aria-label="t('references.next')" />
-          <NuxtLink :to="localePath('referenzen')" class="ml-4 font-semibold text-link underline underline-offset-4">{{ t('common.allReferences') }}</NuxtLink>
+          <NuxtLink :to="localePath('referenzen')" class="ml-4 font-semibold text-link underline underline-offset-4 hover:decoration-2">{{ t('common.allReferences') }}</NuxtLink>
         </div>
       </Carousel>
     </div>

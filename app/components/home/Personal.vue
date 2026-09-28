@@ -22,7 +22,7 @@ const portrait = useFile(company.portrait)
             <dd class="mt-1 text-sm text-muted-foreground">{{ fact.label }}</dd>
           </div>
         </dl>
-        <NuxtLink :to="localePath('ueber-uns')" class="mt-8 inline-block font-semibold text-link underline underline-offset-4">{{ t('common.moreAbout') }}</NuxtLink>
+        <NuxtLink :to="localePath('ueber-uns')" class="mt-8 inline-block font-semibold text-link underline underline-offset-4 hover:decoration-2">{{ t('common.moreAbout') }}</NuxtLink>
       </div>
     </div>
   </section>
