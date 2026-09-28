@@ -39,4 +39,10 @@ describe('generated content', () => {
       expect(j.translations?.map((t) => t.languages_code).sort(), name).toEqual(['de', 'en'])
     }
   })
+  it('has a photo for every service area', () => {
+    const j = JSON.parse(fs.readFileSync('content/manual/services.json', 'utf8'))
+    const files = new Set(JSON.parse(fs.readFileSync('content/generated/files.json', 'utf8')).map((f) => f.id))
+    for (const t of j.translations) expect(j.group_photos.length, t.languages_code).toBe(t.groups.length)
+    expect(j.group_photos.filter((id) => !files.has(id))).toEqual([])
+  })
 })

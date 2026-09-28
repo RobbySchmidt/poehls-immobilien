@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Über uns – Entwurfsrichtungen</title>
+<style>
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* ---------- Tokens 1:1 aus app/assets/css/tailwind.css ---------- */
+.site {
+  --background: oklch(0.995 0.002 250);
+  --foreground: oklch(0.235 0.025 250);
+  --primary: oklch(0.4 0.08 250);
+  --primary-foreground: oklch(0.99 0.003 250);
+  --secondary: oklch(0.955 0.008 250);
+  --muted-foreground: oklch(0.46 0.025 250);
+  --border: oklch(0.905 0.01 250);
+  --surface: var(--background);
+  color-scheme: light;
+}
+.site.dark {
+  --background: oklch(0.188 0.007 255);
+  --foreground: oklch(0.93 0.008 85);
+  --secondary: oklch(0.225 0.008 255);
+  --muted-foreground: oklch(0.76 0.012 80);
+  --border: oklch(0.29 0.008 255);
+  color-scheme: dark;
+}
+.site.dark img { filter: brightness(.92); }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif; background: #d9dde3; -webkit-font-smoothing: antialiased; }
+
+/* ---------- Mockup-Steuerung ---------- */
+.bar { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; padding: 12px 16px; background: #1b2230; color: #fff; font-size: 14px; }
+.bar .grp { display: inline-flex; gap: 4px; background: #2b3444; padding: 3px; border-radius: 999px; }
+.bar button { font: inherit; font-weight: 600; font-size: 13px; color: #cfd6e2; background: none; border: 0; padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.bar button[aria-pressed="true"] { background: #fff; color: #1b2230; }
+.bar .note { color: #aab4c4; flex: 1 1 320px; line-height: 1.4; }
+.stage { padding: 24px 16px 64px; }
+.frame { margin: 0 auto; max-width: 1280px; box-shadow: 0 10px 40px #0002; border-radius: 10px; overflow: hidden; }
+.frame.mobile { max-width: 390px; }
+
+/* ---------- Seite ---------- */
+.site { container-type: inline-size; background: var(--background); color: var(--foreground); font-size: 17px; line-height: 1.6; }
+.wrap { max-width: 80rem; margin: 0 auto; padding-inline: 2rem; }
+@container (width < 48rem) { .wrap { padding-inline: 1rem; } }
+h1, h2, h3 { font-weight: 600; line-height: 1.15; text-wrap: balance; }
+h1 { letter-spacing: -0.03em; } h2 { letter-spacing: -0.02em; }
+p { text-wrap: pretty; }
+.photo { position: relative; border-radius: 14px; overflow: hidden; background: var(--secondary); }
+.photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.photo:has(> .plinth) { border-bottom-left-radius: 0; }
+.plinth { position: absolute; left: -1px; bottom: -1px; padding: 1rem 2rem 1px 1px; z-index: 1; background: var(--surface); border-top-right-radius: 14px; }
+.plinth::before, .plinth::after { content: ''; position: absolute; width: 14px; height: 14px; background: radial-gradient(circle at 100% 0, transparent 13.5px, var(--surface) 14px); }
+.plinth::before { left: 1px; top: -14px; } .plinth::after { left: 100%; bottom: 0; }
+.plinth small { display: block; font-size: 14px; color: var(--muted-foreground); }
+.plinth strong { display: block; font-size: clamp(1.375rem, 1.2rem + 0.8vw, 1.6875rem); font-weight: 600; letter-spacing: -0.015em; line-height: 1.2; }
+
+.btn { display: inline-flex; align-items: center; height: 48px; padding: 0 26px; border-radius: 999px; font: inherit; font-size: 16px; font-weight: 600; border: 1px solid transparent; }
+.btn-primary { background: var(--primary); color: var(--primary-foreground); }
+.dark .btn-primary { border-color: oklch(0.99 0.003 250 / .2); }
+.btn-outline { background: var(--background); border-color: var(--border); color: var(--foreground); }
+
+/* Kopf: Porträt links, Text rechts (bestehend) */
+.top { display: grid; grid-template-columns: 5fr 7fr; gap: 4rem; align-items: start; padding-top: 2rem; }
+.top .photo { aspect-ratio: 4 / 5; }
+.top .photo img { object-position: 57% 30%; }
+.top h1 { font-size: clamp(2.4375rem, 1.8rem + 3.2vw, 3.75rem); padding-top: 2rem; }
+.top .lead { margin-top: 1.25rem; max-width: 30ch; font-size: clamp(1.125rem, 0.98rem + 0.75vw, 1.5rem); font-weight: 500; line-height: 1.4; letter-spacing: -0.01em; }
+@container (width < 60rem) { .top { grid-template-columns: 1fr; gap: 2rem; } .top h1 { padding-top: 0; } .top .photo { max-width: 34rem; } }
+@container (width < 48rem) { .top { padding-top: 1rem; } }
+
+.sec h2 { font-size: clamp(1.125rem, 0.98rem + 0.75vw, 1.5rem); }
+.sec p { margin-top: .75rem; max-width: 58ch; line-height: 1.7; color: var(--muted-foreground); }
+
+/* aktuell: Haarlinien */
+.v-now .sec { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+
+/* A · graue Karten */
+.v-a .secs { margin-top: 3rem; display: grid; gap: 14px; }
+.v-a .sec { background: var(--secondary); border-radius: 18px; padding: 1.75rem 2rem 2rem; }
+@container (width < 48rem) { .v-a .sec { padding: 1.25rem 1.25rem 1.5rem; } }
+
+/* B · ohne Linien, Luft + Typo */
+.v-b .secs { margin-top: 4.5rem; display: grid; gap: 3.5rem; }
+.v-b .sec h2 { font-size: clamp(1.375rem, 1.2rem + 0.8vw, 1.6875rem); }
+.v-b .sec h2::before { content: ''; display: block; width: 28px; height: 3px; border-radius: 2px; background: var(--primary); margin-bottom: 1rem; }
+.dark .v-b .sec h2::before { background: oklch(0.72 0.09 250); }
+@container (width < 48rem) { .v-b .secs { margin-top: 3rem; gap: 2.5rem; } }
+
+/* C · drei Spalten auf grauem Band */
+.v-c .top { align-items: end; }
+.v-c .top .lead { max-width: 34ch; }
+.v-c .band { background: var(--secondary); margin-top: 6rem; padding-block: 5rem; }
+.v-c .band .wrap { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; }
+.v-c .band h2 { font-size: clamp(1.375rem, 1.2rem + 0.8vw, 1.6875rem); }
+@container (width < 60rem) { .v-c .band .wrap { grid-template-columns: 1fr; gap: 2.5rem; } }
+@container (width < 48rem) { .v-c .band { margin-top: 3.5rem; padding-block: 3rem; } }
+
+/* Markt-Foto + Kontakt (bestehend) */
+.market { padding-top: 6rem; }
+.market .photo { aspect-ratio: 1600 / 373; }
+.market .photo img { transform: scale(1.16); transform-origin: top right; }
+.v-c .market { padding-top: 5rem; }
+@container (width < 48rem) { .market { display: none; } }
+.contact { background: var(--secondary); padding-block: 6rem; margin-top: 6rem; }
+.v-c .contact { background: var(--background); border-top: 0; }
+.contact .wrap { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-end; justify-content: space-between; }
+.contact h2 { font-size: clamp(1.75rem, 1.5rem + 1.25vw, 2.25rem); }
+.contact p { margin-top: .75rem; max-width: 48ch; font-size: 1.2rem; color: var(--muted-foreground); }
+.contact .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+@container (width < 48rem) { .contact { padding-block: 3rem; margin-top: 3rem; } }
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <b>Über uns</b>
+  <span class="grp" id="variant">
+    <button data-v="now">Aktuell</button>
+    <button data-v="a" aria-pressed="true">A · Graue Karten</button>
+    <button data-v="b">B · Luft statt Linien</button>
+    <button data-v="c">C · Graues Band</button>
+  </span>
+  <span class="grp" id="width">
+    <button data-w="desktop" aria-pressed="true">Desktop</button>
+    <button data-w="mobile">Mobil</button>
+  </span>
+  <span class="grp" id="scheme">
+    <button data-s="light" aria-pressed="true">Hell</button>
+    <button data-s="dark">Dunkel</button>
+  </span>
+  <span class="note" id="note"></span>
+</div>
+
+<div class="stage"><div class="frame" id="frame"><div class="site" id="site"><div id="root"></div></div></div></div>
+
+<script>
+const sections = [
+  { title: 'Spezialisiert auf Frankfurt und Rhein-Main', text: ['Pöhls Immobilien ist seit mehr als 35 Jahren mit dem Immobiliengeschehen der Finanz- und Dienstleistungsmetropole Frankfurt am Main vertraut. Deshalb konzentrieren wir uns bewusst auf diesen Standort und das Rhein-Main-Gebiet – und geben unsere Erfahrung auf aktuellem Wissensstand an unsere Kundinnen und Kunden weiter.'] },
+  { title: 'Beratung, die bei Ihrem Ziel beginnt', text: ['Am Anfang steht Ihr Ziel: Wir erfassen sorgfältig, was Sie erreichen möchten, analysieren Stärken und Schwächen der Immobilie und ihres Standorts – intern wie im Markt – und schätzen die Zukunftsaussichten ein.', 'Auf dieser Grundlage beraten wir Sie mit fundierter Kenntnis des regionalen Marktes, ob bei Ihrer Anlagestrategie oder bei der geplanten Eigennutzung.'] },
+  { title: 'Erfahrung aus dem Marktgeschehen', text: ['Unsere Erfahrung stammt aus dem unmittelbaren Umgang mit dem Markt und aus der Zusammenarbeit mit jedem einzelnen Kunden. Ausgesuchte Wohnanlagen und Wohnungsbestände im Rhein-Main-Gebiet begleiten wir seit mehr als 15 Jahren exklusiv bei Verkauf und Vermietung.'] },
+]
+const secs = sections.map((s) => `<section class="sec"><h2>${s.title}</h2>${s.text.map((p) => `<p>${p}</p>`).join('')}</section>`).join('')
+const portrait = `<div class="photo"><img src="../../public/media/m-1987-960.webp" alt=""><div class="plinth"><small>Inhaber</small><strong>Pierre Pöhls</strong></div></div>`
+const intro = `<h1>Über uns</h1><p class="lead">Seit über 35 Jahren am Frankfurter Immobilienmarkt – ortskundig, persönlich und mit klarem Blick für Chancen und Risiken.</p>`
+const market = `<div class="market wrap"><div class="photo"><img src="../../public/media/m-1550-1600.webp" alt=""><div class="plinth"><small>Unser Markt</small><strong>Frankfurt und Rhein-Main</strong></div></div></div>`
+const contact = `<section class="contact"><div class="wrap"><div><h2>Sprechen Sie mit uns.</h2><p>Ob Kauf, Miete oder Verkauf – wir beraten Sie persönlich und unverbindlich.</p></div><div class="actions"><a class="btn btn-primary">Anrufen</a><a class="btn btn-outline">Nachricht schreiben</a></div></div></section>`
+
+const render = {
+  now: () => `<div class="v-now"><div class="wrap top">${portrait}<div>${intro}${secs}</div></div>${market}${contact}</div>`,
+  a: () => `<div class="v-a"><div class="wrap top">${portrait}<div>${intro}<div class="secs">${secs}</div></div></div>${market}${contact}</div>`,
+  b: () => `<div class="v-b"><div class="wrap top">${portrait}<div>${intro}<div class="secs">${secs}</div></div></div>${market}${contact}</div>`,
+  c: () => `<div class="v-c"><div class="wrap top">${portrait}<div>${intro}</div></div><div class="band"><div class="wrap">${secs}</div></div>${market}${contact}</div>`,
+}
+const notes = {
+  now: 'Stand heute: drei Abschnitte, getrennt durch Haarlinien.',
+  a: 'Die drei Abschnitte als weiche graue Karten (wie Kontaktbox und Kaufen/Mieten-Fläche) – Trennung über Fläche statt Linie.',
+  b: 'Keine Linien, keine Flächen: mehr Abstand, größere Zwischenüberschriften und ein kurzer Navy-Strich als Einstieg. Am ruhigsten.',
+  c: 'Oben nur Porträt, Titel und Einleitung; die drei Abschnitte stehen darunter nebeneinander auf dem grauen Band – der Rhythmus der Startseite.',
+}
+function show(v) { document.getElementById('root').innerHTML = render[v](); document.getElementById('note').textContent = notes[v] }
+function pick(id, attr, fn) {
+  document.querySelectorAll(`#${id} button`).forEach((b) => b.addEventListener('click', () => {
+    document.querySelectorAll(`#${id} button`).forEach((x) => x.setAttribute('aria-pressed', String(x === b)))
+    fn(b.dataset[attr])
+  }))
+}
+pick('variant', 'v', show)
+pick('width', 'w', (w) => document.getElementById('frame').classList.toggle('mobile', w === 'mobile'))
+pick('scheme', 's', (s) => document.getElementById('site').classList.toggle('dark', s === 'dark'))
+const q = new URLSearchParams(location.search)
+for (const [id, attr] of [['variant', 'v'], ['width', 'w'], ['scheme', 's']]) { const want = q.get(attr); if (want) document.querySelector(`#${id} button[data-${attr}="${want}"]`)?.click() }
+if (!q.get('v')) show('a')
+</script>
+</body>
+</html>

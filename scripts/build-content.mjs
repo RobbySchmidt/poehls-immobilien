@@ -25,6 +25,7 @@ const manual = (n) => read(path.join(ROOT, 'content', 'manual', `${n}.json`))
 const mood = manual('mood')
 const gtManual = manual('grand-tower')
 const company = manual('company')
+const services = manual('services')
 
 const legacy = {
   main: { listings: read(L('listings.json')), pages: read(L('pages.json')) },
@@ -73,6 +74,8 @@ const needed = new Set([
   ...listings.flatMap((l) => [l.cover_image, ...l.images.map((i) => i.directus_files_id)]).filter(Boolean),
   ...project.images, project.mood_day, project.mood_night,
   ...mood.hero.day, ...mood.hero.night, company.portrait,
+  // services page photos are listing images – keep them even when their listing goes off the market
+  services.photo.day, services.photo.night, ...services.group_photos,
 ])
 
 const files = []

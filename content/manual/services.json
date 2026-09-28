@@ -3,6 +3,11 @@
     "day": "m-1551",
     "night": "m-703"
   },
+  "group_photos": [
+    "m-2502",
+    "m-2294",
+    "m-1972"
+  ],
   "translations": [
     {
       "languages_code": "de",
@@ -11,6 +16,7 @@
       "groups": [
         {
           "title": "Verkauf",
+          "kicker": "Für Eigentümer, die verkaufen",
           "items": [
             "Markteinschätzung und Preisfindung, auch als Online-Wertermittlung",
             "Erfahrung mit dem Bieterverfahren",
@@ -26,6 +32,7 @@
         },
         {
           "title": "Vermietung",
+          "kicker": "Für Eigentümer, die vermieten",
           "items": [
             "Vorauswahl der Interessenten",
             "Organisation der Besichtigungstermine",
@@ -36,6 +43,7 @@
         },
         {
           "title": "Betreuung",
+          "kicker": "Auch nach dem Abschluss",
           "items": [
             "Betreuung nach Vertragsabschluss",
             "Renovierungs- und Erhaltungsservice für Eigentümer",
@@ -55,6 +63,7 @@
       "groups": [
         {
           "title": "Sales",
+          "kicker": "For owners who sell",
           "items": [
             "Market assessment and pricing, also as an online valuation",
             "Experience with bidding procedures",
@@ -70,6 +79,7 @@
         },
         {
           "title": "Letting",
+          "kicker": "For owners who let",
           "items": [
             "Pre-selection of prospective tenants",
             "Organisation of viewings",
@@ -80,6 +90,7 @@
         },
         {
           "title": "Management",
+          "kicker": "Also after the contract is signed",
           "items": [
             "Support after the contract is signed",
             "Renovation and maintenance service for owners",

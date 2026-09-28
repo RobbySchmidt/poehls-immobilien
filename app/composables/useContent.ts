@@ -64,7 +64,8 @@ const localized = <T>(data: Localized<T>): T => pickTranslation(data.translation
 export const useHomeContent = () => localized(homeData as unknown as Localized<Omit<(typeof homeData)['translations'][number], 'languages_code'>>)
 // language-independent fields (image ids) live next to `translations`
 export const useAboutContent = () => ({ ...localized(aboutData as unknown as Localized<Omit<(typeof aboutData)['translations'][number], 'languages_code'>>), market_photo: aboutData.market_photo })
-export const useServicesContent = () => ({ ...localized(servicesData as unknown as Localized<Omit<(typeof servicesData)['translations'][number], 'languages_code'>>), photo: servicesData.photo })
+// group_photos: one photo per service area, in the order of `groups`
+export const useServicesContent = () => ({ ...localized(servicesData as unknown as Localized<Omit<(typeof servicesData)['translations'][number], 'languages_code'>>), photo: servicesData.photo, group_photos: servicesData.group_photos })
 export const useLegalPage = (key: 'datenschutz' | 'agb') => (legalData as Record<string, LegalPage>)[key]!
 
 export function useHeroMood() {

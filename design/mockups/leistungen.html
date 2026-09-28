@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leistungen – Entwurfsrichtungen</title>
+<style>
+@font-face {
+  font-family: 'Schibsted Grotesk Variable';
+  font-style: normal; font-display: swap; font-weight: 400 900;
+  src: url(../../node_modules/@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+/* ---------- Tokens 1:1 aus app/assets/css/tailwind.css ---------- */
+.site {
+  --background: oklch(0.995 0.002 250);
+  --foreground: oklch(0.235 0.025 250);
+  --primary: oklch(0.4 0.08 250);
+  --primary-foreground: oklch(0.99 0.003 250);
+  --link: var(--primary);
+  --secondary: oklch(0.955 0.008 250);
+  --muted-foreground: oklch(0.46 0.025 250);
+  --border: oklch(0.905 0.01 250);
+  --input: oklch(0.6 0.02 250);
+  --surface: var(--background);
+  color-scheme: light;
+}
+.site.dark {
+  --background: oklch(0.188 0.007 255);
+  --foreground: oklch(0.93 0.008 85);
+  --primary: oklch(0.4 0.08 250);
+  --primary-foreground: oklch(0.99 0.003 250);
+  --link: oklch(0.72 0.09 250);
+  --secondary: oklch(0.225 0.008 255);
+  --muted-foreground: oklch(0.76 0.012 80);
+  --border: oklch(0.29 0.008 255);
+  --input: oklch(0.58 0.01 255);
+  color-scheme: dark;
+}
+.site.dark img { filter: brightness(.92); }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Schibsted Grotesk Variable', ui-sans-serif, system-ui, sans-serif; background: #d9dde3; -webkit-font-smoothing: antialiased; }
+
+/* ---------- Mockup-Steuerung (nicht Teil des Entwurfs) ---------- */
+.bar { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; padding: 12px 16px; background: #1b2230; color: #fff; font-size: 14px; }
+.bar b { margin-right: 4px; }
+.bar .grp { display: inline-flex; gap: 4px; background: #2b3444; padding: 3px; border-radius: 999px; }
+.bar button { font: inherit; font-weight: 600; font-size: 13px; color: #cfd6e2; background: none; border: 0; padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.bar button[aria-pressed="true"] { background: #fff; color: #1b2230; }
+.bar .note { color: #aab4c4; flex: 1 1 320px; line-height: 1.4; }
+.stage { padding: 24px 16px 64px; }
+.frame { margin: 0 auto; max-width: 1280px; box-shadow: 0 10px 40px #0002; border-radius: 10px; overflow: hidden; transition: max-width .2s; }
+.frame.mobile { max-width: 390px; }
+
+/* ---------- Seite ---------- */
+.site { container-type: inline-size; background: var(--background); color: var(--foreground); font-size: 17px; line-height: 1.6; }
+.wrap { max-width: 80rem; margin: 0 auto; padding-inline: 2rem; }
+@container (width < 48rem) { .wrap { padding-inline: 1rem; } }
+h1, h2, h3 { font-weight: 600; line-height: 1.1; text-wrap: balance; }
+h1 { letter-spacing: -0.03em; } h2 { letter-spacing: -0.02em; } h3 { letter-spacing: -0.01em; }
+p, li { text-wrap: pretty; }
+.muted { color: var(--muted-foreground); }
+.kicker { font-size: 14px; font-weight: 600; color: var(--muted-foreground); }
+.photo { position: relative; border-radius: 14px; overflow: hidden; background: var(--secondary); }
+.photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.photo:has(> .plinth) { border-bottom-left-radius: 0; }
+
+/* Sockel – wie @utility plinth */
+.plinth { position: absolute; left: -1px; bottom: -1px; padding: 0.8rem 1.5rem 1px 1px; z-index: 1; min-width: 44%; background: var(--surface); border-top-right-radius: 14px; }
+.plinth::before, .plinth::after { content: ''; position: absolute; width: 14px; height: 14px; background: radial-gradient(circle at 100% 0, transparent 13.5px, var(--surface) 14px); }
+.plinth::before { left: 1px; top: -14px; } .plinth::after { left: 100%; bottom: 0; }
+.plinth h2, .plinth h3 { font-size: clamp(1.625rem, 1.3rem + 1.2vw, 2.25rem); }
+.plinth .kicker { display: block; margin-bottom: 4px; font-size: 13px; }
+
+/* Häkchen-Liste – wie Owners.vue */
+.checks { list-style: none; font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem); }
+.checks li { display: flex; gap: 12px; line-height: 1.45; break-inside: avoid; }
+.checks li + li { margin-top: 16px; }
+.checks svg { flex-shrink: 0; margin-top: 4px; color: var(--link); }
+/* flows like newspaper columns – no row alignment, so no uneven gaps */
+.cols-2 { columns: 2; column-gap: 40px; }
+.cols-2 li + li { margin-top: 0; }
+.cols-2 li { padding-bottom: 16px; }
+@container (width < 48rem) { .cols-2 { columns: 1; } }
+.area-title { font-size: clamp(1.75rem, 1.5rem + 1.25vw, 2.25rem); margin-bottom: 1.75rem; }
+
+.btn { display: inline-flex; align-items: center; gap: 8px; height: 48px; padding: 0 26px; border-radius: 999px; font: inherit; font-size: 16px; font-weight: 600; border: 1px solid transparent; text-decoration: none; }
+.btn-primary { background: var(--primary); color: var(--primary-foreground); }
+.dark .btn-primary { border-color: oklch(0.99 0.003 250 / .2); }
+.btn-outline { background: var(--background); border-color: var(--border); color: var(--foreground); }
+
+/* Kopf (bestehend) */
+.head { padding-top: 2rem; }
+.head .photo { aspect-ratio: 2 / 1; }
+.head .plinth { padding: 1.25rem 2.5rem 1px 1px; }
+.head h1 { font-size: clamp(2.4375rem, 1.8rem + 3.2vw, 3.75rem); max-width: 12.5em; margin-top: 8px; }
+.head .lead { max-width: 52ch; padding-top: 1.5rem; font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem); color: var(--muted-foreground); }
+@container (width < 48rem) {
+  .head { padding-top: 1rem; }
+  .head .photo { aspect-ratio: 1; border-bottom-left-radius: 14px; }
+  .head .plinth { position: static; background: none; padding: 1.25rem 0 0; min-width: 0; }
+  .head .plinth::before, .head .plinth::after { display: none; }
+  .head h1 { font-size: 1.875rem; }
+  .head .photo img { object-position: 62% 60%; }
+}
+.head-wrap { position: relative; }
+
+/* Kontaktband (bestehend) */
+.contact { background: var(--secondary); padding-block: 6rem; margin-top: 6rem; }
+.contact .wrap { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-end; justify-content: space-between; }
+.contact h2 { font-size: clamp(1.75rem, 1.5rem + 1.25vw, 2.25rem); }
+.contact p { margin-top: .75rem; max-width: 48ch; font-size: 1.2rem; color: var(--muted-foreground); }
+.contact .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+@container (width < 48rem) { .contact { padding-block: 3rem; margin-top: 3rem; } }
+
+/* ---------- A · Bildtafeln ---------- */
+.va { padding-top: 6rem; display: grid; gap: 6rem; }
+.va-sale { display: grid; grid-template-columns: 5fr 7fr; gap: 3.5rem; align-items: center; }
+.va-sale .photo { aspect-ratio: 4 / 5; }
+.va-sale .lead-in { font-size: 1.2rem; color: var(--muted-foreground); max-width: 46ch; margin-bottom: 2rem; }
+.va-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; }
+.va-pair .photo { aspect-ratio: 3 / 2; margin-bottom: 2rem; }
+@container (width < 60rem) {
+  .va-sale, .va-pair { grid-template-columns: 1fr; gap: 2rem; }
+  .va { gap: 4rem; }
+  .va-sale .photo { aspect-ratio: 4 / 3; }
+  .va-pair { row-gap: 4rem; }
+}
+@container (width < 48rem) { .va { padding-top: 3.5rem; } }
+
+/* ---------- B · Bild-Text-Reihen ---------- */
+.vb { padding-top: 5rem; }
+.vb-row { padding-block: 4rem; }
+.vb-row.band { background: var(--secondary); --surface: var(--secondary); }
+.vb-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+.vb-row.flip .photo { order: 2; }
+.vb .photo { aspect-ratio: 4 / 3; }
+.vb .count { font-size: 14px; font-weight: 600; color: var(--muted-foreground); margin-bottom: 1.25rem; }
+@container (width < 60rem) {
+  .vb-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .vb-row.flip .photo { order: 0; }
+}
+@container (width < 48rem) { .vb { padding-top: 2.5rem; } .vb-row { padding-block: 2.5rem; } }
+
+/* ---------- C · Umschalter ---------- */
+.vc { padding-top: 6rem; }
+.vc-top { display: flex; flex-wrap: wrap; gap: 1.5rem 3rem; align-items: flex-end; justify-content: space-between; margin-bottom: 2.5rem; }
+.vc-top h2 { font-size: clamp(1.75rem, 1.5rem + 1.25vw, 2.25rem); }
+.seg { display: inline-flex; gap: 4px; padding: 4px; border-radius: 999px; background: var(--secondary); }
+.seg button { font: inherit; font-size: 15px; font-weight: 600; height: 40px; padding: 0 20px; border-radius: 999px; border: 0; background: none; color: var(--muted-foreground); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--primary); color: var(--primary-foreground); }
+.vc-panel { display: grid; grid-template-columns: 5fr 7fr; gap: 3.5rem; align-items: start; background: var(--secondary); --surface: var(--secondary); border-radius: 18px; padding: 2rem; }
+.vc-panel .photo { aspect-ratio: 4 / 5; }
+.vc-panel h3 { font-size: clamp(1.625rem, 1.3rem + 1.2vw, 2.25rem); margin: .5rem 0 1.75rem; }
+@container (width < 60rem) { .vc-panel { grid-template-columns: 1fr; gap: 1.75rem; } .vc-panel .photo { aspect-ratio: 4 / 3; } }
+@container (width < 48rem) { .vc { padding-top: 3.5rem; } .vc-panel { padding: 1rem 1rem 1.75rem; } .seg { display: flex; width: 100%; } .seg button { flex: 1; padding: 0 8px; } }
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <b>Leistungen</b>
+  <span class="grp" id="variant">
+    <button data-v="a" aria-pressed="true">A · Bildtafeln</button>
+    <button data-v="b">B · Bild-Text-Reihen</button>
+    <button data-v="c">C · Umschalter</button>
+  </span>
+  <span class="grp" id="width">
+    <button data-w="desktop" aria-pressed="true">Desktop</button>
+    <button data-w="mobile">Mobil</button>
+  </span>
+  <span class="grp" id="scheme">
+    <button data-s="light" aria-pressed="true">Hell</button>
+    <button data-s="dark">Dunkel</button>
+  </span>
+  <span class="note" id="note"></span>
+</div>
+
+<div class="stage">
+  <div class="frame" id="frame">
+    <div class="site" id="site">
+      <section class="head wrap">
+        <div class="head-wrap">
+          <div class="photo"><img src="../../public/media/m-1551-1600.webp" alt="" style="object-position:50% 62%"></div>
+          <div class="plinth">
+            <p class="kicker">Verkauf · Vermietung · Betreuung</p>
+            <h1>Verkaufen und vermieten mit Erfahrung</h1>
+          </div>
+        </div>
+        <p class="lead">Von der Preisfindung bis zur Schlüsselübergabe – und darüber hinaus: Wir übernehmen alles, was für einen erfolgreichen Verkauf oder eine gute Vermietung nötig ist.</p>
+      </section>
+
+      <div id="variant-root"></div>
+
+      <section class="contact">
+        <div class="wrap">
+          <div>
+            <h2>Sprechen Sie mit uns.</h2>
+            <p>Ob Kauf, Miete oder Verkauf – wir beraten Sie persönlich und unverbindlich.</p>
+          </div>
+          <div class="actions">
+            <a class="btn btn-primary">Anrufen</a>
+            <a class="btn btn-outline">Nachricht schreiben</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script>
+const groups = [
+  { key: 'sale', title: 'Verkauf', kicker: 'Für Eigentümer, die verkaufen', img: 'm-2502', pos: '50% 50%', items: [
+    'Markteinschätzung und Preisfindung, auch als Online-Wertermittlung',
+    'Erfahrung mit dem Bieterverfahren',
+    'Energieausweis online',
+    'Beschaffung und Aufbereitung aller notwendigen Unterlagen',
+    'Ermittlung der passenden Zielgruppe',
+    'Exposé mit hochwertigen Fotos und Videoclips vom Profi-Fotografen',
+    'Erfahrung mit Home Staging',
+    'Veröffentlichung in den relevanten Portalen und auf unserer Website',
+    'Verhandlungen mit Interessenten',
+    'Begleitung des notariellen Kaufvertragsabschlusses',
+  ] },
+  { key: 'rent', title: 'Vermietung', kicker: 'Für Eigentümer, die vermieten', img: 'm-2294', pos: '50% 50%', items: [
+    'Vorauswahl der Interessenten',
+    'Organisation der Besichtigungstermine',
+    'Bonitätsprüfung der Interessenten',
+    'Mietvertragserstellung',
+    'Abnahme und Übergabe mit Protokoll und Fotodokumentation',
+  ] },
+  { key: 'care', title: 'Betreuung', kicker: 'Auch nach dem Abschluss', img: 'm-1972', pos: '50% 60%', items: [
+    'Betreuung nach Vertragsabschluss',
+    'Renovierungs- und Erhaltungsservice für Eigentümer',
+    'Organisation und Überwachung von Renovierungsmaßnahmen',
+    'Hausverwaltungen',
+    'Unterstützung bei der Klärung rechtlicher Fragen',
+  ] },
+]
+const check = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>'
+const list = (g, cls = '') => `<ul class="checks ${cls}">${g.items.map((i) => `<li>${check}<span>${i}</span></li>`).join('')}</ul>`
+const img = (g) => `<img src="../../public/media/${g.img}-960.webp" alt="" style="object-position:${g.pos}">`
+// title in the notch (like the listing cards)
+const photo = (g) => `<div class="photo">${img(g)}<div class="plinth"><span class="kicker">${g.kicker}</span><h2>${g.title}</h2></div></div>`
+// only the short kicker in the notch; the title then heads the list
+const photoKicker = (g) => `<div class="photo">${img(g)}<div class="plinth" style="min-width:0;padding-top:.7rem"><span class="kicker" style="font-size:14px;margin:0">${g.kicker}</span></div></div>`
+
+const render = {
+  // A: Verkauf als große Tafel (der umfangreichste Bereich), Vermietung + Betreuung als Paar
+  a: () => `<section class="va wrap">
+    <div class="va-sale">${photo(groups[0])}<div>${list(groups[0])}</div></div>
+    <div class="va-pair">${groups.slice(1).map((g) => `<div>${photo(g)}${list(g)}</div>`).join('')}</div>
+  </section>`,
+  // B: jede Leistung eine Reihe, Foto abwechselnd links/rechts, mittlere Reihe auf grauem Band
+  b: () => `<section class="vb">${groups.map((g, i) => `
+    <div class="vb-row ${i === 1 ? 'band' : ''} ${i % 2 ? 'flip' : ''}">
+      <div class="wrap vb-grid">${photoKicker(g)}<div><h2 class="area-title">${g.title}</h2>${list(g)}</div></div>
+    </div>`).join('')}</section>`,
+  // C: Pill-Umschalter wie Kaufen/Mieten, ein Bereich zur Zeit auf grauer Fläche
+  c: () => `<section class="vc wrap">
+    <div class="vc-top"><h2>Was wir für Sie übernehmen</h2>
+      <div class="seg" role="group" aria-label="Leistungsbereich">${groups.map((g, i) => `<button data-g="${i}" aria-pressed="${i === 0}">${g.title}</button>`).join('')}</div>
+    </div>
+    <div class="vc-panel" id="vc-panel"></div>
+  </section>`,
+}
+const notes = {
+  a: 'Verkauf ist der größte Bereich und bekommt die große Tafel neben seiner Liste; Vermietung und Betreuung stehen als Paar darunter. Titel sitzen im Sockel – wie bei den Objektkarten.',
+  b: 'Jeder Bereich eine Reihe: Foto und Liste nebeneinander, abwechselnd links/rechts, Titel über der Liste. Die mittlere Reihe liegt auf dem grauen Band – der Rhythmus der Startseite.',
+  c: 'Ein Pill-Umschalter wie bei Kaufen/Mieten; es ist immer ein Bereich sichtbar, auf grauer Fläche mit Foto. Am kompaktesten, aber man sieht nicht alles auf einen Blick.',
+}
+function panel(i) {
+  const g = groups[i]
+  document.getElementById('vc-panel').innerHTML = `${photoKicker(g)}
+    <div><h3>${g.title}</h3>${list(g, g.items.length > 6 ? 'cols-2' : '')}</div>`
+  document.querySelectorAll('.seg button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.g === String(i))))
+}
+function show(v) {
+  document.getElementById('variant-root').innerHTML = render[v]()
+  document.getElementById('note').textContent = notes[v]
+  if (v === 'c') {
+    panel(0)
+    document.querySelectorAll('.seg button').forEach((b) => b.addEventListener('click', () => panel(+b.dataset.g)))
+  }
+}
+function pick(groupId, attr, fn) {
+  document.querySelectorAll(`#${groupId} button`).forEach((b) => b.addEventListener('click', () => {
+    document.querySelectorAll(`#${groupId} button`).forEach((x) => x.setAttribute('aria-pressed', String(x === b)))
+    fn(b.dataset[attr])
+  }))
+}
+pick('variant', 'v', show)
+pick('width', 'w', (w) => document.getElementById('frame').classList.toggle('mobile', w === 'mobile'))
+pick('scheme', 's', (s) => document.getElementById('site').classList.toggle('dark', s === 'dark'))
+const q = new URLSearchParams(location.search)
+for (const [id, attr] of [['variant', 'v'], ['width', 'w'], ['scheme', 's']]) {
+  const want = q.get(attr); if (want) document.querySelector(`#${id} button[data-${attr}="${want}"]`)?.click()
+}
+if (!q.get('v')) show('a')
+</script>
+</body>
+</html>
